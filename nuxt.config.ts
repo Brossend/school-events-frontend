@@ -1,6 +1,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2026-10-25',
-  ssr: false,
+  ssr: true,
+  routeRules: {
+    '/**': { ssr: false },
+    '/login': { ssr: true },
+    '/forgot-password': { ssr: true },
+  },
   devtools: { enabled: false },
   modules: ['@pinia/nuxt', '@nuxt/eslint'],
   css: ['@fontsource-variable/inter', '~/assets/css/main.css', '~/assets/css/fe002.css', '~/assets/css/fe003.css', '~/assets/css/fe004.css', '~/assets/css/fe005.css', '~/assets/css/fe006.css', '~/assets/css/fe007.css', '~/assets/css/fe008.css', '~/assets/css/fe009.css', '~/assets/css/fe010.css', '~/assets/css/fe011.css'],

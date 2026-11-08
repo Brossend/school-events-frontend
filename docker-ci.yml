@@ -1,0 +1,13 @@
+container_image:
+  stage: build
+  image: docker:29-cli
+  services: [docker:29-dind]
+  variables:
+    DOCKER_TLS_CERTDIR: /certs
+  dependencies: []
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
+  script:
+    - echo "$CI_REGISTRY_PASSWORD" | docker login "$CI_REGISTRY" -u "$CI_REGISTRY_USER" --password-stdin
+    - docker build --pull -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA" .
+    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA"

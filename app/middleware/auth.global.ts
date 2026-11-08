@@ -1,6 +1,7 @@
 import { canAccess, type AccessRule } from '~/utils/access'
 
 export default defineNuxtRouteMiddleware(async to => {
+  if (import.meta.server) return
   // Token-based survey is public and does not bootstrap an authenticated session.
   if (to.path === '/pilot/respond' && to.meta.public) return
   const auth = useAuthStore()

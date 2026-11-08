@@ -1,4 +1,6 @@
 stages: [validate, test, build, mirror]
+include:
+  - local: docker-ci.yml
 
 default:
   image: node:24.22.1-bookworm-slim
