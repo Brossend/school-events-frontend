@@ -1,0 +1,193 @@
+{
+  "confirmed": true,
+  "origin": "http://localhost:8001",
+  "parameters": [
+    "page",
+    "per_page",
+    "q",
+    "sort",
+    "status",
+    "is_archived"
+  ],
+  "responses": {
+    "page1": {
+      "data": [
+        {
+          "id": "01a17cba-5372-710e-818d-00db311e7fcf",
+          "title": "Сценарий: FE009 approved e05f1aee12",
+          "status": "completed",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-537d-7369-b491-ca32c28b700d",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:08+00:00",
+          "updated_at": "2026-10-27T09:39:08+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-537d-7369-b491-ca32c28b700d",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        }
+      ],
+      "meta": {
+        "current_page": 1,
+        "total": 2,
+        "per_page": 1,
+        "last_page": 2
+      }
+    },
+    "page2": {
+      "data": [
+        {
+          "id": "01a17cba-9062-7028-8a28-bb04e96797c9",
+          "title": "Сценарий: FE009 добровольческая мастерская e05f1aee12",
+          "status": "draft",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:24+00:00",
+          "updated_at": "2026-10-27T09:39:24+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        }
+      ],
+      "meta": {
+        "current_page": 2,
+        "total": 2,
+        "per_page": 1,
+        "last_page": 2
+      }
+    },
+    "search": {
+      "data": [
+        {
+          "id": "01a17cba-9062-7028-8a28-bb04e96797c9",
+          "title": "Сценарий: FE009 добровольческая мастерская e05f1aee12",
+          "status": "draft",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:24+00:00",
+          "updated_at": "2026-10-27T09:39:24+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        }
+      ],
+      "meta": {
+        "current_page": 1,
+        "total": 1,
+        "per_page": 1,
+        "last_page": 1
+      }
+    },
+    "sorted": {
+      "data": [
+        {
+          "id": "01a17cba-9062-7028-8a28-bb04e96797c9",
+          "title": "Сценарий: FE009 добровольческая мастерская e05f1aee12",
+          "status": "draft",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:24+00:00",
+          "updated_at": "2026-10-27T09:39:24+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        },
+        {
+          "id": "01a17cba-5372-710e-818d-00db311e7fcf",
+          "title": "Сценарий: FE009 approved e05f1aee12",
+          "status": "completed",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-537d-7369-b491-ca32c28b700d",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:08+00:00",
+          "updated_at": "2026-10-27T09:39:08+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-537d-7369-b491-ca32c28b700d",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        }
+      ],
+      "meta": {
+        "current_page": 1,
+        "total": 2,
+        "per_page": 20,
+        "last_page": 1
+      }
+    },
+    "draft": {
+      "data": [
+        {
+          "id": "01a17cba-9062-7028-8a28-bb04e96797c9",
+          "title": "Сценарий: FE009 добровольческая мастерская e05f1aee12",
+          "status": "draft",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:24+00:00",
+          "updated_at": "2026-10-27T09:39:24+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        }
+      ],
+      "meta": {
+        "current_page": 1,
+        "total": 1,
+        "per_page": 20,
+        "last_page": 1
+      }
+    },
+    "completed": {
+      "data": [
+        {
+          "id": "01a17cba-5372-710e-818d-00db311e7fcf",
+          "title": "Сценарий: FE009 approved e05f1aee12",
+          "status": "completed",
+          "is_archived": false,
+          "current_revision_id": "01a17cba-537d-7369-b491-ca32c28b700d",
+          "optimistic_lock_version": 1,
+          "created_at": "2026-10-27T09:39:08+00:00",
+          "updated_at": "2026-10-27T09:39:08+00:00",
+          "moderation_status": "verification_passed",
+          "current_revision": {
+            "id": "01a17cba-537d-7369-b491-ca32c28b700d",
+            "version_number": 1,
+            "change_description": null,
+            "moderation_status": "verification_passed"
+          }
+        }
+      ],
+      "meta": {
+        "current_page": 1,
+        "total": 1,
+        "per_page": 20,
+        "last_page": 1
+      }
+    }
+  }
+}

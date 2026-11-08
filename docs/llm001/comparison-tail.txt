@@ -1,0 +1,60 @@
+    public function isCulturalAvailable(ScenarioComparison $comparison): bool
+    {
+        if ($comparison->comparison_type !== 'cultural_context') {
+            return true;
+        }
+        if (! $comparison->is_cultural_available || ! $comparison->variant_b_revision_id) {
+            return false;
+        }
+        $claims = $comparison->variant_b_payload['cultural_claims'] ?? [];
+        if (! $claims || collect($claims)->contains(fn ($claim) => ($claim['server_verification_status'] ?? '') !== 'verified_authentic')) {
+            return false;
+        }
+        $revision = ScenarioRevision::find($comparison->variant_b_revision_id);
+
+        return $revision && app(ProvenanceVerificationService::class)->verifyRevisionProvenanceAuthenticity($revision)['valid'];
+    }
+
+    public function recordSelection(
+        ScenarioComparison $comparison,
+        User $user,
+        string $selectedVariant,
+        string $reason,
+        ?int $culturalRating = null
+    ): ScenarioComparison {
+        return DB::transaction(function () use ($comparison, $user, $selectedVariant, $reason, $culturalRating) {
+            /** @var ScenarioComparison|null $locked */
+            $locked = ScenarioComparison::where('id', $comparison->id)
+                ->lockForUpdate()
+                ->first();
+
+            if (! $locked) {
+                throw new NotFoundHttpException('Сессия сравнения сценариев не найдена.');
+            }
+
+            if ($locked->selected_variant !== null) {
+                throw new ConflictHttpException('Выбор для данной сессии сравнения уже зафиксирован и не подлежит повторному изменению.');
+            }
+
+            if ($locked->comparison_type === 'cultural_context' && $selectedVariant === 'B' && ! $this->isCulturalAvailable($locked)) {
+                throw new ConflictHttpException('Вариант B недоступен для выбора, так как в системе отсутствуют верифицированные первоисточники.');
+            }
+
+            // Authorization: user must belong to the school or be an admin/curator
+            $isMember = $user->memberships()->where('school_id', $locked->school_id)->exists();
+            $isAdminOrCurator = in_array($user->system_role, ['catalog_curator', 'system_admin'], true);
+            if (! $isMember && ! $isAdminOrCurator) {
+                throw new AccessDeniedHttpException('Выбор варианта может быть зафиксирован только сотрудником образовательной организации.');
+            }
+
+            $locked->selected_variant = $selectedVariant;
+            $locked->selection_reason = $reason;
+            $locked->cultural_usefulness_rating = $culturalRating;
+            $locked->selection_recorded_at = now();
+            $locked->selected_by_user_id = $user->id;
+            $locked->save();
+
+            return $locked;
+        });
+    }
+}

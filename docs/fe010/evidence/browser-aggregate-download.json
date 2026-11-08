@@ -1,0 +1,16 @@
+{
+  "source": "actual-browser-download",
+  "format": "application/json",
+  "scope": "school",
+  "sampleSize": 20,
+  "reviewed": 20,
+  "criteria": {
+    "time_saving_ge_50": "pass",
+    "personalization_ge_70": "pass",
+    "manual_edit_under_20_ge_70": "pass",
+    "cultural_usage_ge_60": "pass",
+    "cultural_usefulness_ge_4": "pass",
+    "zero_critical_cultural_errors": "pass"
+  },
+  "containsIndividualResponses": false
+}

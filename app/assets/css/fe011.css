@@ -1,0 +1,73 @@
+.fe011,.school-page { display:flex; flex-direction:column; gap:24px; min-width:0; overflow-wrap:anywhere; }
+.fe011 h1,.fe011 h2,.fe011 h3,.fe011 p,.school-page h1,.school-page h2,.school-page p { margin:0; }
+.fe011 h1,.school-page h1 { font-size:30px; line-height:1.3; color:#182b36; }
+.fe011 h2,.school-page h2 { font-size:18px; line-height:1.5; }
+.fe011 h3 { font-size:15px; line-height:1.5; }
+.fe011 p { line-height:1.55; }
+.fe011-heading,.school-profile-heading { display:grid; gap:8px; }
+.fe011-heading>p:last-child { font-size:13px; color:#576b7a; }
+.fe011 .fe011-eyebrow { font-size:12px; color:#08784f; font-weight:600; }
+.fe011-panel { padding:24px; border:1px solid #d8e4ec; background:white; border-radius:16px; min-width:0; }
+.fe011-form { display:flex; flex-direction:column; gap:16px; }
+.fe011-form-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.fe011-toolbar,.fe011-tabs { display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.fe011-toolbar>.ui-field { flex:1 1 260px; }
+.fe011-toolbar>p { flex:2 1 300px; }
+.fe011-tabs { border-bottom:1px solid #d8e4ec; padding-bottom:12px; }
+.fe011-tabs button { font:inherit; font-size:13px; border:0; padding:12px; border-radius:10px; background:white; color:#576b7a; cursor:pointer; }
+.fe011-tabs button[aria-pressed=true] { color:#08784f; background:#d9f6e6; font-weight:600; }
+.fe011-tabs button:disabled { opacity:.55; cursor:default; }
+.catalog-queue { display:grid; gap:20px; }
+.catalog-queue-disclosure>summary { padding:16px; background:white; border:1px solid #d8e4ec; border-radius:12px; font-size:14px; font-weight:600; color:#1c4053; cursor:pointer; }
+.catalog-queue-list { display:grid; gap:12px; }
+.catalog-queue-item { padding:16px; border:1px solid #d8e4ec; border-radius:13px; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:16px; }
+.catalog-queue-item>div:first-child { display:grid; gap:7px; min-width:0; }
+.catalog-queue-item .actions { display:flex; flex-wrap:wrap; align-content:start; max-width:310px; }
+.catalog-detach-row { display:flex; gap:12px; flex-wrap:wrap; align-items:center; padding:16px; background:#fff6e5; border-radius:12px; }
+.catalog-detach-row>p { flex:1 1 240px; }
+.fe011-checkbox { display:flex; align-items:flex-start; gap:10px; font-size:13px; line-height:1.5; }
+.fe011-checkbox>input { width:19px; height:19px; flex-shrink:0; }
+.fe011-details,.school-profile-statistics { display:grid; gap:16px; }
+.fe011-details>div,.school-profile-statistics>div { min-width:0; }
+.fe011-details dt,.school-profile-statistics dt { color:#576b7a; font-size:12px; }
+.fe011-details dd,.school-profile-statistics dd { margin:6px 0 0; }
+.school-profile-header { align-items:center; margin-bottom:0; }
+.school-profile-info { display:flex; align-items:flex-start; gap:12px; padding:16px; border-radius:10px; background:#dbeaff; color:#1859be; font-size:13px; line-height:1.5; }
+.school-profile-info>img { flex-shrink:0; }.school-profile-info>div { display:grid; gap:4px; min-width:0; }
+.app-nav .fe011-nav-mobile { display:none; }
+.school-profile-header>.ui-button { flex-shrink:0; }
+.school-profile-grid { display:grid; grid-template-columns:minmax(0,1fr) 304px; gap:24px; align-items:start; }
+.school-profile-form,.school-profile-details { display:flex; flex-direction:column; gap:20px; min-width:0; }
+.school-profile-card { display:grid; gap:16px; padding:24px; border-radius:16px; border:1px solid #d8e4ec; background:white; box-shadow:0 4px 20px #173c270f; min-width:0; }
+.school-profile-fields { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+.school-profile-statistics { grid-template-columns:repeat(2,minmax(0,1fr)); margin:0; }
+.school-profile-stat dd { color:#08784f; font-size:24px; font-weight:600; }
+.school-profile-actions>.ui-button:first-child { display:none; }
+.school-profile-target { display:flex; gap:16px; flex-wrap:wrap; align-items:end; }
+.school-profile-target>.ui-field { flex:1 1 260px; }
+.school-profile-server-values { padding:20px; border-radius:14px; }
+.school-profile-server-values dl,.school-profile-confirm dl { display:grid; gap:12px; }
+.school-profile-server-values dd,.school-profile-confirm dd { margin:6px 0 0; overflow-wrap:anywhere; }
+.school-profile-confirm { display:grid; gap:16px; }
+body:has(.fe011) .app-workspace,body:has(.school-page) .app-workspace { background:#eef2f8; }
+@media(max-width:1024px) {
+ .school-profile-grid { grid-template-columns:minmax(0,1fr); }.school-profile-details { display:none; }
+ .school-profile-card { padding:20px; border:0; box-shadow:none; }
+ .school-profile-header>.ui-button { display:none; }.school-profile-actions>.ui-button:first-child { display:inline-flex; width:100%; min-height:48px; }
+ .school-profile-actions { flex-direction:column; align-items:stretch; }.school-profile-fields { grid-template-columns:minmax(0,1fr); }
+ .school-page .ui-field label { font-size:12px; }.school-page .ui-field input { font-size:13px; }
+ .catalog-queue-item { grid-template-columns:minmax(0,1fr); }.catalog-queue-item .actions { max-width:none; }
+}
+@media(max-width:600px) {
+ body:has(.fe011) .compact-nav .fe011-nav-mobile,body:has(.school-page) .compact-nav .fe011-nav-mobile { display:block; }
+ body:has(.fe011) .compact-nav .fe011-nav-desktop,body:has(.school-page) .compact-nav .fe011-nav-desktop { display:none; }
+ .fe011 h1,.school-page h1 { font-size:24px; font-weight:600; }.fe011 h2 { font-size:18px; }
+ .fe011-panel { padding:18px; }.fe011-form-grid { grid-template-columns:minmax(0,1fr); }
+ .fe011-toolbar { align-items:stretch; }.fe011-toolbar>.ui-button { width:100%; }
+ .catalog-queue-item .actions { flex-direction:column; align-items:stretch; }.fe011-tabs { gap:7px; }.fe011-tabs button { padding:10px; }
+}
+
+@media (min-width:600px) and (max-width:1023px) {
+  .compact-nav .app-nav { flex-wrap:wrap; }
+  .compact-nav .app-nav__link { flex:1 1 85px; min-width:0; overflow-wrap:anywhere; }
+}

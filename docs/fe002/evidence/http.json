@@ -1,0 +1,669 @@
+{
+  "origin": "http://localhost:8000",
+  "webOrigin": "http://localhost:3000",
+  "completed": true,
+  "steps": [
+    {
+      "name": "Explicit /sanctum/csrf-cookie",
+      "status": "PASS: 204"
+    },
+    {
+      "name": "Unauthenticated /auth/me",
+      "status": "PASS: 401"
+    },
+    {
+      "name": "CSRF cookie and successful login",
+      "status": "PASS: 204 → 200"
+    },
+    {
+      "name": "/auth/me includes user and memberships",
+      "status": "PASS: 200"
+    },
+    {
+      "name": "Tenant selection school-1",
+      "status": "PASS: 200 with X-School-Id"
+    },
+    {
+      "name": "FE-002 dashboard, pagination, search/type/region/period, empty and detail school-1",
+      "status": "PASS: real responses"
+    },
+    {
+      "name": "Tenant selection school-2",
+      "status": "PASS: 200 with X-School-Id"
+    },
+    {
+      "name": "FE-002 dashboard, pagination, search/type/region/period, empty and detail school-2",
+      "status": "PASS: real responses"
+    },
+    {
+      "name": "Parallel dashboard requests with different X-School-Id",
+      "status": "PASS: isolated school IDs"
+    },
+    {
+      "name": "Real Fetch AbortSignal cancellation",
+      "status": "PASS: AbortError, no late result applied"
+    },
+    {
+      "name": "Nonexistent school",
+      "status": "PASS: 404"
+    },
+    {
+      "name": "School user cannot access system status",
+      "status": "PASS: 403"
+    },
+    {
+      "name": "Invalid credentials",
+      "status": "PASS: 422"
+    },
+    {
+      "name": "Real stale CSRF → refresh → logout",
+      "status": "PASS: 419 → 204 → 204"
+    },
+    {
+      "name": "Session invalidated after logout",
+      "status": "PASS: auth/me and tenant/current 401"
+    },
+    {
+      "name": "Existing school outside teacher memberships",
+      "status": "PASS: 403"
+    },
+    {
+      "name": "Actual refused TCP connection",
+      "status": "PASS: normalized network error"
+    }
+  ],
+  "requests": [
+    {
+      "path": "/sanctum/csrf-cookie",
+      "query": {},
+      "method": "GET",
+      "status": 204,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/me",
+      "query": {},
+      "method": "GET",
+      "status": 401,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "query": {},
+      "method": "POST",
+      "status": 200,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/me",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": "school-1",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/dashboard/summary",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": "school-1",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "page": "1",
+        "per_page": "1"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "page": "2",
+        "per_page": "1"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events/01a1690e-1e10-7072-ab28-8cbe9f0c0b27",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "q": "День российской науки",
+        "type": "federal",
+        "per_page": "100"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "q": "fe002-no-such-event-9c71"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "from": "2026-11-01",
+        "to": "2026-11-30",
+        "region_code": "66",
+        "type": "regional"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": "school-2",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/dashboard/summary",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": "school-2",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "page": "1",
+        "per_page": "1"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "page": "2",
+        "per_page": "1"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events/01a1690e-1e10-7072-ab28-8cbe9f0c0b27",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "q": "День российской науки",
+        "type": "federal",
+        "per_page": "100"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "q": "fe002-no-such-event-9c71"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/calendar-events",
+      "query": {
+        "from": "2026-11-01",
+        "to": "2026-11-30",
+        "region_code": "66",
+        "type": "regional"
+      },
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/dashboard/summary",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "responseSchool": "school-2",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/dashboard/summary",
+      "query": {},
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "responseSchool": "school-1",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "query": {},
+      "method": "GET",
+      "status": 404,
+      "school": "foreign-school",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/system/status",
+      "query": {},
+      "method": "GET",
+      "status": 403,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "query": {},
+      "method": "POST",
+      "status": 422,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "query": {},
+      "method": "POST",
+      "status": 419,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/sanctum/csrf-cookie",
+      "query": {},
+      "method": "GET",
+      "status": 204,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "query": {},
+      "method": "POST",
+      "status": 204,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/me",
+      "query": {},
+      "method": "GET",
+      "status": 401,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "query": {},
+      "method": "GET",
+      "status": 401,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "query": {},
+      "method": "POST",
+      "status": 200,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "query": {},
+      "method": "GET",
+      "status": 403,
+      "school": "school-2",
+      "responseSchool": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "query": {},
+      "method": "POST",
+      "status": 204,
+      "school": null,
+      "responseSchool": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    }
+  ],
+  "actualMeRedacted": {
+    "data": {
+      "user": {
+        "id": "<user-uuid>",
+        "name": "<redacted>",
+        "email": "<redacted>",
+        "system_role": "none"
+      },
+      "schools": [
+        {
+          "school_id": "<school-1-uuid>",
+          "name": "<school-1>",
+          "role": "teacher",
+          "is_default": true
+        },
+        {
+          "school_id": "<school-2-uuid>",
+          "name": "<school-2>",
+          "role": "teacher",
+          "is_default": false
+        }
+      ]
+    }
+  },
+  "school-1-dashboard": {
+    "counts": {
+      "total_scenarios": 0,
+      "draft_scenarios": 0,
+      "completed_scenarios": 0,
+      "archived_scenarios": 0,
+      "traditions_count": 1
+    },
+    "upcoming": 3,
+    "recent": 0,
+    "returnedListKeys": [
+      "id",
+      "title",
+      "event_type",
+      "region_code",
+      "description"
+    ]
+  },
+  "school-2-dashboard": {
+    "counts": {
+      "total_scenarios": 0,
+      "draft_scenarios": 0,
+      "completed_scenarios": 0,
+      "archived_scenarios": 0,
+      "traditions_count": 1
+    },
+    "upcoming": 3,
+    "recent": 0,
+    "returnedListKeys": [
+      "id",
+      "title",
+      "event_type",
+      "region_code",
+      "description"
+    ]
+  },
+  "parallelSchools": [
+    "school-1",
+    "school-2"
+  ]
+}

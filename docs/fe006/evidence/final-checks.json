@@ -1,0 +1,33 @@
+{
+  "typecheck": {
+    "exitCode": 0,
+    "log": "typecheck.log"
+  },
+  "eslint": {
+    "exitCode": 0,
+    "log": "eslint.log"
+  },
+  "vitest": {
+    "exitCode": 0,
+    "log": "unit.log"
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "log": "build.log"
+  },
+  "http": {
+    "exitCode": 0,
+    "log": "live.log"
+  },
+  "vitestSummary": {
+    "files": 9,
+    "passed": 192,
+    "priorRegressionTests": 149
+  },
+  "backend": {
+    "passed": 29,
+    "assertions": 147,
+    "log": "backend-tests.log"
+  },
+  "httpRequests": 37
+}

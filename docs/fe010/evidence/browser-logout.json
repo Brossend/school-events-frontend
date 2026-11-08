@@ -1,0 +1,6 @@
+{
+  "requestedProtectedPath": "/pilot",
+  "actualUrl": "http://localhost:3000/login?redirect=/pilot",
+  "loginVisible": true,
+  "observedDate": "2026-10-29"
+}

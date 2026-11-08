@@ -1,0 +1,98 @@
+<frame id="100:1567" name="Пилот / Персонализация / 360" x="3305" y="5922" width="360" height="1388">
+  <frame id="100:1568" name="Рабочая область" x="0" y="0" width="360" height="1388">
+    <frame id="100:1569" name="Верхняя панель" x="0" y="0" width="360" height="68">
+      <text id="100:1570" name="Контекст" x="16" y="24.5" width="161" height="19" />
+      <frame id="100:1571" name="Пользователь" x="308" y="16" width="36" height="36">
+        <frame id="100:1572" name="Аватар" x="0" y="0" width="36" height="36">
+          <text id="100:1573" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="100:1574" name="Сбер × УрФУ / цветовая линия" x="0" y="64" width="360" height="4" />
+      <frame id="100:1575" name="Сбер × УрФУ / партнёрский знак" x="183" y="21" width="105" height="26">
+        <text id="100:1576" name="Партнёрство" x="0" y="0" width="105" height="26" />
+      </frame>
+    </frame>
+    <frame id="100:1577" name="Компактная навигация" x="0" y="68" width="360" height="81">
+      <frame id="100:1578" name="Пункт навигации" x="12" y="12" width="81" height="57">
+        <frame id="100:1579" name="house" x="31" y="8" width="19" height="19" />
+        <text id="100:1581" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="100:1582" name="Пункт навигации" x="97" y="12" width="81" height="57">
+        <frame id="100:1583" name="calendar-days" x="31" y="8" width="19" height="19" />
+        <text id="100:1585" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="100:1586" name="Пункт навигации" x="182" y="12" width="81" height="57">
+        <frame id="100:1587" name="files" x="31" y="8" width="19" height="19" />
+        <text id="100:1589" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="100:1590" name="Пункт навигации" x="267" y="12" width="81" height="57">
+        <frame id="100:1591" name="school" x="31" y="8" width="19" height="19" />
+        <text id="100:1593" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+    </frame>
+    <frame id="100:1594" name="Содержимое" x="0" y="149" width="360" height="1148">
+      <frame id="100:1711" name="Описание сравнения" x="16" y="24" width="328" height="135">
+        <text id="100:1712" name="Сравнение / универсальный и персонализир" x="0" y="0" width="328" height="15" />
+        <text id="100:1713" name="Один повод — два разных сценария" x="0" y="23" width="328" height="56" />
+        <text id="100:1714" name="Для пилота педагог сравнивает универсаль" x="0" y="87" width="328" height="48" />
+      </frame>
+      <frame id="100:1715" name="Варианты одного события" x="16" y="183" width="328" height="794">
+        <frame id="100:1716" name="Сценарий / Универсальный сценарий" x="0" y="0" width="328" height="379">
+          <text id="100:1717" name="Универсальный сценарий" x="17" y="17" width="296" height="22" />
+          <text id="100:1718" name="Без параметров школы" x="17" y="52" width="296" height="15" />
+          <frame id="100:1719" name="Раздел / Участники" x="17" y="80" width="296" height="35">
+            <text id="100:1720" name="Участники" x="0" y="0" width="296" height="15" />
+            <text id="100:1721" name="Универсальная школьная группа" x="0" y="20" width="296" height="15" />
+          </frame>
+          <frame id="100:1722" name="Раздел / Ход занятия" x="17" y="128" width="296" height="50">
+            <text id="100:1723" name="Ход занятия" x="0" y="0" width="296" height="15" />
+            <text id="100:1724" name="Обсуждение темы, вопросы педагога, общая" x="0" y="20" width="296" height="30" />
+          </frame>
+          <frame id="100:1725" name="Раздел / Организация" x="17" y="191" width="296" height="50">
+            <text id="100:1726" name="Организация" x="0" y="0" width="296" height="15" />
+            <text id="100:1727" name="Общие рекомендации без распределения по " x="0" y="20" width="296" height="30" />
+          </frame>
+          <frame id="100:1728" name="Раздел / Материалы" x="17" y="254" width="296" height="50">
+            <text id="100:1729" name="Материалы" x="0" y="0" width="296" height="15" />
+            <text id="100:1730" name="Рекомендованы проектор и раздаточные мат" x="0" y="20" width="296" height="30" />
+          </frame>
+          <frame id="100:1731" name="Действие / Открыть сценарий" x="17" y="317" width="296" height="45">
+            <text id="100:1732" name="Просмотреть" x="10" y="14.5" width="276" height="16" />
+          </frame>
+        </frame>
+        <frame id="100:1733" name="Сценарий / Персонализированный сценарий" x="0" y="393" width="328" height="401">
+          <text id="100:1734" name="Персонализированный сценарий" x="17" y="17" width="296" height="44" />
+          <text id="100:1735" name="6Б · 25 человек · 45 минут · 5 групп" x="17" y="74" width="296" height="15" />
+          <frame id="100:1736" name="Раздел / Участники" x="17" y="102" width="296" height="50">
+            <text id="100:1737" name="Участники" x="0" y="0" width="296" height="15" />
+            <text id="100:1738" name="Пять групп по пять человек, доступная ал" x="0" y="20" width="296" height="30" />
+          </frame>
+          <frame id="100:1739" name="Раздел / Ход занятия" x="17" y="165" width="296" height="35">
+            <text id="100:1740" name="Ход занятия" x="0" y="0" width="296" height="15" />
+            <text id="100:1741" name="5+7+15+12+6 минут с переходами и рефлекс" x="0" y="20" width="296" height="15" />
+          </frame>
+          <frame id="100:1742" name="Раздел / Организация" x="17" y="213" width="296" height="50">
+            <text id="100:1743" name="Организация" x="0" y="0" width="296" height="15" />
+            <text id="100:1744" name="Роли распределяются внутри групп, педаго" x="0" y="20" width="296" height="30" />
+          </frame>
+          <frame id="100:1745" name="Раздел / Материалы" x="17" y="276" width="296" height="50">
+            <text id="100:1746" name="Материалы" x="0" y="0" width="296" height="15" />
+            <text id="100:1747" name="Пять карточек, пять листов А4, фломастер" x="0" y="20" width="296" height="30" />
+          </frame>
+          <frame id="100:1748" name="Действие / Выбрать персонализированный" x="17" y="339" width="296" height="45">
+            <text id="100:1749" name="Выбрать вариант" x="10" y="14.5" width="276" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="100:2497" name="Условия тестирования" x="16" y="1001" width="328" height="107">
+        <text id="100:2498" name="Для пилотного сравнения" x="12" y="12" width="304" height="16" />
+        <text id="100:2499" name="Обе версии должны быть доступны одному" x="12" y="35" width="304" height="60" />
+      </frame>
+    </frame>
+    <frame id="100:1709" name="Подвал" x="0" y="1297" width="360" height="91">
+      <text id="100:1710" name="Описание" x="16" y="20" width="328" height="51" />
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

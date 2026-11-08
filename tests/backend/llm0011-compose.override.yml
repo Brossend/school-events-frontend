@@ -1,0 +1,17 @@
+# Only the test application receives the live provider and isolated queue.
+services:
+  app-test:
+    environment:
+      LLM_PROVIDER: litellm
+      LITELLM_MODEL: ${LLM001_MODEL:?Choose a model from the actual gateway inventory}
+      LITELLM_RESPONSE_MODE: ${LLM001_RESPONSE_MODE:-json_schema}
+      LITELLM_DISABLE_THINKING: ${LLM001_DISABLE_THINKING:-false}
+      LITELLM_MAX_TOKENS: ${LLM001_MAX_TOKENS:-8000}
+      LITELLM_TIMEOUT: ${LLM001_HTTP_TIMEOUT:-120}
+      LITELLM_REPAIR_PASSES: ${LLM001_REPAIR_PASSES:-1}
+      LITELLM_TOTAL_TIMEOUT: ${LLM001_TOTAL_TIMEOUT:-240}
+      QUEUE_CONNECTION: redis
+      REDIS_QUEUE: ${LLM001_QUEUE:?Set isolated LLM001 queue}
+      REDIS_PREFIX: ${LLM001_REDIS_PREFIX:?Set isolated LLM001 prefix}
+      REDIS_QUEUE_RETRY_AFTER: ${LLM001_RETRY_AFTER:-900}
+      APP_CONFIG_CACHE: /tmp/llm0011-config.php

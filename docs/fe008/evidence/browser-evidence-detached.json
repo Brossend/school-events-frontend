@@ -1,0 +1,143 @@
+{
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "action": "detach",
+    "queueConnection": "redis",
+    "queueName": "fe008_03d4500879",
+    "redisDatabase": "1",
+    "jobs": [
+        {
+            "id": "01a17c84-475e-709b-a349-df7d381c9ad0",
+            "revision_id": "01a17c7b-d7db-70e1-a3b1-48013488a8d8",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c84-4c7c-7069-803e-1dd07c84d983",
+                "mime_type": "application\/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "file_size_bytes": 22384,
+                "sha256_hash": "3a7305a78e514870d2a8b40d24eace2a197ebde5935979649598178705c88fc3"
+            }
+        },
+        {
+            "id": "01a17c85-7e0c-73d7-bc5c-5eabea5a8f25",
+            "revision_id": "01a17c7b-d7db-70e1-a3b1-48013488a8d8",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c85-882d-7370-b88a-ce383be6d991",
+                "mime_type": "application\/pdf",
+                "file_size_bytes": 1682999,
+                "sha256_hash": "4de57bd4572627dd99f062e7728c1eee6186fdafe8be461dec8734f4d5ab52b0"
+            }
+        },
+        {
+            "id": "01a17c83-065a-7192-82c6-e8ef516e68e2",
+            "revision_id": "01a17c7b-d7db-70e1-a3b1-48013488a8d8",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c83-0e67-7230-bdea-b9cdd344cc25",
+                "mime_type": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "file_size_bytes": 12113,
+                "sha256_hash": "8d66d4cc01486f9c8e76012a88b7fccce4fa8e2e68668d74db498eda700eccb3"
+            }
+        },
+        {
+            "id": "01a17c72-54f4-7096-89ed-54f2dcaa0906",
+            "revision_id": "01a17c71-d670-73aa-a0f4-b9ce31e872ca",
+            "format": "pdf",
+            "status": "failed",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": null
+        },
+        {
+            "id": "01a17c74-7453-7211-98bd-2f58fa55f15d",
+            "revision_id": "01a17c74-1068-721a-b474-28f81c4d79aa",
+            "format": "pdf",
+            "status": "failed",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": null
+        },
+        {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+                "mime_type": "application\/pdf",
+                "file_size_bytes": 1298401,
+                "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345"
+            }
+        },
+        {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+                "mime_type": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "file_size_bytes": 12132,
+                "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5"
+            }
+        },
+        {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+                "mime_type": "application\/vnd.openxmlformats-officedocument.presentationml.presentation",
+                "file_size_bytes": 22382,
+                "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543"
+            }
+        },
+        {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+                "mime_type": "application\/pdf",
+                "file_size_bytes": 1682999,
+                "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f"
+            }
+        },
+        {
+            "id": "01a17c7b-ae49-7302-8b90-ee3a0dbe5097",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c7b-b94e-714f-a97a-9b65ca491d4e",
+                "mime_type": "application\/pdf",
+                "file_size_bytes": 1298401,
+                "sha256_hash": "f75b272ec9120f2927615935a7710a41bb8a47780941b104f9ba9c97d5cf28b6"
+            }
+        },
+        {
+            "id": "01a17c80-3749-7222-93ac-7e974d5fd2b6",
+            "revision_id": "01a17c7b-d7db-70e1-a3b1-48013488a8d8",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "artifact": {
+                "id": "01a17c80-4394-72db-a0b7-0ba0ef6c41c5",
+                "mime_type": "application\/pdf",
+                "file_size_bytes": 1298439,
+                "sha256_hash": "b4b59e2b723cf175c764c888387512dda3ad81027d0496d3fcf917163688f2db"
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "queueConnection": "sync",
+  "queueName": "default",
+  "redisDatabase": "1"
+}

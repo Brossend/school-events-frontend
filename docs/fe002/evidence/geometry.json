@@ -1,0 +1,204 @@
+[
+  {
+    "page": "dashboard",
+    "clientWidth": 1425,
+    "hero": {
+      "bottom": 548.5,
+      "height": 351,
+      "left": 252,
+      "right": 1393,
+      "top": 197.5,
+      "width": 1141,
+      "x": 252,
+      "y": 197.5
+    },
+    "loading": false,
+    "school": "МАОУ Гимназия № 9 г. Екатеринбург",
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "page": "dashboard",
+    "clientWidth": 753,
+    "hero": {
+      "bottom": 633.796875,
+      "height": 377.296875,
+      "left": 32,
+      "right": 721,
+      "top": 256.5,
+      "width": 689,
+      "x": 32,
+      "y": 256.5
+    },
+    "loading": false,
+    "school": "МАОУ Гимназия № 9 г. Екатеринбург",
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "page": "dashboard",
+    "clientWidth": 375,
+    "hero": {
+      "bottom": 613.75,
+      "height": 332.25,
+      "left": 16,
+      "right": 359,
+      "top": 281.5,
+      "width": 343,
+      "x": 16,
+      "y": 281.5
+    },
+    "loading": false,
+    "school": "МАОУ Гимназия № 9 г. Екатеринбург",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "page": "dashboard",
+    "clientWidth": 345,
+    "hero": {
+      "bottom": 634.75,
+      "height": 332.25,
+      "left": 16,
+      "right": 329,
+      "top": 302.5,
+      "width": 313,
+      "x": 16,
+      "y": 302.5
+    },
+    "loading": false,
+    "school": "МАОУ Гимназия № 9 г. Екатеринбург",
+    "scrollWidth": 345,
+    "width": 360
+  },
+  {
+    "page": "calendar",
+    "clientWidth": 1425,
+    "images": [
+      {
+        "height": 18,
+        "src": "/icons/chevron-left.svg",
+        "width": 18
+      },
+      {
+        "height": 18,
+        "src": "/icons/chevron-right.svg",
+        "width": 18
+      },
+      {
+        "height": 17,
+        "src": "/icons/plus-light.svg",
+        "width": 17
+      },
+      {
+        "height": 17,
+        "src": "/icons/arrow-up-right.svg",
+        "width": 17
+      },
+      {
+        "height": 20,
+        "src": "/icons/info.svg",
+        "width": 20
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 1425,
+    "view": "Месяц",
+    "width": 1440
+  },
+  {
+    "page": "calendar",
+    "clientWidth": 753,
+    "images": [
+      {
+        "height": 18,
+        "src": "/icons/chevron-left.svg",
+        "width": 18
+      },
+      {
+        "height": 18,
+        "src": "/icons/chevron-right.svg",
+        "width": 18
+      },
+      {
+        "height": 17,
+        "src": "/icons/plus-light.svg",
+        "width": 17
+      },
+      {
+        "height": 17,
+        "src": "/icons/arrow-up-right.svg",
+        "width": 17
+      },
+      {
+        "height": 20,
+        "src": "/icons/info.svg",
+        "width": 20
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 753,
+    "view": "Месяц",
+    "width": 768
+  },
+  {
+    "page": "calendar",
+    "clientWidth": 375,
+    "images": [
+      {
+        "height": 18,
+        "src": "/icons/chevron-left.svg",
+        "width": 18
+      },
+      {
+        "height": 18,
+        "src": "/icons/chevron-right.svg",
+        "width": 18
+      },
+      {
+        "height": 17,
+        "src": "/icons/arrow-up-right.svg",
+        "width": 17
+      },
+      {
+        "height": 20,
+        "src": "/icons/info.svg",
+        "width": 20
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 375,
+    "view": "Список",
+    "width": 390
+  },
+  {
+    "page": "calendar",
+    "clientWidth": 345,
+    "images": [
+      {
+        "height": 18,
+        "src": "/icons/chevron-left.svg",
+        "width": 18
+      },
+      {
+        "height": 18,
+        "src": "/icons/chevron-right.svg",
+        "width": 18
+      },
+      {
+        "height": 17,
+        "src": "/icons/arrow-up-right.svg",
+        "width": 17
+      },
+      {
+        "height": 20,
+        "src": "/icons/info.svg",
+        "width": 20
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 345,
+    "view": "Список",
+    "width": 360
+  }
+]

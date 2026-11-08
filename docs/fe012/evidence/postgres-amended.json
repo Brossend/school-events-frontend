@@ -1,0 +1,265 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "environment": "testing",
+  "queue": "redis",
+  "runId": "bb46ed8810",
+  "sqlScope": "Only schools with exact FE012 run prefix; events and dependent sources/claims/audits/scenarios/exports belonging to this run",
+  "tables": {
+    "schools": [
+      {
+        "id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "name": "FE012 bb46ed8810 A · synthetic test school",
+        "short_name": null,
+        "region_code": "66",
+        "city": "Екатеринбург",
+        "inn": "5157364145",
+        "settings": {
+          "address": "Тестовая улица, 11",
+          "description": "FE012 synthetic data"
+        },
+        "created_at": "2026-10-29T23:31:17.000000Z",
+        "updated_at": "2026-10-29T23:31:17.000000Z"
+      },
+      {
+        "id": "01a18a00-e918-708f-9b8b-7e18acd1559d",
+        "name": "FE012 bb46ed8810 B · synthetic test school",
+        "short_name": null,
+        "region_code": "66",
+        "city": "Екатеринбург",
+        "inn": "6507485960",
+        "settings": {
+          "address": "Тестовая улица, 11",
+          "description": "FE012 synthetic data"
+        },
+        "created_at": "2026-10-29T23:31:17.000000Z",
+        "updated_at": "2026-10-29T23:31:17.000000Z"
+      },
+      {
+        "id": "01a18a00-e919-73a3-b91a-471b368b97c7",
+        "name": "FE012 bb46ed8810 C · synthetic test school",
+        "short_name": null,
+        "region_code": "77",
+        "city": "Москва",
+        "inn": "9028313525",
+        "settings": {
+          "address": "Тестовая улица, 11",
+          "description": "FE012 synthetic data"
+        },
+        "created_at": "2026-10-29T23:31:17.000000Z",
+        "updated_at": "2026-10-29T23:31:17.000000Z"
+      }
+    ],
+    "event_sources": [
+      {
+        "id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "calendar_event_id": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 regional66 synthetic source fixture",
+        "author": "FE012 amended c9609f55-0164-4a58-ad14-142c04710335",
+        "url": "https://example.test/fe012/bb46ed8810/regional66",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea3c-7238-9c6b-3e6696189e6d",
+        "calendar_event_id": "01a18a00-ea3b-73ee-bb14-9ff4e01062bc",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 regional77 synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/regional77",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea3f-72b6-bd79-72301d744e3f",
+        "calendar_event_id": "01a18a00-ea3e-72c7-858c-c4390383e902",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 federal synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/federal",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea42-70ef-8cc3-fb795d965979",
+        "calendar_event_id": "01a18a00-ea41-73b8-ab45-72e61b354b4d",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 schoolA synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/schoolA",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea45-728f-bd69-2229cb3a8703",
+        "calendar_event_id": "01a18a00-ea44-71ec-8fba-c623645503e4",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 schoolB synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/schoolB",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea49-73d0-97e4-67f2e27e3bfe",
+        "calendar_event_id": "01a18a00-ea48-7330-9493-1b7a191b1143",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 schoolC synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/schoolC",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea4c-719c-b373-f354a0cadf75",
+        "calendar_event_id": "01a18a00-ea4b-705a-8a78-a70644a16f12",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 draft synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/draft",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      }
+    ],
+    "source_reviews": [
+      {
+        "id": "01a18a02-6ca4-72fb-a5a5-9bcdee06a37e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "decision": "approved",
+        "comments": "FE012 synthetic source review; not a real cultural attestation.",
+        "reviewed_at": "2026-10-29 23:32:57+00"
+      },
+      {
+        "id": "01a18a02-969d-70cd-9ff2-a668df15dcc2",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "decision": "requires_amendment",
+        "comments": "Изменение библиографических реквизитов (author). Ранее выданные подтверждения аннулированы, требуется повторная экспертиза первоисточника.",
+        "reviewed_at": "2026-10-29 23:33:07+00"
+      }
+    ],
+    "cultural_claim_sources": [
+      {
+        "id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "calendar_event_id": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "verification_status": "unverified",
+        "verified_by_user_id": null,
+        "verified_at": null,
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic test evidence.",
+        "created_at": "2026-10-29 23:32:57+00",
+        "is_detached": false,
+        "detached_at": null,
+        "detached_by_user_id": null,
+        "detachment_reason": null,
+        "previous_verification_status": null
+      },
+      {
+        "id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "calendar_event_id": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "verification_status": "unverified",
+        "verified_by_user_id": null,
+        "verified_at": null,
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic test evidence.",
+        "created_at": "2026-10-29 23:32:58+00",
+        "is_detached": false,
+        "detached_at": null,
+        "detached_by_user_id": null,
+        "detachment_reason": null,
+        "previous_verification_status": null
+      }
+    ],
+    "cultural_claim_evidence_audit_events": [
+      {
+        "id": "01a18a02-6e1d-7030-aae9-c7c1530b5fea",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "attached",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": null,
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:32:57+00"
+      },
+      {
+        "id": "01a18a02-6f1e-70c3-a36d-57d354deb6b7",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "attached",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": null,
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:32:57+00"
+      },
+      {
+        "id": "01a18a02-96a2-72fe-937f-b88900b834b8",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "invalidated_by_source_amendment",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Аннулировано вследствие изменения библиографических реквизитов (author) первоисточника.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:07+00"
+      },
+      {
+        "id": "01a18a02-96a5-70bc-9b76-16ae0840fd4f",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "invalidated_by_source_amendment",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Аннулировано вследствие изменения библиографических реквизитов (author) первоисточника.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:07+00"
+      }
+    ],
+    "scenarios": [],
+    "export_jobs": [],
+    "pilot_participants": [],
+    "pilot_responses": [],
+    "pilot_review_findings": []
+  }
+}

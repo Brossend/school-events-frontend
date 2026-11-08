@@ -1,0 +1,86 @@
+export default function Component() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="104:1220" data-name="Печать / Семейная карточка Доброе дело">
+      <div className="absolute bg-[#08784f] h-[6px] left-0 top-0 w-[794px]" data-node-id="104:1221" data-name="Верхняя линия бренда" />
+      <div className="absolute bg-[#2258ba] h-[6px] left-[515px] top-0 w-[279px]" data-node-id="104:1222" data-name="Верхняя линия УрФУ" />
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.35] left-[54px] not-italic text-[#1b3443] text-[22px] top-[38px] w-[390px]" data-node-id="104:1223">
+        Школьные события
+      </p>
+      <div className="absolute bg-gradient-to-r from-[#0a9d63] h-[42px] left-[545px] overflow-clip rounded-[12px] to-[#2258ba] top-[30px] via-[#0c8c93] via-[53%] w-[195px]" data-node-id="104:1224" data-name="Бренд / Сбер × УрФУ">
+        <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold h-[42px] justify-center leading-[0] left-[97.5px] not-italic text-[19px] text-center text-white top-[21px] w-[195px]" data-node-id="104:1225">
+          <p className="leading-[1.35]">Сбер × УрФУ</p>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[54px] not-italic text-[#08784f] text-[13px] top-[106px] w-[660px]" data-node-id="104:1226">
+        ЗАДАНИЕ ДЛЯ КОМАНДЫ
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.2] left-[54px] not-italic text-[#1b3443] text-[28px] top-[135px] w-[685px]" data-node-id="104:1227">
+        02 · Семейная лаборатория
+      </p>
+      <div className="absolute bg-[#dce5ec] h-[2px] left-[54px] top-[213px] w-[686px]" data-node-id="104:1228" data-name="Разделитель" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[54px] not-italic text-[#5a7485] text-[12px] top-[1042px] w-[690px]" data-node-id="104:1229">
+        Материал создаётся по шаблону проекта. Педагог проверяет задание перед печатью.
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[54px] not-italic text-[#748795] text-[11px] top-[1072px] w-[385px]" data-node-id="104:1230">
+        А4 · 210 × 297 мм
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[54px] not-italic text-[#39566a] text-[15px] top-[228px] w-[686px]" data-node-id="104:1231">
+        Работайте вместе. Предлагайте посильные идеи, слушайте мнения и запишите общее решение. Никто не обязан делиться личной информацией.
+      </p>
+      <div className="absolute bg-[#f8fafc] border border-[#d6e2ea] border-solid h-[106px] left-[54px] overflow-clip rounded-[11px] top-[318px] w-[686px]" data-node-id="104:1232" data-name="Какую школьную инициативу предлагаем?">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[15px] not-italic text-[#295367] text-[15px] top-[12px] w-[630px]" data-node-id="104:1233">
+          Какую школьную инициативу предлагаем?
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[15px] not-italic text-[#6b7f8c] text-[12px] top-[39px] w-[650px]" data-node-id="104:1234">
+          Выберите полезный и безопасный вариант
+        </p>
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[64px] w-[654px]" data-node-id="104:1235" data-name="Поле ответа / линии" />
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[81px] w-[654px]" data-node-id="104:1236" data-name="Поле ответа / линии 2" />
+      </div>
+      <div className="absolute bg-[#f8fafc] border border-[#d6e2ea] border-solid h-[106px] left-[54px] overflow-clip rounded-[11px] top-[439px] w-[686px]" data-node-id="104:1237" data-name="Чем может помочь ребёнок?">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[15px] not-italic text-[#295367] text-[15px] top-[12px] w-[630px]" data-node-id="104:1238">
+          Чем может помочь ребёнок?
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[15px] not-italic text-[#6b7f8c] text-[12px] top-[39px] w-[650px]" data-node-id="104:1239">
+          Напишите доступные и добровольные действия
+        </p>
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[64px] w-[654px]" data-node-id="104:1240" data-name="Поле ответа / линии" />
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[81px] w-[654px]" data-node-id="104:1241" data-name="Поле ответа / линии 2" />
+      </div>
+      <div className="absolute bg-[#f8fafc] border border-[#d6e2ea] border-solid h-[126px] left-[54px] overflow-clip rounded-[11px] top-[560px] w-[686px]" data-node-id="104:1242" data-name="Чем могут помочь взрослые или педагог?">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[15px] not-italic text-[#295367] text-[15px] top-[12px] w-[630px]" data-node-id="104:1243">
+          Чем могут помочь взрослые или педагог?
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[15px] not-italic text-[#6b7f8c] text-[12px] top-[39px] w-[650px]" data-node-id="104:1244">
+          Отсутствие гостя не ограничивает участие ребёнка
+        </p>
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[84px] w-[654px]" data-node-id="104:1245" data-name="Поле ответа / линии" />
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[101px] w-[654px]" data-node-id="104:1246" data-name="Поле ответа / линии 2" />
+      </div>
+      <div className="absolute bg-[#f8fafc] border border-[#d6e2ea] border-solid h-[128px] left-[54px] overflow-clip rounded-[11px] top-[701px] w-[686px]" data-node-id="104:1247" data-name="Следующий шаг и необходимые материалы">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[15px] not-italic text-[#295367] text-[15px] top-[12px] w-[630px]" data-node-id="104:1248">
+          Следующий шаг и необходимые материалы
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[15px] not-italic text-[#6b7f8c] text-[12px] top-[39px] w-[650px]" data-node-id="104:1249">
+          Что можем согласовать со школой и проверить?
+        </p>
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[86px] w-[654px]" data-node-id="104:1250" data-name="Поле ответа / линии" />
+        <div className="absolute bg-[#c4d5df] h-px left-[15px] top-[103px] w-[654px]" data-node-id="104:1251" data-name="Поле ответа / линии 2" />
+      </div>
+      <div className="absolute bg-[#e8f4ec] h-[110px] left-[54px] overflow-clip rounded-[11px] top-[848px] w-[686px]" data-node-id="104:1252" data-name="Примечание">
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[15px] not-italic text-[#2c654d] text-[13px] top-[13px] w-[652px]" data-node-id="104:1253">
+          Не указывайте состав семьи и домашние адреса. Взрослые помогают, но не оценивают детей.
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = '[temporary asset URL removed]'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

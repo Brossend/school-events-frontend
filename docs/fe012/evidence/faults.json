@@ -1,0 +1,112 @@
+{
+  "completed": true,
+  "runId": "bb46ed8810",
+  "origin": "http://localhost:8001",
+  "trace": [
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/catalog/review-queue",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/catalog/review-queue",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/catalog/review-queue",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/v1/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 500
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/archive",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/restore",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/schools/01a18a00-e8ed-7024-abcc-026d446c422c",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204
+    }
+  ],
+  "stableQueueHTTPPages": 3,
+  "exactNewestTiedOwnSourceOrder": true,
+  "realLaravel500Rollback": true,
+  "installed": true,
+  "removed": true,
+  "acceptedWriteLostResponse": true,
+  "automaticMutationReplay": false,
+  "resetSocketNetworkError": true,
+  "lateTenantResponseDiscarded": true,
+  "csrf419": "Real Laravel CSRF middleware exercised by passing AuthTest::test_missing_csrf; HTTP APP_ENV=testing uses Laravel standard unit-test bypass. Not claimed as a live HTTP419."
+}

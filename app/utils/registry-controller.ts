@@ -1,0 +1,46 @@
+import { ref, shallowRef } from 'vue'
+import type { RegistryAction, RegistryContext, RegistryDetail, RegistryDialog, RegistryEntry, RegistryMarker, RegistryPage, RegistryQuery, RegistryServices } from '../types/registry'
+import { ApiError } from './api-error'
+import { actionSatisfied, registryDefaults } from './registry'
+export const registryMarkerKey = (c: RegistryContext, id: string) => `fe009:mutation:${c.user}:${c.school}:${id}`
+type MarkerStore = Pick<Storage, 'getItem' | 'setItem' | 'removeItem'>
+export function createRegistryController(service: RegistryServices, context: () => RegistryContext, storage: MarkerStore, timeout=60000) {
+  const query=ref(registryDefaults()), page=shallowRef<RegistryPage|null>(null), listError=shallowRef<Error|null>(null), loading=ref(false), dialog=shallowRef<RegistryDialog|null>(null), busy=ref(false)
+  let epoch=0, readVersion=0, readAbort:AbortController|undefined, actionAbort:AbortController|undefined
+  const scope=()=>JSON.stringify(context()), permitted=()=>{const c=context();return c.authenticated&&!!c.user&&!!c.school&&['teacher','school_admin'].includes(c.role)}
+  function reset(){epoch++;readVersion++;readAbort?.abort();actionAbort?.abort();page.value=null;listError.value=null;loading.value=false;dialog.value=null;busy.value=false;query.value=registryDefaults()}
+  async function refresh(){readAbort?.abort();const token=++readVersion,identity=scope(),active=new AbortController();readAbort=active;page.value=null;listError.value=null;loading.value=true;const timer=setTimeout(()=>active.abort(),timeout),valid=()=>token===readVersion&&identity===scope()&&!active.signal.aborted
+    try{const result=await service.list({...query.value},active.signal);if(!valid())return;if(!result.data.length&&result.meta.current_page>result.meta.last_page){query.value={...query.value,page:Math.max(1,result.meta.last_page)};await refresh();return}page.value=result}
+    catch(e){if(token===readVersion&&identity===scope())listError.value=active.signal.aborted?new Error('Время чтения списка истекло. Повторите обновление.'):e instanceof Error?e:new Error('Не удалось прочитать список.')}
+    finally{clearTimeout(timer);if(token===readVersion)loading.value=false}
+  }
+  async function setQuery(patch:Partial<RegistryQuery>){if(busy.value)return;dialog.value=null;query.value={...query.value,...patch,page:patch.page??1};await refresh()}
+  const marker=(id:string)=>{const c=context(),text=storage.getItem(registryMarkerKey(c,id));if(!text)return null;const m=JSON.parse(text) as RegistryMarker;if(m.id!==id||m.user!==c.user||m.school!==c.school||!['archive','restore','delete'].includes(m.action)||!Number.isFinite(m.sentAt))throw new Error('Квитанция действия повреждена. Новая мутация заблокирована; обратитесь к администратору.');return m}
+  function setDialog(d:RegistryDialog,patch:Partial<RegistryDialog>){dialog.value={...d,...patch}}
+  async function action(work:(signal:AbortSignal,valid:()=>boolean)=>Promise<void>){if(busy.value)return;const token=epoch,identity=scope(),active=new AbortController();actionAbort=active;busy.value=true;const timer=setTimeout(()=>active.abort(),timeout),valid=()=>token===epoch&&identity===scope()&&!active.signal.aborted
+    try{await work(active.signal,valid)}finally{clearTimeout(timer);if(token===epoch)busy.value=false}
+  }
+  function localGate(d:RegistryDialog,detail:RegistryDetail):boolean{if(d.action==='delete'&&detail.hasCurrentSignoff){setDialog(d,{phase:'blocked',message:'У текущей ревизии есть запись подтверждения. Удаление запрещено. Используйте архивирование.'});return true}if(actionSatisfied(d.action,detail)){setDialog(d,{phase:'done',message:detail.is_archived?'Сценарий уже находится в архиве.':'Сценарий уже активен. Проверка и согласование не изменялись.'});return true}return false}
+  async function prepare(entry:Pick<RegistryEntry,'id'|'title'>,requested:RegistryAction){if(busy.value)return;actionAbort?.abort();const generation=epoch,identity=scope();const d:RegistryDialog={id:entry.id,title:entry.title,action:requested,phase:'checking',message:''};dialog.value=d
+    if(!permitted()){setDialog(d,{phase:'blocked',message:'Выберите школу и школьную роль для этого действия.'});return}
+    try{const previous=marker(d.id);if(previous){setDialog(d,{action:previous.action,phase:'uncertain',message:'Сохранено незавершённое действие. Сначала сверьте состояние с сервером. Повторный запрос автоматически не отправляется.'});return}}
+    catch(e){setDialog(d,{phase:'blocked',message:e instanceof Error?e.message:'Хранилище состояния недоступно.'});return}
+    await action(async(s,valid)=>{try{const detail=await service.detail(d.id,s);if(!valid())return;d.title=detail.title;if(!localGate(d,detail))setDialog(d,{phase:'confirm',message:''});else if(dialog.value?.phase==='done')await refresh()}catch(e){if(generation!==epoch||identity!==scope()||dialog.value?.id!==d.id)return;if(valid())setDialog(d,{phase:'error',message:'Не удалось перечитать сценарий. Мутация не отправлена.',error:e instanceof Error?e:new Error('Ошибка чтения')});else if(s.aborted&&dialog.value?.id===d.id)setDialog(d,{phase:'error',message:'Чтение отменено или превысило время ожидания. Мутация не отправлена.'})}})
+  }
+  async function confirm(){const d=dialog.value;if(!d||d.phase!=='confirm'||busy.value||!permitted())return;const captured={...context()},generation=epoch;let sent=false
+    await action(async(s,valid)=>{try{setDialog(d,{phase:'checking',message:'Перечитываем актуальное состояние перед действием.'});const detail=await service.detail(d.id,s);if(!valid()||!permitted())return;d.title=detail.title;if(localGate(d,detail)){if(dialog.value?.phase==='done')await refresh();return}
+        const receipt:RegistryMarker={id:d.id,action:d.action,user:captured.user,school:captured.school,sentAt:Date.now()};try{storage.setItem(registryMarkerKey(captured,d.id),JSON.stringify(receipt))}catch{throw new Error('Не удалось сохранить квитанцию. Мутация не отправлена.')}
+        if(!valid()||!permitted())return;sent=true;setDialog(d,{phase:'sending',message:''});await service.mutate(d.id,d.action,s);if(!valid())return;try{storage.removeItem(registryMarkerKey(captured,d.id))}catch{/* A remaining marker forces a safe read on reopening. */}
+        setDialog(d,{phase:'done',message:d.action==='delete'?'Сервер подтвердил удаление. Восстановление удалённого сценария не предусмотрено.':d.action==='archive'?'Сценарий перенесён в архив.':'Сценарий восстановлен. Источники, модерация и согласование автоматически не обновлялись.'});await refresh()
+      }catch(e){if(generation!==epoch||dialog.value?.id!==d.id||JSON.stringify(captured)!==scope())return;const unknown=sent&&(!(e instanceof ApiError)||e.status===0||e.status===408||e.status>=500||s.aborted);if(!unknown&&sent){try{storage.removeItem(registryMarkerKey(captured,d.id))}catch{/* Retain conservative recovery. */}}setDialog(d,{phase:unknown?'uncertain':e instanceof ApiError&&[403,404,409].includes(e.status)?'blocked':'error',message:unknown?'Результат действия неизвестен. Сначала сверьте состояние с сервером. Новый запрос автоматически не отправляется.':sent?'Сервер отказал в действии.':'Мутация не отправлена.',error:e instanceof Error?e:new Error('Ошибка действия')})}
+    })
+  }
+  async function reconcile(){const d=dialog.value;if(!d||!['uncertain','reconciled'].includes(d.phase)||busy.value)return;const captured={...context()},generation=epoch
+    await action(async(s,valid)=>{try{const detail=await service.detail(d.id,s);if(!valid())return;const done=actionSatisfied(d.action,detail);if(done){try{storage.removeItem(registryMarkerKey(captured,d.id))}catch{/* Preserve safe marker. */}}setDialog(d,{phase:done?'done':'reconciled',message:done?'Серверное состояние соответствует действию. Повторная мутация не отправлялась.':'Сценарий доступен; ожидаемое изменение сейчас не подтверждено. Можно повторить чтение или начать отдельное новое подтверждение. Мутация автоматически не повторяется.',error:undefined,canPrepareAgain:!done});await refresh()}
+      catch(e){if(generation!==epoch||JSON.stringify(captured)!==scope()||dialog.value?.id!==d.id)return;if(e instanceof ApiError&&e.status===404&&d.action==='delete'){try{storage.removeItem(registryMarkerKey(captured,d.id))}catch{/* Safe read required next time. */}setDialog(d,{phase:'done',message:'Сценарий не найден или больше недоступен. Повторный DELETE не отправлялся. Физическое удаление этим ответом не подтверждается.',error:undefined});await refresh()}else setDialog(d,{phase:'uncertain',message:'Не удалось установить результат. Сначала восстановите доступ и повторите чтение.',error:e instanceof Error?e:new Error('Ошибка чтения')})}
+    })
+  }
+  async function prepareAgain(){const d=dialog.value;if(!d||busy.value)return;if(d.phase==='reconciled'&&d.canPrepareAgain){try{storage.removeItem(registryMarkerKey(context(),d.id))}catch{setDialog(d,{phase:'blocked',message:'Не удалось обновить квитанцию. Новая мутация заблокирована.'});return}await prepare(d,d.action)}else if(d.phase==='error')await prepare(d,d.action)}
+  function close(){if(!busy.value)dialog.value=null}
+  return {query,page,listError,loading,dialog,busy,reset,refresh,setQuery,prepare,confirm,reconcile,prepareAgain,close}
+}

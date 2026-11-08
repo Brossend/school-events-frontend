@@ -1,0 +1,24 @@
+{
+  "status": "PENDING INDEPENDENT FINAL ACCEPTANCE",
+  "archives": [
+    {
+      "file": "school-events-final-fe012.zip",
+      "bytes": 78480203,
+      "files": 1572,
+      "sha256": "6b34b7645de45657f48722146c9d4b593b11fde2b16e439f9c3c27ecb64e11d1",
+      "crc": "PASS",
+      "manifest": "PASS",
+      "secretScan": "PASS"
+    },
+    {
+      "file": "school-backend-integration-fe012.zip",
+      "bytes": 2134257,
+      "files": 271,
+      "sha256": "51aa8b8b002da0592f5f6a53fc24cb5d0ff25f65646266cc764b5f903d0bb814",
+      "crc": "PASS",
+      "manifest": "PASS",
+      "secretScan": "PASS"
+    }
+  ],
+  "fixtureRunsScanned": 11
+}

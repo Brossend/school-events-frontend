@@ -1,0 +1,65 @@
+import { computed, ref, shallowRef } from 'vue'
+import type { EditorContext, EditorDocument, EditorServices, RevisionPatch, TeacherChecklist, Verification } from '../types/editor'
+import type { JsonValue } from '../types/generation'
+import { ApiError } from './api-error'
+import { record, string, uuid } from './generation'
+export const blankChecklist = (): TeacherChecklist => ({ safety_checked: false, timing_fit: false, cultural_context_approved: false, warnings_acknowledged: false, teacher_notes: '' })
+export function clone<T>(v: T): T { return JSON.parse(JSON.stringify(v)) as T }
+export function editable(doc: EditorDocument): RevisionPatch { const p = doc.revision.content_payload; return clone({ concept: doc.revision.concept, pedagogical_goal: doc.revision.pedagogical_goal, pedagogical_tasks: record(p.pedagogical_tasks) as Record<string, JsonValue>, stages: (Array.isArray(p.stages) ? p.stages : []).map(s => record(s) as Record<string, JsonValue>), materials: record(p.materials) as Record<string, JsonValue> }) }
+export function parseVerification(payload: unknown): Verification {
+  const v = record(record(payload).data), statuses = ['pending_verification', 'running', 'passed', 'passed_with_warnings', 'blocked', 'failed_engine']
+  if (!statuses.includes(String(v.status))) throw new Error('Неизвестный статус проверки.')
+  const count = (n: unknown) => { if (typeof n !== 'number' || !Number.isInteger(n) || n < 0) throw new Error('Некорректный счётчик замечаний.'); return n }
+  if (!Array.isArray(v.findings)) throw new Error('Сервер не передал замечания.')
+  return { id: v.verification_run_id == null ? null : uuid(v.verification_run_id), status: v.status as Verification['status'], p0: count(v.p0_violations_count), p1: count(v.p1_violations_count), findings: v.findings.map(f => { const x = record(f); if (!['P0', 'P1'].includes(String(x.severity))) throw new Error('Некорректная серьёзность замечания.'); return { id: uuid(x.id), severity: x.severity as 'P0' | 'P1', rule_code: string(x.rule_code), target_path: string(x.target_path), message: string(x.message), suggested_fix: x.suggested_fix == null ? null : string(x.suggested_fix) } }) }
+}
+export function mayEdit(doc: EditorDocument | null, ctx: EditorContext) { return !!doc && !!ctx.user && doc.scenario.school_id === ctx.school && doc.revision.is_current && doc.scenario.current_revision_id === doc.revision.id && !doc.archived && ['teacher', 'school_admin'].includes(ctx.role) && (doc.authorId === ctx.user || ctx.role === 'school_admin') }
+export function signoffBlock(doc: EditorDocument | null, checks: Verification | null, readyRun: string | null, dirty: boolean, c: TeacherChecklist): string {
+  if (!doc?.revision.is_current) return 'Подтверждать можно только текущую ревизию.'
+  if (dirty) return 'Сначала сохраните изменения.'
+  if (!checks || checks.status === 'pending_verification' || checks.status === 'running') return 'Дождитесь завершения проверки.'
+  if (checks.status === 'failed_engine') return 'Механизм проверки недоступен. Повторите проверку.'
+  if (checks.p0 > 0 || checks.status === 'blocked') return 'Устраните блокирующие замечания P0.'
+  if (!readyRun || readyRun !== checks.id) return 'Повторно проверьте текущую ревизию перед подтверждением: GET не сообщает актуальность fingerprint.'
+  if (!c.safety_checked || !c.timing_fit || !c.cultural_context_approved) return 'Лично подтвердите все три пункта.'
+  if ((checks.p1 > 0 || checks.status === 'passed_with_warnings') && !c.warnings_acknowledged) return 'Подтвердите ознакомление с предупреждениями P1.'
+  return ''
+}
+export function createScenarioEditor(service: EditorServices, context: () => EditorContext, options: { interval?: number; maxWait?: number; requestTimeout?: number } = {}) {
+  const document = shallowRef<EditorDocument | null>(null), latest = shallowRef<EditorDocument | null>(null), draft = ref<RevisionPatch | null>(null), baseline = ref(''), checks = shallowRef<Verification | null>(null), error = shallowRef<Error | null>(null), busy = ref(''), uncertain = ref(''), conflict = ref(false), checklist = ref(blankChecklist()), readyRun = ref<string | null>(null), confirmed = ref(false), pause = ref(''), savedVersion = ref<number | null>(null)
+  const dirty = computed(() => !!draft.value && JSON.stringify(draft.value) !== baseline.value), canEdit = computed(() => mayEdit(document.value, context())), block = computed(() => !canEdit.value ? 'Нет полномочий для подтверждения.' : busy.value || uncertain.value ? 'Дождитесь сверки результата операции.' : signoffBlock(document.value, checks.value, readyRun.value, dirty.value, checklist.value))
+  let epoch = 0, controller: AbortController | undefined, timer: ReturnType<typeof setTimeout> | undefined, visible = true, started = 0, errors = 0
+  const receipts = new Map<string, string>() // Context metadata only; no draft or private data persisted.
+  const key = () => JSON.stringify(context()), clearTimer = () => { if (timer) clearTimeout(timer); timer = undefined }
+  function reset() { epoch++; controller?.abort(); clearTimer(); document.value = null; latest.value = null; draft.value = null; baseline.value = ''; checks.value = null; error.value = null; busy.value = ''; uncertain.value = receipts.get(key()) ?? ''; conflict.value = false; checklist.value = blankChecklist(); readyRun.value = null; confirmed.value = false; pause.value = ''; savedVersion.value = null }
+  async function operation(name: string, fn: (signal: AbortSignal, valid: () => boolean) => Promise<void>) {
+    if (busy.value) return
+    clearTimer(); const e = epoch, k = key(), active = new AbortController(); controller = active; busy.value = name; error.value = null
+    const timeout = setTimeout(() => active.abort(), options.requestTimeout ?? 60000), valid = () => e === epoch && k === key() && !active.signal.aborted
+    try { await fn(active.signal, valid) } catch (cause) { if (e === epoch && k === key()) error.value = cause instanceof Error ? cause : new Error('Не удалось выполнить действие.') } finally { clearTimeout(timeout); if (e === epoch) { busy.value = ''; schedule() } }
+  }
+  function applyChecks(v: Verification) {
+    checks.value=v
+    if (document.value) {
+      const doc=document.value, status=({passed:'verification_passed',passed_with_warnings:'verification_passed_with_warnings',blocked:'verification_blocked'} as Record<string,string>)[v.status] ?? v.status
+      const revision={...doc.revision,moderation_status:status,moderation_state:{...doc.revision.moderation_state,p0_violations_count:v.p0,p1_violations_count:v.p1,status}}
+      document.value={...doc,revision,scenario:{...doc.scenario,revision,moderation_status:status}}
+    }
+    if (readyRun.value && (readyRun.value!==v.id || !['passed','passed_with_warnings','running'].includes(v.status))) { readyRun.value=null; confirmed.value=false }
+  }
+  function install(doc: EditorDocument) { document.value = doc; draft.value = editable(doc); baseline.value = JSON.stringify(draft.value); checks.value = null; readyRun.value = null; confirmed.value = false; checklist.value = blankChecklist(); conflict.value = false; latest.value = null }
+  function schedule() { clearTimer(); if (!visible || checks.value?.status !== 'running' || pause.value) return; if (Date.now() - started > (options.maxWait ?? 300000)) { pause.value = 'Локальное время наблюдения истекло. Серверная проверка может продолжаться.'; return } timer = setTimeout(() => { void refreshChecks() }, Math.min(30000, (options.interval ?? 2000) * 2 ** errors)) }
+  async function load() { await operation('load', async (s, valid) => { const doc = await service.load(s), v = await service.checks(doc.revision.version_number, s); if (!valid()) return; install(doc); applyChecks(v); started = Date.now(); errors = 0; pause.value = '' }) }
+  async function refreshChecks() { if (!document.value) return; await operation('checks', async (s, valid) => { try { const v = await service.checks(document.value!.revision.version_number, s); if (!valid()) return; applyChecks(v); errors = 0; pause.value = ''; if (readyRun.value && readyRun.value !== v.id) { readyRun.value = null; confirmed.value = false } } catch (e) { errors++; if (errors >= 6) pause.value = 'Опрос приостановлен после ошибок связи. Можно перечитать состояние.'; throw e } }) }
+  async function preflight(s: AbortSignal) { const current = await service.load(s); if (current.revision.id !== document.value?.revision.id || current.lock !== document.value?.lock) { latest.value = current; conflict.value = true; throw new ApiError(409, 'EDITOR_CONFLICT', 'На сервере появилась новая версия. Ваши изменения сохранены для сравнения.') } if (!mayEdit(current, context())) throw new ApiError(403, 'EDITOR_FORBIDDEN', 'Редактирование недоступно в текущем контексте.'); return current }
+  async function mutate(kind: string, fn: (doc: EditorDocument, s: AbortSignal, valid: () => boolean) => Promise<void>) { if (!canEdit.value || uncertain.value || busy.value || conflict.value) return; await operation(kind, async (s, valid) => { const current = await preflight(s); if (!valid()) return; const k = key(), token = epoch; try { await fn(current, s, valid) } catch (e) { if (!(e instanceof ApiError) || e.status === 0 || e.status === 408 || e.status >= 500) { receipts.set(k, kind); if (token === epoch && k === key()) uncertain.value = kind } if (valid() && e instanceof ApiError && e.status === 409) conflict.value = true; throw e } }) }
+  async function save() { if (!dirty.value || !draft.value) return; const body = clone(draft.value); await mutate('save', async (doc, s, valid) => { await service.patch(doc, body, s); const next = await service.load(s), v = await service.checks(next.revision.version_number, s); if (!valid()) return; if (next.revision.version_number <= doc.revision.version_number || next.revision.id === doc.revision.id) throw new Error('Сервер не подтвердил новую ревизию.'); install(next); applyChecks(v); savedVersion.value = next.revision.version_number; started = Date.now() }) }
+  async function verify() { if (dirty.value || checks.value?.status === 'running') return; readyRun.value = null; confirmed.value = false; await mutate('verify', async (doc, s, valid) => { const id = await service.verify(doc, s), v = await service.checks(doc.revision.version_number, s); if (!valid()) return; applyChecks(v); readyRun.value = id === v.id ? id : null; started = Date.now(); errors = 0; pause.value = ''; checklist.value = blankChecklist() }) }
+  async function signoff() { if (block.value) return; await mutate('signoff', async (doc, s, valid) => { const v = await service.checks(doc.revision.version_number, s); if (!valid()) return; applyChecks(v); const reason = signoffBlock(doc, v, readyRun.value, dirty.value, checklist.value); if (reason) throw new ApiError(422, 'SIGNOFF_NOT_READY', reason); try { await service.signoff(doc, clone(checklist.value), s) } catch (e) { if (valid()) { readyRun.value = null; confirmed.value = false } throw e } const current = await service.load(s); if (!valid()) return; if (current.revision.id !== doc.revision.id) { latest.value = current; conflict.value = true; readyRun.value = null; return } document.value = current; confirmed.value = !!current.signoff?.is_confirmed }) }
+  async function reconcile() { await operation('reconcile', async (s, valid) => { const current = await service.load(s); if (!valid()) return; latest.value = current; conflict.value = true; readyRun.value = null; confirmed.value = false; const v = await service.checks(current.revision.version_number, s); if (!valid()) return; if (uncertain.value === 'save' && current.revision.id !== document.value?.revision.id || uncertain.value === 'verify' && v.id !== checks.value?.id || uncertain.value === 'signoff' && current.signoff?.is_confirmed) { receipts.delete(key()); uncertain.value = '' } }) }
+  function acceptLatest() { if (!latest.value) return; install(latest.value); receipts.delete(key()); uncertain.value = ''; started = Date.now(); void refreshChecks() }
+  async function history(version: number) { if (!document.value || dirty.value || !Number.isInteger(version) || version < 1) return; await operation('history', async (s, valid) => { const current = await service.load(s); if (version > current.revision.version_number) throw new Error('Такой номер ревизии ещё не доступен.'); const doc = version === current.revision.version_number ? current : await service.revision(version, s); const v = await service.checks(version, s); if (valid()) { install(doc); applyChecks(v); started = Date.now() } }) }
+  function setVisible(value: boolean) { visible = value; clearTimer(); if (value) { if (checks.value?.status === 'running') { started = Date.now(); pause.value = ''; void refreshChecks() } } }
+  function resume() { started = Date.now(); pause.value = ''; errors = 0; void refreshChecks() }
+  return { document, latest, draft, checks, error, busy, uncertain, conflict, checklist, readyRun, confirmed, pause, dirty, canEdit, block, savedVersion, reset, load, refreshChecks: resume, save, verify, signoff, reconcile, acceptLatest, history, setVisible }
+}

@@ -1,0 +1,1672 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": true,
+  "requests": [
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "director",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "director",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests",
+      "status": 201,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests/01a17c76-43b4-73ce-b8bd-f650ec153d09/generate",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "0bc689b6-72dc-4fc8-b364-144bb694fdac",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/generation-runs/01a17c76-5675-73ab-8b0e-1d886aee5e03",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/verify",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/verifications",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "d8b1252a-a285-4328-8373-44778c3baf7f",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/signoff",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "d2cbe6a6-351e-4431-b799-b32d053b4973",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "d2cbe6a6-351e-4431-b799-b32d053b4973",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "cbe3cf09-9660-4b3e-9173-1b33784eccdf",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "cbe3cf09-9660-4b3e-9173-1b33784eccdf",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "8869c1be-9a30-4640-b064-1ff80e1dab63",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "8869c1be-9a30-4640-b064-1ff80e1dab63",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "952b5fe8-0448-490e-b976-2ee021d4cb21",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "952b5fe8-0448-490e-b976-2ee021d4cb21",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/pdf"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/pdf"
+    },
+    {
+      "role": "director",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/pdf"
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6efe-72c8-a6f8-ca2255135237",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/a79e3812-aed7-4410-855d-6ebc3aca517a/download",
+      "status": 404,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "1925f96c-8658-4182-9e56-7a203774ca94",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/verify",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/verifications",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/signoff",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "ebd08c9f-45e5-4f75-822c-bd4ed5d0bc10",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "1fbc8a3c-ea21-442e-b568-9a1c25d27de6",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "3be8b7ae-fdf6-4f6a-9eae-96f73994501f",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "3703d0b6-d647-4f33-8001-d026f66ca62f",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "4d0e0820-7ce9-435a-b8ea-18decf1e5ef5",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "4d0e0820-7ce9-435a-b8ea-18decf1e5ef5",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1",
+      "status": 201,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 409,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 409,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "2f33ff71-7a8e-4780-9a02-97ea0978c024",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/1/exports",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2/verify",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2/verifications",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "d79c060a-e1fc-4e06-8ba8-bd116440bf3a",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2/signoff",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "director",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+      "status": 401,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    }
+  ],
+  "contour": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "action": "inspect",
+    "queueConnection": "redis",
+    "queueName": "fe008_03d4500879",
+    "redisDatabase": "1",
+    "jobs": [
+      {
+        "id": "01a17c72-54f4-7096-89ed-54f2dcaa0906",
+        "revision_id": "01a17c71-d670-73aa-a0f4-b9ce31e872ca",
+        "format": "pdf",
+        "status": "failed",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": null
+      },
+      {
+        "id": "01a17c74-7453-7211-98bd-2f58fa55f15d",
+        "revision_id": "01a17c74-1068-721a-b474-28f81c4d79aa",
+        "format": "pdf",
+        "status": "failed",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": null
+      }
+    ]
+  },
+  "responses": {
+    "pdf": {
+      "data": {
+        "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+        "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+        "file_size_bytes": 1298401
+      }
+    },
+    "pdfJob": {
+      "data": {
+        "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+        "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+        "file_size_bytes": 1298401,
+        "error_message": null,
+        "created_at": "2026-10-27T08:25:49+00:00",
+        "completed_at": "2026-10-27T08:25:54+00:00"
+      }
+    },
+    "docx": {
+      "data": {
+        "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+        "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+        "file_size_bytes": 12132
+      }
+    },
+    "docxJob": {
+      "data": {
+        "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+        "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+        "file_size_bytes": 12132,
+        "error_message": null,
+        "created_at": "2026-10-27T08:26:07+00:00",
+        "completed_at": "2026-10-27T08:26:13+00:00"
+      }
+    },
+    "pptx": {
+      "data": {
+        "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+        "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+        "file_size_bytes": 22382
+      }
+    },
+    "pptxJob": {
+      "data": {
+        "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+        "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+        "file_size_bytes": 22382,
+        "error_message": null,
+        "created_at": "2026-10-27T08:26:32+00:00",
+        "completed_at": "2026-10-27T08:26:36+00:00"
+      }
+    },
+    "print_pack_pdf": {
+      "data": {
+        "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+        "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+        "file_size_bytes": 1682999
+      }
+    },
+    "print_pack_pdfJob": {
+      "data": {
+        "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+        "status": "ready",
+        "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+        "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+        "file_size_bytes": 1682999,
+        "error_message": null,
+        "created_at": "2026-10-27T08:26:48+00:00",
+        "completed_at": "2026-10-27T08:26:51+00:00"
+      }
+    }
+  },
+  "ids": {
+    "requestId": "01a17c76-43b4-73ce-b8bd-f650ec153d09",
+    "runId": "01a17c76-5675-73ab-8b0e-1d886aee5e03",
+    "scenarioId": "01a17c76-974f-7181-815d-7b8eb9ccc2d9",
+    "revisionId": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+    "jobs": {
+      "pdf": "01a17c77-333b-73f9-9d89-c487a2305473",
+      "docx": "01a17c77-797e-7236-81d0-b306c107f3de",
+      "pptx": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+      "print_pack_pdf": "01a17c78-1cfd-7121-abf5-6718127022ff"
+    }
+  },
+  "historyBefore": {
+    "data": [
+      {
+        "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "print_pack_pdf",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "is_downloadable": true,
+        "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+        "created_at": "2026-10-27T08:26:48+00:00",
+        "completed_at": "2026-10-27T08:26:51+00:00",
+        "artifact": {
+          "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+          "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+          "file_size_bytes": 1682999,
+          "mime_type": "application/pdf",
+          "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+          "expires_at": "2026-11-03T08:26:51+00:00"
+        }
+      },
+      {
+        "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "pptx",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "is_downloadable": true,
+        "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+        "created_at": "2026-10-27T08:26:32+00:00",
+        "completed_at": "2026-10-27T08:26:36+00:00",
+        "artifact": {
+          "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+          "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+          "file_size_bytes": 22382,
+          "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+          "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+          "expires_at": "2026-11-03T08:26:36+00:00"
+        }
+      },
+      {
+        "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "docx",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "is_downloadable": true,
+        "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+        "created_at": "2026-10-27T08:26:07+00:00",
+        "completed_at": "2026-10-27T08:26:13+00:00",
+        "artifact": {
+          "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+          "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+          "file_size_bytes": 12132,
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+          "expires_at": "2026-11-03T08:26:13+00:00"
+        }
+      },
+      {
+        "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "pdf",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "is_downloadable": true,
+        "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+        "created_at": "2026-10-27T08:25:49+00:00",
+        "completed_at": "2026-10-27T08:25:54+00:00",
+        "artifact": {
+          "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+          "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+          "file_size_bytes": 1298401,
+          "mime_type": "application/pdf",
+          "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+          "expires_at": "2026-11-03T08:25:54+00:00"
+        }
+      }
+    ]
+  },
+  "downloads": [
+    {
+      "format": "print_pack_pdf",
+      "job": "01a17c78-1cfd-7121-abf5-6718127022ff",
+      "path": "docs/fe008/evidence/documents/fe008-print_pack_pdf.pdf",
+      "mime": "application/pdf",
+      "bytes": 1682999,
+      "sha256": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f"
+    },
+    {
+      "format": "pptx",
+      "job": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+      "path": "docs/fe008/evidence/documents/fe008-pptx.pptx",
+      "mime": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "bytes": 22382,
+      "sha256": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543"
+    },
+    {
+      "format": "docx",
+      "job": "01a17c77-797e-7236-81d0-b306c107f3de",
+      "path": "docs/fe008/evidence/documents/fe008-docx.docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 12132,
+      "sha256": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5"
+    },
+    {
+      "format": "pdf",
+      "job": "01a17c77-333b-73f9-9d89-c487a2305473",
+      "path": "docs/fe008/evidence/documents/fe008-pdf.pdf",
+      "mime": "application/pdf",
+      "bytes": 1298401,
+      "sha256": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345"
+    }
+  ],
+  "denials": [
+    {
+      "label": "revoked evidence",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_BLOCKED_BY_PROVENANCE_REVOCATION",
+        "details": [],
+        "traceId": "req-01a17c78-cd1c-7382-bce7-0cdbc82820a3",
+        "name": "ApiError",
+        "message": "Скачивание файла заблокировано: рецензия на первоисточник была отозвана или отклонена куратором. Требуется повторная проверка сценария."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "job-stale",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_BLOCKED_BY_PROVENANCE_REVOCATION",
+        "details": [],
+        "traceId": "req-01a17c79-5ddb-7070-82c8-af3b02f56996",
+        "name": "ApiError",
+        "message": "Скачивание файла заблокировано: доказательная база первоисточников изменилась после сборки данного документа либо отсутствует цифровой отпечаток сборки. Файл сохранён как исторический артефакт. Выполните повторное подтверждение сценария и сформируйте новый экспорт."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "0000000000000000000000000000000000000000000000000000000000000000",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "job-null",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_BLOCKED_BY_PROVENANCE_REVOCATION",
+        "details": [],
+        "traceId": "req-01a17c79-cbca-71b5-a7da-39c66644a27d",
+        "name": "ApiError",
+        "message": "Скачивание файла заблокировано: доказательная база первоисточников изменилась после сборки данного документа либо отсутствует цифровой отпечаток сборки. Файл сохранён как исторический артефакт. Выполните повторное подтверждение сценария и сформируйте новый экспорт."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": null,
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": null,
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": null,
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": null,
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "signoff-stale",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_FORBIDDEN_SIGN_OFF_REQUIRED",
+        "details": [],
+        "traceId": "req-01a17c7a-233b-7067-aa70-7f7685fee7f9",
+        "name": "ApiError",
+        "message": "Скачивание файла запрещено: согласование педагога устарело либо не содержит цифрового отпечатка доказательной базы."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "signoff-null",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_FORBIDDEN_SIGN_OFF_REQUIRED",
+        "details": [],
+        "traceId": "req-01a17c7a-7d54-7143-a678-f57abbde4152",
+        "name": "ApiError",
+        "message": "Скачивание файла запрещено: согласование педагога устарело либо не содержит цифрового отпечатка доказательной базы."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "moderation-stale",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_BLOCKED_BY_MODERATION",
+        "details": [],
+        "traceId": "req-01a17c7a-ecd5-72d5-8611-f20869df7c2b",
+        "name": "ApiError",
+        "message": "Скачивание файла запрещено: статус модерации не соответствует актуальной доказательной базе первоисточников."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "moderation-null",
+      "error": {
+        "status": 403,
+        "code": "EXPORT_BLOCKED_BY_MODERATION",
+        "details": [],
+        "traceId": "req-01a17c7b-5c7b-727d-af61-482bac65602a",
+        "name": "ApiError",
+        "message": "Скачивание файла запрещено: статус модерации не соответствует актуальной доказательной базе первоисточников."
+      },
+      "history": {
+        "data": [
+          {
+            "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "print_pack_pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c78-1cfd-7121-abf5-6718127022ff/download",
+            "created_at": "2026-10-27T08:26:48+00:00",
+            "completed_at": "2026-10-27T08:26:51+00:00",
+            "artifact": {
+              "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+              "file_name": "scenario-print-pack-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1682999,
+              "mime_type": "application/pdf",
+              "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f",
+              "expires_at": "2026-11-03T08:26:51+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pptx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-dbde-7049-9d59-24c97d3ee7e4/download",
+            "created_at": "2026-10-27T08:26:32+00:00",
+            "completed_at": "2026-10-27T08:26:36+00:00",
+            "artifact": {
+              "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+              "file_name": "scenario-presentation-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pptx",
+              "file_size_bytes": 22382,
+              "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+              "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543",
+              "expires_at": "2026-11-03T08:26:36+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "docx",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-797e-7236-81d0-b306c107f3de/download",
+            "created_at": "2026-10-27T08:26:07+00:00",
+            "completed_at": "2026-10-27T08:26:13+00:00",
+            "artifact": {
+              "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.docx",
+              "file_size_bytes": 12132,
+              "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5",
+              "expires_at": "2026-11-03T08:26:13+00:00"
+            }
+          },
+          {
+            "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+            "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+            "format": "pdf",
+            "status": "ready",
+            "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+            "is_downloadable": false,
+            "download_url": "/api/v1/export-jobs/01a17c77-333b-73f9-9d89-c487a2305473/download",
+            "created_at": "2026-10-27T08:25:49+00:00",
+            "completed_at": "2026-10-27T08:25:54+00:00",
+            "artifact": {
+              "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+              "file_name": "scenario-01a17c76-974f-7181-815d-7b8eb9ccc2d9-v1.pdf",
+              "file_size_bytes": 1298401,
+              "mime_type": "application/pdf",
+              "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345",
+              "expires_at": "2026-11-03T08:25:54+00:00"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "lostResponseRecovery": {
+    "original": "01a17c7b-ae49-7302-8b90-ee3a0dbe5097",
+    "recovered": "01a17c7b-ae49-7302-8b90-ee3a0dbe5097",
+    "sameKey": true
+  },
+  "persisted": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "action": "inspect",
+    "queueConnection": "redis",
+    "queueName": "fe008_03d4500879",
+    "redisDatabase": "1",
+    "jobs": [
+      {
+        "id": "01a17c72-54f4-7096-89ed-54f2dcaa0906",
+        "revision_id": "01a17c71-d670-73aa-a0f4-b9ce31e872ca",
+        "format": "pdf",
+        "status": "failed",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": null
+      },
+      {
+        "id": "01a17c74-7453-7211-98bd-2f58fa55f15d",
+        "revision_id": "01a17c74-1068-721a-b474-28f81c4d79aa",
+        "format": "pdf",
+        "status": "failed",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": null
+      },
+      {
+        "id": "01a17c77-333b-73f9-9d89-c487a2305473",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "pdf",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": {
+          "id": "01a17c77-47b3-73de-99de-fed6e2e92427",
+          "mime_type": "application/pdf",
+          "file_size_bytes": 1298401,
+          "sha256_hash": "7e3794b70f921449b268f4a35cca563782551bb76bb57e4a6e4237c300b35345"
+        }
+      },
+      {
+        "id": "01a17c77-797e-7236-81d0-b306c107f3de",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "docx",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": {
+          "id": "01a17c77-93c3-72b8-acc5-afd70866a816",
+          "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "file_size_bytes": 12132,
+          "sha256_hash": "b306703701f1e22cdfa6dbd44709bb61f0230128f736a495a6aa572ee1d531e5"
+        }
+      },
+      {
+        "id": "01a17c77-dbde-7049-9d59-24c97d3ee7e4",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "pptx",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": {
+          "id": "01a17c77-ed45-71ee-9db4-2ada7f86998a",
+          "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+          "file_size_bytes": 22382,
+          "sha256_hash": "dc53cd0a2d1225d3de5910bed443d0d385d05c3b64946af1b5b5d1b42d732543"
+        }
+      },
+      {
+        "id": "01a17c78-1cfd-7121-abf5-6718127022ff",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "print_pack_pdf",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": {
+          "id": "01a17c78-2839-72b8-9459-e979b8df0298",
+          "mime_type": "application/pdf",
+          "file_size_bytes": 1682999,
+          "sha256_hash": "ec95ff97fd68dfa4d4201c69106a50720a90d17cef8bc6b2dd1b2f49f70c096f"
+        }
+      },
+      {
+        "id": "01a17c7b-ae49-7302-8b90-ee3a0dbe5097",
+        "revision_id": "01a17c76-9773-701f-ac98-a0aa84aa9755",
+        "format": "pdf",
+        "status": "ready",
+        "provenance_fingerprint": "a50209a5fe8a01080a22ad15c9979939a3a098a204fbc061d79a9f5f6604450b",
+        "artifact": {
+          "id": "01a17c7b-b94e-714f-a97a-9b65ca491d4e",
+          "mime_type": "application/pdf",
+          "file_size_bytes": 1298401,
+          "sha256_hash": "f75b272ec9120f2927615935a7710a41bb8a47780941b104f9ba9c97d5cf28b6"
+        }
+      }
+    ]
+  }
+}

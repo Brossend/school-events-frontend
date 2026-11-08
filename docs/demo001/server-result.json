@@ -1,0 +1,67 @@
+{
+    "database": {
+        "db": "school_events_test",
+        "role": "school_test_user"
+    },
+    "runtime": {
+        "provider": "mock",
+        "queue": "sync"
+    },
+    "generation": {
+        "id": "01a1ba7d-c96e-70b9-9b94-d4e9de6063ae",
+        "provider_name": "mock",
+        "model_identifier": "mock-llm-pedagogical-v1.0",
+        "status": "completed",
+        "prompt_tokens": 480,
+        "completion_tokens": 1420
+    },
+    "scenario": {
+        "id": "01a1ba7d-e247-7348-869f-0daec6a9f13f",
+        "title": "Сценарий: DEMO-001 · Мастерская взаимопомощи",
+        "status": null
+    },
+    "revisions": [
+        {
+            "id": "01a1ba7d-e27c-7303-857b-62bcd80d3954",
+            "version_number": 1
+        },
+        {
+            "id": "01a1ba7f-a488-738f-b676-f64e7dedbdf0",
+            "version_number": 2
+        }
+    ],
+    "signoffs": [
+        {
+            "revision_id": "01a1ba7f-a488-738f-b676-f64e7dedbdf0",
+            "is_confirmed": true,
+            "teacher_notes": "DEMO-001: проверка программного маршрута на синтетических данных. Не является экспертной педагогической приёмкой.",
+            "confirmed_at": "2026-11-08T09:32:57.000000Z"
+        }
+    ],
+    "exports": [
+        {
+            "id": "01a1ba82-5bcd-71c7-a3b3-a03dc4f8e2b6",
+            "format": "pdf",
+            "status": "ready",
+            "revision_id": "01a1ba7f-a488-738f-b676-f64e7dedbdf0",
+            "created_at": "2026-11-08T09:34:27.000000Z",
+            "completed_at": "2026-11-08T09:34:37.000000Z"
+        },
+        {
+            "id": "01a1ba83-4749-73e6-8a6b-9728f9b1fda2",
+            "format": "docx",
+            "status": "ready",
+            "revision_id": "01a1ba7f-a488-738f-b676-f64e7dedbdf0",
+            "created_at": "2026-11-08T09:35:28.000000Z",
+            "completed_at": "2026-11-08T09:35:33.000000Z"
+        },
+        {
+            "id": "01a1ba84-d490-7337-a6af-0fd57b6717a2",
+            "format": "pptx",
+            "status": "ready",
+            "revision_id": "01a1ba7f-a488-738f-b676-f64e7dedbdf0",
+            "created_at": "2026-11-08T09:37:09.000000Z",
+            "completed_at": "2026-11-08T09:37:13.000000Z"
+        }
+    ]
+}

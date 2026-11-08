@@ -1,0 +1,108 @@
+{
+  "database": "school_events_test",
+  "environment": "testing",
+  "databaseUser": "school_test_user",
+  "queueConnection": "sync",
+  "runId": "6108ea2c01",
+  "schools": {
+    "A": {
+      "id": "01a182c4-adf7-7205-9146-f4141e011491",
+      "name": "FE010 6108ea2c01 A · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "B": {
+      "id": "01a182c4-ae28-707f-9987-48c87d79b593",
+      "name": "FE010 6108ea2c01 B · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "C": {
+      "id": "01a182c4-ae29-7246-9a76-ef661d6ed960",
+      "name": "FE010 6108ea2c01 C · SYNTHETIC TEST ONLY",
+      "region_code": "77"
+    },
+    "Zero": {
+      "id": "01a182c4-ae2a-72d0-b63b-a91eb3e67fed",
+      "name": "FE010 6108ea2c01 Zero · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "One": {
+      "id": "01a182c4-ae2b-72b1-a40a-e64ccb663cc6",
+      "name": "FE010 6108ea2c01 One · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Five": {
+      "id": "01a182c4-ae2c-72e6-803b-33f87f9e7a26",
+      "name": "FE010 6108ea2c01 Five · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Partial": {
+      "id": "01a182c4-ae2d-72b3-aefe-a1ea64a91c10",
+      "name": "FE010 6108ea2c01 Partial · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Real": {
+      "id": "01a182c4-ae2e-736b-a6b7-3cde23aa624d",
+      "name": "FE010 6108ea2c01 Real · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    }
+  },
+  "users": {
+    "teacher": {
+      "id": "01a182c4-aef2-737e-aff9-0cbd7f67effd",
+      "email": "fe010-6108ea2c01-teacher@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "admin": {
+      "id": "01a182c4-af02-72d1-a66f-458e18299e80",
+      "email": "fe010-6108ea2c01-admin@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "multi": {
+      "id": "01a182c4-af0d-73d8-939a-5e6633bf2f3e",
+      "email": "fe010-6108ea2c01-multi@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "regional": {
+      "id": "01a182c4-af12-7297-adf8-08b6ffb18d52",
+      "email": "fe010-6108ea2c01-regional@example.test",
+      "system_role": "catalog_curator",
+      "curator_scope": "regional",
+      "curated_region_codes": [
+        "66"
+      ]
+    },
+    "system": {
+      "id": "01a182c4-af17-70b7-b585-eae8823da61d",
+      "email": "fe010-6108ea2c01-system@example.test",
+      "system_role": "system_admin",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "systemMember": {
+      "id": "01a182c4-af19-706d-a0d0-28f2d9c905c8",
+      "email": "fe010-6108ea2c01-systemMember@example.test",
+      "system_role": "system_admin",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "noMembership": {
+      "id": "01a182c4-af1c-7199-a871-a8b5f2fa98cb",
+      "email": "fe010-6108ea2c01-noMembership@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    }
+  },
+  "events": {
+    "approved": "01a182c4-af24-73ca-a4ff-34c1af8a68c6",
+    "unverified": "01a182c4-af27-7059-906c-9e45457d7d5a"
+  },
+  "sourceId": "01a182c4-af2f-70bb-84f5-cce7c2fab04e",
+  "claimId": "01a182c4-af86-73cc-b85e-9032ccef066a"
+}

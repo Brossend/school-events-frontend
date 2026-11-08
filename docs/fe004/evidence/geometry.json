@@ -1,0 +1,114 @@
+[
+  {
+    "page": "list",
+    "width": 1440,
+    "clientWidth": 1440,
+    "loading": false,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "list",
+    "width": 768,
+    "clientWidth": 768,
+    "loading": false,
+    "scrollWidth": 768
+  },
+  {
+    "page": "list",
+    "width": 390,
+    "clientWidth": 390,
+    "loading": false,
+    "scrollWidth": 390
+  },
+  {
+    "page": "list",
+    "width": 360,
+    "clientWidth": 360,
+    "loading": false,
+    "scrollWidth": 360
+  },
+  {
+    "page": "detail",
+    "width": 1440,
+    "clientWidth": 1425,
+    "loading": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "detail",
+    "width": 768,
+    "clientWidth": 753,
+    "loading": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "detail",
+    "width": 390,
+    "clientWidth": 375,
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "detail",
+    "width": 360,
+    "clientWidth": 345,
+    "loading": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "annual-form",
+    "width": 1440,
+    "clientWidth": 1425,
+    "loading": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "annual-form",
+    "width": 768,
+    "clientWidth": 753,
+    "loading": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "annual-form",
+    "width": 390,
+    "clientWidth": 375,
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "annual-form",
+    "width": 360,
+    "clientWidth": 345,
+    "loading": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "create-form",
+    "width": 1440,
+    "clientWidth": 1440,
+    "loading": false,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "create-form",
+    "width": 768,
+    "clientWidth": 768,
+    "loading": false,
+    "scrollWidth": 768
+  },
+  {
+    "page": "create-form",
+    "width": 390,
+    "clientWidth": 375,
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "create-form",
+    "width": 360,
+    "clientWidth": 345,
+    "loading": false,
+    "scrollWidth": 345
+  }
+]

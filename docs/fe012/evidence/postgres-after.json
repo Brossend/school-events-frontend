@@ -1,0 +1,576 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "environment": "testing",
+  "queue": "redis",
+  "runId": "bb46ed8810",
+  "sqlScope": "Only schools with exact FE012 run prefix; events and dependent sources/claims/audits/scenarios/exports belonging to this run",
+  "tables": {
+    "schools": [
+      {
+        "id": "01a18a00-e918-708f-9b8b-7e18acd1559d",
+        "name": "FE012 bb46ed8810 B · synthetic test school",
+        "short_name": null,
+        "region_code": "66",
+        "city": "Екатеринбург",
+        "inn": "6507485960",
+        "settings": {
+          "address": "Тестовая улица, 11",
+          "description": "FE012 synthetic data"
+        },
+        "created_at": "2026-10-29T23:31:17.000000Z",
+        "updated_at": "2026-10-29T23:31:17.000000Z"
+      },
+      {
+        "id": "01a18a00-e919-73a3-b91a-471b368b97c7",
+        "name": "FE012 bb46ed8810 C · synthetic test school",
+        "short_name": null,
+        "region_code": "77",
+        "city": "Москва",
+        "inn": "9028313525",
+        "settings": {
+          "address": "Тестовая улица, 11",
+          "description": "FE012 synthetic data"
+        },
+        "created_at": "2026-10-29T23:31:17.000000Z",
+        "updated_at": "2026-10-29T23:31:17.000000Z"
+      },
+      {
+        "id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "name": "FE012 bb46ed8810 A · synthetic test school",
+        "short_name": "FE012 accepted profile",
+        "region_code": "66",
+        "city": "Екатеринбург",
+        "inn": "5157364145",
+        "settings": {
+          "address": "Тестовая улица, 11",
+          "description": "FE012 synthetic administration"
+        },
+        "created_at": "2026-10-29T23:31:17.000000Z",
+        "updated_at": "2026-10-29T23:36:39.000000Z"
+      }
+    ],
+    "event_sources": [
+      {
+        "id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "calendar_event_id": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 regional66 synthetic source fixture",
+        "author": "FE012 concurrent 10bac86b-a8f6-400c-ac8d-4a5433546475",
+        "url": "https://example.test/fe012/bb46ed8810/regional66",
+        "doi_or_isbn": null,
+        "verified_by_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "verification_date": "2026-10-29",
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea3c-7238-9c6b-3e6696189e6d",
+        "calendar_event_id": "01a18a00-ea3b-73ee-bb14-9ff4e01062bc",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 regional77 synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/regional77",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea3f-72b6-bd79-72301d744e3f",
+        "calendar_event_id": "01a18a00-ea3e-72c7-858c-c4390383e902",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 federal synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/federal",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea42-70ef-8cc3-fb795d965979",
+        "calendar_event_id": "01a18a00-ea41-73b8-ab45-72e61b354b4d",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 schoolA synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/schoolA",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea45-728f-bd69-2229cb3a8703",
+        "calendar_event_id": "01a18a00-ea44-71ec-8fba-c623645503e4",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 schoolB synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/schoolB",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea49-73d0-97e4-67f2e27e3bfe",
+        "calendar_event_id": "01a18a00-ea48-7330-9493-1b7a191b1143",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 schoolC synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/schoolC",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      },
+      {
+        "id": "01a18a00-ea4c-719c-b373-f354a0cadf75",
+        "calendar_event_id": "01a18a00-ea4b-705a-8a78-a70644a16f12",
+        "source_type": "scientific_publication",
+        "title": "FE012 bb46ed8810 draft synthetic source fixture",
+        "author": "FE012 synthetic author",
+        "url": "https://example.test/fe012/bb46ed8810/draft",
+        "doi_or_isbn": null,
+        "verified_by_user_id": null,
+        "verification_date": null,
+        "created_at": "2026-10-29 23:31:17+00"
+      }
+    ],
+    "source_reviews": [
+      {
+        "id": "01a18a02-6ca4-72fb-a5a5-9bcdee06a37e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "decision": "approved",
+        "comments": "FE012 synthetic source review; not a real cultural attestation.",
+        "reviewed_at": "2026-10-29 23:32:57+00"
+      },
+      {
+        "id": "01a18a02-969d-70cd-9ff2-a668df15dcc2",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "decision": "requires_amendment",
+        "comments": "Изменение библиографических реквизитов (author). Ранее выданные подтверждения аннулированы, требуется повторная экспертиза первоисточника.",
+        "reviewed_at": "2026-10-29 23:33:07+00"
+      },
+      {
+        "id": "01a18a02-bf18-7200-8177-2ac0c976dd5c",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "decision": "approved",
+        "comments": "Explicit reapproval does not reverify claims.",
+        "reviewed_at": "2026-10-29 23:33:18+00"
+      },
+      {
+        "id": "01a18a02-c2c0-73f1-b6bc-5069c9434e59",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea07-7036-9452-b937bde7e254",
+        "decision": "requires_amendment",
+        "comments": "Изменение библиографических реквизитов (author). Ранее выданные подтверждения аннулированы, требуется повторная экспертиза первоисточника.",
+        "reviewed_at": "2026-10-29 23:33:19+00"
+      },
+      {
+        "id": "01a18a02-ee21-729a-bc4c-53635148a895",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "reviewer_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "decision": "approved",
+        "comments": "Reapproval after concurrent amendment.",
+        "reviewed_at": "2026-10-29 23:33:30+00"
+      }
+    ],
+    "cultural_claim_sources": [
+      {
+        "id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "calendar_event_id": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "verification_status": "unverified",
+        "verified_by_user_id": null,
+        "verified_at": null,
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic test evidence.",
+        "created_at": "2026-10-29 23:32:57+00",
+        "is_detached": true,
+        "detached_at": "2026-10-29 23:36:47+00",
+        "detached_by_user_id": "01a18a00-ea07-7036-9452-b937bde7e254",
+        "detachment_reason": "FE012 concurrent detach",
+        "previous_verification_status": "verified_authentic"
+      },
+      {
+        "id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "calendar_event_id": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "verification_status": "verified_authentic",
+        "verified_by_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "verified_at": "2026-10-29 23:33:34+00",
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic test evidence.",
+        "created_at": "2026-10-29 23:32:58+00",
+        "is_detached": false,
+        "detached_at": null,
+        "detached_by_user_id": null,
+        "detachment_reason": null,
+        "previous_verification_status": null
+      }
+    ],
+    "cultural_claim_evidence_audit_events": [
+      {
+        "id": "01a18a02-6e1d-7030-aae9-c7c1530b5fea",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "attached",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": null,
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:32:57+00"
+      },
+      {
+        "id": "01a18a02-6f1e-70c3-a36d-57d354deb6b7",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "attached",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": null,
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:32:57+00"
+      },
+      {
+        "id": "01a18a02-96a2-72fe-937f-b88900b834b8",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "invalidated_by_source_amendment",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Аннулировано вследствие изменения библиографических реквизитов (author) первоисточника.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:07+00"
+      },
+      {
+        "id": "01a18a02-96a5-70bc-9b76-16ae0840fd4f",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "invalidated_by_source_amendment",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Аннулировано вследствие изменения библиографических реквизитов (author) первоисточника.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:07+00"
+      },
+      {
+        "id": "01a18a02-c112-72bc-a6a4-80de23b2a62d",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "reverified",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:18+00"
+      },
+      {
+        "id": "01a18a02-c1f9-73c7-8e02-f86a1206edaa",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "reverified",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:18+00"
+      },
+      {
+        "id": "01a18a02-c2c3-7228-8901-f5dd0bd609a2",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "invalidated_by_source_amendment",
+        "actor_user_id": "01a18a00-ea07-7036-9452-b937bde7e254",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Аннулировано вследствие изменения библиографических реквизитов (author) первоисточника.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:19+00"
+      },
+      {
+        "id": "01a18a02-c2c6-7008-81ff-c7a1d3abfce1",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "invalidated_by_source_amendment",
+        "actor_user_id": "01a18a00-ea07-7036-9452-b937bde7e254",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Аннулировано вследствие изменения библиографических реквизитов (author) первоисточника.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:19+00"
+      },
+      {
+        "id": "01a18a02-f93e-73f8-ad0e-b47c4939da16",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "reverified",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:33+00"
+      },
+      {
+        "id": "01a18a02-ffbe-73e2-9ee3-5e57b5d9e8dc",
+        "cultural_claim_source_id": "01a18a02-6f1b-73ec-aad2-3587643ab2b0",
+        "cultural_claim_id": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "reverified",
+        "actor_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "Synthetic test evidence.",
+        "metadata": null,
+        "created_at": "2026-10-29 23:33:34+00"
+      },
+      {
+        "id": "01a18a05-f153-7031-8af4-af9d79a28f13",
+        "cultural_claim_source_id": "01a18a02-6e14-7085-8c91-c5c570294457",
+        "cultural_claim_id": "01a18a00-ea38-70f3-b826-c42ee126512e",
+        "event_source_id": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+        "action": "detached",
+        "actor_user_id": "01a18a00-ea07-7036-9452-b937bde7e254",
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Chapter 12, page 66",
+        "citation_excerpt": "FE012 synthetic documentary evidence for isolated regression only.",
+        "reason": "FE012 concurrent detach",
+        "metadata": null,
+        "created_at": "2026-10-29 23:36:47+00"
+      }
+    ],
+    "scenarios": [
+      {
+        "id": "01a18a03-1942-72c4-86da-9fab5ed0cfd0",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "scenario_request_id": "01a18a03-061b-722d-adfc-73ad630129ea",
+        "title": "Сценарий: FE012 bb46ed8810 regional66 · synthetic",
+        "current_revision_id": "01a18a03-be37-71e0-b79e-3ee3ef300551",
+        "optimistic_lock_version": 2,
+        "is_archived": false,
+        "created_at": "2026-10-29 23:33:41+00",
+        "updated_at": "2026-10-29 23:35:50+00",
+        "deleted_at": null
+      },
+      {
+        "id": "01a18a03-8051-7258-9b5e-69e42c933746",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "scenario_request_id": "01a18a03-726e-73fe-89cf-f542564d82b7",
+        "title": "Сценарий: FE012 bb46ed8810 regional66 · synthetic",
+        "current_revision_id": "01a18a03-8053-70e6-bde4-1c95369b6ac3",
+        "optimistic_lock_version": 1,
+        "is_archived": false,
+        "created_at": "2026-10-29 23:34:08+00",
+        "updated_at": "2026-10-29 23:34:08+00",
+        "deleted_at": null
+      },
+      {
+        "id": "01a18a05-37ff-733d-8efe-4f6355d3ecf6",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "scenario_request_id": "01a18a05-37ea-70e6-9bd3-55eb3db9a148",
+        "title": "Сценарий: FE012 bb46ed8810 regional66 · synthetic",
+        "current_revision_id": "01a18a05-3806-736a-9687-6a7b817fa8f1",
+        "optimistic_lock_version": 1,
+        "is_archived": false,
+        "created_at": "2026-10-29 23:35:59+00",
+        "updated_at": "2026-10-29 23:35:59+00",
+        "deleted_at": null
+      },
+      {
+        "id": "01a18a05-3874-7372-bdd1-4d64c35ca949",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "scenario_request_id": "01a18a05-3870-72a4-b588-717b15399cdf",
+        "title": "Сценарий: FE012 bb46ed8810 regional66 · synthetic",
+        "current_revision_id": "01a18a05-3876-708f-9f99-444d41c3be41",
+        "optimistic_lock_version": 1,
+        "is_archived": false,
+        "created_at": "2026-10-29 23:35:59+00",
+        "updated_at": "2026-10-29 23:35:59+00",
+        "deleted_at": null
+      },
+      {
+        "id": "01a18a05-50ca-7350-b4f7-437c8c611cdb",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "scenario_request_id": "01a18a05-50b7-738c-a868-207e6cdcced6",
+        "title": "Сценарий: FE012 bb46ed8810 regional66 · synthetic",
+        "current_revision_id": "01a18a05-50cd-70ab-8b77-921147185af3",
+        "optimistic_lock_version": 1,
+        "is_archived": false,
+        "created_at": "2026-10-29 23:36:05+00",
+        "updated_at": "2026-10-29 23:36:05+00",
+        "deleted_at": null
+      },
+      {
+        "id": "01a18a05-5117-704d-8e41-295fb3a2f902",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "scenario_request_id": "01a18a05-5114-71ab-a90d-2a97dbff5dfa",
+        "title": "Сценарий: FE012 bb46ed8810 regional66 · synthetic",
+        "current_revision_id": "01a18a05-5119-71ca-b8e9-69051ea135d3",
+        "optimistic_lock_version": 1,
+        "is_archived": false,
+        "created_at": "2026-10-29 23:36:05+00",
+        "updated_at": "2026-10-29 23:36:05+00",
+        "deleted_at": null
+      }
+    ],
+    "export_jobs": [
+      {
+        "id": "01a18a03-fbc3-72a7-8954-917358a0a39f",
+        "revision_id": "01a18a03-be37-71e0-b79e-3ee3ef300551",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "format": "pdf",
+        "status": "ready",
+        "error_message": null,
+        "created_at": "2026-10-29 23:34:39+00",
+        "completed_at": "2026-10-29 23:34:45+00",
+        "provenance_fingerprint": "4d33678dee26ddc7c31d8295a26238489da5db33449f31b71d51278fa6c1203a"
+      },
+      {
+        "id": "01a18a04-271f-72e0-b332-3114a8e6ed24",
+        "revision_id": "01a18a03-be37-71e0-b79e-3ee3ef300551",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "format": "docx",
+        "status": "ready",
+        "error_message": null,
+        "created_at": "2026-10-29 23:34:50+00",
+        "completed_at": "2026-10-29 23:34:55+00",
+        "provenance_fingerprint": "4d33678dee26ddc7c31d8295a26238489da5db33449f31b71d51278fa6c1203a"
+      },
+      {
+        "id": "01a18a04-64d4-7391-b02b-a803a7b27779",
+        "revision_id": "01a18a03-be37-71e0-b79e-3ee3ef300551",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "format": "pptx",
+        "status": "ready",
+        "error_message": null,
+        "created_at": "2026-10-29 23:35:06+00",
+        "completed_at": "2026-10-29 23:35:09+00",
+        "provenance_fingerprint": "4d33678dee26ddc7c31d8295a26238489da5db33449f31b71d51278fa6c1203a"
+      },
+      {
+        "id": "01a18a04-a128-70cd-91eb-b46931a7cbf9",
+        "revision_id": "01a18a03-be37-71e0-b79e-3ee3ef300551",
+        "user_id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+        "format": "print_pack_pdf",
+        "status": "ready",
+        "error_message": null,
+        "created_at": "2026-10-29 23:35:21+00",
+        "completed_at": "2026-10-29 23:35:25+00",
+        "provenance_fingerprint": "4d33678dee26ddc7c31d8295a26238489da5db33449f31b71d51278fa6c1203a"
+      }
+    ],
+    "pilot_participants": [
+      {
+        "id": "01a18a05-764e-705f-942e-498ae6ccad34",
+        "school_id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+        "anonymous_code": "TEACHER-66-001",
+        "is_submitted": true,
+        "is_synthetic": true,
+        "used_at": "2026-10-29 23:36:20+00",
+        "revoked_at": null
+      }
+    ],
+    "pilot_responses": [
+      {
+        "id": "01a18a05-884f-70d7-aa80-36735d51f970",
+        "participant_id": "01a18a05-764e-705f-942e-498ae6ccad34",
+        "scenario_id": "01a18a05-37ff-733d-8efe-4f6355d3ecf6",
+        "prep_time_baseline_minutes": 100,
+        "prep_time_ai_minutes": 35,
+        "relative_time_saving": "0.6500",
+        "personalization_selected": true,
+        "manual_edit_percentage": "10.00",
+        "cultural_context_used": false,
+        "cultural_usefulness_score": null,
+        "feedback_text": "FE012 synthetic questionnaire; not real pilot research.",
+        "submitted_at": "2026-10-29 23:36:20+00",
+        "created_at": "2026-10-29 23:36:20+00",
+        "updated_at": "2026-10-29 23:36:20+00",
+        "comparison_id": "01a18a05-38d4-7033-a2b6-37fede971ae1",
+        "is_synthetic": true
+      }
+    ],
+    "pilot_review_findings": [
+      {
+        "id": "01a18a05-9a36-711e-a8ab-a4e4fd06a93c",
+        "pilot_response_id": "01a18a05-884f-70d7-aa80-36735d51f970",
+        "expert_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "expert_name": "FE012 regional · synthetic",
+        "expert_audit_status": "audited",
+        "critical_cultural_errors": 1,
+        "methodological_remarks": "FE012 synthetic expert revision 1",
+        "reviewed_at": "2026-10-29 23:36:25+00",
+        "created_at": "2026-10-29 23:36:25+00",
+        "updated_at": "2026-10-29 23:36:27+00",
+        "finding_version": 1,
+        "is_effective": false
+      },
+      {
+        "id": "01a18a05-a1bf-739c-9b31-140a3272b2a5",
+        "pilot_response_id": "01a18a05-884f-70d7-aa80-36735d51f970",
+        "expert_user_id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+        "expert_name": "FE012 regional · synthetic",
+        "expert_audit_status": "audited",
+        "critical_cultural_errors": 0,
+        "methodological_remarks": "FE012 synthetic expert revision 0",
+        "reviewed_at": "2026-10-29 23:36:27+00",
+        "created_at": "2026-10-29 23:36:27+00",
+        "updated_at": "2026-10-29 23:36:27+00",
+        "finding_version": 2,
+        "is_effective": true
+      }
+    ]
+  }
+}

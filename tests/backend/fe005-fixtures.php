@@ -1,0 +1,37 @@
+<?php
+// Isolated HTTP fixtures only. Invoke via app-test, never app.
+declare(strict_types=1);
+require '/var/www/html/vendor/autoload.php';
+$app = require '/var/www/html/bootstrap/app.php';
+$app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+if (app()->environment() !== 'testing' || Illuminate\Support\Facades\DB::connection()->getDatabaseName() !== 'school_events_test') {
+    throw new RuntimeException('FE005 refuses non-test database');
+}
+$databaseUser = Illuminate\Support\Facades\DB::selectOne('select current_user as name')->name;
+if ($databaseUser !== 'school_test_user') throw new RuntimeException('FE005 requires isolated DB role');
+$runId = bin2hex(random_bytes(5));
+$password = hash_hmac('sha256', 'FE005:'.$runId, (string) env('APP_KEY'));
+$fixtures = Illuminate\Support\Facades\DB::transaction(function () use ($runId, $password) {
+    $schools = [];
+    foreach (['A', 'B'] as $label) $schools[$label] = App\Models\School::create(['name' => 'FE005 '.$label.' · тестовый контур', 'region_code' => '66', 'city' => 'Екатеринбург', 'inn' => (string) random_int(1000000000, 9999999999), 'settings' => []]);
+    $users = [];
+    foreach (['author', 'other', 'director', 'multi', 'admin'] as $role) {
+        $users[$role] = App\Models\User::create(['name' => 'FE005 '.$role, 'email' => 'fe005-'.$runId.'-'.$role.'@example.test', 'password' => $password, 'system_role' => $role === 'admin' ? 'system_admin' : 'none', 'is_active' => true]);
+        foreach (($role === 'multi' || $role === 'admin') ? ['A', 'B'] : ['A'] as $school) App\Models\SchoolMembership::create(['school_id' => $schools[$school]->id, 'user_id' => $users[$role]->id, 'role' => $role === 'director' ? 'school_admin' : 'teacher', 'is_default' => $school === 'A']);
+    }
+    $traditions = [];
+    foreach (['A', 'B'] as $label) {
+        $t = App\Models\SchoolTradition::create(['school_id' => $schools[$label]->id, 'title' => 'Мастерская добрых дел · '.$label, 'description' => 'Участники школы планируют полезные дела, распределяют роли и обсуждают результаты совместной работы.', 'established_year' => 2005, 'created_by_user_id' => $users['author']->id]);
+        foreach (['2024-2025', '2025-2026', '2026-2027'] as $i => $year) App\Models\TraditionVersion::create(['tradition_id' => $t->id, 'academic_year' => $year, 'parameters_snapshot' => ['concept' => ['title' => $t->title, 'description' => $t->description], 'participants' => 'Школьное сообщество'], 'notes' => 'Отдельный выпуск традиции на '.$year.'. Исторические сведения сохраняются.', 'created_by_user_id' => $users['author']->id, 'created_at' => now()->subDays(3 - $i)]);
+        $traditions[$label] = $t->id;
+    }
+    $events = [];
+    foreach (['approved', 'draft', 'foreign'] as $kind) {
+        $event = App\Models\CalendarEvent::create(['title' => 'FE005 '.$kind.' '.$runId, 'event_type' => $kind === 'foreign' ? 'school_custom' : 'federal', 'school_id' => $kind === 'foreign' ? $schools['B']->id : null, 'date_type' => 'fixed_annual', 'fixed_month' => 10, 'fixed_day' => 26, 'description' => 'Изолированный повод для проверки конструктора', 'target_age_groups' => ['basic_5_9'], 'recommended_value_directions' => ['mutual_aid'], 'status' => $kind === 'draft' ? 'draft' : 'approved', 'created_by_user_id' => $users['author']->id]);
+        $events[$kind] = $event->id;
+    }
+    $versions = []; foreach (['A', 'B'] as $label) $versions[$label] = App\Models\TraditionVersion::where('tradition_id', $traditions[$label])->orderByDesc('created_at')->first()->id;
+    return ['events' => $events, 'versions' => $versions, 'baselineGenerationRuns' => App\Models\GenerationRun::count(), 'schools' => array_map(fn ($s) => ['id' => $s->id, 'name' => $s->name], $schools), 'users' => array_map(fn ($u) => ['id' => $u->id, 'email' => $u->email], $users), 'traditions' => $traditions];
+});
+echo json_encode(['database' => 'school_events_test', 'environment' => 'testing', 'databaseUser' => $databaseUser, 'runId' => $runId, ...$fixtures], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+

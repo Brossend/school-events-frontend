@@ -1,0 +1,5 @@
+<frame id="105:2169" name="Экспертная культурная проверка" x="19" y="745" width="322" height="92">
+  <text id="105:2170" name="Критические культурные ошибки" x="12" y="12" width="298" height="16" />
+  <text id="105:2171" name="Запишите количество и ссылку на акт эксперта" x="12" y="35" width="298" height="45" />
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

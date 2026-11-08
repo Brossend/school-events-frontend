@@ -1,0 +1,14 @@
+{
+  "signed": {
+    "id": "01a17cba-5372-710e-818d-00db311e7fcf",
+    "requestId": "01a17cba-3b28-7054-87fa-a03d4e1213d1",
+    "runId": "01a17cba-4b83-70c2-9e41-38ea667f631e"
+  },
+  "browser": {
+    "id": "01a17cbe-2213-70b0-9d19-707221106639",
+    "requestId": "01a17cbe-0fd7-7244-9535-49dcaa9b6472",
+    "runId": "01a17cbe-1bb5-7029-8b48-c674154322a1"
+  },
+  "user": "multi",
+  "school": "01a17cb9-9d47-724c-849a-444aa8af23b4"
+}

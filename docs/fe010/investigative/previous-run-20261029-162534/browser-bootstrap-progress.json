@@ -1,0 +1,372 @@
+{
+  "runId": "6108ea2c01",
+  "origin": "http://localhost:8001",
+  "inProgress": true,
+  "syntheticTestOnly": true,
+  "schools": {
+    "A": {
+      "id": "01a182c4-adf7-7205-9146-f4141e011491",
+      "name": "FE010 6108ea2c01 A · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "B": {
+      "id": "01a182c4-ae28-707f-9987-48c87d79b593",
+      "name": "FE010 6108ea2c01 B · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "C": {
+      "id": "01a182c4-ae29-7246-9a76-ef661d6ed960",
+      "name": "FE010 6108ea2c01 C · SYNTHETIC TEST ONLY",
+      "region_code": "77"
+    },
+    "Zero": {
+      "id": "01a182c4-ae2a-72d0-b63b-a91eb3e67fed",
+      "name": "FE010 6108ea2c01 Zero · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "One": {
+      "id": "01a182c4-ae2b-72b1-a40a-e64ccb663cc6",
+      "name": "FE010 6108ea2c01 One · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Five": {
+      "id": "01a182c4-ae2c-72e6-803b-33f87f9e7a26",
+      "name": "FE010 6108ea2c01 Five · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Partial": {
+      "id": "01a182c4-ae2d-72b3-aefe-a1ea64a91c10",
+      "name": "FE010 6108ea2c01 Partial · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Real": {
+      "id": "01a182c4-ae2e-736b-a6b7-3cde23aa624d",
+      "name": "FE010 6108ea2c01 Real · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    }
+  },
+  "users": {
+    "teacher": {
+      "id": "01a182c4-aef2-737e-aff9-0cbd7f67effd",
+      "email": "fe010-6108ea2c01-teacher@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "admin": {
+      "id": "01a182c4-af02-72d1-a66f-458e18299e80",
+      "email": "fe010-6108ea2c01-admin@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "multi": {
+      "id": "01a182c4-af0d-73d8-939a-5e6633bf2f3e",
+      "email": "fe010-6108ea2c01-multi@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "regional": {
+      "id": "01a182c4-af12-7297-adf8-08b6ffb18d52",
+      "email": "fe010-6108ea2c01-regional@example.test",
+      "system_role": "catalog_curator",
+      "curator_scope": "regional",
+      "curated_region_codes": [
+        "66"
+      ]
+    },
+    "system": {
+      "id": "01a182c4-af17-70b7-b585-eae8823da61d",
+      "email": "fe010-6108ea2c01-system@example.test",
+      "system_role": "system_admin",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "systemMember": {
+      "id": "01a182c4-af19-706d-a0d0-28f2d9c905c8",
+      "email": "fe010-6108ea2c01-systemMember@example.test",
+      "system_role": "system_admin",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "noMembership": {
+      "id": "01a182c4-af1c-7199-a871-a8b5f2fa98cb",
+      "email": "fe010-6108ea2c01-noMembership@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    }
+  },
+  "states": {
+    "N0": "Zero",
+    "N1": "One",
+    "N5": "Five",
+    "partial5of20": "Partial",
+    "full20of20": "A"
+  },
+  "comparisons": [
+    {
+      "id": "01a182c5-bc1b-714a-906f-2746ac7f601f",
+      "school_id": "01a182c4-adf7-7205-9146-f4141e011491",
+      "comparison_type": "cultural_context",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c5-bbac-7377-bb06-4e9176c35733",
+      "variant_b_scenario_id": null,
+      "variant_a_revision_id": "01a182c5-bbb2-7279-9bd9-040c35fd12fb",
+      "variant_b_revision_id": null,
+      "selected_variant": null,
+      "is_cultural_available": false
+    },
+    {
+      "id": "01a182c5-a545-7091-8f13-040d9df5d5a8",
+      "school_id": "01a182c4-adf7-7205-9146-f4141e011491",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c5-a43a-711c-943d-fec8f470fb4b",
+      "variant_b_scenario_id": "01a182c5-a4fd-7353-8e6e-919037bff997",
+      "variant_a_revision_id": "01a182c5-a442-737f-a460-d9cbf4e0581f",
+      "variant_b_revision_id": "01a182c5-a4ff-70e8-b80b-6d6ba6dcbfe5",
+      "selected_variant": "B",
+      "is_cultural_available": true
+    },
+    {
+      "id": "01a182c5-de98-734f-a9cd-a8ad08f28f89",
+      "school_id": "01a182c4-adf7-7205-9146-f4141e011491",
+      "comparison_type": "cultural_context",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c5-de1c-7252-9356-815e06ed833e",
+      "variant_b_scenario_id": null,
+      "variant_a_revision_id": "01a182c5-de20-72e3-8533-75a80d275e80",
+      "variant_b_revision_id": null,
+      "selected_variant": "A",
+      "is_cultural_available": false
+    },
+    {
+      "id": "01a182c6-75a5-72b6-86e1-325b22e8f650",
+      "school_id": "01a182c4-ae28-707f-9987-48c87d79b593",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c6-7220-70aa-aba3-37db390015a7",
+      "variant_b_scenario_id": "01a182c6-750c-7151-bae2-ebc549b524be",
+      "variant_a_revision_id": "01a182c6-722b-7299-8668-ec91a4e0b630",
+      "variant_b_revision_id": "01a182c6-750e-71f9-b14f-f62c302270e0",
+      "selected_variant": null,
+      "is_cultural_available": true
+    },
+    {
+      "id": "01a182c6-e093-7329-9227-6718eb35b1a3",
+      "school_id": "01a182c4-ae29-7246-9a76-ef661d6ed960",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c6-df83-71a2-8ffd-d6b6afbc25c6",
+      "variant_b_scenario_id": "01a182c6-e015-717c-b605-e508ddf78cfe",
+      "variant_a_revision_id": "01a182c6-df89-71a5-9687-5641671a3a31",
+      "variant_b_revision_id": "01a182c6-e017-7198-8c1e-885fa8ab40a8",
+      "selected_variant": null,
+      "is_cultural_available": true
+    },
+    {
+      "id": "01a182c7-1704-7011-827f-ff8168ced24b",
+      "school_id": "01a182c4-ae2b-72b1-a40a-e64ccb663cc6",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c7-15a2-71d6-b8b4-cd4ab5d13c36",
+      "variant_b_scenario_id": "01a182c7-1698-72f7-8f98-3d0aefc72cc4",
+      "variant_a_revision_id": "01a182c7-15a8-70f9-98ed-f7a1fb7adbf4",
+      "variant_b_revision_id": "01a182c7-169a-733e-a49e-aebbea371878",
+      "selected_variant": null,
+      "is_cultural_available": true
+    },
+    {
+      "id": "01a182c7-4bba-73ce-87a2-345d3b4ddf66",
+      "school_id": "01a182c4-ae2c-72e6-803b-33f87f9e7a26",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c7-4a50-71e4-91ce-ac634f554b8e",
+      "variant_b_scenario_id": "01a182c7-4b2f-73c2-954d-57f31a9eea0d",
+      "variant_a_revision_id": "01a182c7-4a5a-716c-a6e5-2663af3182b0",
+      "variant_b_revision_id": "01a182c7-4b30-700f-9a84-d8951af0b208",
+      "selected_variant": null,
+      "is_cultural_available": true
+    },
+    {
+      "id": "01a182c7-753b-7143-a0e5-388804d3a6e5",
+      "school_id": "01a182c4-ae2d-72b3-aefe-a1ea64a91c10",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c7-7440-7292-9b9c-0e1d32dd2e55",
+      "variant_b_scenario_id": "01a182c7-74ba-728c-a83a-020278d9fdd0",
+      "variant_a_revision_id": "01a182c7-7444-73f9-817b-b2293effc5f3",
+      "variant_b_revision_id": "01a182c7-74bb-7192-813c-dd28df513d96",
+      "selected_variant": null,
+      "is_cultural_available": true
+    },
+    {
+      "id": "01a182c7-8fbf-7209-ba69-dca7198132fb",
+      "school_id": "01a182c4-ae2e-736b-a6b7-3cde23aa624d",
+      "comparison_type": "universal_vs_personalized",
+      "is_synthetic": true,
+      "variant_a_scenario_id": "01a182c7-8ede-71a3-8e00-f021be6ba6c6",
+      "variant_b_scenario_id": "01a182c7-8f51-733a-92b1-eafa459c38ec",
+      "variant_a_revision_id": "01a182c7-8ee3-7358-b2a1-aa81fd3b17f6",
+      "variant_b_revision_id": "01a182c7-8f53-71d7-8ec8-b0356c152542",
+      "selected_variant": null,
+      "is_cultural_available": true
+    }
+  ],
+  "responseIds": {
+    "A": [
+      "01a182c8-eafb-73ed-8aa8-45ee19fa39e7",
+      "01a182c9-224b-7190-a98f-cac440d587a1",
+      "01a182c9-419b-71a7-ae1e-592253b51ddb",
+      "01a182c9-4ce8-72cd-932e-8b5555bedd3d",
+      "01a182c9-7da2-7021-afb7-cc99ae769d4f",
+      "01a182c9-9e59-71fb-a04f-5293d0ea0371",
+      "01a182c9-b404-70a0-9ce4-fc7709a19f2d",
+      "01a182c9-df1c-7352-acce-aabb1b53f1bf",
+      "01a182c9-eac3-70f2-a03b-4e7d626bdb06",
+      "01a182ca-02e2-7242-9768-a4615d74506c",
+      "01a182ca-150d-7397-92c3-6414e7cd355a",
+      "01a182ca-182c-7294-86e3-55f06e90d270",
+      "01a182ca-21b1-7271-a2f1-8eacc57fd91e",
+      "01a182ca-2e65-72f3-8478-94c6006f21e5",
+      "01a182ca-3dda-7119-a872-75cbb6083e86",
+      "01a182ca-513a-7239-a370-915590caccc5",
+      "01a182ca-71de-7300-ab3e-a87b164ae7ec",
+      "01a182ca-76b3-7016-ac61-1b92f05c073a",
+      "01a182ca-8506-7170-859b-e715b34c7b6c",
+      "01a182ca-9f35-7301-a51c-444fe55ef92f"
+    ],
+    "One": [
+      "01a182cb-f150-7312-8ef7-5ff02f03ed44"
+    ],
+    "Five": [
+      "01a182cc-0b7b-728f-b93f-2d7c63c7438d",
+      "01a182cc-2008-739e-b178-a367787e4013",
+      "01a182cc-23a9-7190-ab39-5c5d58d2a3fb",
+      "01a182cc-308a-713d-b43b-a0b4bb5affcf",
+      "01a182cc-52bf-70d4-b464-5587975752a0"
+    ],
+    "Partial": [
+      "01a182cc-7cc5-70ee-825b-4e8b5a919ffa",
+      "01a182cc-b305-7373-9d59-7d69218b6397"
+    ]
+  },
+  "readyStates": [
+    "N0",
+    "full20of20"
+  ],
+  "effectiveReviews": {
+    "01a182cc-b305-7373-9d59-7d69218b6397": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-419b-71a7-ae1e-592253b51ddb": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-4ce8-72cd-932e-8b5555bedd3d": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-7da2-7021-afb7-cc99ae769d4f": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182cc-7cc5-70ee-825b-4e8b5a919ffa": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-224b-7190-a98f-cac440d587a1": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-9e59-71fb-a04f-5293d0ea0371": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-b404-70a0-9ce4-fc7709a19f2d": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-df1c-7352-acce-aabb1b53f1bf": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c9-eac3-70f2-a03b-4e7d626bdb06": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-02e2-7242-9768-a4615d74506c": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-150d-7397-92c3-6414e7cd355a": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-182c-7294-86e3-55f06e90d270": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-21b1-7271-a2f1-8eacc57fd91e": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-2e65-72f3-8478-94c6006f21e5": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-3dda-7119-a872-75cbb6083e86": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-513a-7239-a370-915590caccc5": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-71de-7300-ab3e-a87b164ae7ec": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-76b3-7016-ac61-1b92f05c073a": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-8506-7170-859b-e715b34c7b6c": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182ca-9f35-7301-a51c-444fe55ef92f": {
+      "version": 1,
+      "status": "audited",
+      "errors": 0
+    },
+    "01a182c8-eafb-73ed-8aa8-45ee19fa39e7": {
+      "version": 3,
+      "status": "audited",
+      "errors": 0
+    }
+  }
+}

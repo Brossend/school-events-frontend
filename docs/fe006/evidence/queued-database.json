@@ -1,0 +1,27 @@
+{
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "queueConnection": "redis",
+    "queueName": "fe006_0e2f5e84b9",
+    "redisDatabase": "1",
+    "redisPrefix": "school_events_test_redis_",
+    "runs": [
+        {
+            "id": "01a17716-3188-7225-8085-2c8f52e2b57f",
+            "scenario_request_id": "01a17716-024f-7278-b22b-93e3da046a65",
+            "status": "queued",
+            "provider_name": "mock",
+            "completed_at": null,
+            "error_code": null
+        },
+        {
+            "id": "01a17716-5efc-7059-a6e9-bccc46aceabc",
+            "scenario_request_id": "01a17716-5024-73bf-b666-b2684a305c75",
+            "status": "queued",
+            "provider_name": "mock",
+            "completed_at": null,
+            "error_code": null
+        }
+    ],
+    "scenarios": []
+}

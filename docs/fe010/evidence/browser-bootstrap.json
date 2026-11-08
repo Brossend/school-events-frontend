@@ -1,0 +1,197 @@
+{
+  "completed": true,
+  "runId": "9cf645fab2",
+  "origin": "http://localhost:8001",
+  "syntheticTestOnly": true,
+  "schools": {
+    "A": {
+      "id": "01a18768-d90f-71d8-9d30-11af47a425fa",
+      "name": "FE010 9cf645fab2 A · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "B": {
+      "id": "01a18768-d9eb-70c5-9663-d9bc644a715f",
+      "name": "FE010 9cf645fab2 B · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "C": {
+      "id": "01a18768-d9ee-70d4-a8af-c7f2a4c95612",
+      "name": "FE010 9cf645fab2 C · SYNTHETIC TEST ONLY",
+      "region_code": "77"
+    },
+    "Zero": {
+      "id": "01a18768-d9f0-71b5-8024-e0bcbddce0b2",
+      "name": "FE010 9cf645fab2 Zero · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "One": {
+      "id": "01a18768-d9f2-700d-95b8-0cc9e31ec987",
+      "name": "FE010 9cf645fab2 One · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Five": {
+      "id": "01a18768-d9f4-735f-abea-d7d4b41792e8",
+      "name": "FE010 9cf645fab2 Five · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Partial": {
+      "id": "01a18768-d9f7-71b4-a57d-5b15bd039006",
+      "name": "FE010 9cf645fab2 Partial · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Real": {
+      "id": "01a18768-d9fb-703c-8ae8-34db85f27172",
+      "name": "FE010 9cf645fab2 Real · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    }
+  },
+  "users": {
+    "teacher": {
+      "id": "01a18768-dd6d-7382-a263-57507ceda3ef",
+      "email": "fe010-9cf645fab2-teacher@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "admin": {
+      "id": "01a18768-ddad-72f4-96cc-43e5b769e47e",
+      "email": "fe010-9cf645fab2-admin@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "multi": {
+      "id": "01a18768-ddba-709c-8c77-91e9a492602b",
+      "email": "fe010-9cf645fab2-multi@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "regional": {
+      "id": "01a18768-ddbe-73d5-86e1-2f553b58e3ff",
+      "email": "fe010-9cf645fab2-regional@example.test",
+      "system_role": "catalog_curator",
+      "curator_scope": "regional",
+      "curated_region_codes": [
+        "66"
+      ]
+    },
+    "system": {
+      "id": "01a18768-ddc4-7013-947c-442d45553111",
+      "email": "fe010-9cf645fab2-system@example.test",
+      "system_role": "system_admin",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "systemMember": {
+      "id": "01a18768-ddc7-72c3-9464-b3eadd753368",
+      "email": "fe010-9cf645fab2-systemMember@example.test",
+      "system_role": "system_admin",
+      "curator_scope": null,
+      "curated_region_codes": []
+    },
+    "noMembership": {
+      "id": "01a18768-ddcb-72ce-b85b-8ce43d306e08",
+      "email": "fe010-9cf645fab2-noMembership@example.test",
+      "system_role": "none",
+      "curator_scope": null,
+      "curated_region_codes": []
+    }
+  },
+  "scenarioIds": {
+    "A": "01a18769-cc11-70d5-ae37-87329353c2f6",
+    "B": "01a1876a-ac21-71e4-8163-f7a2848c55ea",
+    "C": "01a1876a-bf58-72f3-b72c-8cfddf160cd2",
+    "One": "01a1876a-da16-7324-80b8-c0bef6ad9bc3",
+    "Five": "01a1876a-e56a-7044-a4c4-8af73c86442d",
+    "Partial": "01a1876b-0f0a-7185-a31e-78dcf3710a79",
+    "Real": "01a1876b-514f-70d5-9db3-6677206ceeb6"
+  },
+  "requestIds": {
+    "personalized": "01a18769-c43e-72b7-bfb1-596ba5888498",
+    "cultural": "01a18769-dc60-7225-87ba-e3bf52fff122",
+    "unavailable": "01a1876a-0034-7059-a8b8-c090f372b9a8",
+    "B": "01a1876a-a0e6-704e-a5d5-cf97a5d51881",
+    "C": "01a1876a-b712-7102-9958-453d0c0024b5",
+    "One": "01a1876a-cf65-70ca-b813-a189999625ef",
+    "Five": "01a1876a-e3b7-71f2-80c4-311ca8dedcd9",
+    "Partial": "01a1876b-092c-7209-a5fc-72f5bd5cf24f",
+    "Real": "01a1876b-3880-72b4-8bfc-7788de73e0b4"
+  },
+  "comparisonIds": {
+    "personalized": "01a18769-ce2e-7094-bfa2-8676d741586e",
+    "cultural": "01a18769-e6f7-7174-9417-7bcb8d94fc6d",
+    "unavailable": "01a1876a-0c08-7225-a214-fb33428f9287",
+    "B": "01a1876a-ace8-71bc-92e8-8b0e97715642",
+    "C": "01a1876a-bfd0-723f-9cad-f5fb9f55ae44",
+    "One": "01a1876a-daf0-734d-9d23-966716563102",
+    "Five": "01a1876a-e64d-72e6-906d-9cedde9439ed",
+    "Partial": "01a1876b-1019-73c6-8eba-80ca2b95bfef",
+    "Real": "01a1876b-52fd-7020-aa90-82c29559b002"
+  },
+  "responseIds": {
+    "A": [
+      "01a1876c-9243-7020-bd94-d61a39ca1bdc",
+      "01a1876c-dc26-70d4-ae67-acbf008248e0",
+      "01a1876c-eff9-72de-8f15-364ef8e2bfa8",
+      "01a1876d-11df-73ed-8edc-c218c0be3bda",
+      "01a1876d-2f3e-7304-b02b-cbb28eb5a895",
+      "01a1876d-73b0-7120-9997-ddcb279e3449",
+      "01a1876d-a23e-73af-9c6d-da66cc5d5f77",
+      "01a1876d-aa44-73f8-ae55-cdf357cfe338",
+      "01a1876d-ac92-724b-b5e9-531a1c89f6c5",
+      "01a1876d-d7cb-7119-a4a0-5da790f9d2a0",
+      "01a1876d-f985-70b6-a4df-4aef5f01542f",
+      "01a1876e-09e2-715c-90d7-0f194afbbf10",
+      "01a1876e-1f99-7038-b08d-ad00a04d80b9",
+      "01a1876e-3866-7068-8a57-525f485d36a6",
+      "01a1876e-7c2b-7132-81a1-906470e70847",
+      "01a1876e-a7ef-737a-bf96-0d921239c765",
+      "01a1876e-d0eb-7133-ac04-e0b37c639f34",
+      "01a1876e-f518-71a7-a36f-e379eafc86d1",
+      "01a1876f-1770-7081-8369-e6b5994981a8",
+      "01a1876f-45bc-73ee-bd73-034411bfe4fc"
+    ],
+    "One": [
+      "01a18771-a9bc-7053-9ee6-e25dd1d3055d"
+    ],
+    "Five": [
+      "01a18771-d975-713a-b5e9-10a50e396631",
+      "01a18771-dd02-73f8-b2ad-14475f23b531",
+      "01a18771-ea24-73aa-b63a-2ba620680b17",
+      "01a18771-f259-73da-850a-af4fe56d2370",
+      "01a18771-f48b-70b7-b15d-f48029583a85"
+    ],
+    "Partial": [
+      "01a18772-1153-7134-80ae-23bd800f5ac9",
+      "01a18772-3b68-7054-9d86-fb6a7d1f8359",
+      "01a18772-6eb7-720f-9711-ea3af9214282",
+      "01a18772-98cb-723d-a047-1dc90f300496",
+      "01a18772-b7d1-7190-9666-a2bf8db56c93",
+      "01a18772-c033-704b-b3ad-79d17fe30928",
+      "01a18772-cf1c-722a-a3a7-a1e298a079b2",
+      "01a18772-e6ef-7014-9a5a-f555b935f3fd",
+      "01a18772-f769-7295-915e-f7d749d73073",
+      "01a18773-1589-73f6-80e1-4d447638df3c",
+      "01a18773-2b38-722f-9f04-bdf05e09a8b7",
+      "01a18773-47ee-7277-8857-2f490b64cfbc",
+      "01a18773-67c8-730a-92b7-c5eb268612d5",
+      "01a18773-8251-70c2-a164-e76782ac39d5",
+      "01a18773-ab5a-7391-b224-6fc93d916cca",
+      "01a18773-cacc-73bf-8d11-968d1ede3898",
+      "01a18773-da2c-7022-9b3e-773acb75a60b",
+      "01a18773-e539-702c-9b45-e61587818a3d",
+      "01a18773-f679-70f8-a793-91b0cc2a4487",
+      "01a18774-1570-70a4-96e9-7d4e6958bdea"
+    ]
+  },
+  "invitationNotice": "Create a fresh invitation through HTTP for public form screenshots; no invitation secret persisted.",
+  "states": {
+    "no_data": "Zero",
+    "N1": "One",
+    "N5": "Five",
+    "partial5of20": "Partial",
+    "completed20of20": "A",
+    "realOriginFilterOnly": "Real"
+  }
+}

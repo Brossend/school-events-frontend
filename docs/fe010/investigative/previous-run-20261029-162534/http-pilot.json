@@ -1,0 +1,911 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": false,
+  "requests": [
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "teacher",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "admin",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "system",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "systemMember",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "systemMember",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "noMembership",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "mime": null
+    },
+    {
+      "role": "noMembership",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests",
+      "school": "01a182c3-4832-706a-b87d-beb636c18646",
+      "status": 201,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "POST",
+      "path": "/api/v1/scenario-comparisons",
+      "school": "01a182c3-4832-706a-b87d-beb636c18646",
+      "status": 201,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "GET",
+      "path": "/api/v1/scenario-comparisons/01a182c4-1604-7292-a01a-d1d3d7720c37/variants",
+      "school": "01a182c3-4832-706a-b87d-beb636c18646",
+      "status": 200,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests",
+      "school": "01a182c3-4832-706a-b87d-beb636c18646",
+      "status": 201,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "POST",
+      "path": "/api/v1/scenario-comparisons",
+      "school": "01a182c3-4832-706a-b87d-beb636c18646",
+      "status": 201,
+      "mime": "application/json"
+    },
+    {
+      "role": "admin",
+      "method": "GET",
+      "path": "/api/v1/scenario-comparisons/01a182c4-3707-7398-afc5-27bc504c40c2/variants",
+      "school": "01a182c3-4832-706a-b87d-beb636c18646",
+      "status": 200,
+      "mime": "application/json"
+    }
+  ],
+  "snapshots": [],
+  "syntheticTestOnly": true,
+  "contour": {
+    "database": "school_events_test",
+    "environment": "testing",
+    "databaseUser": "school_test_user",
+    "queueConnection": "sync",
+    "sql_scope": "WHERE school_id IN (owned FE010 run schools); no secret/hash columns selected",
+    "schools": [
+      {
+        "id": "01a182c3-4832-706a-b87d-beb636c18646",
+        "name": "FE010 0a7a11b066 A · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      },
+      {
+        "id": "01a182c3-4881-7029-9659-14315cd5f885",
+        "name": "FE010 0a7a11b066 B · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      },
+      {
+        "id": "01a182c3-4882-728d-8b6f-2948974ebc87",
+        "name": "FE010 0a7a11b066 C · SYNTHETIC TEST ONLY",
+        "region_code": "77"
+      },
+      {
+        "id": "01a182c3-4883-7054-b091-1c500db4ad91",
+        "name": "FE010 0a7a11b066 Zero · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      },
+      {
+        "id": "01a182c3-4885-7362-94fa-660ebbabca70",
+        "name": "FE010 0a7a11b066 One · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      },
+      {
+        "id": "01a182c3-4886-72bd-ba6b-6a6147012462",
+        "name": "FE010 0a7a11b066 Five · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      },
+      {
+        "id": "01a182c3-4888-73bc-9a36-ebc5ed055b74",
+        "name": "FE010 0a7a11b066 Partial · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      },
+      {
+        "id": "01a182c3-4889-7298-a783-086b25f32ca0",
+        "name": "FE010 0a7a11b066 Real · SYNTHETIC TEST ONLY",
+        "region_code": "66"
+      }
+    ],
+    "participants": [],
+    "responses": [],
+    "findings": [],
+    "comparisons": []
+  },
+  "comparison-personalized": {
+    "id": "01a182c4-1604-7292-a01a-d1d3d7720c37",
+    "school_id": "01a182c3-4832-706a-b87d-beb636c18646",
+    "comparison_type": "universal_vs_personalized",
+    "status": "completed",
+    "selected_variant": null,
+    "selected_by_user_id": null,
+    "selection_reason": null,
+    "cultural_usefulness_rating": null,
+    "selection_recorded_at": null,
+    "differences_summary": {
+      "comparison_dimension": "universal_vs_personalized",
+      "pedagogical_approach": {
+        "variant_a": "Фронтальная понятийная беседа и стандартизированный диалог",
+        "variant_b": "Интерактивный ролевой практикум с решением кейса"
+      },
+      "resource_adaptation": {
+        "variant_a": "Инвариантное оснащение (доска, мел)",
+        "variant_b": "Адаптация под оснащение: Бумага, Проектор"
+      },
+      "roles_differentiation": {
+        "variant_a": "Базовые роли (ведущий, фиксатор)",
+        "variant_b": "Дифференцированные роли: Хранитель традиций, Презентатор идей"
+      },
+      "age_customization": {
+        "variant_a": "Широкая возрастная норма",
+        "variant_b": "Параллель: 5, 6 классы"
+      }
+    },
+    "is_cultural_available": true,
+    "is_synthetic": true,
+    "variants": [
+      {
+        "variant_key": "A",
+        "scenario_id": "01a182c4-1094-7192-b888-11e09bfa4f68",
+        "scenario_payload": {
+          "concept": "Универсальный инвариантный сценарий: «FE010 0a7a11b066 approved SYNTHETIC». Базовый формат общеклассного обсуждения без локализации под конкретную школу и ресурсы.",
+          "pedagogical_goal": "Общее ознакомление учащихся с ценностным смыслом события «FE010 0a7a11b066 approved SYNTHETIC» в рамках направления «Взаимопомощь и солидарность».",
+          "pedagogical_mechanism": {
+            "type": "team_mutual_support_task",
+            "title": "Общеклассный диалог и разбор понятий",
+            "description": "Универсальная фронтальная форма обсуждения базовых смысловых ориентиров темы."
+          },
+          "pedagogical_tasks": {
+            "personal": [
+              "Формирование уважительного отношения к историческому наследию.",
+              "Осознание значимости общечеловеческих ценностей."
+            ],
+            "meta_subject": [
+              "Развитие умения внимательно слушать собеседника и аргументировать ответ.",
+              "Навык формулирования собственного мнения в общем диалоге."
+            ],
+            "subject_specific": [
+              "Усвоение ключевых дат, понятий и фактов события «FE010 0a7a11b066 approved SYNTHETIC»."
+            ]
+          },
+          "expected_outcomes": {
+            "knowledge": [
+              "Знание базовых фактов и смыслового значения темы «FE010 0a7a11b066 approved SYNTHETIC»."
+            ],
+            "skills": [
+              "Умение формулировать связное суждение по теме классного часа."
+            ],
+            "values": [
+              "Принятие традиционных ценностей направления «Взаимопомощь и солидарность»."
+            ]
+          },
+          "target_audience": {
+            "age_group": "basic_5_9",
+            "grades": [
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "participants_count_min": 15,
+            "participants_count_max": 35
+          },
+          "format": {
+            "type": "class_hour",
+            "scale": "class_level",
+            "total_duration_minutes": 45
+          },
+          "stages": [
+            {
+              "id": "stage_universal_intro",
+              "order_index": 1,
+              "title": "Вводная мотивационная беседа: «FE010 0a7a11b066 approved SYNTHETIC»",
+              "stage_type": "motivation_introduction",
+              "duration_minutes": 9,
+              "teacher_actions": "Учитель сообщает тему классного часа, обозначает важность направления «Взаимопомощь и солидарность» и задает общий вводный вопрос.",
+              "student_actions": "Учащиеся слушают вводную информацию и отвечают на вопросы с места.",
+              "dialogue_prompts": [
+                "Что вам известно о событии «FE010 0a7a11b066 approved SYNTHETIC»?",
+                "Как ценность «Взаимопомощь и солидарность» проявляется в нашей повседневной жизни?"
+              ],
+              "teacher_tips": "Соблюдать регламент вводной части, вовлекая учащихся в общий диалог.",
+              "transition_text": "Перейдем к подробному рассмотрению основных фактов и понятий темы."
+            },
+            {
+              "id": "stage_universal_discussion",
+              "order_index": 2,
+              "title": "Фронтальная беседа и разбор базовых понятий",
+              "stage_type": "main_interactive_part",
+              "duration_minutes": 27,
+              "teacher_actions": "Учитель излагает ключевые тезисы темы, демонстрирует слайды на доске и организует общеклассное обсуждение.",
+              "student_actions": "Учащиеся фиксируют ключевые термины в тетрадях и участвуют в обсуждении вопросов учителя.",
+              "dialogue_prompts": [
+                "Какие главные уроки мы можем извлечь из обсуждаемых событий?",
+                "В чем заключается непреходящее значение традиции?"
+              ],
+              "teacher_tips": "Задавать открытые вопросы всему классу, стимулируя аргументированные ответы.",
+              "transition_text": "Обобщим услышанное и подведем итоги нашего занятия."
+            },
+            {
+              "id": "stage_universal_conclusion",
+              "order_index": 3,
+              "title": "Итоговое обобщение и выводы",
+              "stage_type": "reflection_summary",
+              "duration_minutes": 9,
+              "teacher_actions": "Учитель подводит итоги беседы, фиксирует базовые ценностные ориентиры и благодарит учащихся.",
+              "student_actions": "Учащиеся формулируют главный вывод и оценивают полезность занятия.",
+              "dialogue_prompts": [
+                "Какой самый важный вывод вы сделали для себя сегодня?"
+              ],
+              "teacher_tips": "Зафиксировать единое смысловое завершение классного часа.",
+              "transition_text": "Спасибо всем за активное участие в классном часе!"
+            }
+          ],
+          "roles": [
+            {
+              "role_name": "Ведущий обсуждения",
+              "description": "Ученик или дежурный, помогающий учителю в оглашении вопросов и регламенте диалога.",
+              "target_participants": "students",
+              "group_size": 1,
+              "specific_tasks": [
+                "Оглашать вопросы для обсуждения перед классом.",
+                "Следить за очередностью поднятых рук."
+              ]
+            },
+            {
+              "role_name": "Фиксатор идей",
+              "description": "Ученик, фиксирующий на доске главные тезисы и выводы класса.",
+              "target_participants": "students",
+              "group_size": 1,
+              "specific_tasks": [
+                "Записывать ключевые слова и выводы на доске."
+              ]
+            }
+          ],
+          "activities": [
+            {
+              "title": "Общеклассная понятийная беседа",
+              "activity_type": "group_research",
+              "target_stage_id": "stage_universal_discussion",
+              "rules_and_instructions": "Фронтальное рассмотрение ключевых аспектов события с фиксацией тезисов на доске.",
+              "scoring_or_evaluation": "Качественная вербальная оценка активности и аргументированности ответов."
+            }
+          ],
+          "materials": {
+            "presentation_slides": [
+              {
+                "slide_number": 1,
+                "title": "FE010 0a7a11b066 approved SYNTHETIC: Введение в тему",
+                "bullet_points": [
+                  "Тема и задачи классного часа",
+                  "Ключевые понятия"
+                ],
+                "visual_recommendations": "Заглавный слайд с официальным названием темы.",
+                "speaker_notes": "Озвучить цели занятия и пригласить учащихся к открытому диалогу."
+              },
+              {
+                "slide_number": 2,
+                "title": "Ключевые смыслы и обсуждение",
+                "bullet_points": [
+                  "Исторический контекст",
+                  "Вопросы для размышления"
+                ],
+                "visual_recommendations": "Информационный слайд с вопросами.",
+                "speaker_notes": "Модерировать ответы класса, обобщая высказывания."
+              }
+            ],
+            "printable_cards": [
+              {
+                "card_type": "lesson_card",
+                "title": "Вопросы к классному часу: «FE010 0a7a11b066 approved SYNTHETIC»",
+                "front_text": "Контрольные вопросы для фронтального обсуждения темы.",
+                "back_text": "Памятка для формулирования вывода.",
+                "quantity_per_group": 1
+              }
+            ],
+            "handouts": [
+              {
+                "title": "Памятка участника классного часа",
+                "instructions": "Ознакомьтесь с материалом и запишите главный вывод.",
+                "template_content": "Поля: Тема / Ключевые понятия / Мой ценностный вывод."
+              }
+            ]
+          },
+          "props": [
+            {
+              "item_name": "Классная доска и мел (маркеры)",
+              "quantity": "1 комплект",
+              "is_mandatory": true,
+              "alternative_if_missing": "Листы бумаги формата А3."
+            }
+          ],
+          "preparation_checklist": [
+            {
+              "timeline_phase": "day_before",
+              "task_description": "Распечатать памятки участников и проверить проектор для презентации.",
+              "responsible_person": "Классный руководитель"
+            }
+          ],
+          "teacher_instructions": {
+            "general_safety_rules": [
+              "Соблюдать стандартные правила безопасности в учебном кабинете."
+            ],
+            "methodological_recommendations": [
+              "Поддерживать доброжелательный тон и вовлекать в диалог неактивных учащихся."
+            ],
+            "adaptation_for_disabilities_or_small_groups": "При необходимости предоставить памятку с укрупненным шрифтом."
+          }
+        },
+        "is_cultural_available": true
+      },
+      {
+        "variant_key": "B",
+        "scenario_id": "01a182c4-1549-73ff-9e60-02dfae03b114",
+        "scenario_payload": {
+          "concept": "Классный воспитательный сценарий: «FE010 0a7a11b066 approved SYNTHETIC». Направлен на погружение учащихся одного классного коллектива в ценностное направление «Взаимопомощь и солидарность» через интерактивный групповой практикум.",
+          "pedagogical_goal": "Формирование ценностных ориентиров и культуры сотрудничества в классном коллективе в контексте «FE010 0a7a11b066 approved SYNTHETIC».",
+          "value_direction": "mutual_aid",
+          "pedagogical_mechanism": {
+            "mechanism_type": "team_mutual_support_task",
+            "description": "Командное решение практической задачи, где успех зависит от поддержки и взаимовыручки каждого участника.",
+            "target_activity_title": "Маршрут командной взаимовыручки"
+          },
+          "pedagogical_tasks": {
+            "personal": [
+              "Осознание личной причастности к ценностям направления «Взаимопомощь и солидарность».",
+              "Развитие чувства эмпатии и уважения к одноклассникам."
+            ],
+            "meta_subject": [
+              "Развитие навыков аргументации своей точки зрения в малых группах.",
+              "Умение приходить к согласию при решении общей практической задачи."
+            ],
+            "subject_specific": [
+              "Освоение понятийного содержания и фактов события «FE010 0a7a11b066 approved SYNTHETIC».",
+              "Применение полученных сведений для анализа практической ситуации."
+            ]
+          },
+          "expected_outcomes": {
+            "knowledge": [
+              "Понимание смысловых и исторических оснований события «FE010 0a7a11b066 approved SYNTHETIC»."
+            ],
+            "skills": [
+              "Навык слаженной командной работы и распределения ролей в малой группе."
+            ],
+            "values": [
+              "Уважительное отношение к традициям и взаимная поддержка в коллективе."
+            ]
+          },
+          "target_audience": {
+            "age_group": "basic_5_9",
+            "target_grades": [
+              5,
+              6
+            ],
+            "participants_count_min": 20,
+            "participants_count_max": 30,
+            "family_involvement": false
+          },
+          "format": {
+            "format_type": "class_hour",
+            "scale": "class_level",
+            "total_duration_minutes": 45
+          },
+          "stages": [
+            {
+              "id": "stage_intro",
+              "order_index": 1,
+              "title": "Вводная мотивационная часть: «Введение в тему: FE010 0a7a11b066 approved SYNTHETIC»",
+              "stage_type": "motivation_introduction",
+              "duration_minutes": 9,
+              "teacher_actions": "Педагог приветствует класс, формулирует проблемный вопрос по теме «FE010 0a7a11b066 approved SYNTHETIC» и настраивает учащихся на диалог.",
+              "student_actions": "Учащиеся включаются в обсуждение, формулируют личные ожидания и актуализируют имеющийся опыт.",
+              "dialogue_prompts": [
+                "Почему для каждого из нас важно обратиться к теме: FE010 0a7a11b066 approved SYNTHETIC?",
+                "С какими повседневными поступками у вас ассоциируется направление «Взаимопомощь и солидарность»?"
+              ],
+              "teacher_tips": "Создать доверительную атмосферу, стимулирующую искренние высказывания.",
+              "transition_text": "А теперь переходим к основной практической работе в группах."
+            },
+            {
+              "id": "stage_main_activity",
+              "order_index": 2,
+              "title": "Практический деятельностный этап: «Маршрут командной взаимовыручки»",
+              "stage_type": "main_interactive_part",
+              "duration_minutes": 27,
+              "teacher_actions": "Организует групповую работу по механизму «Командная взаимовыручка», распределяет раздаточный материал и модерирует выполнение заданий.",
+              "student_actions": "Участники в малых группах исследуют кейсы, готовят групповые решения и оформляют маршрутный лист.",
+              "dialogue_prompts": [
+                "К какому общему выводу пришла ваша группа при выполнении задания?",
+                "В чем проявилась взаимная поддержка участников вашей команды?"
+              ],
+              "teacher_tips": "Контролировать соблюдение регламента и помогать группам в распределении обязанностей.",
+              "transition_text": "Время подвести итоги практической работы и представить результаты классу."
+            },
+            {
+              "id": "stage_reflection",
+              "order_index": 3,
+              "title": "Итоговая рефлексия и ценностный вывод",
+              "stage_type": "reflection_summary",
+              "duration_minutes": 9,
+              "teacher_actions": "Организует рефлексивный смысловой круг, обобщает результаты командной работы и фиксирует ценностные ориентиры.",
+              "student_actions": "Спикеры групп озвучивают итоговые выводы, участники оценивают совместную работу и личный вклад.",
+              "dialogue_prompts": [
+                "Что самого важного для себя вы вынесли из сегодняшнего обсуждения?",
+                "Как этот опыт поможет нам в жизни нашего классного коллектива?"
+              ],
+              "teacher_tips": "Дать возможность высказаться каждому желающему, избегая шаблонных оценок.",
+              "transition_text": "Благодарю всех за активную работу, взаимное уважение и содержательный диалог!"
+            }
+          ],
+          "roles": [
+            {
+              "role_name": "Хранитель традиций",
+              "description": "Учащийся, отслеживающий соблюдение регламента и правил диалога внутри группы.",
+              "target_participants": "students",
+              "group_size": 1,
+              "specific_tasks": [
+                "Следить за поочередным высказыванием каждого члена группы.",
+                "Контролировать время выполнения этапов задания."
+              ]
+            },
+            {
+              "role_name": "Презентатор идей",
+              "description": "Учащийся, формулирующий позицию группы и озвучивающий итоговый вывод классу.",
+              "target_participants": "students",
+              "group_size": 1,
+              "specific_tasks": [
+                "Обобщить предложения участников на общем бланке.",
+                "Выступить с кратким докладом перед классом."
+              ]
+            }
+          ],
+          "activities": [
+            {
+              "title": "Маршрут командной взаимовыручки",
+              "activity_type": "group_research",
+              "target_stage_id": "stage_main_activity",
+              "rules_and_instructions": "Команды проходят полосу интеллектуальных испытаний, где результат фиксируется по завершению задания последним участником. Каждая малая группа анализирует предложенный кейс и формирует презентационный лист.",
+              "scoring_or_evaluation": "Критериальная взаимооценка по параметрам: содержательность, аргументированность и вовлеченность всех участников."
+            }
+          ],
+          "materials": {
+            "presentation_slides": [
+              {
+                "slide_number": 1,
+                "title": "FE010 0a7a11b066 approved SYNTHETIC: Введение в тему",
+                "bullet_points": [
+                  "Ключевые ценности мероприятия",
+                  "Цели и задачи работы класса"
+                ],
+                "visual_recommendations": "Тематические архивные фотографии или инфографика.",
+                "speaker_notes": "Обратить внимание на актуальность темы для классного сообщества."
+              },
+              {
+                "slide_number": 2,
+                "title": "Практикум: Маршрут командной взаимовыручки",
+                "bullet_points": [
+                  "Правила командного взаимодействия",
+                  "Регламент презентации решений"
+                ],
+                "visual_recommendations": "Схема маршрутного листа и таймер обратного отсчета.",
+                "speaker_notes": "Напомнить о важности участия каждого ученика."
+              }
+            ],
+            "printable_cards": [
+              {
+                "card_type": "lesson_card",
+                "title": "Карточка кейса: «FE010 0a7a11b066 approved SYNTHETIC»",
+                "front_text": "Описание проблемной ситуации для командного анализа.",
+                "back_text": "Контрольные вопросы для формулирования командного решения.",
+                "quantity_per_group": 4
+              }
+            ],
+            "handouts": [
+              {
+                "title": "Маршрутный лист малой группы",
+                "instructions": "Заполните ключевые блоки в процессе групповой работы.",
+                "template_content": "Поля: Проблема / Идеи / Выбранное решение / Аргументы / Роль каждого."
+              }
+            ]
+          },
+          "props": [
+            {
+              "item_name": "Комплект раздаточных материалов и ватманов",
+              "quantity": "По количеству малых групп",
+              "is_mandatory": true,
+              "alternative_if_missing": "Использование стандартных листов формата А4 и маркеров."
+            },
+            {
+              "item_name": "Материалы: Бумага, Проектор",
+              "quantity": "1 комплект на класс",
+              "is_mandatory": false,
+              "alternative_if_missing": "Цифровой показ на проекторе."
+            }
+          ],
+          "preparation_checklist": [
+            {
+              "timeline_phase": "two_weeks_before",
+              "task_description": "Утвердить концепцию классного часа и подготовить список необходимых материалов: Бумага, Проектор",
+              "responsible_person": "Классный руководитель"
+            },
+            {
+              "timeline_phase": "day_before",
+              "task_description": "Распечатать карточки заданий и маршрутные листы для малых групп.",
+              "responsible_person": "Классный руководитель"
+            }
+          ],
+          "teacher_instructions": {
+            "general_safety_rules": [
+              "Обеспечить безопасную расстановку парт для групповой работы без препятствий на путях эвакуации.",
+              "Контролировать соблюдение дисциплины и взаимоуважения во время эмоциональных обсуждений."
+            ],
+            "methodological_recommendations": [
+              "Не подсказывать готовые ответы, стимулируя самостоятельный поиск решения в группах.",
+              "При затруднении в диалоге задавать наводящие открытые вопросы из сценария."
+            ],
+            "adaptation_for_disabilities_or_small_groups": "При наличии учащихся с ОВЗ предусмотреть адаптивные роли (хранитель идей, спикер) и увеличить размер шрифта раздаточных материалов."
+          },
+          "cultural_claims": [
+            {
+              "claim_id": "claim_01a182c34da673028a8b6a3730df4d6b",
+              "claim_text": "Синтетическое утверждение для проверки API.",
+              "culture_name": "Тестовый контекст",
+              "claimed_origin": "Культурно-историческая традиция региона",
+              "claimed_meaning": "Ценностный ориентир преемственности поколений",
+              "source_references": [
+                {
+                  "source_title": "FE010 0a7a11b066 synthetic fixture source",
+                  "citation_locator": "Fixture 1",
+                  "author": "HTTP test",
+                  "url_or_archive_ref": "https://example.test/fe010"
+                }
+              ]
+            }
+          ]
+        },
+        "is_cultural_available": true
+      }
+    ],
+    "created_at": "2026-10-28T13:47:31+00:00"
+  },
+  "comparison-cultural": {
+    "id": "01a182c4-3707-7398-afc5-27bc504c40c2",
+    "school_id": "01a182c3-4832-706a-b87d-beb636c18646",
+    "comparison_type": "cultural_context",
+    "status": "completed",
+    "selected_variant": null,
+    "selected_by_user_id": null,
+    "selection_reason": null,
+    "cultural_usefulness_rating": null,
+    "selection_recorded_at": null,
+    "differences_summary": {
+      "comparison_dimension": "cultural_context",
+      "regional_component": {
+        "variant_a": "Отсутствует (общефедеральный инвариант)",
+        "variant_b": "Недоступен (нет подтвержденных первоисточников)"
+      },
+      "is_cultural_available": false,
+      "evidence_gate_status": "UNAVAILABLE_NO_PROVENANCE",
+      "verified_sources_count": 0
+    },
+    "is_cultural_available": false,
+    "is_synthetic": true,
+    "variants": [
+      {
+        "variant_key": "A",
+        "scenario_id": "01a182c4-3678-71f9-9a77-95b9406c33f2",
+        "scenario_payload": {
+          "concept": "Классный воспитательный сценарий: «FE010 0a7a11b066 approved SYNTHETIC». Направлен на погружение учащихся одного классного коллектива в ценностное направление «Взаимопомощь и солидарность» через интерактивный групповой практикум.",
+          "pedagogical_goal": "Формирование ценностных ориентиров и культуры сотрудничества в классном коллективе в контексте «FE010 0a7a11b066 approved SYNTHETIC».",
+          "value_direction": "mutual_aid",
+          "pedagogical_mechanism": {
+            "mechanism_type": "team_mutual_support_task",
+            "description": "Командное решение практической задачи, где успех зависит от поддержки и взаимовыручки каждого участника.",
+            "target_activity_title": "Маршрут командной взаимовыручки"
+          },
+          "pedagogical_tasks": {
+            "personal": [
+              "Осознание личной причастности к ценностям направления «Взаимопомощь и солидарность».",
+              "Развитие чувства эмпатии и уважения к одноклассникам."
+            ],
+            "meta_subject": [
+              "Развитие навыков аргументации своей точки зрения в малых группах.",
+              "Умение приходить к согласию при решении общей практической задачи."
+            ],
+            "subject_specific": [
+              "Освоение понятийного содержания и фактов события «FE010 0a7a11b066 approved SYNTHETIC».",
+              "Применение полученных сведений для анализа практической ситуации."
+            ]
+          },
+          "expected_outcomes": {
+            "knowledge": [
+              "Понимание смысловых и исторических оснований события «FE010 0a7a11b066 approved SYNTHETIC»."
+            ],
+            "skills": [
+              "Навык слаженной командной работы и распределения ролей в малой группе."
+            ],
+            "values": [
+              "Уважительное отношение к традициям и взаимная поддержка в коллективе."
+            ]
+          },
+          "target_audience": {
+            "age_group": "basic_5_9",
+            "target_grades": [
+              5,
+              6
+            ],
+            "participants_count_min": 20,
+            "participants_count_max": 30,
+            "family_involvement": false
+          },
+          "format": {
+            "format_type": "class_hour",
+            "scale": "class_level",
+            "total_duration_minutes": 45
+          },
+          "stages": [
+            {
+              "id": "stage_intro",
+              "order_index": 1,
+              "title": "Вводная мотивационная часть: «Введение в тему: FE010 0a7a11b066 approved SYNTHETIC»",
+              "stage_type": "motivation_introduction",
+              "duration_minutes": 9,
+              "teacher_actions": "Педагог приветствует класс, формулирует проблемный вопрос по теме «FE010 0a7a11b066 approved SYNTHETIC» и настраивает учащихся на диалог.",
+              "student_actions": "Учащиеся включаются в обсуждение, формулируют личные ожидания и актуализируют имеющийся опыт.",
+              "dialogue_prompts": [
+                "Почему для каждого из нас важно обратиться к теме: FE010 0a7a11b066 approved SYNTHETIC?",
+                "С какими повседневными поступками у вас ассоциируется направление «Взаимопомощь и солидарность»?"
+              ],
+              "teacher_tips": "Создать доверительную атмосферу, стимулирующую искренние высказывания.",
+              "transition_text": "А теперь переходим к основной практической работе в группах."
+            },
+            {
+              "id": "stage_main_activity",
+              "order_index": 2,
+              "title": "Практический деятельностный этап: «Маршрут командной взаимовыручки»",
+              "stage_type": "main_interactive_part",
+              "duration_minutes": 27,
+              "teacher_actions": "Организует групповую работу по механизму «Командная взаимовыручка», распределяет раздаточный материал и модерирует выполнение заданий.",
+              "student_actions": "Участники в малых группах исследуют кейсы, готовят групповые решения и оформляют маршрутный лист.",
+              "dialogue_prompts": [
+                "К какому общему выводу пришла ваша группа при выполнении задания?",
+                "В чем проявилась взаимная поддержка участников вашей команды?"
+              ],
+              "teacher_tips": "Контролировать соблюдение регламента и помогать группам в распределении обязанностей.",
+              "transition_text": "Время подвести итоги практической работы и представить результаты классу."
+            },
+            {
+              "id": "stage_reflection",
+              "order_index": 3,
+              "title": "Итоговая рефлексия и ценностный вывод",
+              "stage_type": "reflection_summary",
+              "duration_minutes": 9,
+              "teacher_actions": "Организует рефлексивный смысловой круг, обобщает результаты командной работы и фиксирует ценностные ориентиры.",
+              "student_actions": "Спикеры групп озвучивают итоговые выводы, участники оценивают совместную работу и личный вклад.",
+              "dialogue_prompts": [
+                "Что самого важного для себя вы вынесли из сегодняшнего обсуждения?",
+                "Как этот опыт поможет нам в жизни нашего классного коллектива?"
+              ],
+              "teacher_tips": "Дать возможность высказаться каждому желающему, избегая шаблонных оценок.",
+              "transition_text": "Благодарю всех за активную работу, взаимное уважение и содержательный диалог!"
+            }
+          ],
+          "roles": [
+            {
+              "role_name": "Хранитель традиций",
+              "description": "Учащийся, отслеживающий соблюдение регламента и правил диалога внутри группы.",
+              "target_participants": "students",
+              "group_size": 1,
+              "specific_tasks": [
+                "Следить за поочередным высказыванием каждого члена группы.",
+                "Контролировать время выполнения этапов задания."
+              ]
+            },
+            {
+              "role_name": "Презентатор идей",
+              "description": "Учащийся, формулирующий позицию группы и озвучивающий итоговый вывод классу.",
+              "target_participants": "students",
+              "group_size": 1,
+              "specific_tasks": [
+                "Обобщить предложения участников на общем бланке.",
+                "Выступить с кратким докладом перед классом."
+              ]
+            }
+          ],
+          "activities": [
+            {
+              "title": "Маршрут командной взаимовыручки",
+              "activity_type": "group_research",
+              "target_stage_id": "stage_main_activity",
+              "rules_and_instructions": "Команды проходят полосу интеллектуальных испытаний, где результат фиксируется по завершению задания последним участником. Каждая малая группа анализирует предложенный кейс и формирует презентационный лист.",
+              "scoring_or_evaluation": "Критериальная взаимооценка по параметрам: содержательность, аргументированность и вовлеченность всех участников."
+            }
+          ],
+          "materials": {
+            "presentation_slides": [
+              {
+                "slide_number": 1,
+                "title": "FE010 0a7a11b066 approved SYNTHETIC: Введение в тему",
+                "bullet_points": [
+                  "Ключевые ценности мероприятия",
+                  "Цели и задачи работы класса"
+                ],
+                "visual_recommendations": "Тематические архивные фотографии или инфографика.",
+                "speaker_notes": "Обратить внимание на актуальность темы для классного сообщества."
+              },
+              {
+                "slide_number": 2,
+                "title": "Практикум: Маршрут командной взаимовыручки",
+                "bullet_points": [
+                  "Правила командного взаимодействия",
+                  "Регламент презентации решений"
+                ],
+                "visual_recommendations": "Схема маршрутного листа и таймер обратного отсчета.",
+                "speaker_notes": "Напомнить о важности участия каждого ученика."
+              }
+            ],
+            "printable_cards": [
+              {
+                "card_type": "lesson_card",
+                "title": "Карточка кейса: «FE010 0a7a11b066 approved SYNTHETIC»",
+                "front_text": "Описание проблемной ситуации для командного анализа.",
+                "back_text": "Контрольные вопросы для формулирования командного решения.",
+                "quantity_per_group": 4
+              }
+            ],
+            "handouts": [
+              {
+                "title": "Маршрутный лист малой группы",
+                "instructions": "Заполните ключевые блоки в процессе групповой работы.",
+                "template_content": "Поля: Проблема / Идеи / Выбранное решение / Аргументы / Роль каждого."
+              }
+            ]
+          },
+          "props": [
+            {
+              "item_name": "Комплект раздаточных материалов и ватманов",
+              "quantity": "По количеству малых групп",
+              "is_mandatory": true,
+              "alternative_if_missing": "Использование стандартных листов формата А4 и маркеров."
+            },
+            {
+              "item_name": "Материалы: Бумага, Проектор",
+              "quantity": "1 комплект на класс",
+              "is_mandatory": false,
+              "alternative_if_missing": "Цифровой показ на проекторе."
+            }
+          ],
+          "preparation_checklist": [
+            {
+              "timeline_phase": "two_weeks_before",
+              "task_description": "Утвердить концепцию классного часа и подготовить список необходимых материалов: Бумага, Проектор",
+              "responsible_person": "Классный руководитель"
+            },
+            {
+              "timeline_phase": "day_before",
+              "task_description": "Распечатать карточки заданий и маршрутные листы для малых групп.",
+              "responsible_person": "Классный руководитель"
+            }
+          ],
+          "teacher_instructions": {
+            "general_safety_rules": [
+              "Обеспечить безопасную расстановку парт для групповой работы без препятствий на путях эвакуации.",
+              "Контролировать соблюдение дисциплины и взаимоуважения во время эмоциональных обсуждений."
+            ],
+            "methodological_recommendations": [
+              "Не подсказывать готовые ответы, стимулируя самостоятельный поиск решения в группах.",
+              "При затруднении в диалоге задавать наводящие открытые вопросы из сценария."
+            ],
+            "adaptation_for_disabilities_or_small_groups": "При наличии учащихся с ОВЗ предусмотреть адаптивные роли (хранитель идей, спикер) и увеличить размер шрифта раздаточных материалов."
+          },
+          "cultural_claims": []
+        },
+        "is_cultural_available": true
+      },
+      {
+        "variant_key": "B",
+        "scenario_id": null,
+        "scenario_payload": {
+          "status": "unavailable_no_provenance",
+          "message": "В системе отсутствуют верифицированные региональные первоисточники для данного события в рамках Provenance Gate.",
+          "cultural_claims": []
+        },
+        "is_cultural_available": false
+      }
+    ],
+    "created_at": "2026-10-28T13:47:39+00:00"
+  }
+}

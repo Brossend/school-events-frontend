@@ -1,0 +1,19 @@
+{
+  "origin": "http://localhost:8001",
+  "runId": "bb46ed8810",
+  "pilotEffectiveVersionAfterReload": 2,
+  "pilotEffectiveVersionFromParticipantButton": 2,
+  "comparisonRevokedBNotSelectable": true,
+  "calendarMonthMobileDates": true,
+  "systemWithoutMembership": true,
+  "catalogAmendmentAndDetachHistoryVisible": true,
+  "protectedRedirectAfterLogout": "http://localhost:3000/login?redirect=/system",
+  "viewportWidths": [
+    1440,
+    768,
+    390,
+    360
+  ],
+  "screenshots": 68,
+  "visualInspection": "Contact sheet of all 17 states and full mobile calendar inspected; no horizontal overflow or clipping found. PDF contact sheet inspected separately. Figma calendar original read-only; retained accepted contexts used for other views."
+}

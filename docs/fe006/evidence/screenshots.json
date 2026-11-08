@@ -1,0 +1,212 @@
+[
+  {
+    "file": "figma-failed-mobile.png",
+    "origin": "figma-reference",
+    "width": 390,
+    "height": 1059
+  },
+  {
+    "file": "figma-result.png",
+    "origin": "figma-reference",
+    "width": 611,
+    "height": 1800
+  },
+  {
+    "file": "figma-waiting.png",
+    "origin": "figma-reference",
+    "width": 1440,
+    "height": 1024
+  },
+  {
+    "file": "fixture-running-1440.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "fixture-running-360.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 360,
+    "height": 1000
+  },
+  {
+    "file": "fixture-running-390.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 390,
+    "height": 1000
+  },
+  {
+    "file": "fixture-running-768.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 768,
+    "height": 1000
+  },
+  {
+    "file": "fixture-timed-out-1440.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "fixture-timed-out-360.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 360,
+    "height": 1000
+  },
+  {
+    "file": "fixture-timed-out-390.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 390,
+    "height": 1000
+  },
+  {
+    "file": "fixture-timed-out-768.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 768,
+    "height": 1000
+  },
+  {
+    "file": "launch-confirmation.png",
+    "origin": "live-app-test",
+    "width": 1009,
+    "height": 871
+  },
+  {
+    "file": "live-completed-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "live-completed-360.jpg",
+    "origin": "live-app-test",
+    "width": 345,
+    "height": 885
+  },
+  {
+    "file": "live-completed-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 488
+  },
+  {
+    "file": "live-completed-768.jpg",
+    "origin": "live-app-test",
+    "width": 753,
+    "height": 523
+  },
+  {
+    "file": "live-failed-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "live-failed-360.jpg",
+    "origin": "live-app-test",
+    "width": 345,
+    "height": 885
+  },
+  {
+    "file": "live-failed-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 488
+  },
+  {
+    "file": "live-failed-768.jpg",
+    "origin": "live-app-test",
+    "width": 753,
+    "height": 523
+  },
+  {
+    "file": "live-logout-protected-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "live-mobile-materials-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962
+  },
+  {
+    "file": "live-mobile-overview-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962
+  },
+  {
+    "file": "live-mobile-sources-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962
+  },
+  {
+    "file": "live-queued-1440.png",
+    "origin": "live-app-test",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "live-queued-360.jpg",
+    "origin": "live-app-test",
+    "width": 345,
+    "height": 885
+  },
+  {
+    "file": "live-queued-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962
+  },
+  {
+    "file": "live-queued-768.png",
+    "origin": "live-app-test",
+    "width": 753,
+    "height": 1104
+  },
+  {
+    "file": "live-scenario-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1425,
+    "height": 990
+  },
+  {
+    "file": "live-scenario-360.jpg",
+    "origin": "live-app-test",
+    "width": 345,
+    "height": 885
+  },
+  {
+    "file": "live-scenario-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 488
+  },
+  {
+    "file": "live-scenario-768.jpg",
+    "origin": "live-app-test",
+    "width": 753,
+    "height": 523
+  },
+  {
+    "file": "live-scenario-final-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1425,
+    "height": 990
+  },
+  {
+    "file": "live-school-denied-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1440,
+    "height": 1000
+  },
+  {
+    "file": "live-source-inspector-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962
+  }
+]

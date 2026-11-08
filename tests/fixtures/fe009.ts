@@ -1,0 +1,6 @@
+import type { RegistryContext, RegistryDetail, RegistryEntry, RegistryPage } from '../../app/types/registry'
+export const registryIds={one:'00000000-0000-4000-8000-000000000901',two:'00000000-0000-4000-8000-000000000902',school:'00000000-0000-4000-8000-000000000903',user:'00000000-0000-4000-8000-000000000904',revision:'00000000-0000-4000-8000-000000000905'}
+export function registryContext():RegistryContext{return {user:registryIds.user,school:registryIds.school,role:'teacher',authenticated:true}}
+export function registryEntry():RegistryEntry{return {id:registryIds.one,title:'Школьная мастерская добрых дел',status:'draft',is_archived:false,current_revision_id:registryIds.revision,optimistic_lock_version:1,moderation_status:'verification_blocked',created_at:'2026-10-27T08:00:00Z',updated_at:'2026-10-27T08:00:01Z',current_revision:{id:registryIds.revision,version_number:1,moderation_status:'verification_blocked',change_description:null}}}
+export function registryPage():RegistryPage{return {data:[registryEntry()],meta:{current_page:1,last_page:2,total:7,per_page:6}}}
+export function registryDetail():RegistryDetail{return {id:registryIds.one,title:registryEntry().title,school_id:registryIds.school,is_archived:false,hasCurrentSignoff:false}}

@@ -1,0 +1,34 @@
+[
+  {
+    "node": "82:700",
+    "action": "DOCX selection",
+    "destination": "110:2068",
+    "trigger": "ON_CLICK",
+    "transition": "DISSOLVE",
+    "duration": 0.18
+  },
+  {
+    "node": "82:714",
+    "action": "create selected format",
+    "destination": "91:752",
+    "trigger": "ON_CLICK",
+    "transition": "DISSOLVE",
+    "duration": 0.2
+  },
+  {
+    "node": "91:1294",
+    "action": "retry",
+    "destination": "91:752",
+    "trigger": "ON_CLICK",
+    "transition": "DISSOLVE",
+    "duration": 0.18
+  },
+  {
+    "node": "91:752",
+    "reactions": []
+  },
+  {
+    "node": "91:1296",
+    "reactions": []
+  }
+]

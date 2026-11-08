@@ -1,0 +1,32 @@
+{
+  "server": "Nitro production build",
+  "ssr": false,
+  "checks": [
+    {
+      "path": "/login",
+      "runtimeApiOrigin": "http://localhost:8000",
+      "status": 200,
+      "runtimeConfigVerified": true
+    },
+    {
+      "path": "/pilot/respond",
+      "runtimeApiOrigin": "http://localhost:8000",
+      "status": 200,
+      "runtimeConfigVerified": true
+    },
+    {
+      "path": "/pilot",
+      "runtimeApiOrigin": "http://localhost:8000",
+      "status": 200,
+      "runtimeConfigVerified": true
+    },
+    {
+      "path": "/comparisons",
+      "runtimeApiOrigin": "http://localhost:8000",
+      "status": 200,
+      "runtimeConfigVerified": true
+    }
+  ],
+  "note": "HTTP/static runtime smoke; authenticated GUI tested separately against isolated API.",
+  "observedDate": "2026-10-29"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PENDING INDEPENDENT REVIEW",
+  "archives": [
+    {
+      "file": "school-backend-llm001.zip",
+      "bytes": 4353839,
+      "files": 422,
+      "sha256": "53dc06fbd24de1eef839ec9130509a7e7c2376b93515d1fe4424af07df1babdf",
+      "crc": "PASS",
+      "manifest": "PASS",
+      "secretScan": "PASS"
+    },
+    {
+      "file": "school-events-frontend-llm001.zip",
+      "bytes": 80754866,
+      "files": 1711,
+      "sha256": "310cb4b432271f8771a8b1bbf559af5ec97acde150042dc7e6054ff85cb1b58e",
+      "crc": "PASS",
+      "manifest": "PASS",
+      "secretScan": "PASS"
+    }
+  ],
+  "knownSecretsScanned": 24
+}

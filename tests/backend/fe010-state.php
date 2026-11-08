@@ -1,0 +1,13 @@
+<?php
+declare(strict_types=1);
+require '/var/www/html/vendor/autoload.php';
+$app=require '/var/www/html/bootstrap/app.php';$app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
+use Illuminate\Support\Facades\DB;
+$db=DB::connection()->getDatabaseName();$role=DB::selectOne('select current_user as name')->name;
+if(!app()->environment('testing')||$db!=='school_events_test'||$role!=='school_test_user')throw new RuntimeException('FE010 test contour only');
+$run=getenv('FE010_RUN_ID');if(!is_string($run)||!preg_match('/^[a-f0-9]{10}$/',$run))throw new RuntimeException('Invalid run');
+$schools=App\Models\School::where('name','like','FE010 '.$run.' %')->get();if($schools->count()!==8)throw new RuntimeException('Foreign/incomplete fixtures');
+$ids=$schools->pluck('id');$action=getenv('FE010_ACTION')?:'inspect';
+if($action==='expire'){$p=App\Models\PilotParticipant::findOrFail(getenv('FE010_PARTICIPANT'));if(!$ids->contains($p->school_id)||!str_starts_with($p->anonymous_code,'FE010-'.$run.'-')||$p->is_submitted)throw new RuntimeException('Foreign fixture');$p->expires_at=now()->subDay();$p->save();}elseif($action!=='inspect')throw new RuntimeException('Unknown action');
+$participants=App\Models\PilotParticipant::whereIn('school_id',$ids)->get();$responses=App\Models\PilotResponse::whereIn('participant_id',$participants->pluck('id'))->get();
+echo json_encode(['database'=>$db,'environment'=>app()->environment(),'databaseUser'=>$role,'queueConnection'=>config('queue.default'),'sql_scope'=>'WHERE school_id IN (owned FE010 run schools); no secret/hash columns selected','schools'=>$schools->map(fn($s)=>$s->only(['id','name','region_code'])),'participants'=>$participants->map(fn($p)=>$p->only(['id','school_id','anonymous_code','is_synthetic','is_submitted','expires_at','used_at','revoked_at'])),'responses'=>$responses->map(fn($r)=>$r->only(['id','participant_id','scenario_id','is_synthetic','relative_time_saving','personalization_selected','manual_edit_percentage','cultural_context_used','cultural_usefulness_score'])),'findings'=>App\Models\PilotReviewFinding::whereIn('pilot_response_id',$responses->pluck('id'))->orderBy('finding_version')->get()->map(fn($f)=>$f->only(['id','pilot_response_id','expert_user_id','finding_version','is_effective','expert_audit_status','critical_cultural_errors'])),'comparisons'=>App\Models\ScenarioComparison::whereIn('school_id',$ids)->get()->map(fn($c)=>$c->only(['id','school_id','comparison_type','is_synthetic','variant_a_scenario_id','variant_b_scenario_id','variant_a_revision_id','variant_b_revision_id','selected_variant','is_cultural_available']))],JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);

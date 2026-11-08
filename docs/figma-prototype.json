@@ -1,0 +1,159 @@
+{
+  "totalReactions": 549,
+  "transitions": [
+    {
+      "id": "1:2590",
+      "name": "Пункт навигации",
+      "screen": "1:2580",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:2146",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2594",
+      "name": "Пункт навигации",
+      "screen": "1:2580",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:639",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2598",
+      "name": "Пункт навигации",
+      "screen": "1:2580",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:497",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2630",
+      "name": "Кнопка основная",
+      "screen": "1:2580",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "13:175",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "I1:2630;1:2724",
+      "name": "Подпись",
+      "screen": "1:2580",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "13:175",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "1:2638",
+      "name": "Заголовок событий",
+      "screen": "1:2580",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:2146",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "72:493",
+      "name": "Действие / Демо",
+      "screen": "59:456",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:2580",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "72:494",
+      "name": "Кнопка / подпись",
+      "screen": "59:456",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:2580",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    },
+    {
+      "id": "72:564",
+      "name": "Кнопка / подпись",
+      "screen": "59:534",
+      "trigger": "ON_CLICK",
+      "actions": [
+        {
+          "type": "NODE",
+          "destinationId": "1:2348",
+          "navigation": "NAVIGATE"
+        }
+      ]
+    }
+  ],
+  "foundations": [
+    {
+      "id": "59:456",
+      "name": "Авторизация / Вход / 1440",
+      "effects": [],
+      "layoutMode": "NONE",
+      "cornerRadius": 0
+    },
+    {
+      "id": "59:534",
+      "name": "Авторизация / Вход / 390",
+      "effects": [],
+      "layoutMode": "NONE",
+      "cornerRadius": 0
+    },
+    {
+      "id": "1:2581",
+      "name": "Боковая навигация",
+      "effects": [],
+      "layoutMode": "VERTICAL",
+      "cornerRadius": 0
+    },
+    {
+      "id": "1:2610",
+      "name": "Верхняя панель",
+      "effects": [],
+      "layoutMode": "HORIZONTAL",
+      "cornerRadius": 0
+    },
+    {
+      "id": "1:2718",
+      "name": "Библиотека / Локальные компоненты",
+      "effects": [],
+      "layoutMode": "VERTICAL",
+      "cornerRadius": 0
+    }
+  ]
+}

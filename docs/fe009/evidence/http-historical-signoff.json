@@ -1,0 +1,58 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": true,
+  "scenarioId": "01a17cba-5372-710e-818d-00db311e7fcf",
+  "revision1ContentAndSignoffUnchanged": true,
+  "reusedPreparedRevision": true,
+  "currentRevisionSignoff": null,
+  "error": {
+    "status": 409,
+    "code": "CANNOT_DELETE_SIGNED_OFF_SCENARIO",
+    "details": [],
+    "traceId": "req-01a17cc8-5340-711e-aa8f-fa8e56bf35b6",
+    "name": "ApiError",
+    "message": "Нельзя удалить сценарий, для ревизий которого подписан педагогический допуск (sign-off)."
+  },
+  "requests": [
+    {
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/scenarios/01a17cba-5372-710e-818d-00db311e7fcf/revisions/1",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/scenarios/01a17cba-5372-710e-818d-00db311e7fcf",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/scenarios/01a17cba-5372-710e-818d-00db311e7fcf/revisions/2",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/scenarios/01a17cba-5372-710e-818d-00db311e7fcf/revisions/1",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/scenarios/01a17cba-5372-710e-818d-00db311e7fcf",
+      "method": "DELETE",
+      "status": 409
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204
+    }
+  ]
+}

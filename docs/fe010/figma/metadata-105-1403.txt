@@ -1,0 +1,109 @@
+<frame id="105:1403" name="Пилот / Результаты 20 педагогов / 1440" x="185" y="4056" width="1440" height="1449">
+  <frame id="105:1404" name="Боковая навигация" x="0" y="0" width="220" height="1449">
+    <frame id="105:1405" name="Название приложения" x="16" y="28" width="188" height="83">
+      <text id="105:1406" name="Описание" x="12" y="0" width="164" height="50" />
+      <instance id="105:1407" name="Плашка статуса" x="12" y="58" width="134" height="25" />
+    </frame>
+    <frame id="105:1408" name="Разделы" x="16" y="143" width="188" height="210">
+      <frame id="105:1409" name="Пункт навигации" x="0" y="0" width="188" height="48">
+        <frame id="105:1410" name="house" x="12" y="14" width="20" height="20" />
+        <text id="105:1412" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="105:1413" name="Пункт навигации" x="0" y="54" width="188" height="48">
+        <frame id="105:1414" name="calendar-days" x="12" y="14" width="20" height="20" />
+        <text id="105:1416" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="105:1417" name="Пункт навигации" x="0" y="108" width="188" height="48">
+        <frame id="105:1418" name="files" x="12" y="14" width="20" height="20" />
+        <text id="105:1420" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="105:1421" name="Пункт навигации" x="0" y="162" width="188" height="48">
+        <frame id="105:1422" name="school" x="12" y="14" width="20" height="20" />
+        <text id="105:1424" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+    </frame>
+    <frame id="105:1425" name="О пилоте" x="16" y="385" width="188" height="99">
+      <text id="105:1426" name="Описание" x="14" y="14" width="160" height="18" />
+      <text id="105:1427" name="Описание" x="14" y="41" width="160" height="18" />
+      <text id="105:1428" name="Описание" x="14" y="68" width="160" height="17" />
+    </frame>
+    <frame id="105:1429" name="Помощь" x="16" y="516" width="188" height="68">
+      <text id="105:1430" name="Описание" x="12" y="0" width="164" height="20" />
+      <text id="105:1431" name="Описание" x="12" y="32" width="164" height="36" />
+    </frame>
+  </frame>
+  <frame id="105:1432" name="Рабочая область" x="220" y="0" width="1220" height="1449">
+    <frame id="105:1433" name="Верхняя панель" x="0" y="0" width="1220" height="76">
+      <text id="105:1434" name="Контекст" x="32" y="29.5" width="225" height="17" />
+      <frame id="105:1435" name="Пользователь" x="1040" y="20" width="148" height="36">
+        <text id="105:1436" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="105:1437" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="105:1438" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="105:1439" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="1220" height="4" />
+    </frame>
+    <frame id="105:1440" name="Содержимое" x="0" y="76" width="1220" height="1316">
+      <frame id="105:1559" name="Заголовок пилота" x="32" y="32" width="1156" height="83">
+        <text id="105:1560" name="ПИЛОТ · 20 ПЕДАГОГОВ" x="0" y="0" width="1156" height="15" />
+        <text id="105:1561" name="Результаты пилотного теста" x="0" y="23" width="1156" height="36" />
+        <text id="105:1562" name="Ни одно измерение пока не проведено в этом д" x="0" y="67" width="1156" height="16" />
+      </frame>
+      <frame id="105:1563" name="Статус выборки" x="32" y="139" width="1156" height="92">
+        <text id="105:1564" name="0 из 20 · данные ещё не введены" x="22" y="22" width="1112" height="25" />
+        <text id="105:1565" name="Статусы «достигнуто / не достигнуто» появятс" x="22" y="55" width="1112" height="15" />
+      </frame>
+      <frame id="105:1566" name="Таблица критериев приёмки" x="32" y="255" width="1156" height="859">
+        <text id="105:1567" name="Критерии и доказательства" x="0" y="0" width="1156" height="25" />
+        <frame id="105:1568" name="Метрика / Сокращение времени, медиана" x="0" y="37" width="1156" height="127">
+          <text id="105:1569" name="Сокращение времени, медиана" x="21" y="21" width="1116" height="18" />
+          <text id="105:1570" name="Целевое значение: ≥ 50%" x="21" y="46" width="1116" height="16" />
+          <text id="105:1571" name="Фактический результат: нет данных" x="21" y="69" width="1116" height="15" />
+          <text id="105:1572" name="По каждой паре: (базовое − с ИИ) / базовое, " x="21" y="91" width="1116" height="15" />
+        </frame>
+        <frame id="105:1573" name="Метрика / Выбор персонализированного" x="0" y="176" width="1156" height="127">
+          <text id="105:1574" name="Выбор персонализированного" x="21" y="21" width="1116" height="18" />
+          <text id="105:1575" name="Целевое значение: ≥ 70%" x="21" y="46" width="1116" height="16" />
+          <text id="105:1576" name="Фактический результат: нет данных" x="21" y="69" width="1116" height="15" />
+          <text id="105:1577" name="Доля педагогов, выбравших персонализированны" x="21" y="91" width="1116" height="15" />
+        </frame>
+        <frame id="105:1578" name="Метрика / Доработка не более 20%" x="0" y="315" width="1156" height="127">
+          <text id="105:1579" name="Доработка не более 20%" x="21" y="21" width="1116" height="18" />
+          <text id="105:1580" name="Целевое значение: ≥ 70% педагогов" x="21" y="46" width="1116" height="16" />
+          <text id="105:1581" name="Фактический результат: нет данных" x="21" y="69" width="1116" height="15" />
+          <text id="105:1582" name="Фиксировать количество изменённых разделов /" x="21" y="91" width="1116" height="15" />
+        </frame>
+        <frame id="105:1583" name="Метрика / Использование культурного контекста" x="0" y="454" width="1156" height="127">
+          <text id="105:1584" name="Использование культурного контекста" x="21" y="21" width="1116" height="18" />
+          <text id="105:1585" name="Целевое значение: ≥ 60%" x="21" y="46" width="1116" height="16" />
+          <text id="105:1586" name="Фактический результат: нет данных" x="21" y="69" width="1116" height="15" />
+          <text id="105:1587" name="Доля педагогов, использовавших проверенный к" x="21" y="91" width="1116" height="15" />
+        </frame>
+        <frame id="105:1588" name="Метрика / Полезность сервиса" x="0" y="593" width="1156" height="127">
+          <text id="105:1589" name="Полезность сервиса" x="21" y="21" width="1116" height="18" />
+          <text id="105:1590" name="Целевое значение: ≥ 4 из 5" x="21" y="46" width="1116" height="16" />
+          <text id="105:1591" name="Фактический результат: нет данных" x="21" y="69" width="1116" height="15" />
+          <text id="105:1592" name="Оценка по шкале 1–5 после выполнения задания" x="21" y="91" width="1116" height="15" />
+        </frame>
+        <frame id="105:1593" name="Метрика / Критические культурные ошибки" x="0" y="732" width="1156" height="127">
+          <text id="105:1594" name="Критические культурные ошибки" x="21" y="21" width="1116" height="18" />
+          <text id="105:1595" name="Целевое значение: 0" x="21" y="46" width="1116" height="16" />
+          <text id="105:1596" name="Фактический результат: нет данных" x="21" y="69" width="1116" height="15" />
+          <text id="105:1597" name="Экспертно подтверждённые факты/стереотипы со" x="21" y="91" width="1116" height="15" />
+        </frame>
+      </frame>
+      <frame id="105:1598" name="Метод подсчёта" x="32" y="1138" width="1156" height="66">
+        <text id="105:1599" name="Как считаем" x="14" y="14" width="1128" height="16" />
+        <text id="105:1600" name="Медиана — по 20 индивидуальным процентам сок" x="14" y="37" width="1128" height="15" />
+      </frame>
+      <frame id="105:1601" name="Действие / Перейти к протоколам педагогов" x="32" y="1228" width="1156" height="48">
+        <text id="105:1602" name="Перейти к протоколам педагогов" x="12" y="16" width="1132" height="16" />
+      </frame>
+    </frame>
+    <frame id="105:1557" name="Подвал" x="0" y="1392" width="1220" height="57">
+      <text id="105:1558" name="Описание" x="32" y="20" width="1156" height="17" />
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

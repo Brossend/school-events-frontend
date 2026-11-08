@@ -1,0 +1,150 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": false,
+  "requests": [
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "director",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "idempotency": null,
+      "mime": null
+    },
+    {
+      "role": "director",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests",
+      "status": 201,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests/01a17c71-4db1-727e-89eb-da8e731c840a/generate",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "a429df7f-48e9-4142-8146-8089a97b250a",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/generation-runs/01a17c71-6a26-7116-ae0c-15e89ac02fe6",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c71-d619-71bd-81e7-865eb507a1f6/revisions/1/verify",
+      "status": 202,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c71-d619-71bd-81e7-865eb507a1f6/revisions/1/verifications",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c71-d619-71bd-81e7-865eb507a1f6/revisions/1/exports",
+      "status": 403,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "c6577b92-4953-44f2-8cc3-f164f6250ff9",
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c71-d619-71bd-81e7-865eb507a1f6/revisions/1/signoff",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a17c71-d619-71bd-81e7-865eb507a1f6/revisions/1",
+      "status": 200,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": null,
+      "mime": "application/json"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a17c71-d619-71bd-81e7-865eb507a1f6/revisions/1/exports",
+      "status": 500,
+      "school": "01a17c6a-6ec5-7061-a13f-1dd1a9cd1fc1",
+      "idempotency": "3f1050de-d662-46b0-9265-1024cd82717f",
+      "mime": "application/json"
+    }
+  ],
+  "contour": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "action": "inspect",
+    "queueConnection": "redis",
+    "queueName": "fe008_03d4500879",
+    "redisDatabase": "1",
+    "jobs": []
+  }
+}

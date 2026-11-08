@@ -1,0 +1,14 @@
+{
+  "archive": "school-events-frontend-fe011.zip",
+  "sha256": "5aef8613d60617cd939bed83cc6252ef2a4b6ce47e7523c19eb80e06ff53828a",
+  "entries": 1405,
+  "bytes": 58470703,
+  "fixtureRunsScanned": 9,
+  "CRC": "PASS",
+  "manifest": "PASS",
+  "knownSecretScan": "PASS",
+  "excludedPaths": "PASS",
+  "evidence": "PASS",
+  "screenshots": "PASS",
+  "runtime": "PASS"
+}

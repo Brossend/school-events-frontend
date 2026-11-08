@@ -1,0 +1,377 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": true,
+  "requests": [
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17462-fad4-7167-b81c-fe1b66ece132",
+      "method": "GET",
+      "status": 401,
+      "school": null
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null
+    },
+    {
+      "role": "other",
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "other",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null
+    },
+    {
+      "role": "school-admin",
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "school-admin",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null
+    },
+    {
+      "role": "multi",
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "multi",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null
+    },
+    {
+      "role": "system-admin",
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "system-admin",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions?is_archived=all",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17462-fad4-7167-b81c-fe1b66ece132",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions",
+      "method": "POST",
+      "status": 422,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions",
+      "method": "POST",
+      "status": 201,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "other",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "PATCH",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "other",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/archive",
+      "method": "POST",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "school-admin",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "PATCH",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "system-admin",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "PATCH",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/versions",
+      "method": "POST",
+      "status": 201,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/versions",
+      "method": "POST",
+      "status": 422,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/versions",
+      "method": "POST",
+      "status": 422,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/versions",
+      "method": "POST",
+      "status": 201,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "other",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/versions",
+      "method": "POST",
+      "status": 422,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "PATCH",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c/archive",
+      "method": "POST",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions?is_archived=false",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions?is_archived=true",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions?is_archived=all",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f9b0-70e7-8af3-344420b2f0d2/traditions",
+      "method": "GET",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/schools/01a17462-f9b0-70e7-8af3-344420b2f0d2/traditions",
+      "method": "POST",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17462-fafe-739a-95a0-6298b02d6647",
+      "method": "GET",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17462-fafe-739a-95a0-6298b02d6647",
+      "method": "PATCH",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17462-fafe-739a-95a0-6298b02d6647/versions",
+      "method": "POST",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17462-fafe-739a-95a0-6298b02d6647/archive",
+      "method": "POST",
+      "status": 403,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/00000000-0000-4000-8000-000000000004",
+      "method": "GET",
+      "status": 404,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "multi",
+      "path": "/api/v1/schools/01a17462-f9b0-70e7-8af3-344420b2f0d2/traditions?is_archived=all",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f9b0-70e7-8af3-344420b2f0d2"
+    },
+    {
+      "role": "multi",
+      "path": "/api/v1/traditions/01a17462-fafe-739a-95a0-6298b02d6647",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f9b0-70e7-8af3-344420b2f0d2"
+    },
+    {
+      "role": "multi",
+      "path": "/api/v1/schools/01a17462-f970-7321-b14f-7a02da046c4b/traditions?is_archived=all",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    },
+    {
+      "role": "multi",
+      "path": "/api/v1/schools/01a17462-f9b0-70e7-8af3-344420b2f0d2/traditions?is_archived=all",
+      "method": "GET",
+      "status": 200,
+      "school": "01a17462-f9b0-70e7-8af3-344420b2f0d2"
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "other",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "school-admin",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "multi",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "system-admin",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null
+    },
+    {
+      "role": "author",
+      "path": "/api/v1/traditions/01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+      "method": "GET",
+      "status": 401,
+      "school": "01a17462-f970-7321-b14f-7a02da046c4b"
+    }
+  ],
+  "contour": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "runId": "f2884d65f9"
+  },
+  "createdTradition": "01a17466-1c8f-71b7-91aa-d2805cb87c4c",
+  "parallelAnnual": {
+    "successful": 1,
+    "duplicates": 1,
+    "errorStatus": 422,
+    "persistedYears": [
+      "2031-2032",
+      "2030-2031"
+    ],
+    "preservedEarlierVersion": true
+  },
+  "isolation": {
+    "differentLists": true,
+    "deniedForeignReadAndMutations": true,
+    "activeSchoolHeaderMatchesPath": true
+  }
+}

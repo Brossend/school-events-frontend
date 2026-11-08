@@ -1,0 +1,17 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "scenarioId": "01a177b8-9b35-7170-bf04-de5408955bb2",
+  "successfulHttpRevisionCount": 4,
+  "originalRevisionUnchanged": true,
+  "allPreviouslyObservedPayloadsUnchanged": true,
+  "historicalSignoffNotTransferred": true,
+  "totalFixtureScenarios": 2,
+  "totalFixtureRevisions": 7,
+  "sqlRows": 7,
+  "sources": [
+    "before-edit.json",
+    "persisted-revisions.json",
+    "persisted-revisions-final.json"
+  ]
+}

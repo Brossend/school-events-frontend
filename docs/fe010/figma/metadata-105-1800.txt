@@ -1,0 +1,93 @@
+<frame id="105:1800" name="Пилот / Результаты 20 педагогов / 768" x="1830" y="4056" width="768" height="1538">
+  <frame id="105:1801" name="Рабочая область" x="0" y="0" width="768" height="1538">
+    <frame id="105:1802" name="Верхняя панель" x="0" y="0" width="768" height="76">
+      <text id="105:1803" name="Контекст" x="32" y="29.5" width="137" height="17" />
+      <frame id="105:1804" name="Пользователь" x="588" y="20" width="148" height="36">
+        <text id="105:1805" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="105:1806" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="105:1807" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="105:1808" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="768" height="4" />
+      <frame id="105:1809" name="Сбер × УрФУ / партнёрский знак" x="205" y="25" width="122" height="26">
+        <text id="105:1810" name="Партнёрство" x="0" y="0" width="122" height="26" />
+      </frame>
+    </frame>
+    <frame id="105:1811" name="Компактная навигация" x="0" y="76" width="768" height="58">
+      <frame id="105:1812" name="Пункт навигации" x="32" y="12" width="167" height="34">
+        <text id="105:1813" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="105:1814" name="Пункт навигации" x="211" y="12" width="167" height="34">
+        <text id="105:1815" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="105:1816" name="Пункт навигации" x="390" y="12" width="167" height="34">
+        <text id="105:1817" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="105:1818" name="Пункт навигации" x="569" y="12" width="167" height="34">
+        <text id="105:1819" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+    </frame>
+    <frame id="105:1820" name="Содержимое" x="0" y="134" width="768" height="1347">
+      <frame id="105:1936" name="Заголовок пилота" x="32" y="32" width="704" height="99">
+        <text id="105:1937" name="ПИЛОТ · 20 ПЕДАГОГОВ" x="0" y="0" width="704" height="15" />
+        <text id="105:1938" name="Результаты пилотного теста" x="0" y="23" width="704" height="36" />
+        <text id="105:1939" name="Ни одно измерение пока не проведено в этом д" x="0" y="67" width="704" height="32" />
+      </frame>
+      <frame id="105:1940" name="Статус выборки" x="32" y="155" width="704" height="92">
+        <text id="105:1941" name="0 из 20 · данные ещё не введены" x="22" y="22" width="660" height="25" />
+        <text id="105:1942" name="Статусы «достигнуто / не достигнуто» появятс" x="22" y="55" width="660" height="15" />
+      </frame>
+      <frame id="105:1943" name="Таблица критериев приёмки" x="32" y="271" width="704" height="859">
+        <text id="105:1944" name="Критерии и доказательства" x="0" y="0" width="704" height="25" />
+        <frame id="105:1945" name="Метрика / Сокращение времени, медиана" x="0" y="37" width="704" height="127">
+          <text id="105:1946" name="Сокращение времени, медиана" x="21" y="21" width="664" height="18" />
+          <text id="105:1947" name="Целевое значение: ≥ 50%" x="21" y="46" width="664" height="16" />
+          <text id="105:1948" name="Фактический результат: нет данных" x="21" y="69" width="664" height="15" />
+          <text id="105:1949" name="По каждой паре: (базовое − с ИИ) / базовое, " x="21" y="91" width="664" height="15" />
+        </frame>
+        <frame id="105:1950" name="Метрика / Выбор персонализированного" x="0" y="176" width="704" height="127">
+          <text id="105:1951" name="Выбор персонализированного" x="21" y="21" width="664" height="18" />
+          <text id="105:1952" name="Целевое значение: ≥ 70%" x="21" y="46" width="664" height="16" />
+          <text id="105:1953" name="Фактический результат: нет данных" x="21" y="69" width="664" height="15" />
+          <text id="105:1954" name="Доля педагогов, выбравших персонализированны" x="21" y="91" width="664" height="15" />
+        </frame>
+        <frame id="105:1955" name="Метрика / Доработка не более 20%" x="0" y="315" width="704" height="127">
+          <text id="105:1956" name="Доработка не более 20%" x="21" y="21" width="664" height="18" />
+          <text id="105:1957" name="Целевое значение: ≥ 70% педагогов" x="21" y="46" width="664" height="16" />
+          <text id="105:1958" name="Фактический результат: нет данных" x="21" y="69" width="664" height="15" />
+          <text id="105:1959" name="Фиксировать количество изменённых разделов /" x="21" y="91" width="664" height="15" />
+        </frame>
+        <frame id="105:1960" name="Метрика / Использование культурного контекста" x="0" y="454" width="704" height="127">
+          <text id="105:1961" name="Использование культурного контекста" x="21" y="21" width="664" height="18" />
+          <text id="105:1962" name="Целевое значение: ≥ 60%" x="21" y="46" width="664" height="16" />
+          <text id="105:1963" name="Фактический результат: нет данных" x="21" y="69" width="664" height="15" />
+          <text id="105:1964" name="Доля педагогов, использовавших проверенный к" x="21" y="91" width="664" height="15" />
+        </frame>
+        <frame id="105:1965" name="Метрика / Полезность сервиса" x="0" y="593" width="704" height="127">
+          <text id="105:1966" name="Полезность сервиса" x="21" y="21" width="664" height="18" />
+          <text id="105:1967" name="Целевое значение: ≥ 4 из 5" x="21" y="46" width="664" height="16" />
+          <text id="105:1968" name="Фактический результат: нет данных" x="21" y="69" width="664" height="15" />
+          <text id="105:1969" name="Оценка по шкале 1–5 после выполнения задания" x="21" y="91" width="664" height="15" />
+        </frame>
+        <frame id="105:1970" name="Метрика / Критические культурные ошибки" x="0" y="732" width="704" height="127">
+          <text id="105:1971" name="Критические культурные ошибки" x="21" y="21" width="664" height="18" />
+          <text id="105:1972" name="Целевое значение: 0" x="21" y="46" width="664" height="16" />
+          <text id="105:1973" name="Фактический результат: нет данных" x="21" y="69" width="664" height="15" />
+          <text id="105:1974" name="Экспертно подтверждённые факты/стереотипы со" x="21" y="91" width="664" height="15" />
+        </frame>
+      </frame>
+      <frame id="105:1975" name="Метод подсчёта" x="32" y="1154" width="704" height="81">
+        <text id="105:1976" name="Как считаем" x="14" y="14" width="676" height="16" />
+        <text id="105:1977" name="Медиана — по 20 индивидуальным процентам сок" x="14" y="37" width="676" height="30" />
+      </frame>
+      <frame id="105:1978" name="Действие / Перейти к протоколам педагогов" x="32" y="1259" width="704" height="48">
+        <text id="105:1979" name="Перейти к протоколам педагогов" x="12" y="16" width="680" height="16" />
+      </frame>
+    </frame>
+    <frame id="105:1934" name="Подвал" x="0" y="1481" width="768" height="57">
+      <text id="105:1935" name="Описание" x="32" y="20" width="704" height="17" />
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

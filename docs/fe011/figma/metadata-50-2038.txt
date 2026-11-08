@@ -1,0 +1,134 @@
+<frame id="50:2038" name="Профиль школы / 360 · compact QA" x="3305" y="390" width="360" height="1673">
+  <frame id="50:2039" name="Рабочая область" x="0" y="0" width="360" height="1673">
+    <frame id="50:2040" name="Верхняя панель" x="0" y="0" width="360" height="68">
+      <text id="50:2041" name="Контекст" x="16" y="24.5" width="161" height="19" />
+      <frame id="50:2042" name="Пользователь" x="308" y="16" width="36" height="36">
+        <frame id="50:2043" name="Аватар" x="0" y="0" width="36" height="36">
+          <text id="50:2044" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="50:2045" name="Сбер × УрФУ / цветовая линия" x="0" y="64" width="360" height="4" />
+      <frame id="50:2046" name="Сбер × УрФУ / партнёрский знак" x="183" y="21" width="105" height="26">
+        <text id="50:2047" name="Партнёрство" x="0" y="0" width="105" height="26" />
+      </frame>
+    </frame>
+    <frame id="50:2048" name="Компактная навигация" x="0" y="68" width="360" height="81">
+      <frame id="50:2049" name="Пункт навигации" x="12" y="12" width="81" height="57">
+        <frame id="50:2050" name="house" x="31" y="8" width="19" height="19" />
+        <text id="50:2052" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="50:2053" name="Пункт навигации" x="97" y="12" width="81" height="57">
+        <frame id="50:2054" name="calendar-days" x="31" y="8" width="19" height="19" />
+        <text id="50:2056" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="50:2057" name="Пункт навигации" x="182" y="12" width="81" height="57">
+        <frame id="50:2058" name="files" x="31" y="8" width="19" height="19" />
+        <text id="50:2060" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="50:2061" name="Пункт навигации" x="267" y="12" width="81" height="57">
+        <frame id="50:2062" name="school" x="31" y="8" width="19" height="19" />
+        <text id="50:2064" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+    </frame>
+    <frame id="50:2065" name="Содержимое" x="0" y="149" width="360" height="1433">
+      <frame id="50:2066" name="Заголовок профиля" x="16" y="24" width="328" height="69">
+        <text id="50:2067" name="Профиль школы" x="0" y="0" width="328" height="29" />
+        <text id="50:2068" name="Настройки, которые подставляют" x="0" y="37" width="328" height="32" />
+      </frame>
+      <frame id="50:2069" name="Предупреждение / демонстрационная школа" x="16" y="117" width="328" height="79">
+        <text id="50:2070" name="Демонстрационный профиль" x="14" y="14" width="300" height="15" />
+        <text id="50:2071" name="Название школы и сведения о пе" x="14" y="35" width="300" height="30" />
+      </frame>
+      <frame id="50:2072" name="Основные сведения" x="16" y="220" width="328" height="385">
+        <text id="50:2073" name="Основные сведения" x="20" y="20" width="288" height="21" />
+        <frame id="50:2074" name="Поле / Название школы" x="20" y="55" width="288" height="67">
+          <text id="50:2075" name="Название школы" x="0" y="0" width="288" height="15" />
+          <frame id="50:2076" name="Значение / Название школы" x="0" y="21" width="288" height="46">
+            <text id="50:2077" name="Уральская перспектива · демо" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+        <frame id="50:2078" name="Поле / Регион" x="20" y="136" width="288" height="67">
+          <text id="50:2079" name="Регион" x="0" y="0" width="288" height="15" />
+          <frame id="50:2080" name="Значение / Регион" x="0" y="21" width="288" height="46">
+            <text id="50:2081" name="Свердловская область" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+        <frame id="50:2082" name="Поле / Населённый пункт" x="20" y="217" width="288" height="67">
+          <text id="50:2083" name="Населённый пункт" x="0" y="0" width="288" height="15" />
+          <frame id="50:2084" name="Значение / Населённый пункт" x="0" y="21" width="288" height="46">
+            <text id="50:2085" name="Екатеринбург" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+        <frame id="50:2086" name="Поле / Учебный год" x="20" y="298" width="288" height="67">
+          <text id="50:2087" name="Учебный год" x="0" y="0" width="288" height="15" />
+          <frame id="50:2088" name="Значение / Учебный год" x="0" y="21" width="288" height="46">
+            <text id="50:2089" name="2026 / 2027" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="50:2090" name="Настройки класса" x="16" y="629" width="328" height="348">
+        <text id="50:2091" name="Класс по умолчанию" x="20" y="20" width="288" height="21" />
+        <frame id="50:2092" name="Поле / Класс" x="20" y="55" width="288" height="67">
+          <text id="50:2093" name="Класс" x="0" y="0" width="288" height="15" />
+          <frame id="50:2094" name="Значение / Класс" x="0" y="21" width="288" height="46">
+            <text id="50:2095" name="6Б" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+        <frame id="50:2096" name="Поле / Количество учащихся" x="20" y="136" width="288" height="67">
+          <text id="50:2097" name="Количество учащихся" x="0" y="0" width="288" height="15" />
+          <frame id="50:2098" name="Значение / Количество учащихся" x="0" y="21" width="288" height="46">
+            <text id="50:2099" name="25" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+        <frame id="50:2100" name="Поле / Длительность, минут" x="20" y="217" width="288" height="67">
+          <text id="50:2101" name="Длительность, минут" x="0" y="0" width="288" height="15" />
+          <frame id="50:2102" name="Значение / Длительность, минут" x="0" y="21" width="288" height="46">
+            <text id="50:2103" name="45" x="15" y="15" width="274" height="16" />
+          </frame>
+        </frame>
+        <text id="50:2104" name="Эти значения можно изменить дл" x="20" y="298" width="288" height="30" />
+      </frame>
+      <frame id="50:2105" name="Доступные ресурсы" x="16" y="1001" width="328" height="320">
+        <text id="50:2106" name="Доступные ресурсы" x="20" y="20" width="288" height="21" />
+        <text id="50:2107" name="Отметьте оборудование, которое" x="20" y="50" width="288" height="30" />
+        <frame id="50:2108" name="Ресурс / Проектор и экран" x="20" y="89" width="288" height="35">
+          <frame id="50:2109" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="50:2110" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="50:2111" name="Проектор и экран" x="29" y="9.5" width="286" height="16" />
+        </frame>
+        <frame id="50:2112" name="Ресурс / Компьютер педагога" x="20" y="133" width="288" height="35">
+          <frame id="50:2113" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="50:2114" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="50:2115" name="Компьютер педагога" x="29" y="9.5" width="286" height="16" />
+        </frame>
+        <frame id="50:2116" name="Ресурс / Колонки" x="20" y="177" width="288" height="35">
+          <frame id="50:2117" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="50:2118" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="50:2119" name="Колонки" x="29" y="9.5" width="286" height="16" />
+        </frame>
+        <frame id="50:2120" name="Ресурс / Бумага и фломастеры" x="20" y="221" width="288" height="35">
+          <frame id="50:2121" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="50:2122" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="50:2123" name="Бумага и фломастеры" x="29" y="9.5" width="286" height="16" />
+        </frame>
+        <frame id="50:2124" name="Ресурс / Стабильный интернет" x="20" y="265" width="288" height="35">
+          <frame id="50:2125" name="Не выбран" x="0" y="8" width="19" height="19">
+            <text id="50:2126" name="Text" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="50:2127" name="Стабильный интернет" x="29" y="9.5" width="286" height="16" />
+        </frame>
+      </frame>
+      <frame id="50:2128" name="Кнопка / сохранить профиль" x="16" y="1345" width="328" height="48">
+        <text id="50:2129" name="✓ Сохранить изменения" x="58" y="15.5" width="212" height="17" />
+      </frame>
+    </frame>
+    <frame id="50:2130" name="Подвал" x="0" y="1582" width="360" height="91">
+      <text id="50:2131" name="Описание" x="16" y="20" width="328" height="51" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

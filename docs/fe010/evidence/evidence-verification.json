@@ -1,0 +1,59 @@
+{
+  "runId": "9cf645fab2",
+  "completed": true,
+  "suiteExitCode": 0,
+  "httpRequests": 246,
+  "kpiMatches": 6,
+  "ladder": {
+    "A": {
+      "responses": 20,
+      "effectiveAudited": 20,
+      "totalFindings": 22
+    },
+    "Zero": {
+      "responses": 0,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "One": {
+      "responses": 1,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "Five": {
+      "responses": 5,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "Partial": {
+      "responses": 20,
+      "effectiveAudited": 5,
+      "totalFindings": 5
+    },
+    "Real": {
+      "responses": 2,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    }
+  },
+  "reviewVersions": [
+    {
+      "version": 1,
+      "effective": false,
+      "criticalErrors": 0
+    },
+    {
+      "version": 2,
+      "effective": false,
+      "criticalErrors": 1
+    },
+    {
+      "version": 3,
+      "effective": true,
+      "criticalErrors": 0
+    }
+  ],
+  "database": "school_events_test",
+  "credentialFieldScan": "PASS",
+  "scope": "Only saved own-run evidence; read-only validation; no fixture changes"
+}

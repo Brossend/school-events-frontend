@@ -1,0 +1,8 @@
+<script setup lang="ts">
+import { ref, watch } from 'vue'
+import type { RegistryQuery, RegistryView } from '~/types/registry'
+const props=defineProps<{query:RegistryQuery;busy?:boolean}>(),emit=defineEmits<{change:[patch:Partial<RegistryQuery>]}>(),search=ref(props.query.q)
+watch(()=>props.query.q,value=>{search.value=value})
+const tabs:{value:RegistryView;label:string}[]=[{value:'active',label:'Все активные'},{value:'draft',label:'Без подтверждения'},{value:'completed',label:'Есть запись подтверждения'},{value:'archived',label:'Архив'}]
+</script>
+<template><div class="registry-filters"><form class="registry-search" @submit.prevent="emit('change',{q:search})"><label class="registry-search-field"><span class="sr-only">Поиск по названию в доступных сценариях</span><img src="/icons/fe009/search.svg" width="18" height="18" alt=""><input v-model="search" type="search" maxlength="200" placeholder="Поиск по названию мероприятия" :disabled="busy"></label><UiButton type="submit" variant="secondary" :disabled="busy">Найти</UiButton><label><span class="sr-only">Порядок сценариев</span><select :value="query.sort" :disabled="busy" @change="emit('change',{sort:($event.target as HTMLSelectElement).value as RegistryQuery['sort']})"><option value="created_at:desc">Сначала новые</option><option value="created_at:asc">Сначала старые</option></select></label></form><nav class="registry-tabs" aria-label="Списки сценариев"><button v-for="tab in tabs" :key="tab.value" type="button" :aria-pressed="query.view===tab.value" :disabled="busy" @click="emit('change',{view:tab.value})">{{ tab.label }}</button></nav><p class="registry-scope">Поиск, раздел и сортировка применяются сервером ко всем доступным вам записям в выбранной школе.</p></div></template>

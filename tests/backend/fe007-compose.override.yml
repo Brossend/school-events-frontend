@@ -1,0 +1,6 @@
+# Test runtime only. No backend files or working queue configuration are edited.
+services:
+  app-test:
+    environment:
+      QUEUE_CONNECTION: redis
+      REDIS_QUEUE: ${FE007_REDIS_QUEUE:?Set the isolated FE007 queue name}

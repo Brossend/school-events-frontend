@@ -1,0 +1,20 @@
+{
+  "originDuringBusinessMutations": "http://localhost:8001",
+  "customSavedId": "01a17498-5497-72a8-b645-5b4e03c3281f",
+  "calendarSavedId": "01a1749b-4409-726d-a975-9796cbc6183c",
+  "traditionSavedId": "01a1749d-cb6d-728f-a36f-886f1042e5a2",
+  "allSavedIdsVerifiedInPostgres": true,
+  "getLinkAndReload": true,
+  "backPreservesFields": true,
+  "requiredTitleError": true,
+  "eventDetailScopedEntry": true,
+  "traditionVersionScopedEntry": true,
+  "foreignVersionUrlRefused": true,
+  "schoolChangeThenBrowserBackClearsQueryAndOccasion": true,
+  "protectedRouteWithoutSession": "/login?redirect=/constructor",
+  "protectedRouteScreenshotAfterMainOriginRestored": "logged-out-protected.png",
+  "viewportScreenshots": 20,
+  "viewportOverrideReset": true,
+  "generationStarted": false,
+  "runtimeApiOriginRestored": "http://localhost:8000"
+}

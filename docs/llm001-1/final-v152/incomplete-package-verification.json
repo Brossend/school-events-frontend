@@ -1,0 +1,28 @@
+{
+  "status": "PENDING INDEPENDENT REVIEW",
+  "technical_cases_completed": 4,
+  "required_cases": 5,
+  "acceptance_complete": false,
+  "archives": [
+    {
+      "file": "school-backend-llm001-1-incomplete.zip",
+      "bytes": 17377237,
+      "files": 841,
+      "sha256": "a70f69b561f69332096797f4002ac09a2512ecee60f71e3f644ab1b827de310d",
+      "crc": "PASS",
+      "manifest": "PASS",
+      "secretScan": "PASS",
+      "acceptance_complete": false
+    },
+    {
+      "file": "school-events-frontend-llm001-1-incomplete.zip",
+      "bytes": 93661345,
+      "files": 2119,
+      "sha256": "8b11d85ff9b3dbf6d7a8a8dc1b0d664275fd28a67ee10f7c7a6668ccc0528f9b",
+      "crc": "PASS",
+      "manifest": "PASS",
+      "secretScan": "PASS",
+      "acceptance_complete": false
+    }
+  ]
+}

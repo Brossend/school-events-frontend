@@ -1,0 +1,26 @@
+{
+  "typecheck": {
+    "exitCode": 0,
+    "log": "docs/fe008/typecheck-final.log"
+  },
+  "eslint": {
+    "exitCode": 0,
+    "log": "docs/fe008/lint-final.log"
+  },
+  "vitest": {
+    "exitCode": 0,
+    "passed": 289,
+    "regression": 236,
+    "added": 53,
+    "log": "docs/fe008/unit-final.log"
+  },
+  "http": {
+    "exitCode": 0,
+    "requests": 77,
+    "log": "docs/fe008/http-run.log"
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "log": "docs/fe008/build-final.log"
+  }
+}

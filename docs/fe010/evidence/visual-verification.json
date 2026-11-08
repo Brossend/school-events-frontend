@@ -1,0 +1,16 @@
+{
+  "requiredScreens": 40,
+  "additionalCulturalUnavailableScreens": 4,
+  "widths": [
+    1440,
+    768,
+    390,
+    360
+  ],
+  "source": "real-api-app-test",
+  "allSyntheticLabeled": true,
+  "noSecretFieldsCaptured": true,
+  "allAspectRatiosVerified": true,
+  "noHorizontalOverflow": true,
+  "visibleAssetsLoaded": true
+}

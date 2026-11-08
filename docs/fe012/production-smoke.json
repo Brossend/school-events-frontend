@@ -1,0 +1,120 @@
+{
+  "launch": "node .output/server/index.mjs",
+  "apiOrigin": "http://localhost:8000",
+  "routes": [
+    {
+      "path": "/login",
+      "status": 200,
+      "spaShell": true,
+      "normalApiOrigin": true
+    },
+    {
+      "path": "/calendar",
+      "status": 200,
+      "spaShell": true,
+      "normalApiOrigin": true
+    },
+    {
+      "path": "/school",
+      "status": 200,
+      "spaShell": true,
+      "normalApiOrigin": true
+    },
+    {
+      "path": "/pilot",
+      "status": 200,
+      "spaShell": true,
+      "normalApiOrigin": true
+    },
+    {
+      "path": "/system",
+      "status": 200,
+      "spaShell": true,
+      "normalApiOrigin": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "/_nuxt/entry.BmogkL9B.css",
+      "status": 200,
+      "bytes": 61332
+    },
+    {
+      "path": "/_nuxt/6aHHUzj-.js",
+      "status": 200,
+      "bytes": 107596
+    },
+    {
+      "path": "/_nuxt/26P8NaWu.js",
+      "status": 200,
+      "bytes": 17474
+    },
+    {
+      "path": "/_nuxt/xfpO2uTb.js",
+      "status": 200,
+      "bytes": 78025
+    },
+    {
+      "path": "/_nuxt/ZYXvPAUY.js",
+      "status": 200,
+      "bytes": 11182
+    },
+    {
+      "path": "/_nuxt/CTsaNEVr.js",
+      "status": 200,
+      "bytes": 7208
+    },
+    {
+      "path": "/_nuxt/DzOnLdFa.js",
+      "status": 200,
+      "bytes": 5293
+    },
+    {
+      "path": "/_nuxt/DmMAk4rJ.js",
+      "status": 200,
+      "bytes": 2223
+    },
+    {
+      "path": "/_nuxt/D33xjRKv.js",
+      "status": 200,
+      "bytes": 5342
+    },
+    {
+      "path": "/_nuxt/CaOEwg0i.js",
+      "status": 200,
+      "bytes": 333
+    },
+    {
+      "path": "/_nuxt/B9zawoEV.js",
+      "status": 200,
+      "bytes": 991
+    }
+  ],
+  "runtimeDependencies": [
+    "@babel/parser",
+    "@vue/compiler-core",
+    "@vue/compiler-dom",
+    "@vue/compiler-ssr",
+    "@vue/reactivity",
+    "@vue/runtime-core",
+    "@vue/runtime-dom",
+    "@vue/server-renderer",
+    "@vue/shared",
+    "devalue",
+    "entities",
+    "estree-walker",
+    "hookable",
+    "nostics",
+    "source-map-js",
+    "ufo",
+    "unhead",
+    "vue",
+    "vue-bundle-renderer"
+  ],
+  "installedChainPackages": [],
+  "chainImportMatches": [],
+  "textualReferences": [
+    "chunks\\routes\\renderer.mjs"
+  ],
+  "note": "SPA shell smoke only; authenticated RBAC and logout were verified separately through live API/browser. Text comments mentioning nitropack are not imports."
+}

@@ -1,0 +1,22 @@
+{
+  "origin": "http://localhost:8001",
+  "provider": "backend MockLlmProvider",
+  "successfulRequest": "01a17723-cb28-702f-9ce0-5ccb0ca56340",
+  "successfulRun": "01a17725-6474-7086-b704-89a567a8650c",
+  "scenario": "01a17728-100d-714c-b5e0-ec75c79ac586",
+  "liveStates": [
+    "queued",
+    "failed",
+    "completed"
+  ],
+  "componentFixtureStates": [
+    "running",
+    "timed_out"
+  ],
+  "schoolSwitchBack": "denied; previous scenario absent",
+  "logoutProtectedRun": "redirect login",
+  "longContent": "stages/materials/sources + source inspector at 390px; local toc and focus",
+  "failedFamilyRun": "01a1771c-c0bc-724c-be60-da0f7c69d12e",
+  "failedFamilyCode": "VALIDATION_FAILED / RULE_MECHANISM_ACTIVITY_NOT_FOUND",
+  "fullPageScreenshot": false
+}

@@ -1,0 +1,117 @@
+{
+    "runId": "4e94f87949",
+    "origin": "http:\/\/localhost:8001",
+    "database": "school_events_test",
+    "environment": "testing",
+    "databaseUser": "school_test_user",
+    "queue": "sync",
+    "passwordDerivation": "HMAC-SHA256(APP_KEY, FE012:runId); never persist password",
+    "completed": false,
+    "schools": {
+        "A": {
+            "id": "01a189f7-0af2-712e-a7bc-245a342e0e85",
+            "name": "FE012 4e94f87949 A · synthetic test school",
+            "region_code": "66"
+        },
+        "B": {
+            "id": "01a189f7-0b20-70f2-a287-20727c25a3d9",
+            "name": "FE012 4e94f87949 B · synthetic test school",
+            "region_code": "66"
+        },
+        "C": {
+            "id": "01a189f7-0b22-7016-9dde-e47518781d33",
+            "name": "FE012 4e94f87949 C · synthetic test school",
+            "region_code": "77"
+        }
+    },
+    "users": {
+        "teacher": {
+            "id": "01a189f7-0bef-7218-abac-79cf2def1554",
+            "email": "fe012-4e94f87949-teacher@example.test",
+            "system_role": "none"
+        },
+        "schoolAdmin": {
+            "id": "01a189f7-0bfd-708d-bc15-9163df4ab2f7",
+            "email": "fe012-4e94f87949-schoolAdmin@example.test",
+            "system_role": "none"
+        },
+        "other": {
+            "id": "01a189f7-0c01-7064-babb-73926604f207",
+            "email": "fe012-4e94f87949-other@example.test",
+            "system_role": "none"
+        },
+        "foreign": {
+            "id": "01a189f7-0c04-7101-9034-2bd2978862ef",
+            "email": "fe012-4e94f87949-foreign@example.test",
+            "system_role": "none"
+        },
+        "regional": {
+            "id": "01a189f7-0c07-7396-9787-e2495a926170",
+            "email": "fe012-4e94f87949-regional@example.test",
+            "system_role": "catalog_curator"
+        },
+        "system": {
+            "id": "01a189f7-0c09-71cf-926f-9d277dc611c8",
+            "email": "fe012-4e94f87949-system@example.test",
+            "system_role": "system_admin"
+        },
+        "inactive": {
+            "id": "01a189f7-0c0b-72f9-b27d-e5bdfe7e5c7d",
+            "email": "fe012-4e94f87949-inactive@example.test",
+            "system_role": "none"
+        },
+        "multi": {
+            "id": "01a189f7-0c0e-7272-bdbe-5ab277de921b",
+            "email": "fe012-4e94f87949-multi@example.test",
+            "system_role": "none"
+        }
+    },
+    "events": {
+        "regional66": "01a189f7-0c22-72e4-919f-7040884bef1c",
+        "regional77": "01a189f7-0c3f-71fa-b800-ae53931b12dc",
+        "federal": "01a189f7-0c44-70d7-9a4f-a1bb0e4e7ead",
+        "schoolA": "01a189f7-0c48-706c-b726-2e3705f23b07",
+        "schoolB": "01a189f7-0c4c-7355-b19c-8973bdc3181d",
+        "schoolC": "01a189f7-0c50-70f6-ae85-3d085c1b84ab",
+        "draft": "01a189f7-0c54-71f3-85db-4b874687ed69"
+    },
+    "sources": {
+        "regional66": "01a189f7-0c34-701f-b481-66397b4703f5",
+        "regional77": "01a189f7-0c40-72e2-8b84-dc51b960d6b0",
+        "federal": "01a189f7-0c45-72af-a801-279743d264c0",
+        "schoolA": "01a189f7-0c49-7161-a33c-6944c87b728f",
+        "schoolB": "01a189f7-0c4d-7284-accc-ed464c420208",
+        "schoolC": "01a189f7-0c51-7040-ba06-53ce1c9790ae",
+        "draft": "01a189f7-0c55-70c5-a7f8-68bcbbcf4798"
+    },
+    "claims": {
+        "regional66": {
+            "primary": "01a189f7-0c3c-70c8-9f89-00dcd518f0ca",
+            "sibling": "01a189f7-0c3e-71e9-847a-2cec7e06ec1a"
+        },
+        "regional77": {
+            "primary": "01a189f7-0c42-71a8-9935-9d603397695e",
+            "sibling": "01a189f7-0c43-7301-af67-d2b4395c2d97"
+        },
+        "federal": {
+            "primary": "01a189f7-0c46-7056-8f41-7478a8be8ec7",
+            "sibling": "01a189f7-0c47-73de-9b0d-9dfe1a26ee22"
+        },
+        "schoolA": {
+            "primary": "01a189f7-0c4a-7238-8c0e-30faf0601d04",
+            "sibling": "01a189f7-0c4b-71cd-9e24-752cc19a99d1"
+        },
+        "schoolB": {
+            "primary": "01a189f7-0c4e-7344-84bd-8b668bc5aea9",
+            "sibling": "01a189f7-0c4f-7271-be7c-5f85dcd68027"
+        },
+        "schoolC": {
+            "primary": "01a189f7-0c52-72eb-89e1-7da65a60a326",
+            "sibling": "01a189f7-0c53-7227-a787-24a24f440bfd"
+        },
+        "draft": {
+            "primary": "01a189f7-0c56-728b-b7f8-f661c93d1d8a",
+            "sibling": "01a189f7-0c57-70fc-9899-2b7254203370"
+        }
+    }
+}

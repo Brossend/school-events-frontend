@@ -1,0 +1,15 @@
+{
+  "contour": "app-test:8001 / school_events_test",
+  "createdTradition": "http://localhost:3000/traditions/01a17470-ebae-72f2-b7e4-b7e7c42d6ed4",
+  "annualCreated": "2027-2028",
+  "annualHistoryCountBefore": 3,
+  "annualHistoryCountAfter": 4,
+  "metadataSaved": true,
+  "snapshotRetainedEarlierTitle": true,
+  "archiveConfirmed": true,
+  "archivedListAfterReload": true,
+  "clientFieldValidation": true,
+  "nonAuthorEditAndArchiveHidden": true,
+  "schoolSwitchToB": true,
+  "foreignBLinkDeniedAfterSwitchToA": true
+}

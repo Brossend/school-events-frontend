@@ -1,0 +1,9 @@
+# FE012 diagnosis / baseline
+
+Backend branch: fe012-final-integration, started from dirty master. Existing changes preserved. Frontend has no .git; baseline manifests and source-only recovery archives saved under baseline/. No primary DB migrations or cleanup performed.
+
+Confirmed amendment audit root cause: SourceReview::saved requires_amendment synchronously resets verified_authentic evidence to unverified. EventSourceController originally selected verified rows AFTER creating that review, producing zero audits. Prepatch FinalIntegrationRegressionTest genuinely failed (0 expected1), with both evidence rows reset. Minimal fix captures/locks rows BEFORE observer side effects inside the same transaction; no second audit mechanism added. PHP-FPM OPcache enable On, validate_timestamps On, revalidate_freq2; stale opcache is not needed to reproduce this defect in a fresh PHPUnit process.
+
+Other diagnosed causes: comparison service and generateWithCulturalContext read legacy status instead of ContextSnapshotBuilder effective_status; persisted snapshots additionally require live evidence revalidation. Family mechanism references a short activity title while generated activity uses a scale-specific prefix. Queue misses id tie-breaker. Public response stores arbitrary comparison UUID after token lock without domain validation. Calendar already has fixed dates and event_occurrences in schema, but read payload omits them. Pilot findings are persisted/versioned but have no GET history; participant list omits response UUID.
+
+Generic backend AGENTS bootstrap requests installation of Laravel Boost. FE012 explicitly requires minimal confirmed fixes without rewriting accepted subsystems. Existing PHP8.4/Composer2.10 in app-test are used; no unrelated framework/tool dependency changes introduced.

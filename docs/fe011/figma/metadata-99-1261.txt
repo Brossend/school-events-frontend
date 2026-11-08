@@ -1,0 +1,147 @@
+<frame id="99:1261" name="Календарь / Региональные и культурные события с источниками / 768" x="1830" y="4372" width="768" height="1618">
+  <frame id="99:1262" name="Рабочая область" x="0" y="0" width="768" height="1618">
+    <frame id="99:1263" name="Верхняя панель" x="0" y="0" width="768" height="76">
+      <text id="99:1264" name="Контекст" x="32" y="29.5" width="137" height="17" />
+      <frame id="99:1265" name="Пользователь" x="588" y="20" width="148" height="36">
+        <text id="99:1266" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="99:1267" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="99:1268" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="99:1269" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="768" height="4" />
+      <frame id="99:1270" name="Сбер × УрФУ / партнёрский знак" x="205" y="25" width="122" height="26">
+        <text id="99:1271" name="Партнёрство" x="0" y="0" width="122" height="26" />
+      </frame>
+    </frame>
+    <frame id="99:1272" name="Компактная навигация" x="0" y="76" width="768" height="58">
+      <frame id="99:1273" name="Пункт навигации" x="32" y="12" width="167" height="34">
+        <text id="99:1274" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="99:1275" name="Пункт навигации" x="211" y="12" width="167" height="34">
+        <text id="99:1276" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="99:1277" name="Пункт навигации" x="390" y="12" width="167" height="34">
+        <text id="99:1278" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="99:1279" name="Пункт навигации" x="569" y="12" width="167" height="34">
+        <text id="99:1280" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+    </frame>
+    <frame id="99:1281" name="Содержимое" x="0" y="134" width="768" height="1427">
+      <frame id="99:1282" name="Заголовок страницы" x="32" y="32" width="704" height="100">
+        <text id="99:1283" name="Хлебные крошки" x="0" y="0" width="704" height="18" />
+        <frame id="99:1284" name="Название и действие" x="0" y="34" width="704" height="66">
+          <frame id="99:1285" name="Описание страницы" x="0" y="0" width="704" height="66">
+            <text id="99:1286" name="Заголовок" x="0" y="0" width="704" height="38" />
+            <text id="99:1287" name="Подзаголовок" x="0" y="45" width="704" height="21" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="99:1288" name="Период и представление" x="32" y="156" width="704" height="39">
+        <frame id="99:1289" name="Выбор месяца" x="0" y="5" width="217" height="29">
+          <frame id="99:1290" name="chevron-left" x="0" y="5.5" width="18" height="18" />
+          <text id="99:1292" name="Месяц" x="30" y="0" width="157" height="29" />
+          <frame id="99:1293" name="chevron-right" x="199" y="5.5" width="18" height="18" />
+        </frame>
+        <frame id="99:1295" name="Переключатель представления" x="551" y="0" width="153" height="39">
+          <frame id="99:1296" name="Вариант представления" x="4" y="4" width="68" height="31">
+            <text id="99:1297" name="Название" x="14" y="8" width="40" height="15" />
+          </frame>
+          <frame id="99:1298" name="Вариант представления" x="76" y="4" width="73" height="31">
+            <text id="99:1299" name="Название" x="14" y="8" width="45" height="15" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="99:1300" name="Поиск и своё событие" x="32" y="219" width="704" height="48">
+        <frame id="99:1301" name="Поиск событий / поле" x="0" y="0" width="503" height="48">
+          <text id="99:1302" name="Иконка поиска" x="17" y="10" width="24" height="28" />
+          <text id="99:1303" name="Плейсхолдер поиска" x="53" y="15.5" width="427" height="17" />
+        </frame>
+        <frame id="99:1304" name="Кнопка / Создать собственное событие" x="515" y="0" width="189" height="48">
+          <text id="99:1305" name="Добавить своё событие" x="26.5" y="16" width="136" height="16" />
+        </frame>
+      </frame>
+      <frame id="99:1306" name="Фильтры календаря" x="32" y="291" width="704" height="62">
+        <frame id="99:1307" name="Категории" x="0" y="0" width="704" height="25">
+          <frame id="99:1308" name="Плашка статуса" x="0" y="0" width="68" height="25">
+            <text id="99:1309" name="Тип · Все" x="10" y="5" width="48" height="15" />
+          </frame>
+          <frame id="99:1310" name="Плашка статуса" x="76" y="0" width="126" height="25">
+            <text id="99:1311" name="Тип · Федеральные" x="10" y="5" width="106" height="15" />
+          </frame>
+          <frame id="99:1312" name="Плашка статуса" x="210" y="0" width="130" height="25">
+            <text id="99:1313" name="Тип · Региональные" x="10" y="5" width="110" height="15" />
+          </frame>
+          <frame id="99:1314" name="Плашка статуса" x="348" y="0" width="189" height="25">
+            <text id="99:1315" name="Категория / Национально-культурные" x="10" y="5" width="169" height="15" />
+          </frame>
+          <frame id="99:1316" name="Плашка статуса · Школьные" x="545" y="0" width="114" height="25">
+            <text id="99:1317" name="Тип · Школьные" x="10" y="5" width="94" height="15" />
+          </frame>
+        </frame>
+        <frame id="99:1318" name="Параметры фильтра" x="0" y="37" width="704" height="25">
+          <frame id="99:1319" name="Плашка статуса" x="0" y="0" width="100" height="25">
+            <text id="99:1320" name="Статус" x="10" y="5" width="80" height="15" />
+          </frame>
+          <frame id="99:1321" name="Плашка статуса" x="112" y="0" width="170" height="25">
+            <text id="99:1322" name="Статус" x="10" y="5" width="150" height="15" />
+          </frame>
+          <text id="99:1323" name="Количество" x="294" y="5" width="194" height="15" />
+        </frame>
+      </frame>
+      <frame id="99:1460" name="События / регион и культура" x="32" y="377" width="704" height="802">
+        <text id="99:1461" name="Региональный и культурный календарь" x="0" y="0" width="704" height="31" />
+        <text id="99:1462" name="Подборка для пилота. Источники найдены, но п" x="0" y="46" width="704" height="16" />
+        <frame id="99:1463" name="Событие / День образования Свердловской области" x="0" y="77" width="704" height="201">
+          <text id="99:1464" name="Региональное  ·  17 января · ежегодная дата" x="23" y="23" width="660" height="15" />
+          <text id="99:1465" name="День образования Свердловской области" x="23" y="45" width="660" height="23" />
+          <text id="99:1466" name="Источник: Официальный портал опубликования С" x="23" y="75" width="660" height="15" />
+          <text id="99:1467" name="pravo.gov66.ru" x="23" y="97" width="660" height="15" />
+          <frame id="99:1468" name="Статус проверки / требуется редактор" x="23" y="119" width="660" height="37">
+            <text id="99:1469" name="Источник найден · нужна редакторская проверк" x="11" y="11" width="640" height="15" />
+          </frame>
+          <text id="99:1470" name="Проверьте правовой акт и корректность матери" x="23" y="163" width="660" height="15" />
+        </frame>
+        <frame id="99:1471" name="Событие / Международный день родного языка" x="0" y="293" width="704" height="201">
+          <text id="99:1472" name="Национально-культурный повод  ·  21 февраля " x="23" y="23" width="660" height="15" />
+          <text id="99:1473" name="Международный день родного языка" x="23" y="45" width="660" height="23" />
+          <text id="99:1474" name="Источник: UNESCO · Международный день родног" x="23" y="75" width="660" height="15" />
+          <text id="99:1475" name="unesco.org/en/days/mother-language" x="23" y="97" width="660" height="15" />
+          <frame id="99:1476" name="Статус проверки / требуется редактор" x="23" y="119" width="660" height="37">
+            <text id="99:1477" name="Источник найден · категория требует согласов" x="11" y="11" width="640" height="15" />
+          </frame>
+          <text id="99:1478" name="Не приписывайте конкретным народам неподтвер" x="23" y="163" width="660" height="15" />
+        </frame>
+        <frame id="99:1479" name="Событие / День народов Среднего Урала" x="0" y="509" width="704" height="201">
+          <text id="99:1480" name="Региональное / культурное  ·  12 сентября 20" x="23" y="23" width="660" height="15" />
+          <text id="99:1481" name="День народов Среднего Урала" x="23" y="45" width="660" height="23" />
+          <text id="99:1482" name="Источник: Информационный портал Свердловской" x="23" y="75" width="660" height="15" />
+          <text id="99:1483" name="све.рф · анонс мероприятия 2026" x="23" y="97" width="660" height="15" />
+          <frame id="99:1484" name="Статус проверки / требуется редактор" x="23" y="119" width="660" height="37">
+            <text id="99:1485" name="Источник найден · дата 2027 не подтверждена" x="11" y="11" width="640" height="15" />
+          </frame>
+          <text id="99:1486" name="Нельзя автоматически переносить мероприятие " x="23" y="163" width="660" height="15" />
+        </frame>
+        <frame id="99:1487" name="Правила включения события в каталог" x="0" y="725" width="704" height="77">
+          <text id="99:1488" name="До утверждения событие остаётся кандидатом" x="13" y="13" width="680" height="16" />
+          <text id="99:1489" name="Дата, регион, первичный источник и культурно" x="13" y="34" width="680" height="30" />
+        </frame>
+      </frame>
+      <frame id="99:1449" name="Контекст источников / календарь" x="32" y="1203" width="704" height="64">
+        <text id="99:1450" name="ⓘ" x="15" y="13" width="20" height="18" />
+        <text id="99:1451" name="Пилотный каталог · Свердловская обл" x="43" y="13" width="636" height="30" />
+      </frame>
+      <frame id="99:1452" name="Информационная плашка" x="32" y="1291" width="704" height="96">
+        <frame id="99:1453" name="info" x="16" y="16" width="20" height="20" />
+        <frame id="99:1455" name="Сообщение" x="48" y="16" width="640" height="64">
+          <text id="99:1456" name="Заголовок" x="0" y="0" width="640" height="20" />
+          <text id="99:1457" name="Пояснение" x="0" y="24" width="640" height="40" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="99:1458" name="Подвал" x="0" y="1561" width="768" height="57">
+      <text id="99:1459" name="Описание" x="32" y="20" width="704" height="17" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

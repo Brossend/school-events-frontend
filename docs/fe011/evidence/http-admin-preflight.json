@@ -1,0 +1,355 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": false,
+  "trace": [
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 401,
+      "response": {
+        "error": {
+          "code": "UNAUTHORIZED",
+          "message": "Требуется авторизация.",
+          "details": [],
+          "trace_id": "req-01a187b1-6975-7052-b2c9-70dd0ddc6747"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": null,
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": null,
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "teacher",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "system",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": null,
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": null,
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": null,
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "address": "Тестовая улица, 11",
+            "description": "FE011 synthetic data"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "request": {
+        "city": "Казань"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SCHOOL_ADMIN_ACCESS",
+          "message": "Редактировать профиль школы могут только администраторы этой школы или системные администраторы.",
+          "details": [],
+          "trace_id": "req-01a187b1-9a72-73f2-8d6e-e78d12fe7cc5"
+        }
+      }
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_TENANT_ACCESS",
+          "message": "Доступ к профилю данной образовательной организации запрещен.",
+          "details": [],
+          "trace_id": "req-01a187b1-a9b9-72cb-821c-3cebb2d76c35"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-de43-7066-8005-5d8712f3a474",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "request": {
+        "city": "Казань"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SCHOOL_ADMIN_ACCESS",
+          "message": "Редактировать профиль школы могут только администраторы этой школы или системные администраторы.",
+          "details": [],
+          "trace_id": "req-01a187b1-b6c1-739b-8a6b-f3554a5b2579"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/schools/01a187ac-de45-7279-a2ea-1a0b0fb6d9b7",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_TENANT_ACCESS",
+          "message": "Доступ к профилю данной образовательной организации запрещен.",
+          "details": [],
+          "trace_id": "req-01a187b1-c62b-72de-85cd-2ad42f62be60"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_TENANT_ACCESS",
+          "message": "Доступ к профилю данной образовательной организации запрещен.",
+          "details": [],
+          "trace_id": "req-01a187b1-d3bf-723d-b969-f7cd811e8058"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 403,
+      "request": {
+        "city": "Казань"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SCHOOL_ADMIN_ACCESS",
+          "message": "Редактировать профиль школы могут только администраторы этой школы или системные администраторы.",
+          "details": [],
+          "trace_id": "req-01a187b1-de2c-70e0-8c9d-e79337beadf5"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": null,
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "address": "Тестовая улица, 11",
+            "description": "FE011 synthetic data"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/auth/me",
+      "school": null,
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "system",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 200,
+      "request": {
+        "short_name": "FE011 system edit"
+      },
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 system edit",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "address": "Тестовая улица, 11",
+            "description": "FE011 synthetic data"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:45:53+00:00"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": {
+        "short_name": "FE011 school admin",
+        "city": "Екатеринбург",
+        "settings": {
+          "phone": "+7 000 000 0011",
+          "email": "fe011@example.test",
+          "website": "https://example.test/fe011",
+          "description": "FE011 synthetic school settings"
+        }
+      },
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 school admin",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "address": "Тестовая улица, 11",
+            "description": "FE011 synthetic school settings",
+            "phone": "+7 000 000 0011",
+            "email": "fe011@example.test",
+            "website": "https://example.test/fe011"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:45:55+00:00"
+        }
+      }
+    }
+  ],
+  "probe": {
+    "app_name": "Школьные события (Тестовый контур)",
+    "environment": "testing",
+    "database": "school_events_test",
+    "configured_database": "school_events_test",
+    "hostname": "f39903b54033",
+    "server_port": "80"
+  }
+}

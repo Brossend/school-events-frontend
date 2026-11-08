@@ -1,0 +1,24 @@
+[
+  {
+    "file": "C:\\Users\\bross\\Downloads\\school-events-01a1ba82-5bcd-71c7-a3b3-a03dc4f8e2b6-pdf.pdf",
+    "size": 1297302,
+    "sha256": "4b65edc1475ce997916764882f44c5ae4f2dee6c6d2f8526a01f04f4bac3216e",
+    "signature": "%PDF-"
+  },
+  {
+    "file": "C:\\Users\\bross\\Downloads\\school-events-01a1ba83-4749-73e6-8a6b-9728f9b1fda2-docx.docx",
+    "size": 11994,
+    "sha256": "0b1ad7b8cac122351bbe7950466c803531e06aa90017b5374893ffa5fe3be963",
+    "signature": "PK\u0003\u0004\u0014",
+    "zip_integrity": "passed",
+    "content_xml": true
+  },
+  {
+    "file": "C:\\Users\\bross\\Downloads\\school-events-01a1ba84-d490-7337-a6af-0fd57b6717a2-pptx.pptx",
+    "size": 22313,
+    "sha256": "c73208d8c88f1a5883a9359853b6b4b064cdba90ac769b2e9baa4974919fa04c",
+    "signature": "PK\u0003\u0004\u0014",
+    "zip_integrity": "passed",
+    "content_xml": 5
+  }
+]

@@ -1,0 +1,230 @@
+{
+  "completed": true,
+  "origin": "http://localhost:8000",
+  "requests": [
+    {
+      "role": "teacher",
+      "path": "/api/v1/event-sources/00000000-0000-4000-8000-000000000003",
+      "method": "GET",
+      "status": 401,
+      "hasSchool": false
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "hasSchool": false
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/calendar-events",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/calendar-events/01a1690e-1ba9-738c-b310-e42c6b2f8a60",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/calendar-events/01a1690e-1e2a-7189-9ae2-a78d6a3af0f4",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/calendar-events/01a1690e-1e10-7072-ab28-8cbe9f0c0b27",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/event-sources/01a1690e-1e15-70a3-afee-cd267db807fc",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/cultural-claims/01a1690e-1e1c-7198-882d-7ebc3ce0aaed",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/event-sources/01a1690e-1e15-70a3-afee-cd267db807fc",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/cultural-claims/01a1690e-1e1c-7198-882d-7ebc3ce0aaed",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/event-sources/01a1690e-1e15-70a3-afee-cd267db807fc/reviews",
+      "method": "GET",
+      "status": 403,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/catalog/review-queue",
+      "method": "GET",
+      "status": 403,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/event-sources/01a1690e-1e15-70a3-afee-cd267db807fc",
+      "method": "GET",
+      "status": 404,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/event-sources/00000000-0000-4000-8000-000000000003",
+      "method": "GET",
+      "status": 404,
+      "hasSchool": true
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/cultural-claims/00000000-0000-4000-8000-000000000003",
+      "method": "GET",
+      "status": 404,
+      "hasSchool": true
+    },
+    {
+      "role": "regional-curator",
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "hasSchool": false
+    },
+    {
+      "role": "regional-curator",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "hasSchool": false
+    },
+    {
+      "role": "regional-curator",
+      "path": "/api/v1/calendar-events",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": false
+    },
+    {
+      "role": "regional-curator",
+      "path": "/api/v1/event-sources/01a1690e-1e2e-70fc-a6a6-5d80c23701b3/reviews",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": false
+    },
+    {
+      "role": "regional-curator",
+      "path": "/api/v1/event-sources/01a1690e-1e15-70a3-afee-cd267db807fc/reviews",
+      "method": "GET",
+      "status": 403,
+      "hasSchool": false
+    },
+    {
+      "role": "admin",
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "hasSchool": false
+    },
+    {
+      "role": "admin",
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "hasSchool": false
+    },
+    {
+      "role": "admin",
+      "path": "/api/v1/event-sources/01a1690e-1e15-70a3-afee-cd267db807fc/reviews",
+      "method": "GET",
+      "status": 200,
+      "hasSchool": false
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "hasSchool": false
+    },
+    {
+      "role": "regional-curator",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "hasSchool": false
+    },
+    {
+      "role": "admin",
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "hasSchool": false
+    },
+    {
+      "role": "teacher",
+      "path": "/api/v1/cultural-claims/01a1690e-1e1c-7198-882d-7ebc3ce0aaed",
+      "method": "GET",
+      "status": 401,
+      "hasSchool": true
+    }
+  ],
+  "school-1": {
+    "sourceDecision": "approved",
+    "claimEvidence": [
+      {
+        "stored": "verified_authentic",
+        "effective": "verified_authentic",
+        "detached": false,
+        "hasExcerpt": true
+      }
+    ]
+  },
+  "school-2": {
+    "sourceDecision": "approved",
+    "claimEvidence": [
+      {
+        "stored": "verified_authentic",
+        "effective": "verified_authentic",
+        "detached": false,
+        "hasExcerpt": true
+      }
+    ]
+  },
+  "browserRoutes": {
+    "event": "/calendar/01a1690e-1e2a-7189-9ae2-a78d6a3af0f4",
+    "source": "/sources/01a1690e-1e2e-70fc-a6a6-5d80c23701b3",
+    "claim": "/claims/01a1690e-1e31-70e0-8a05-a7dea9eab368",
+    "approvedSource": "/sources/01a1690e-1e15-70a3-afee-cd267db807fc"
+  },
+  "regionalReviews": 0,
+  "adminReviews": [
+    {
+      "decision": "approved",
+      "hasComments": true
+    }
+  ]
+}

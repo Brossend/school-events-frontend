@@ -1,0 +1,42 @@
+{
+    "database": "school_events_test",
+    "environment": "testing",
+    "databaseUser": "school_test_user",
+    "runId": "f2884d65f9",
+    "schools": {
+        "A": {
+            "id": "01a17462-f970-7321-b14f-7a02da046c4b",
+            "name": "FE004 A · тестовый контур"
+        },
+        "B": {
+            "id": "01a17462-f9b0-70e7-8af3-344420b2f0d2",
+            "name": "FE004 B · тестовый контур"
+        }
+    },
+    "users": {
+        "author": {
+            "id": "01a17462-faaf-7122-b290-62a3bc849fc5",
+            "email": "fe004-f2884d65f9-author@example.test"
+        },
+        "other": {
+            "id": "01a17462-fabd-70b3-a13b-840e6191f4da",
+            "email": "fe004-f2884d65f9-other@example.test"
+        },
+        "director": {
+            "id": "01a17462-fac1-70f5-a16f-9919a1fbf2ce",
+            "email": "fe004-f2884d65f9-director@example.test"
+        },
+        "multi": {
+            "id": "01a17462-fac5-734e-9795-6cc0416df2cb",
+            "email": "fe004-f2884d65f9-multi@example.test"
+        },
+        "admin": {
+            "id": "01a17462-fac9-7166-9fb7-2c4f842ce6ef",
+            "email": "fe004-f2884d65f9-admin@example.test"
+        }
+    },
+    "traditions": {
+        "A": "01a17462-fad4-7167-b81c-fe1b66ece132",
+        "B": "01a17462-fafe-739a-95a0-6298b02d6647"
+    }
+}

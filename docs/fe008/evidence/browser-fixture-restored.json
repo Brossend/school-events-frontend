@@ -1,0 +1,26 @@
+{
+  "origin": "http://localhost:8001",
+  "requests": [
+    {
+      "path": "/sanctum/csrf-cookie",
+      "status": 204
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2/verify",
+      "status": 202
+    },
+    {
+      "path": "/api/v1/scenarios/01a17c76-974f-7181-815d-7b8eb9ccc2d9/revisions/2/signoff",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "status": 204
+    }
+  ],
+  "completed": true
+}

@@ -1,0 +1,106 @@
+export default function A4() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="104:1288" data-name="Печать / Памятка педагога A4">
+      <div className="absolute bg-[#08784f] h-[6px] left-0 top-0 w-[794px]" data-node-id="104:1289" data-name="Верхняя линия бренда" />
+      <div className="absolute bg-[#2258ba] h-[6px] left-[515px] top-0 w-[279px]" data-node-id="104:1290" data-name="Верхняя линия УрФУ" />
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.35] left-[54px] not-italic text-[#1b3443] text-[22px] top-[38px] w-[390px]" data-node-id="104:1291">
+        Школьные события
+      </p>
+      <div className="absolute bg-gradient-to-r from-[#0a9d63] h-[42px] left-[545px] overflow-clip rounded-[12px] to-[#2258ba] top-[30px] via-[#0c8c93] via-[53%] w-[195px]" data-node-id="104:1292" data-name="Бренд / Сбер × УрФУ">
+        <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold h-[42px] justify-center leading-[0] left-[97.5px] not-italic text-[19px] text-center text-white top-[21px] w-[195px]" data-node-id="104:1293">
+          <p className="leading-[1.35]">Сбер × УрФУ</p>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[54px] not-italic text-[#08784f] text-[13px] top-[106px] w-[660px]" data-node-id="104:1294">
+        ПАМЯТКА К ПРОВЕДЕНИЮ
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.2] left-[54px] not-italic text-[#1b3443] text-[28px] top-[135px] w-[685px]" data-node-id="104:1295">
+        Подготовка мероприятия
+      </p>
+      <div className="absolute bg-[#dce5ec] h-[2px] left-[54px] top-[213px] w-[686px]" data-node-id="104:1296" data-name="Разделитель" />
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[54px] not-italic text-[#5a7485] text-[12px] top-[1042px] w-[690px]" data-node-id="104:1297">
+        Педагогическая ответственность сохраняется за школой. Последняя редакция проверяется перед использованием.
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[54px] not-italic text-[#748795] text-[11px] top-[1072px] w-[385px]" data-node-id="104:1298">
+        А4 · 210 × 297 мм
+      </p>
+      <div className="absolute bg-[#f8fafc] border border-[#d8e4ec] border-solid h-[176px] left-[54px] overflow-clip rounded-[11px] top-[236px] w-[686px]" data-node-id="104:1299" data-name="За день до мероприятия">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[16px] not-italic text-[#1d4355] text-[17px] top-[12px] w-[620px]" data-node-id="104:1300">
+          За день до мероприятия
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[48px]" data-node-id="104:1301" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[46px] w-[611px]" data-node-id="104:1302">
+          Подтвердить дату, помещение и возможность участия гостей
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[84px]" data-node-id="104:1303" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[82px] w-[611px]" data-node-id="104:1304">
+          Проверить источники культурных и исторических фактов
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[120px]" data-node-id="104:1305" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[118px] w-[611px]" data-node-id="104:1306">
+          Подготовить материалы с учётом доступности заданий
+        </p>
+      </div>
+      <div className="absolute bg-[#f8fafc] border border-[#d8e4ec] border-solid h-[176px] left-[54px] overflow-clip rounded-[11px] top-[427px] w-[686px]" data-node-id="104:1307" data-name="Перед началом">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[16px] not-italic text-[#1d4355] text-[17px] top-[12px] w-[620px]" data-node-id="104:1308">
+          Перед началом
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[48px]" data-node-id="104:1309" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[46px] w-[611px]" data-node-id="104:1310">
+          Проверить реквизит, безопасные проходы и роли помощников
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[84px]" data-node-id="104:1311" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[82px] w-[611px]" data-node-id="104:1312">
+          Разложить рабочие карточки и установить тайминг
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[120px]" data-node-id="104:1313" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[118px] w-[611px]" data-node-id="104:1314">
+          Предусмотреть письменную альтернативу выступлению
+        </p>
+      </div>
+      <div className="absolute bg-[#f8fafc] border border-[#d8e4ec] border-solid h-[176px] left-[54px] overflow-clip rounded-[11px] top-[618px] w-[686px]" data-node-id="104:1315" data-name="Во время занятия">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[16px] not-italic text-[#1d4355] text-[17px] top-[12px] w-[620px]" data-node-id="104:1316">
+          Во время занятия
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[48px]" data-node-id="104:1317" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[46px] w-[611px]" data-node-id="104:1318">
+          Не сравнивать детей и семьи; уважать отказ от ответа
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[84px]" data-node-id="104:1319" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[82px] w-[611px]" data-node-id="104:1320">
+          Следить за временем и равным доступом к участию
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[120px]" data-node-id="104:1321" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[118px] w-[611px]" data-node-id="104:1322">
+          Не выводить непроверенные культурные обобщения на экран
+        </p>
+      </div>
+      <div className="absolute bg-[#f8fafc] border border-[#d8e4ec] border-solid h-[176px] left-[54px] overflow-clip rounded-[11px] top-[809px] w-[686px]" data-node-id="104:1323" data-name="После завершения">
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[16px] not-italic text-[#1d4355] text-[17px] top-[12px] w-[620px]" data-node-id="104:1324">
+          После завершения
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[48px]" data-node-id="104:1325" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[46px] w-[611px]" data-node-id="104:1326">
+          Собрать идеи без лишних персональных данных
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[84px]" data-node-id="104:1327" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[82px] w-[611px]" data-node-id="104:1328">
+          Зафиксировать следующий шаг и ответственных взрослых
+        </p>
+        <div className="absolute bg-white border border-[#b2c7d5] border-solid left-[16px] rounded-[4px] size-[19px] top-[120px]" data-node-id="104:1329" data-name="Чекбокс" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.35] left-[46px] not-italic text-[#334f60] text-[13px] top-[118px] w-[611px]" data-node-id="104:1330">
+          Сохранить педагогическую редакцию сценария
+        </p>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = '[temporary asset URL removed]'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

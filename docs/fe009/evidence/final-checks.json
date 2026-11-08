@@ -1,0 +1,30 @@
+{
+  "typecheck": {
+    "exitCode": 0,
+    "log": "docs/fe009/typecheck-final.log"
+  },
+  "eslint": {
+    "exitCode": 0,
+    "log": "docs/fe009/lint-final.log"
+  },
+  "vitest": {
+    "exitCode": 0,
+    "log": "docs/fe009/unit-final.log",
+    "passed": 345,
+    "regression": 289,
+    "added": 56
+  },
+  "http": {
+    "exitCode": 0,
+    "requests": 72
+  },
+  "historicalHttp": {
+    "exitCode": 0,
+    "requests": 8
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "log": "docs/fe009/build-final.log",
+    "apiOrigin": "http://localhost:8000"
+  }
+}

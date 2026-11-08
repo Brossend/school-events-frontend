@@ -1,0 +1,2261 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": false,
+  "trace": [
+    {
+      "role": "anonymous",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 401,
+      "response": {
+        "error": {
+          "code": "UNAUTHORIZED",
+          "message": "Требуется авторизация.",
+          "details": [],
+          "trace_id": "req-01a1887a-9ea5-71f2-acba-9fc4d3744c9a"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": null,
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": null,
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 204,
+      "response": null
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": null,
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "system",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": null,
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "teacher",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/auth/login",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 school admin",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "email": "fe011@example.test",
+            "phone": "+7 000 000 0011",
+            "address": "Тестовая улица, 11",
+            "website": "https://example.test/fe011",
+            "description": "FE011 synthetic school settings"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:47:10+00:00"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "request": {
+        "city": "Казань"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SCHOOL_ADMIN_ACCESS",
+          "message": "Редактировать профиль школы могут только администраторы этой школы или системные администраторы.",
+          "details": [],
+          "trace_id": "req-01a1887a-e69b-71b1-9aad-e3e3a48a1f35"
+        }
+      }
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_TENANT_ACCESS",
+          "message": "Доступ к профилю данной образовательной организации запрещен.",
+          "details": [],
+          "trace_id": "req-01a1887a-f35f-7266-9465-980bf8b66809"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-de43-7066-8005-5d8712f3a474",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "request": {
+        "city": "Казань"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SCHOOL_ADMIN_ACCESS",
+          "message": "Редактировать профиль школы могут только администраторы этой школы или системные администраторы.",
+          "details": [],
+          "trace_id": "req-01a1887b-0015-73e1-bf3e-d17615a3b4e1"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/schools/01a187ac-de45-7279-a2ea-1a0b0fb6d9b7",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_TENANT_ACCESS",
+          "message": "Доступ к профилю данной образовательной организации запрещен.",
+          "details": [],
+          "trace_id": "req-01a1887b-089d-70db-9226-c960492c297a"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_TENANT_ACCESS",
+          "message": "Доступ к профилю данной образовательной организации запрещен.",
+          "details": [],
+          "trace_id": "req-01a1887b-0ad4-7104-8ef6-0e1434114705"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 403,
+      "request": {
+        "city": "Казань"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SCHOOL_ADMIN_ACCESS",
+          "message": "Редактировать профиль школы могут только администраторы этой школы или системные администраторы.",
+          "details": [],
+          "trace_id": "req-01a1887b-0bac-711c-95c9-711423e5a5d7"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 school admin",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "email": "fe011@example.test",
+            "phone": "+7 000 000 0011",
+            "address": "Тестовая улица, 11",
+            "website": "https://example.test/fe011",
+            "description": "FE011 synthetic school settings"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:47:10+00:00"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/auth/me",
+      "school": null,
+      "status": 200,
+      "request": "[authentication omitted]",
+      "response": "[authentication omitted]"
+    },
+    {
+      "role": "system",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": null,
+      "status": 200,
+      "request": {
+        "short_name": "FE011 system edit"
+      },
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 system edit",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "email": "fe011@example.test",
+            "phone": "+7 000 000 0011",
+            "address": "Тестовая улица, 11",
+            "website": "https://example.test/fe011",
+            "description": "FE011 synthetic school settings"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T16:25:28+00:00"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "request": {
+        "short_name": "FE011 school admin",
+        "city": "Екатеринбург",
+        "settings": {
+          "phone": "+7 000 000 0011",
+          "email": "fe011@example.test",
+          "website": "https://example.test/fe011",
+          "description": "FE011 synthetic school settings"
+        }
+      },
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 school admin",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "email": "fe011@example.test",
+            "phone": "+7 000 000 0011",
+            "address": "Тестовая улица, 11",
+            "website": "https://example.test/fe011",
+            "description": "FE011 synthetic school settings"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T16:25:29+00:00"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 school admin",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "email": "fe011@example.test",
+            "phone": "+7 000 000 0011",
+            "address": "Тестовая улица, 11",
+            "website": "https://example.test/fe011",
+            "description": "FE011 synthetic school settings"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T16:25:29+00:00"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "PATCH",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 422,
+      "request": {
+        "name": "x",
+        "city": "",
+        "inn": "bad",
+        "settings": {
+          "email": "invalid"
+        }
+      },
+      "response": {
+        "error": {
+          "code": "VALIDATION_FAILED",
+          "message": "Переданные данные не прошли валидацию.",
+          "details": [
+            {
+              "field": "name",
+              "message": "validation.min.string"
+            },
+            {
+              "field": "city",
+              "message": "validation.required"
+            },
+            {
+              "field": "inn",
+              "message": "validation.regex"
+            },
+            {
+              "field": "settings.email",
+              "message": "validation.email"
+            }
+          ],
+          "trace_id": "req-01a1887b-1ab9-71f2-b426-79327926c531"
+        }
+      }
+    },
+    {
+      "role": "schoolAdmin",
+      "method": "GET",
+      "path": "/schools/01a187ac-dde9-7172-aa4c-db73587681b5",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+          "name": "FE011 f7b999d3d1 A · synthetic test school",
+          "short_name": "FE011 school admin",
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "8131883797",
+          "settings": {
+            "email": "fe011@example.test",
+            "phone": "+7 000 000 0011",
+            "address": "Тестовая улица, 11",
+            "website": "https://example.test/fe011",
+            "description": "FE011 synthetic school settings"
+          },
+          "traditions_count": 1,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T16:25:29+00:00"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/schools/00000000-0000-4000-8000-000000000011",
+      "school": null,
+      "status": 404,
+      "response": {
+        "error": {
+          "code": "SCHOOL_NOT_FOUND",
+          "message": "Школа не найдена.",
+          "details": [],
+          "trace_id": "req-01a1887b-38b2-7240-9300-256bde26e60d"
+        }
+      }
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/schools/01a187ac-de43-7066-8005-5d8712f3a474",
+      "school": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-de43-7066-8005-5d8712f3a474",
+          "name": "FE011 f7b999d3d1 B · synthetic test school",
+          "short_name": null,
+          "region_code": "66",
+          "city": "Екатеринбург",
+          "inn": "1329583884",
+          "settings": {
+            "address": "Тестовая улица, 11",
+            "description": "FE011 synthetic data"
+          },
+          "traditions_count": 0,
+          "active_teachers_count": 2,
+          "created_at": "2026-10-29T12:40:15+00:00",
+          "updated_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/system/status",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_SYSTEM_ACCESS",
+          "message": "Доступ разрешен только системным администраторам и кураторам.",
+          "details": [],
+          "trace_id": "req-01a1887b-3fff-7166-8182-5d4a699ac6a3"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/system/status",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "system_status": "operational",
+          "system_role": "catalog_curator"
+        }
+      }
+    },
+    {
+      "role": "system",
+      "method": "GET",
+      "path": "/system/status",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "system_status": "operational",
+          "system_role": "system_admin"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/catalog/review-queue",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_CURATOR_ACCESS",
+          "message": "Доступ к очереди рецензирования разрешен только кураторам каталога и системным администраторам.",
+          "details": [],
+          "trace_id": "req-01a1887b-42a8-71a7-852f-d6ad16d0c842"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/catalog/review-queue?status=pending&per_page=100",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": [
+          {
+            "id": "01a187ac-e3f8-7148-ad92-4c1284f6e81b",
+            "calendar_event_id": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+            "calendar_event": {
+              "id": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+              "title": "FE011 f7b999d3d1 schoolA · synthetic",
+              "event_type": "school_custom",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 schoolA synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/schoolA",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+            "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "calendar_event": {
+              "id": "01a187ac-e280-71db-a197-3b2336679d06",
+              "title": "FE011 f7b999d3d1 regional66 · synthetic",
+              "event_type": "regional",
+              "region_code": "66",
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/regional66",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+            "calendar_event_id": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+            "calendar_event": {
+              "id": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+              "title": "FE011 f7b999d3d1 federal · synthetic",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 federal synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/federal",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e441-7262-afee-f38cb94694b9",
+            "calendar_event_id": "01a187ac-e433-7145-9a59-10f58264c00d",
+            "calendar_event": {
+              "id": "01a187ac-e433-7145-9a59-10f58264c00d",
+              "title": "FE011 f7b999d3d1 draft · synthetic",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "draft"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 draft synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/draft",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e424-7069-b4fe-4ac028efb272",
+            "calendar_event_id": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+            "calendar_event": {
+              "id": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+              "title": "FE011 f7b999d3d1 schoolB · synthetic",
+              "event_type": "school_custom",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 schoolB synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/schoolB",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e42d-726e-95e9-18e51ee64322",
+            "calendar_event_id": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+            "calendar_event": {
+              "id": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+              "title": "FE011 f7b999d3d1 schoolC · synthetic",
+              "event_type": "school_custom",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 schoolC synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/schoolC",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a16e7e-838e-7045-9c17-74f6bb32f977",
+            "calendar_event_id": "01a16e7e-8389-7326-a303-ce19a92c31e7",
+            "calendar_event": {
+              "id": "01a16e7e-8389-7326-a303-ce19a92c31e7",
+              "title": "День народов Среднего Урала",
+              "event_type": "regional",
+              "region_code": "66",
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "Демонстрационные этнографические материалы Среднего Урала (требуется архивная экспертиза)",
+            "author": "Институт истории и археологии УрО РАН (демонстрационная фикстура)",
+            "url": null,
+            "doi_or_isbn": null,
+            "claims_count": 1,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-24T15:19:07+00:00"
+          }
+        ],
+        "meta": {
+          "current_page": 1,
+          "total": 7,
+          "per_page": 100,
+          "last_page": 1
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/catalog/review-queue?status=all&per_page=5&page=1",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": [
+          {
+            "id": "01a187ac-e3f8-7148-ad92-4c1284f6e81b",
+            "calendar_event_id": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+            "calendar_event": {
+              "id": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+              "title": "FE011 f7b999d3d1 schoolA · synthetic",
+              "event_type": "school_custom",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 schoolA synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/schoolA",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e424-7069-b4fe-4ac028efb272",
+            "calendar_event_id": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+            "calendar_event": {
+              "id": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+              "title": "FE011 f7b999d3d1 schoolB · synthetic",
+              "event_type": "school_custom",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 schoolB synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/schoolB",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+            "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "calendar_event": {
+              "id": "01a187ac-e280-71db-a197-3b2336679d06",
+              "title": "FE011 f7b999d3d1 regional66 · synthetic",
+              "event_type": "regional",
+              "region_code": "66",
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/regional66",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+            "calendar_event_id": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+            "calendar_event": {
+              "id": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+              "title": "FE011 f7b999d3d1 federal · synthetic",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 federal synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/federal",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a187ac-e42d-726e-95e9-18e51ee64322",
+            "calendar_event_id": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+            "calendar_event": {
+              "id": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+              "title": "FE011 f7b999d3d1 schoolC · synthetic",
+              "event_type": "school_custom",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 schoolC synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/schoolC",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          }
+        ],
+        "meta": {
+          "current_page": 1,
+          "total": 17,
+          "per_page": 5,
+          "last_page": 4
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/catalog/review-queue?status=all&per_page=5&page=2",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": [
+          {
+            "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+            "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "calendar_event": {
+              "id": "01a187ac-e280-71db-a197-3b2336679d06",
+              "title": "FE011 f7b999d3d1 regional66 · synthetic",
+              "event_type": "regional",
+              "region_code": "66",
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "url": "https://example.test/fe011/f7b999d3d1/regional66",
+            "doi_or_isbn": null,
+            "claims_count": 0,
+            "status": "pending",
+            "latest_review": null,
+            "verified_by": null,
+            "verification_date": null,
+            "created_at": "2026-10-29T12:40:15+00:00"
+          },
+          {
+            "id": "01a18768-de53-7291-987b-36c12bf65f5d",
+            "calendar_event_id": "01a18768-de22-7002-8ef1-1645f32fbcce",
+            "calendar_event": {
+              "id": "01a18768-de22-7002-8ef1-1645f32fbcce",
+              "title": "FE010 9cf645fab2 approved SYNTHETIC",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE010 9cf645fab2 synthetic fixture source",
+            "author": "HTTP test",
+            "url": "https://example.test/fe010",
+            "doi_or_isbn": null,
+            "claims_count": 1,
+            "status": "approved",
+            "latest_review": {
+              "id": "01a18768-de80-7011-aa01-eaddad6d8198",
+              "decision": "approved",
+              "comments": "Synthetic evidence fixture only",
+              "reviewer": {
+                "id": "01a18768-ddc4-7013-947c-442d45553111",
+                "name": "FE010 system",
+                "system_role": "system_admin"
+              },
+              "reviewed_at": "2026-10-29T11:25:59+00:00"
+            },
+            "verified_by": {
+              "id": "01a18768-ddc4-7013-947c-442d45553111",
+              "name": "FE010 system"
+            },
+            "verification_date": "2026-10-29",
+            "created_at": "2026-10-29T11:25:55+00:00"
+          },
+          {
+            "id": "01a182c4-af2f-70bb-84f5-cce7c2fab04e",
+            "calendar_event_id": "01a182c4-af24-73ca-a4ff-34c1af8a68c6",
+            "calendar_event": {
+              "id": "01a182c4-af24-73ca-a4ff-34c1af8a68c6",
+              "title": "FE010 6108ea2c01 approved SYNTHETIC",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE010 6108ea2c01 synthetic fixture source",
+            "author": "HTTP test",
+            "url": "https://example.test/fe010",
+            "doi_or_isbn": null,
+            "claims_count": 1,
+            "status": "approved",
+            "latest_review": {
+              "id": "01a182c4-af38-7260-a7b0-15c5acddc9cb",
+              "decision": "approved",
+              "comments": "Synthetic evidence fixture only",
+              "reviewer": {
+                "id": "01a182c4-af17-70b7-b585-eae8823da61d",
+                "name": "FE010 system",
+                "system_role": "system_admin"
+              },
+              "reviewed_at": "2026-10-28T13:48:10+00:00"
+            },
+            "verified_by": {
+              "id": "01a182c4-af17-70b7-b585-eae8823da61d",
+              "name": "FE010 system"
+            },
+            "verification_date": "2026-10-28",
+            "created_at": "2026-10-28T13:48:09+00:00"
+          },
+          {
+            "id": "01a182c3-4b9a-7156-a429-902d7f90583e",
+            "calendar_event_id": "01a182c3-4ae1-7023-9270-8512b682419f",
+            "calendar_event": {
+              "id": "01a182c3-4ae1-7023-9270-8512b682419f",
+              "title": "FE010 0a7a11b066 approved SYNTHETIC",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "FE010 0a7a11b066 synthetic fixture source",
+            "author": "HTTP test",
+            "url": "https://example.test/fe010",
+            "doi_or_isbn": null,
+            "claims_count": 1,
+            "status": "approved",
+            "latest_review": {
+              "id": "01a182c3-4c66-72d2-82de-38c7d2881bac",
+              "decision": "approved",
+              "comments": "Synthetic evidence fixture only",
+              "reviewer": {
+                "id": "01a182c3-4a95-71ec-8aa0-71673027a73d",
+                "name": "FE010 system",
+                "system_role": "system_admin"
+              },
+              "reviewed_at": "2026-10-28T13:46:39+00:00"
+            },
+            "verified_by": {
+              "id": "01a182c3-4a95-71ec-8aa0-71673027a73d",
+              "name": "FE010 system"
+            },
+            "verification_date": "2026-10-28",
+            "created_at": "2026-10-28T13:46:38+00:00"
+          },
+          {
+            "id": "01a17cb9-9f35-736f-8f84-2dd13b74ca06",
+            "calendar_event_id": "01a17cb9-9f26-7373-adb7-be1fe349d35e",
+            "calendar_event": {
+              "id": "01a17cb9-9f26-7373-adb7-be1fe349d35e",
+              "title": "FE009 approved e05f1aee12",
+              "event_type": "federal",
+              "region_code": null,
+              "status": "approved"
+            },
+            "source_type": "scientific_publication",
+            "title": "Тестовый первоисточник FE009 — синтетический fixture",
+            "author": "Интеграционная проверка",
+            "url": "https://example.test/fe009-source",
+            "doi_or_isbn": null,
+            "claims_count": 1,
+            "status": "approved",
+            "latest_review": {
+              "id": "01a17cb9-9f47-719e-a617-e92b8740bfed",
+              "decision": "approved",
+              "comments": "Синтетическая проверка связи источника, не историческая аттестация.",
+              "reviewer": {
+                "id": "01a17cb9-9ecf-72b2-85ef-662f86bc02f3",
+                "name": "FE009 admin",
+                "system_role": "system_admin"
+              },
+              "reviewed_at": "2026-10-27T09:38:22+00:00"
+            },
+            "verified_by": {
+              "id": "01a17cb9-9ecf-72b2-85ef-662f86bc02f3",
+              "name": "FE009 admin"
+            },
+            "verification_date": "2026-10-27",
+            "created_at": "2026-10-27T09:38:21+00:00"
+          }
+        ],
+        "meta": {
+          "current_page": 2,
+          "total": 17,
+          "per_page": 5,
+          "last_page": 4
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/event-sources/01a187ac-e424-7069-b4fe-4ac028efb272",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 404,
+      "response": {
+        "error": {
+          "code": "EVENT_SOURCE_NOT_FOUND",
+          "message": "Первоисточник не найден или недоступен для вашей образовательной организации.",
+          "details": [],
+          "trace_id": "req-01a1887b-5ae0-73de-b51a-b1d151869684"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "GET",
+      "path": "/cultural-claims/01a187ac-e3e5-7052-b5f2-160d2218a5d9",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 404,
+      "response": {
+        "error": {
+          "code": "CULTURAL_CLAIM_NOT_FOUND",
+          "message": "Культурное утверждение не найдено или недоступно для вашей образовательной организации.",
+          "details": [],
+          "trace_id": "req-01a1887b-6256-7106-a097-10c8ecf3dc69"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/event-sources/01a187ac-e3e3-70a8-bbc5-90d3f4c81a21",
+      "school": null,
+      "status": 404,
+      "response": {
+        "error": {
+          "code": "EVENT_SOURCE_NOT_FOUND",
+          "message": "Первоисточник не найден или недоступен для вашей образовательной организации.",
+          "details": [],
+          "trace_id": "req-01a1887b-6709-70df-89d4-78e1acedfdc0"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "PATCH",
+      "path": "/event-sources/01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+      "school": null,
+      "status": 403,
+      "request": {
+        "title": "FE011 forbidden regional mutation"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "У вас нет полномочий на редактирование источников для данного региона или федерального события.",
+          "details": [],
+          "trace_id": "req-01a1887b-6fb0-71ce-a57d-60f800a6a888"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/event-sources/01a187ac-e3ee-72fb-acf4-0b7ac014057b/reviews",
+      "school": null,
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий просматривать журнал рецензий для источников других регионов или федеральных событий.",
+          "details": [],
+          "trace_id": "req-01a1887b-7d81-705d-9ca7-5d751c1ec8c0"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/event-sources/01a187ac-e3ee-72fb-acf4-0b7ac014057b/reviews",
+      "school": null,
+      "status": 403,
+      "request": {
+        "decision": "approved",
+        "comments": "FE011 forbidden review"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий рецензировать источники для федеральных событий или событий вне своей зоны ответственности.",
+          "details": [],
+          "trace_id": "req-01a1887b-901e-732f-82ec-7acc22361177"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e3f0-71c2-b336-5b8134b937f4/evidence",
+      "school": null,
+      "status": 403,
+      "request": {
+        "event_source_id": "01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+        "citation_locator": "Section 11",
+        "citation_excerpt": "FE011 synthetic excerpt for scope verification.",
+        "verify": true
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий работать с утверждениями для федеральных событий или событий других регионов.",
+          "details": [],
+          "trace_id": "req-01a1887b-9534-7226-8959-3b6cd32b4c76"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "DELETE",
+      "path": "/cultural-claims/01a187ac-e3f0-71c2-b336-5b8134b937f4/evidence/01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+      "school": null,
+      "status": 403,
+      "request": {
+        "reason": "FE011 forbidden detach"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий удалять свидетельства для федеральных событий или событий других регионов.",
+          "details": [],
+          "trace_id": "req-01a1887b-9846-72b5-88a9-777fa22ff8f8"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "PATCH",
+      "path": "/event-sources/01a187ac-e3e3-70a8-bbc5-90d3f4c81a21",
+      "school": null,
+      "status": 403,
+      "request": {
+        "title": "FE011 forbidden regional mutation"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "У вас нет полномочий на редактирование источников для данного региона или федерального события.",
+          "details": [],
+          "trace_id": "req-01a1887b-991a-72ed-99ee-ede7c8c43e8d"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/event-sources/01a187ac-e3e3-70a8-bbc5-90d3f4c81a21/reviews",
+      "school": null,
+      "status": 403,
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий просматривать журнал рецензий для источников других регионов или федеральных событий.",
+          "details": [],
+          "trace_id": "req-01a1887b-9a06-710a-b52e-56f1ce9fbbd5"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/event-sources/01a187ac-e3e3-70a8-bbc5-90d3f4c81a21/reviews",
+      "school": null,
+      "status": 403,
+      "request": {
+        "decision": "approved",
+        "comments": "FE011 forbidden review"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий рецензировать источники для федеральных событий или событий вне своей зоны ответственности.",
+          "details": [],
+          "trace_id": "req-01a1887b-a21f-73c9-bfe6-64121d355092"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e3e5-7052-b5f2-160d2218a5d9/evidence",
+      "school": null,
+      "status": 403,
+      "request": {
+        "event_source_id": "01a187ac-e3e3-70a8-bbc5-90d3f4c81a21",
+        "citation_locator": "Section 11",
+        "citation_excerpt": "FE011 synthetic excerpt for scope verification.",
+        "verify": true
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий работать с утверждениями для федеральных событий или событий других регионов.",
+          "details": [],
+          "trace_id": "req-01a1887b-a815-7098-a625-7f37f21ae5ad"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "DELETE",
+      "path": "/cultural-claims/01a187ac-e3e5-7052-b5f2-160d2218a5d9/evidence/01a187ac-e3e3-70a8-bbc5-90d3f4c81a21",
+      "school": null,
+      "status": 403,
+      "request": {
+        "reason": "FE011 forbidden detach"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_REGIONAL_SCOPE",
+          "message": "Региональный куратор не имеет полномочий удалять свидетельства для федеральных событий или событий других регионов.",
+          "details": [],
+          "trace_id": "req-01a1887b-b886-7270-82d7-7e83a943b337"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "PATCH",
+      "path": "/event-sources/01a187ac-e2c9-71ac-a659-297a9dd53415",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "request": {
+        "title": "FE011 forbidden teacher edit"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_CURATOR_ACCESS",
+          "message": "Редактирование первоисточников разрешено только кураторам каталога и системным администраторам.",
+          "details": [],
+          "trace_id": "req-01a1887b-ccc8-7281-9a59-6d434dce2d36"
+        }
+      }
+    },
+    {
+      "role": "teacher",
+      "method": "POST",
+      "path": "/event-sources/01a187ac-e2c9-71ac-a659-297a9dd53415/reviews",
+      "school": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "status": 403,
+      "request": {
+        "decision": "approved",
+        "comments": "FE011 forbidden review"
+      },
+      "response": {
+        "error": {
+          "code": "FORBIDDEN_CURATOR_ACCESS",
+          "message": "Рецензирование первоисточников разрешено только кураторам каталога и системным администраторам.",
+          "details": [],
+          "trace_id": "req-01a1887b-d001-7263-8525-55b1b131f5e0"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "PATCH",
+      "path": "/event-sources/01a187ac-e2c9-71ac-a659-297a9dd53415",
+      "school": null,
+      "status": 422,
+      "request": {
+        "url": "invalid-url"
+      },
+      "response": {
+        "error": {
+          "code": "VALIDATION_FAILED",
+          "message": "Переданные данные не прошли валидацию.",
+          "details": [
+            {
+              "field": "url",
+              "message": "validation.url"
+            }
+          ],
+          "trace_id": "req-01a1887b-da00-71ee-b74e-ce18b63b3660"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/event-sources/01a187ac-e2c9-71ac-a659-297a9dd53415/reviews",
+      "school": null,
+      "status": 422,
+      "request": {
+        "decision": "invalid",
+        "comments": "x"
+      },
+      "response": {
+        "error": {
+          "code": "VALIDATION_FAILED",
+          "message": "Переданные данные не прошли валидацию.",
+          "details": [
+            {
+              "field": "decision",
+              "message": "validation.in"
+            },
+            {
+              "field": "comments",
+              "message": "validation.min.string"
+            }
+          ],
+          "trace_id": "req-01a1887b-e440-72da-bf59-95c4c70ead6a"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f/evidence",
+      "school": null,
+      "status": 422,
+      "request": {
+        "event_source_id": "01a187ac-e3e3-70a8-bbc5-90d3f4c81a21",
+        "citation_locator": "Section 11",
+        "citation_excerpt": "FE011 synthetic excerpt."
+      },
+      "response": {
+        "error": {
+          "code": "CROSS_EVENT_BINDING_FORBIDDEN",
+          "message": "Источник и утверждение принадлежат разным календарным событиям.",
+          "details": [],
+          "trace_id": "req-01a1887b-f08b-739f-8e5c-ccc42ac1153a"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f/evidence",
+      "school": null,
+      "status": 422,
+      "request": {
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic FE011 attestation; not historical expert review.",
+        "verify": true
+      },
+      "response": {
+        "error": {
+          "code": "VALIDATION_FAILED",
+          "message": "Переданные данные не прошли валидацию.",
+          "details": [
+            {
+              "field": "event_source_id",
+              "message": "Для источника отсутствует запись экспертной рецензии (source_reviews). Источник не проверен."
+            }
+          ],
+          "trace_id": "req-01a1887b-f93e-718b-aa2e-4c1604a1deda"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f/evidence",
+      "school": null,
+      "status": 201,
+      "request": {
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic FE011 attestation; not historical expert review.",
+        "verify": false
+      },
+      "response": {
+        "data": {
+          "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+          "cultural_claim_id": "01a187ac-e388-7293-8644-4d12d107d82f",
+          "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "source": {
+            "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+            "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "source_type": "scientific_publication"
+          },
+          "citation_locator": "Section 11, page 66",
+          "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+          "verification_status": "unverified",
+          "effective_status": "unverified",
+          "verified_by": null,
+          "verified_at": null,
+          "applicable_academic_year": "2026-2027",
+          "notes": "Synthetic FE011 attestation; not historical expert review."
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e3df-71fd-bcba-560d40b8df7f/evidence",
+      "school": null,
+      "status": 201,
+      "request": {
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic FE011 attestation; not historical expert review.",
+        "verify": false
+      },
+      "response": {
+        "data": {
+          "id": "01a1887b-fe6f-71d5-98af-8302d4260dc8",
+          "cultural_claim_id": "01a187ac-e3df-71fd-bcba-560d40b8df7f",
+          "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "source": {
+            "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+            "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "source_type": "scientific_publication"
+          },
+          "citation_locator": "Section 11, page 66",
+          "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+          "verification_status": "unverified",
+          "effective_status": "unverified",
+          "verified_by": null,
+          "verified_at": null,
+          "applicable_academic_year": "2026-2027",
+          "notes": "Synthetic FE011 attestation; not historical expert review."
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/event-sources/01a187ac-e2c9-71ac-a659-297a9dd53415/reviews",
+      "school": null,
+      "status": 201,
+      "request": {
+        "decision": "approved",
+        "comments": "FE011 synthetic source review, separate from claim verification."
+      },
+      "response": {
+        "data": {
+          "id": "01a1887b-ff53-732f-ab87-edbff9ebabb1",
+          "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "decision": "approved",
+          "comments": "FE011 synthetic source review, separate from claim verification.",
+          "reviewer": {
+            "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+            "name": "FE011 regional · synthetic",
+            "system_role": "catalog_curator"
+          },
+          "reviewed_at": "2026-10-29T16:26:30+00:00"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-e388-7293-8644-4d12d107d82f",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66"
+          },
+          "claim_text": "FE011 f7b999d3d1 regional66 primary synthetic assertion",
+          "culture_name": "FE011 synthetic context",
+          "provenance_notes": "Integration fixture; not expert attestation",
+          "evidence_records": [
+            {
+              "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "source": {
+                "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+                "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+                "author": "FE011 synthetic author",
+                "source_type": "scientific_publication",
+                "url": "https://example.test/fe011/f7b999d3d1/regional66",
+                "doi_or_isbn": null
+              },
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "verification_status": "unverified",
+              "effective_status": "unverified",
+              "is_detached": false,
+              "detached_at": null,
+              "detachment_reason": null,
+              "verified_by": null,
+              "verified_at": null,
+              "applicable_academic_year": "2026-2027",
+              "notes": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            }
+          ],
+          "evidence_audit_events": [
+            {
+              "id": "01a1887b-fd3e-712a-b0f2-200b81af6e1f",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "attached",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": null,
+              "new_verification_status": "unverified",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            }
+          ],
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "POST",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f/evidence",
+      "school": null,
+      "status": 201,
+      "request": {
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic FE011 attestation; not historical expert review.",
+        "verify": true
+      },
+      "response": {
+        "data": {
+          "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+          "cultural_claim_id": "01a187ac-e388-7293-8644-4d12d107d82f",
+          "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "source": {
+            "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+            "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+            "author": "FE011 synthetic author",
+            "source_type": "scientific_publication"
+          },
+          "citation_locator": "Section 11, page 66",
+          "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+          "verification_status": "verified_authentic",
+          "effective_status": "verified_authentic",
+          "verified_by": {
+            "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+            "name": "FE011 regional · synthetic"
+          },
+          "verified_at": "2026-10-29T16:26:33+00:00",
+          "applicable_academic_year": "2026-2027",
+          "notes": "Synthetic FE011 attestation; not historical expert review."
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-e388-7293-8644-4d12d107d82f",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66"
+          },
+          "claim_text": "FE011 f7b999d3d1 regional66 primary synthetic assertion",
+          "culture_name": "FE011 synthetic context",
+          "provenance_notes": "Integration fixture; not expert attestation",
+          "evidence_records": [
+            {
+              "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "source": {
+                "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+                "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+                "author": "FE011 synthetic author",
+                "source_type": "scientific_publication",
+                "url": "https://example.test/fe011/f7b999d3d1/regional66",
+                "doi_or_isbn": null
+              },
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "verification_status": "verified_authentic",
+              "effective_status": "verified_authentic",
+              "is_detached": false,
+              "detached_at": null,
+              "detachment_reason": null,
+              "verified_by": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "verified_at": "2026-10-29T16:26:33+00:00",
+              "applicable_academic_year": "2026-2027",
+              "notes": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            }
+          ],
+          "evidence_audit_events": [
+            {
+              "id": "01a1887b-fd3e-712a-b0f2-200b81af6e1f",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "attached",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": null,
+              "new_verification_status": "unverified",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            },
+            {
+              "id": "01a1887c-0bcf-7380-957b-6adae747c556",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "reverified",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": "unverified",
+              "new_verification_status": "verified_authentic",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:33+00:00"
+            }
+          ],
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/cultural-claims/01a187ac-e3df-71fd-bcba-560d40b8df7f",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-e3df-71fd-bcba-560d40b8df7f",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66"
+          },
+          "claim_text": "FE011 f7b999d3d1 regional66 sibling synthetic assertion",
+          "culture_name": "FE011 synthetic context",
+          "provenance_notes": "Integration fixture; not expert attestation",
+          "evidence_records": [
+            {
+              "id": "01a1887b-fe6f-71d5-98af-8302d4260dc8",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "source": {
+                "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+                "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+                "author": "FE011 synthetic author",
+                "source_type": "scientific_publication",
+                "url": "https://example.test/fe011/f7b999d3d1/regional66",
+                "doi_or_isbn": null
+              },
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "verification_status": "unverified",
+              "effective_status": "unverified",
+              "is_detached": false,
+              "detached_at": null,
+              "detachment_reason": null,
+              "verified_by": null,
+              "verified_at": null,
+              "applicable_academic_year": "2026-2027",
+              "notes": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:30+00:00"
+            }
+          ],
+          "evidence_audit_events": [
+            {
+              "id": "01a1887b-fe72-7299-a31b-e603ac3b62bd",
+              "cultural_claim_source_id": "01a1887b-fe6f-71d5-98af-8302d4260dc8",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "attached",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": null,
+              "new_verification_status": "unverified",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            }
+          ],
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "PATCH",
+      "path": "/event-sources/01a187ac-e2c9-71ac-a659-297a9dd53415",
+      "school": null,
+      "status": 200,
+      "request": {
+        "author": "FE011 amended synthetic author"
+      },
+      "response": {
+        "data": {
+          "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+          "author": "FE011 amended synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/regional66",
+          "doi_or_isbn": null,
+          "verified_by_user_id": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-e388-7293-8644-4d12d107d82f",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66"
+          },
+          "claim_text": "FE011 f7b999d3d1 regional66 primary synthetic assertion",
+          "culture_name": "FE011 synthetic context",
+          "provenance_notes": "Integration fixture; not expert attestation",
+          "evidence_records": [
+            {
+              "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "source": {
+                "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+                "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+                "author": "FE011 amended synthetic author",
+                "source_type": "scientific_publication",
+                "url": "https://example.test/fe011/f7b999d3d1/regional66",
+                "doi_or_isbn": null
+              },
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "verification_status": "unverified",
+              "effective_status": "unverified",
+              "is_detached": false,
+              "detached_at": null,
+              "detachment_reason": null,
+              "verified_by": null,
+              "verified_at": null,
+              "applicable_academic_year": "2026-2027",
+              "notes": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            }
+          ],
+          "evidence_audit_events": [
+            {
+              "id": "01a1887b-fd3e-712a-b0f2-200b81af6e1f",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "attached",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": null,
+              "new_verification_status": "unverified",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            },
+            {
+              "id": "01a1887c-0bcf-7380-957b-6adae747c556",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "reverified",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": "unverified",
+              "new_verification_status": "verified_authentic",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:33+00:00"
+            }
+          ],
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    },
+    {
+      "role": "regional",
+      "method": "GET",
+      "path": "/cultural-claims/01a187ac-e388-7293-8644-4d12d107d82f",
+      "school": null,
+      "status": 200,
+      "response": {
+        "data": {
+          "id": "01a187ac-e388-7293-8644-4d12d107d82f",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66"
+          },
+          "claim_text": "FE011 f7b999d3d1 regional66 primary synthetic assertion",
+          "culture_name": "FE011 synthetic context",
+          "provenance_notes": "Integration fixture; not expert attestation",
+          "evidence_records": [
+            {
+              "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "source": {
+                "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+                "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+                "author": "FE011 amended synthetic author",
+                "source_type": "scientific_publication",
+                "url": "https://example.test/fe011/f7b999d3d1/regional66",
+                "doi_or_isbn": null
+              },
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "verification_status": "unverified",
+              "effective_status": "unverified",
+              "is_detached": false,
+              "detached_at": null,
+              "detachment_reason": null,
+              "verified_by": null,
+              "verified_at": null,
+              "applicable_academic_year": "2026-2027",
+              "notes": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            }
+          ],
+          "evidence_audit_events": [
+            {
+              "id": "01a1887b-fd3e-712a-b0f2-200b81af6e1f",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "attached",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": null,
+              "new_verification_status": "unverified",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:29+00:00"
+            },
+            {
+              "id": "01a1887c-0bcf-7380-957b-6adae747c556",
+              "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+              "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+              "action": "reverified",
+              "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+              "actor": {
+                "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+                "name": "FE011 regional · synthetic"
+              },
+              "previous_verification_status": "unverified",
+              "new_verification_status": "verified_authentic",
+              "citation_locator": "Section 11, page 66",
+              "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+              "reason": "Synthetic FE011 attestation; not historical expert review.",
+              "created_at": "2026-10-29T16:26:33+00:00"
+            }
+          ],
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      }
+    }
+  ],
+  "probe": {
+    "app_name": "Школьные события (Тестовый контур)",
+    "environment": "testing",
+    "database": "school_events_test",
+    "configured_database": "school_events_test",
+    "hostname": "f39903b54033",
+    "server_port": "80"
+  },
+  "invalidDraft": {
+    "submitted": {
+      "name": "x",
+      "city": "",
+      "inn": "bad",
+      "settings": {
+        "email": "invalid"
+      }
+    },
+    "persistedUnchanged": true,
+    "draftPreservationUI": "Parent unit/UI tests own input preservation; HTTP verifies rejection and no persistence"
+  },
+  "queueAllPagination": {
+    "first": {
+      "data": [
+        {
+          "id": "01a187ac-e3f8-7148-ad92-4c1284f6e81b",
+          "calendar_event_id": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+          "calendar_event": {
+            "id": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+            "title": "FE011 f7b999d3d1 schoolA · synthetic",
+            "event_type": "school_custom",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 schoolA synthetic source fixture",
+          "author": "FE011 synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/schoolA",
+          "doi_or_isbn": null,
+          "claims_count": 0,
+          "status": "pending",
+          "latest_review": null,
+          "verified_by": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        },
+        {
+          "id": "01a187ac-e424-7069-b4fe-4ac028efb272",
+          "calendar_event_id": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+          "calendar_event": {
+            "id": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+            "title": "FE011 f7b999d3d1 schoolB · synthetic",
+            "event_type": "school_custom",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 schoolB synthetic source fixture",
+          "author": "FE011 synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/schoolB",
+          "doi_or_isbn": null,
+          "claims_count": 0,
+          "status": "pending",
+          "latest_review": null,
+          "verified_by": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        },
+        {
+          "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66",
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+          "author": "FE011 synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/regional66",
+          "doi_or_isbn": null,
+          "claims_count": 0,
+          "status": "pending",
+          "latest_review": null,
+          "verified_by": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        },
+        {
+          "id": "01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+          "calendar_event_id": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+          "calendar_event": {
+            "id": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+            "title": "FE011 f7b999d3d1 federal · synthetic",
+            "event_type": "federal",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 federal synthetic source fixture",
+          "author": "FE011 synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/federal",
+          "doi_or_isbn": null,
+          "claims_count": 0,
+          "status": "pending",
+          "latest_review": null,
+          "verified_by": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        },
+        {
+          "id": "01a187ac-e42d-726e-95e9-18e51ee64322",
+          "calendar_event_id": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+          "calendar_event": {
+            "id": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+            "title": "FE011 f7b999d3d1 schoolC · synthetic",
+            "event_type": "school_custom",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 schoolC synthetic source fixture",
+          "author": "FE011 synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/schoolC",
+          "doi_or_isbn": null,
+          "claims_count": 0,
+          "status": "pending",
+          "latest_review": null,
+          "verified_by": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        }
+      ],
+      "meta": {
+        "current_page": 1,
+        "total": 17,
+        "per_page": 5,
+        "last_page": 4
+      }
+    },
+    "second": {
+      "data": [
+        {
+          "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+          "calendar_event": {
+            "id": "01a187ac-e280-71db-a197-3b2336679d06",
+            "title": "FE011 f7b999d3d1 regional66 · synthetic",
+            "event_type": "regional",
+            "region_code": "66",
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+          "author": "FE011 synthetic author",
+          "url": "https://example.test/fe011/f7b999d3d1/regional66",
+          "doi_or_isbn": null,
+          "claims_count": 0,
+          "status": "pending",
+          "latest_review": null,
+          "verified_by": null,
+          "verification_date": null,
+          "created_at": "2026-10-29T12:40:15+00:00"
+        },
+        {
+          "id": "01a18768-de53-7291-987b-36c12bf65f5d",
+          "calendar_event_id": "01a18768-de22-7002-8ef1-1645f32fbcce",
+          "calendar_event": {
+            "id": "01a18768-de22-7002-8ef1-1645f32fbcce",
+            "title": "FE010 9cf645fab2 approved SYNTHETIC",
+            "event_type": "federal",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE010 9cf645fab2 synthetic fixture source",
+          "author": "HTTP test",
+          "url": "https://example.test/fe010",
+          "doi_or_isbn": null,
+          "claims_count": 1,
+          "status": "approved",
+          "latest_review": {
+            "id": "01a18768-de80-7011-aa01-eaddad6d8198",
+            "decision": "approved",
+            "comments": "Synthetic evidence fixture only",
+            "reviewer": {
+              "id": "01a18768-ddc4-7013-947c-442d45553111",
+              "name": "FE010 system",
+              "system_role": "system_admin"
+            },
+            "reviewed_at": "2026-10-29T11:25:59+00:00"
+          },
+          "verified_by": {
+            "id": "01a18768-ddc4-7013-947c-442d45553111",
+            "name": "FE010 system"
+          },
+          "verification_date": "2026-10-29",
+          "created_at": "2026-10-29T11:25:55+00:00"
+        },
+        {
+          "id": "01a182c4-af2f-70bb-84f5-cce7c2fab04e",
+          "calendar_event_id": "01a182c4-af24-73ca-a4ff-34c1af8a68c6",
+          "calendar_event": {
+            "id": "01a182c4-af24-73ca-a4ff-34c1af8a68c6",
+            "title": "FE010 6108ea2c01 approved SYNTHETIC",
+            "event_type": "federal",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE010 6108ea2c01 synthetic fixture source",
+          "author": "HTTP test",
+          "url": "https://example.test/fe010",
+          "doi_or_isbn": null,
+          "claims_count": 1,
+          "status": "approved",
+          "latest_review": {
+            "id": "01a182c4-af38-7260-a7b0-15c5acddc9cb",
+            "decision": "approved",
+            "comments": "Synthetic evidence fixture only",
+            "reviewer": {
+              "id": "01a182c4-af17-70b7-b585-eae8823da61d",
+              "name": "FE010 system",
+              "system_role": "system_admin"
+            },
+            "reviewed_at": "2026-10-28T13:48:10+00:00"
+          },
+          "verified_by": {
+            "id": "01a182c4-af17-70b7-b585-eae8823da61d",
+            "name": "FE010 system"
+          },
+          "verification_date": "2026-10-28",
+          "created_at": "2026-10-28T13:48:09+00:00"
+        },
+        {
+          "id": "01a182c3-4b9a-7156-a429-902d7f90583e",
+          "calendar_event_id": "01a182c3-4ae1-7023-9270-8512b682419f",
+          "calendar_event": {
+            "id": "01a182c3-4ae1-7023-9270-8512b682419f",
+            "title": "FE010 0a7a11b066 approved SYNTHETIC",
+            "event_type": "federal",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "FE010 0a7a11b066 synthetic fixture source",
+          "author": "HTTP test",
+          "url": "https://example.test/fe010",
+          "doi_or_isbn": null,
+          "claims_count": 1,
+          "status": "approved",
+          "latest_review": {
+            "id": "01a182c3-4c66-72d2-82de-38c7d2881bac",
+            "decision": "approved",
+            "comments": "Synthetic evidence fixture only",
+            "reviewer": {
+              "id": "01a182c3-4a95-71ec-8aa0-71673027a73d",
+              "name": "FE010 system",
+              "system_role": "system_admin"
+            },
+            "reviewed_at": "2026-10-28T13:46:39+00:00"
+          },
+          "verified_by": {
+            "id": "01a182c3-4a95-71ec-8aa0-71673027a73d",
+            "name": "FE010 system"
+          },
+          "verification_date": "2026-10-28",
+          "created_at": "2026-10-28T13:46:38+00:00"
+        },
+        {
+          "id": "01a17cb9-9f35-736f-8f84-2dd13b74ca06",
+          "calendar_event_id": "01a17cb9-9f26-7373-adb7-be1fe349d35e",
+          "calendar_event": {
+            "id": "01a17cb9-9f26-7373-adb7-be1fe349d35e",
+            "title": "FE009 approved e05f1aee12",
+            "event_type": "federal",
+            "region_code": null,
+            "status": "approved"
+          },
+          "source_type": "scientific_publication",
+          "title": "Тестовый первоисточник FE009 — синтетический fixture",
+          "author": "Интеграционная проверка",
+          "url": "https://example.test/fe009-source",
+          "doi_or_isbn": null,
+          "claims_count": 1,
+          "status": "approved",
+          "latest_review": {
+            "id": "01a17cb9-9f47-719e-a617-e92b8740bfed",
+            "decision": "approved",
+            "comments": "Синтетическая проверка связи источника, не историческая аттестация.",
+            "reviewer": {
+              "id": "01a17cb9-9ecf-72b2-85ef-662f86bc02f3",
+              "name": "FE009 admin",
+              "system_role": "system_admin"
+            },
+            "reviewed_at": "2026-10-27T09:38:22+00:00"
+          },
+          "verified_by": {
+            "id": "01a17cb9-9ecf-72b2-85ef-662f86bc02f3",
+            "name": "FE009 admin"
+          },
+          "verification_date": "2026-10-27",
+          "created_at": "2026-10-27T09:38:21+00:00"
+        }
+      ],
+      "meta": {
+        "current_page": 2,
+        "total": 17,
+        "per_page": 5,
+        "last_page": 4
+      }
+    },
+    "supportedByActualHTTP": true,
+    "overlappingIds": [
+      "01a187ac-e2c9-71ac-a659-297a9dd53415"
+    ],
+    "limitation": "Actual backend orders created_at DESC without an id tie-breaker; equal-timestamp rows can overlap pages. Do not promise stable cursor pagination."
+  }
+}

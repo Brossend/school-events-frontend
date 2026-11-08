@@ -1,0 +1,57 @@
+{
+  "completed": true,
+  "bootstrapCompleted": true,
+  "httpResponses": 94,
+  "statuses": [
+    200,
+    201,
+    202,
+    204,
+    401,
+    403,
+    404,
+    409,
+    422
+  ],
+  "backendChanged": [],
+  "secretFound": false,
+  "nginxOwnedLines": 111,
+  "validation": {
+    "vitest": "1 test passed; 234.22 seconds",
+    "eslint": "passed",
+    "phpSyntax": "both scripts passed"
+  },
+  "runId": "f7b999d3d1",
+  "limitations": {
+    "queue": "Actual backend orders created_at DESC without an id tie-breaker; equal-timestamp rows can overlap pages. Do not promise stable cursor pagination.",
+    "amendmentInvalidationAuditReturned": false
+  },
+  "postgresDiff": {
+    "source_reviews": {
+      "before": 2,
+      "after": 6,
+      "delta": 4
+    },
+    "cultural_claim_sources": {
+      "before": 2,
+      "after": 2,
+      "delta": 0
+    },
+    "cultural_claim_evidence_audit_events": {
+      "before": 3,
+      "after": 9,
+      "delta": 6
+    },
+    "scenarios": {
+      "before": 0,
+      "after": 1,
+      "delta": 1
+    },
+    "export_jobs": {
+      "before": 0,
+      "after": 1,
+      "delta": 1
+    }
+  },
+  "transportLogCommandStatus": 0
+}

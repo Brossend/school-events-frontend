@@ -1,0 +1,19 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "persistedInFixtureSchools": 13,
+  "passingHttpIds": [
+    "01a17498-4ad2-72aa-9dcc-df639cdbbef5",
+    "01a17498-5509-719b-9b4b-fe5d866a08f5",
+    "01a17498-5702-70fc-952a-7f396084d2a6"
+  ],
+  "browserCreatedIds": [
+    "01a17498-5497-72a8-b645-5b4e03c3281f",
+    "01a1749b-4409-726d-a975-9796cbc6183c",
+    "01a1749d-cb6d-728f-a36f-886f1042e5a2"
+  ],
+  "allIdsPersisted": true,
+  "generationRunsBefore": 14,
+  "generationRunsAfter": 14,
+  "newGenerationRuns": 0
+}

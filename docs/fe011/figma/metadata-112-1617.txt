@@ -1,0 +1,82 @@
+<frame id="112:1617" name="ИИ / Протокол проверок и источников / 390" x="2750" y="6908" width="390" height="1335">
+  <frame id="112:1618" name="Рабочая область" x="0" y="0" width="390" height="1335">
+    <frame id="112:1619" name="Верхняя панель" x="0" y="0" width="390" height="68">
+      <text id="112:1620" name="Контекст" x="16" y="24.5" width="161" height="19" />
+      <frame id="112:1621" name="Пользователь" x="338" y="16" width="36" height="36">
+        <frame id="112:1622" name="Аватар" x="0" y="0" width="36" height="36">
+          <text id="112:1623" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="112:1624" name="Сбер × УрФУ / цветовая линия" x="0" y="64" width="390" height="4" />
+      <frame id="112:1625" name="Сбер × УрФУ / партнёрский знак" x="194" y="21" width="122" height="26">
+        <text id="112:1626" name="Партнёрство" x="0" y="0" width="122" height="26" />
+      </frame>
+    </frame>
+    <frame id="112:1627" name="Компактная навигация" x="0" y="68" width="390" height="81">
+      <frame id="112:1628" name="Пункт навигации" x="12" y="12" width="88.5" height="57">
+        <frame id="112:1629" name="house" x="34.75" y="8" width="19" height="19" />
+        <text id="112:1631" name="Описание" x="2" y="32" width="84.5" height="17" />
+      </frame>
+      <frame id="112:1632" name="Пункт навигации" x="104.5" y="12" width="88.5" height="57">
+        <frame id="112:1633" name="calendar-days" x="34.75" y="8" width="19" height="19" />
+        <text id="112:1635" name="Описание" x="2" y="32" width="84.5" height="17" />
+      </frame>
+      <frame id="112:1636" name="Пункт навигации" x="197" y="12" width="88.5" height="57">
+        <frame id="112:1637" name="files" x="34.75" y="8" width="19" height="19" />
+        <text id="112:1639" name="Описание" x="2" y="32" width="84.5" height="17" />
+      </frame>
+      <frame id="112:1640" name="Пункт навигации" x="289.5" y="12" width="88.5" height="57">
+        <frame id="112:1641" name="school" x="34.75" y="8" width="19" height="19" />
+        <text id="112:1643" name="Описание" x="2" y="32" width="84.5" height="17" />
+      </frame>
+    </frame>
+    <frame id="112:1644" name="Содержимое" x="0" y="149" width="390" height="1112">
+      <frame id="112:1669" name="Название протокола" x="16" y="24" width="358" height="86">
+        <text id="112:1670" name="ДОКАЗАТЕЛЬСТВА · ПРОТОКОЛ СЦЕНАРИЯ" x="0" y="0" width="358" height="13" />
+        <text id="112:1671" name="Проверки и источники" x="0" y="20" width="358" height="29" />
+        <text id="112:1672" name="Пример структуры протокола. Реальный з" x="0" y="56" width="358" height="30" />
+      </frame>
+      <frame id="112:1673" name="Статус протокола" x="16" y="134" width="358" height="118">
+        <text id="112:1674" name="Демонстрационный протокол · не подтвер" x="15" y="15" width="328" height="36" />
+        <text id="112:1675" name="ID проверки, версия модели, время выпо" x="15" y="58" width="328" height="45" />
+      </frame>
+      <frame id="112:1676" name="Результаты машинной проверки" x="16" y="276" width="358" height="369">
+        <text id="112:1677" name="Обязательная автоматическая модерация" x="18" y="18" width="324" height="42" />
+        <frame id="112:1678" name="Категория / P0 · Этнические и расовые стереотипы" x="18" y="70" width="324" height="87">
+          <text id="112:1679" name="P0 · Этнические и расовые стереотипы" x="11" y="11" width="302" height="16" />
+          <text id="112:1680" name="Блокировать при наличии обобщений/диск" x="11" y="32" width="302" height="26" />
+          <text id="112:1681" name="Фактическое заключение: нет данных" x="11" y="63" width="302" height="13" />
+        </frame>
+        <frame id="112:1682" name="Категория / P0 · Культурные факты и традиции" x="18" y="167" width="324" height="87">
+          <text id="112:1683" name="P0 · Культурные факты и традиции" x="11" y="11" width="302" height="16" />
+          <text id="112:1684" name="Каждое проверяемое утверждение требует" x="11" y="32" width="302" height="26" />
+          <text id="112:1685" name="Фактическое заключение: нет данных" x="11" y="63" width="302" height="13" />
+        </frame>
+        <frame id="112:1686" name="Категория / P1 · Возраст, роль и тайминг" x="18" y="264" width="324" height="87">
+          <text id="112:1687" name="P1 · Возраст, роль и тайминг" x="11" y="11" width="302" height="16" />
+          <text id="112:1688" name="Проверить соответствие возрасту, досту" x="11" y="32" width="302" height="26" />
+          <text id="112:1689" name="Фактическое заключение: нет данных" x="11" y="63" width="302" height="13" />
+        </frame>
+      </frame>
+      <frame id="112:1690" name="Реестр первичных источников" x="16" y="669" width="358" height="216">
+        <text id="112:1691" name="Источники культурного контекста" x="18" y="18" width="324" height="21" />
+        <text id="112:1692" name="Международный день родного языка · дат" x="18" y="48" width="324" height="32" />
+        <text id="112:1693" name="Первичный источник: UNESCO, unesco.org" x="18" y="89" width="324" height="26" />
+        <text id="112:1694" name="Проверяющий редактор: не назначен" x="18" y="124" width="324" height="15" />
+        <text id="112:1695" name="Дата редакторского подтверждения: не у" x="18" y="148" width="324" height="15" />
+        <text id="112:1696" name="Конкретные местные культурные практики" x="18" y="172" width="324" height="26" />
+      </frame>
+      <frame id="112:1697" name="Ручная оценка педагога" x="16" y="909" width="358" height="92">
+        <text id="112:1698" name="Педагогическое подтверждение отдельно " x="15" y="15" width="328" height="16" />
+        <text id="112:1699" name="Статус: не пройдено · ФИО/роль педагог" x="15" y="38" width="328" height="39" />
+      </frame>
+      <frame id="112:1700" name="Действие / Вернуться к сценарию" x="16" y="1025" width="358" height="47">
+        <text id="112:1701" name="Открыть сценарий" x="12" y="15.5" width="334" height="16" />
+      </frame>
+    </frame>
+    <frame id="112:1667" name="Подвал" x="0" y="1261" width="390" height="74">
+      <text id="112:1668" name="Описание" x="16" y="20" width="358" height="34" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

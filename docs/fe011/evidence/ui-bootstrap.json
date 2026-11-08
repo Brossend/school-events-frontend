@@ -1,0 +1,309 @@
+{
+  "runId": "f7b999d3d1",
+  "origin": "http://localhost:8001",
+  "database": "school_events_test",
+  "environment": "testing",
+  "databaseUser": "school_test_user",
+  "queue": "sync",
+  "passwordDerivation": "HMAC-SHA256(APP_KEY, FE011:runId); never persist password",
+  "completed": true,
+  "schools": {
+    "A": {
+      "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "name": "FE011 f7b999d3d1 A · synthetic test school",
+      "region_code": "66"
+    },
+    "B": {
+      "id": "01a187ac-de43-7066-8005-5d8712f3a474",
+      "name": "FE011 f7b999d3d1 B · synthetic test school",
+      "region_code": "66"
+    },
+    "C": {
+      "id": "01a187ac-de45-7279-a2ea-1a0b0fb6d9b7",
+      "name": "FE011 f7b999d3d1 C · synthetic test school",
+      "region_code": "77"
+    }
+  },
+  "users": {
+    "teacher": {
+      "id": "01a187ac-df6b-71b4-bfc0-eddd879c04ce",
+      "email": "fe011-f7b999d3d1-teacher@example.test",
+      "system_role": "none"
+    },
+    "schoolAdmin": {
+      "id": "01a187ac-e14b-7189-956d-52fe7a3307a4",
+      "email": "fe011-f7b999d3d1-schoolAdmin@example.test",
+      "system_role": "none"
+    },
+    "other": {
+      "id": "01a187ac-e153-7025-811c-b0d8d10c755b",
+      "email": "fe011-f7b999d3d1-other@example.test",
+      "system_role": "none"
+    },
+    "foreign": {
+      "id": "01a187ac-e159-70b1-88e5-cf89ec8b1033",
+      "email": "fe011-f7b999d3d1-foreign@example.test",
+      "system_role": "none"
+    },
+    "regional": {
+      "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+      "email": "fe011-f7b999d3d1-regional@example.test",
+      "system_role": "catalog_curator"
+    },
+    "system": {
+      "id": "01a187ac-e162-71ea-b1af-ffaadcc0d43d",
+      "email": "fe011-f7b999d3d1-system@example.test",
+      "system_role": "system_admin"
+    },
+    "inactive": {
+      "id": "01a187ac-e166-73c3-87ea-a20c4b7e2d47",
+      "email": "fe011-f7b999d3d1-inactive@example.test",
+      "system_role": "none"
+    },
+    "multi": {
+      "id": "01a187ac-e16d-7337-a8b3-28a42e9a02db",
+      "email": "fe011-f7b999d3d1-multi@example.test",
+      "system_role": "none"
+    }
+  },
+  "events": {
+    "regional66": "01a187ac-e280-71db-a197-3b2336679d06",
+    "regional77": "01a187ac-e3e1-708a-a231-4da2ba2a7f23",
+    "federal": "01a187ac-e3ec-7046-a1df-6ede5ff137b4",
+    "schoolA": "01a187ac-e3f6-718d-b3a2-a1c4bd8f9358",
+    "schoolB": "01a187ac-e40a-70b5-9a9d-625ce5759c36",
+    "schoolC": "01a187ac-e42b-732b-83d9-f31b89413b0f",
+    "draft": "01a187ac-e433-7145-9a59-10f58264c00d"
+  },
+  "sources": {
+    "regional66": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+    "regional77": "01a187ac-e3e3-70a8-bbc5-90d3f4c81a21",
+    "federal": "01a187ac-e3ee-72fb-acf4-0b7ac014057b",
+    "schoolA": "01a187ac-e3f8-7148-ad92-4c1284f6e81b",
+    "schoolB": "01a187ac-e424-7069-b4fe-4ac028efb272",
+    "schoolC": "01a187ac-e42d-726e-95e9-18e51ee64322",
+    "draft": "01a187ac-e441-7262-afee-f38cb94694b9"
+  },
+  "claims": {
+    "regional66": {
+      "primary": "01a187ac-e388-7293-8644-4d12d107d82f",
+      "sibling": "01a187ac-e3df-71fd-bcba-560d40b8df7f"
+    },
+    "regional77": {
+      "primary": "01a187ac-e3e5-7052-b5f2-160d2218a5d9",
+      "sibling": "01a187ac-e3ea-720f-b488-6a88ed588294"
+    },
+    "federal": {
+      "primary": "01a187ac-e3f0-71c2-b336-5b8134b937f4",
+      "sibling": "01a187ac-e3f3-7141-beb7-9e8fc9f08cce"
+    },
+    "schoolA": {
+      "primary": "01a187ac-e3fc-73e4-82bc-8ca069960e1a",
+      "sibling": "01a187ac-e400-7293-8839-7b3d79b14a21"
+    },
+    "schoolB": {
+      "primary": "01a187ac-e426-7394-a22d-0aeda743085f",
+      "sibling": "01a187ac-e429-71ee-97f4-e067b21768ec"
+    },
+    "schoolC": {
+      "primary": "01a187ac-e42f-73c4-87a9-5f083e1cfc78",
+      "sibling": "01a187ac-e431-723e-afb4-0e15889b186c"
+    },
+    "draft": {
+      "primary": "01a187ac-e443-717c-87d0-06a942cde57b",
+      "sibling": "01a187ac-e445-7259-8510-53ebef480a48"
+    }
+  },
+  "reviewId": "01a1887e-aed6-7264-880d-23731464e4a8",
+  "generation": {
+    "generation_run_id": "01a1887f-c0dd-724c-b803-82a2b7f83e88",
+    "run_id": "01a1887f-c0dd-724c-b803-82a2b7f83e88",
+    "scenario_request_id": "01a1887f-b38a-7327-aa3d-4c267cd2666d",
+    "status": "queued",
+    "estimated_wait_seconds": 15,
+    "poll_url": "/api/v1/generation-runs/01a1887f-c0dd-724c-b803-82a2b7f83e88",
+    "created_at": "2026-10-29T16:30:36+00:00"
+  },
+  "scenarioId": "01a1887f-d403-71a6-b352-a2789565449d",
+  "requestId": "01a1887f-b38a-7327-aa3d-4c267cd2666d",
+  "exportId": "01a18880-05a8-730d-9578-91e603c493a9",
+  "finalClaim": {
+    "id": "01a187ac-e388-7293-8644-4d12d107d82f",
+    "calendar_event_id": "01a187ac-e280-71db-a197-3b2336679d06",
+    "calendar_event": {
+      "id": "01a187ac-e280-71db-a197-3b2336679d06",
+      "title": "FE011 f7b999d3d1 regional66 · synthetic",
+      "event_type": "regional",
+      "region_code": "66"
+    },
+    "claim_text": "FE011 f7b999d3d1 regional66 primary synthetic assertion",
+    "culture_name": "FE011 synthetic context",
+    "provenance_notes": "Integration fixture; not expert attestation",
+    "evidence_records": [
+      {
+        "id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "source": {
+          "id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+          "title": "FE011 f7b999d3d1 regional66 synthetic source fixture",
+          "author": "FE011 amended synthetic author ffe353e6-1d4b-4471-ae2b-702956968c54",
+          "source_type": "scientific_publication",
+          "url": "https://example.test/fe011/f7b999d3d1/regional66",
+          "doi_or_isbn": null
+        },
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "verification_status": "unverified",
+        "effective_status": "unverified",
+        "is_detached": true,
+        "detached_at": "2026-10-29T16:31:19+00:00",
+        "detachment_reason": "FE011 explicit own-source/own-claim revocation confirmed by test",
+        "verified_by": null,
+        "verified_at": null,
+        "applicable_academic_year": "2026-2027",
+        "notes": "Synthetic FE011 attestation; not historical expert review.",
+        "created_at": "2026-10-29T16:26:29+00:00"
+      }
+    ],
+    "evidence_audit_events": [
+      {
+        "id": "01a1887b-fd3e-712a-b0f2-200b81af6e1f",
+        "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "action": "attached",
+        "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+        "actor": {
+          "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+          "name": "FE011 regional · synthetic"
+        },
+        "previous_verification_status": null,
+        "new_verification_status": "unverified",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "reason": "Synthetic FE011 attestation; not historical expert review.",
+        "created_at": "2026-10-29T16:26:29+00:00"
+      },
+      {
+        "id": "01a1887c-0bcf-7380-957b-6adae747c556",
+        "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "action": "reverified",
+        "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+        "actor": {
+          "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+          "name": "FE011 regional · synthetic"
+        },
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "reason": "Synthetic FE011 attestation; not historical expert review.",
+        "created_at": "2026-10-29T16:26:33+00:00"
+      },
+      {
+        "id": "01a1887e-8d5f-7014-a53c-204c5555c267",
+        "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "action": "reattached",
+        "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+        "actor": {
+          "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+          "name": "FE011 regional · synthetic"
+        },
+        "previous_verification_status": "unverified",
+        "new_verification_status": "unverified",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "reason": "Synthetic FE011 attestation; not historical expert review.",
+        "created_at": "2026-10-29T16:29:17+00:00"
+      },
+      {
+        "id": "01a1887e-bc81-7202-a058-779342a9338f",
+        "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "action": "reverified",
+        "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+        "actor": {
+          "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+          "name": "FE011 regional · synthetic"
+        },
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "reason": "Synthetic FE011 attestation; not historical expert review.",
+        "created_at": "2026-10-29T16:29:29+00:00"
+      },
+      {
+        "id": "01a1887f-7755-7242-8604-000d470f2f46",
+        "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "action": "reverified",
+        "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+        "actor": {
+          "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+          "name": "FE011 regional · synthetic"
+        },
+        "previous_verification_status": "unverified",
+        "new_verification_status": "verified_authentic",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "reason": "Synthetic FE011 attestation; not historical expert review.",
+        "created_at": "2026-10-29T16:30:17+00:00"
+      },
+      {
+        "id": "01a18880-6844-72eb-a77e-9a825cc7659d",
+        "cultural_claim_source_id": "01a1887b-fcb8-73cf-b051-4751f59ce29c",
+        "event_source_id": "01a187ac-e2c9-71ac-a659-297a9dd53415",
+        "action": "detached",
+        "actor_user_id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+        "actor": {
+          "id": "01a187ac-e15f-715f-a0cc-46f6a4740ae9",
+          "name": "FE011 regional · synthetic"
+        },
+        "previous_verification_status": "verified_authentic",
+        "new_verification_status": "unverified",
+        "citation_locator": "Section 11, page 66",
+        "citation_excerpt": "FE011 synthetic evidence excerpt; integration test only.",
+        "reason": "FE011 explicit own-source/own-claim revocation confirmed by test",
+        "created_at": "2026-10-29T16:31:19+00:00"
+      }
+    ],
+    "created_at": "2026-10-29T12:40:15+00:00"
+  },
+  "latestReviewId": "01a1887f-5593-729f-9099-e49eee030b19",
+  "expectedStates": {
+    "profile": {
+      "id": "01a187ac-dde9-7172-aa4c-db73587681b5",
+      "name": "FE011 f7b999d3d1 A · synthetic test school",
+      "short_name": "FE011 school admin",
+      "region_code": "66",
+      "city": "Екатеринбург",
+      "inn": "8131883797",
+      "settings": {
+        "email": "fe011@example.test",
+        "phone": "+7 000 000 0011",
+        "address": "Тестовая улица, 11",
+        "website": "https://example.test/fe011",
+        "description": "FE011 synthetic school settings"
+      },
+      "traditions_count": 1,
+      "active_teachers_count": 2,
+      "created_at": "2026-10-29T12:40:15+00:00",
+      "updated_at": "2026-10-29T16:28:31+00:00"
+    },
+    "sourceReview": "approved",
+    "primaryClaim": "unverified; detached",
+    "siblingClaim": "verified_authentic",
+    "export": "ready artifact retained; download denied by live provenance gate",
+    "scenario": "signed but provenance revoked; never automatically resigned"
+  },
+  "revisionVersion": 1,
+  "revisionId": "01a1887f-d442-737a-b9e5-221e28f582a9",
+  "queueAllHTTPProven": true,
+  "queuePaginationLimitation": "Actual backend orders created_at DESC without an id tie-breaker; equal-timestamp rows can overlap pages. Do not promise stable cursor pagination.",
+  "integrationLimits": {
+    "queue": "Actual backend orders created_at DESC without an id tie-breaker; equal-timestamp rows can overlap pages. Do not promise stable cursor pagination.",
+    "amendmentInvalidationAuditReturned": false
+  }
+}

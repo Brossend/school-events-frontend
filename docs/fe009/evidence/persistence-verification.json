@@ -1,0 +1,15 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "signedScenarioId": "01a17cba-5372-710e-818d-00db311e7fcf",
+  "deletedScenarioId": "01a17cba-9062-7028-8a28-bb04e96797c9",
+  "archiveFlag": true,
+  "restoreFlag": false,
+  "revisionsModerationSignoffsExportsUnchanged": true,
+  "artifactMetadataUnchanged": true,
+  "softDeletedRowRetained": true,
+  "softDeletedRevisionsRetained": true,
+  "deletedAt": "2026-10-27T09:42:01+00:00",
+  "generationRequestIdsUnchanged": true,
+  "provenanceAfterRestoreBlocked": true
+}

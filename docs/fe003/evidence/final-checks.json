@@ -1,0 +1,18 @@
+[
+  {
+    "check": "typecheck",
+    "exitCode": 0
+  },
+  {
+    "check": "eslint",
+    "exitCode": 0
+  },
+  {
+    "check": "vitest",
+    "exitCode": 0
+  },
+  {
+    "check": "build",
+    "exitCode": 0
+  }
+]

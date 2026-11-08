@@ -1,0 +1,31 @@
+{
+  "typecheck": {
+    "log": "docs/fe010/typecheck-final.log",
+    "exitCode": 0
+  },
+  "eslint": {
+    "log": "docs/fe010/eslint-final.log",
+    "exitCode": 0
+  },
+  "vitest": {
+    "log": "docs/fe010/vitest-final.log",
+    "exitCode": 0,
+    "passed": 469,
+    "regression": 345,
+    "added": 124,
+    "files": 15
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "log": "docs/fe010/build-final.log",
+    "apiOrigin": "http://localhost:8000"
+  },
+  "http": {
+    "exitCode": 0,
+    "finishedAt": "2026-10-29T16:41:44.9891876+05:00",
+    "isolated": true,
+    "log": "docs/fe010/http-final.log",
+    "requests": 246,
+    "runId": "9cf645fab2"
+  }
+}

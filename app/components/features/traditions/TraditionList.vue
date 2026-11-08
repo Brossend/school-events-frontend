@@ -1,0 +1,5 @@
+<script setup lang="ts">
+import type { TraditionItem } from '~/types/traditions'
+defineProps<{ traditions: TraditionItem[] }>()
+</script>
+<template><div class="tradition-list"><UiCard v-for="tradition in traditions" :key="tradition.id" class="tradition-list-card"><div class="tradition-meta"><UiBadge :tone="tradition.is_archived ? 'neutral' : 'success'">{{ tradition.is_archived ? 'В архиве' : 'Активная традиция' }}</UiBadge><span class="muted">Год основания: {{ tradition.established_year ?? 'не указан' }}</span></div><h2><NuxtLink :to="`/traditions/${encodeURIComponent(tradition.id)}`">{{ tradition.title }}</NuxtLink></h2><p class="tradition-description">{{ tradition.description }}</p><p class="tradition-current">{{ tradition.active_version ? `Текущая версия: ${tradition.active_version.academic_year}` : 'Ежегодных версий пока нет' }}</p><div class="row"><span class="muted">Версий в истории: {{ tradition.versions.length }}</span><NuxtLink :to="`/traditions/${encodeURIComponent(tradition.id)}`">Открыть традицию →</NuxtLink></div></UiCard></div></template>

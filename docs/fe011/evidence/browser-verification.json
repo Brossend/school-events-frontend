@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29T22:40:23.972Z",
+  "origin": "http://localhost:8001",
+  "database": "school_events_test",
+  "accounts": [
+    "schoolAdmin",
+    "system"
+  ],
+  "schoolProfileLoaded": true,
+  "serverCounts": {
+    "active_teachers": 2,
+    "traditions": 1
+  },
+  "draftAndClientErrorsPreserved": true,
+  "userProfileMembershipMatchesSchool": true,
+  "systemWithoutMembershipLoadsSchoolById": true,
+  "systemStatus": "operational",
+  "catalogQueueLoaded": true,
+  "sourceReviewAndHistoryLoaded": true,
+  "sourceInspectorLoaded": true,
+  "evidenceCheckboxDefaultFalse": true,
+  "detachedEvidenceLabel": "Свидетельство отозвано",
+  "detachConfirmationCancelled": true,
+  "logoutRedirect": "http://localhost:3000/login?redirect=/catalog",
+  "screenshots": "36 required states plus revoked evidence",
+  "mutationsInThisBrowserPass": 0,
+  "notes": "HTTP 422 and mutation persistence are covered separately by isolated live suite. Only own fixture reads; drafts and confirmations did not alter persisted evidence."
+}

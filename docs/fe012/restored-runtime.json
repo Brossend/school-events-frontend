@@ -1,0 +1,12 @@
+{
+  "environment": "testing",
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "queue": "sync",
+  "faultTriggers": [],
+  "temporarySchemas": [],
+  "frontend": {
+    "status": 200,
+    "origin8000": true
+  }
+}

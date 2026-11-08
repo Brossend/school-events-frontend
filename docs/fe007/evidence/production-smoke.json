@@ -1,0 +1,7 @@
+{
+  "testedPath": "/scenarios/<synthetic-id>/edit",
+  "status": 200,
+  "apiConfigured": true,
+  "check": "Built Nitro node-server serves SPA shell; no authenticated mutation",
+  "origin": "http://127.0.0.1:3108"
+}

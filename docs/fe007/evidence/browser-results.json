@@ -1,0 +1,16 @@
+{
+  "origin": "http://localhost:8001",
+  "database": "school_events_test",
+  "scenarioId": "01a177b6-603c-71e5-9fb1-d0c952499ab8",
+  "savedRevision": 3,
+  "savePath": "existing revision 2 -> explicit edit -> PATCH -> revision 3 readback",
+  "signoff": "three initially unchecked flags explicitly selected, synthetic teacher notes, server accepted POST and current revision reread",
+  "unsavedLeave": "modal shown; Stay retained text; explicit Leave opened profile",
+  "schoolSwitch": "selected B; SPA Back to A editor denied; old data absent",
+  "logout": "returned to login",
+  "unknownVerify": "network result during app-test recreation blocked further mutation, GET reconciliation and explicit server-version selection used",
+  "screenshots": "live view/editor/signoff/confirmed; isolated visibly labelled saving/conflict/P0/P1",
+  "viewportNote": "browser DPR 0.84: requested tablet 768 measured 767; extra 769 checked; actual values in viewport-metrics.json",
+  "externalLlmUsed": false,
+  "expertAttestation": false
+}

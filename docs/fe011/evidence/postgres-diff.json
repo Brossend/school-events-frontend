@@ -1,0 +1,27 @@
+{
+  "source_reviews": {
+    "before": 2,
+    "after": 6,
+    "delta": 4
+  },
+  "cultural_claim_sources": {
+    "before": 2,
+    "after": 2,
+    "delta": 0
+  },
+  "cultural_claim_evidence_audit_events": {
+    "before": 3,
+    "after": 9,
+    "delta": 6
+  },
+  "scenarios": {
+    "before": 0,
+    "after": 1,
+    "delta": 1
+  },
+  "export_jobs": {
+    "before": 0,
+    "after": 1,
+    "delta": 1
+  }
+}

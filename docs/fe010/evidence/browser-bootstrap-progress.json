@@ -1,0 +1,152 @@
+{
+  "runId": "9cf645fab2",
+  "completed": false,
+  "origin": "http://localhost:8001",
+  "syntheticTestOnly": true,
+  "schools": {
+    "A": {
+      "id": "01a18768-d90f-71d8-9d30-11af47a425fa",
+      "name": "FE010 9cf645fab2 A · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "B": {
+      "id": "01a18768-d9eb-70c5-9663-d9bc644a715f",
+      "name": "FE010 9cf645fab2 B · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "C": {
+      "id": "01a18768-d9ee-70d4-a8af-c7f2a4c95612",
+      "name": "FE010 9cf645fab2 C · SYNTHETIC TEST ONLY",
+      "region_code": "77"
+    },
+    "Zero": {
+      "id": "01a18768-d9f0-71b5-8024-e0bcbddce0b2",
+      "name": "FE010 9cf645fab2 Zero · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "One": {
+      "id": "01a18768-d9f2-700d-95b8-0cc9e31ec987",
+      "name": "FE010 9cf645fab2 One · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Five": {
+      "id": "01a18768-d9f4-735f-abea-d7d4b41792e8",
+      "name": "FE010 9cf645fab2 Five · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Partial": {
+      "id": "01a18768-d9f7-71b4-a57d-5b15bd039006",
+      "name": "FE010 9cf645fab2 Partial · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    },
+    "Real": {
+      "id": "01a18768-d9fb-703c-8ae8-34db85f27172",
+      "name": "FE010 9cf645fab2 Real · SYNTHETIC TEST ONLY",
+      "region_code": "66"
+    }
+  },
+  "users": {
+    "teacher": {
+      "id": "01a18768-dd6d-7382-a263-57507ceda3ef",
+      "email": "fe010-9cf645fab2-teacher@example.test"
+    },
+    "admin": {
+      "id": "01a18768-ddad-72f4-96cc-43e5b769e47e",
+      "email": "fe010-9cf645fab2-admin@example.test"
+    },
+    "multi": {
+      "id": "01a18768-ddba-709c-8c77-91e9a492602b",
+      "email": "fe010-9cf645fab2-multi@example.test"
+    },
+    "regional": {
+      "id": "01a18768-ddbe-73d5-86e1-2f553b58e3ff",
+      "email": "fe010-9cf645fab2-regional@example.test"
+    },
+    "system": {
+      "id": "01a18768-ddc4-7013-947c-442d45553111",
+      "email": "fe010-9cf645fab2-system@example.test"
+    },
+    "systemMember": {
+      "id": "01a18768-ddc7-72c3-9464-b3eadd753368",
+      "email": "fe010-9cf645fab2-systemMember@example.test"
+    },
+    "noMembership": {
+      "id": "01a18768-ddcb-72ce-b85b-8ce43d306e08",
+      "email": "fe010-9cf645fab2-noMembership@example.test"
+    }
+  },
+  "comparisonIds": {
+    "personalized": "01a18769-ce2e-7094-bfa2-8676d741586e",
+    "cultural": "01a18769-e6f7-7174-9417-7bcb8d94fc6d",
+    "unavailable": "01a1876a-0c08-7225-a214-fb33428f9287",
+    "B": "01a1876a-ace8-71bc-92e8-8b0e97715642",
+    "C": "01a1876a-bfd0-723f-9cad-f5fb9f55ae44",
+    "One": "01a1876a-daf0-734d-9d23-966716563102",
+    "Five": "01a1876a-e64d-72e6-906d-9cedde9439ed",
+    "Partial": "01a1876b-1019-73c6-8eba-80ca2b95bfef",
+    "Real": "01a1876b-52fd-7020-aa90-82c29559b002"
+  },
+  "requestIds": {
+    "personalized": "01a18769-c43e-72b7-bfb1-596ba5888498",
+    "cultural": "01a18769-dc60-7225-87ba-e3bf52fff122",
+    "unavailable": "01a1876a-0034-7059-a8b8-c090f372b9a8",
+    "B": "01a1876a-a0e6-704e-a5d5-cf97a5d51881",
+    "C": "01a1876a-b712-7102-9958-453d0c0024b5",
+    "One": "01a1876a-cf65-70ca-b813-a189999625ef",
+    "Five": "01a1876a-e3b7-71f2-80c4-311ca8dedcd9",
+    "Partial": "01a1876b-092c-7209-a5fc-72f5bd5cf24f",
+    "Real": "01a1876b-3880-72b4-8bfc-7788de73e0b4"
+  },
+  "scenarioIds": {
+    "A": "01a18769-cc11-70d5-ae37-87329353c2f6",
+    "B": "01a1876a-ac21-71e4-8163-f7a2848c55ea",
+    "C": "01a1876a-bf58-72f3-b72c-8cfddf160cd2",
+    "One": "01a1876a-da16-7324-80b8-c0bef6ad9bc3",
+    "Five": "01a1876a-e56a-7044-a4c4-8af73c86442d",
+    "Partial": "01a1876b-0f0a-7185-a31e-78dcf3710a79",
+    "Real": "01a1876b-514f-70d5-9db3-6677206ceeb6"
+  },
+  "counts": {
+    "A": {
+      "responses": 20,
+      "effectiveAudited": 20,
+      "totalFindings": 22
+    },
+    "B": {
+      "responses": 0,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "C": {
+      "responses": 0,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "Zero": {
+      "responses": 0,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "One": {
+      "responses": 1,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "Five": {
+      "responses": 5,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    },
+    "Partial": {
+      "responses": 20,
+      "effectiveAudited": 5,
+      "totalFindings": 5
+    },
+    "Real": {
+      "responses": 2,
+      "effectiveAudited": 0,
+      "totalFindings": 0
+    }
+  },
+  "inspectedAt": "2026-10-29T16:39:22.0006867+05:00"
+}

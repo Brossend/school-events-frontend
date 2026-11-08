@@ -1,0 +1,197 @@
+<frame id="1:497" name="Профиль школы / 1440" x="185" y="390" width="1440" height="1466">
+  <frame id="1:498" name="Боковая навигация" x="0" y="0" width="220" height="1466">
+    <frame id="1:499" name="Название приложения" x="16" y="28" width="188" height="83">
+      <text id="1:500" name="Описание" x="12" y="0" width="164" height="50" />
+      <instance id="1:501" name="Плашка статуса" x="12" y="58" width="134" height="25" />
+    </frame>
+    <frame id="1:502" name="Разделы" x="16" y="143" width="188" height="210">
+      <frame id="1:503" name="Пункт навигации" x="0" y="0" width="188" height="48">
+        <frame id="1:504" name="house" x="12" y="14" width="20" height="20" />
+        <text id="1:506" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="1:507" name="Пункт навигации" x="0" y="54" width="188" height="48">
+        <frame id="1:508" name="calendar-days" x="12" y="14" width="20" height="20" />
+        <text id="1:510" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="1:511" name="Пункт навигации" x="0" y="108" width="188" height="48">
+        <frame id="1:512" name="files" x="12" y="14" width="20" height="20" />
+        <text id="1:514" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="1:515" name="Пункт навигации" x="0" y="162" width="188" height="48">
+        <frame id="1:516" name="school" x="12" y="14" width="20" height="20" />
+        <text id="1:518" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+    </frame>
+    <frame id="1:519" name="О пилоте" x="16" y="385" width="188" height="99">
+      <text id="1:520" name="Описание" x="14" y="14" width="160" height="18" />
+      <text id="1:521" name="Описание" x="14" y="41" width="160" height="18" />
+      <text id="1:522" name="Описание" x="14" y="68" width="160" height="17" />
+    </frame>
+    <frame id="1:523" name="Помощь" x="16" y="516" width="188" height="68">
+      <text id="1:524" name="Описание" x="12" y="0" width="164" height="20" />
+      <text id="1:525" name="Описание" x="12" y="32" width="164" height="36" />
+    </frame>
+  </frame>
+  <frame id="1:526" name="Рабочая область" x="220" y="0" width="1220" height="1466">
+    <frame id="1:527" name="Верхняя панель" x="0" y="0" width="1220" height="76">
+      <text id="1:528" name="Контекст" x="32" y="29.5" width="225" height="17" />
+      <frame id="1:529" name="Пользователь" x="1040" y="20" width="148" height="36">
+        <text id="1:530" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="1:531" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="1:532" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="8:178" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="1220" height="4" />
+    </frame>
+    <frame id="1:533" name="Содержимое" x="0" y="76" width="1220" height="1333">
+      <frame id="1:534" name="Заголовок страницы" x="32" y="32" width="1156" height="66">
+        <frame id="1:535" name="Название и действие" x="0" y="0" width="1156" height="66">
+          <frame id="1:536" name="Описание страницы" x="0" y="0" width="920" height="66">
+            <text id="1:537" name="Заголовок" x="0" y="0" width="920" height="38" />
+            <text id="1:538" name="Подзаголовок" x="0" y="45" width="920" height="21" />
+          </frame>
+          <frame id="1:539" name="Кнопка основная" x="940" y="11" width="216" height="44">
+            <frame id="1:540" name="save" x="18" y="13.5" width="17" height="17" />
+            <text id="1:542" name="Подпись" x="43" y="13.5" width="155" height="17" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1:543" name="Информационная плашка" x="32" y="122" width="1156" height="76">
+        <frame id="1:544" name="info" x="16" y="16" width="20" height="20" />
+        <frame id="1:546" name="Сообщение" x="48" y="16" width="1092" height="44">
+          <text id="1:547" name="Заголовок" x="0" y="0" width="1092" height="20" />
+          <text id="1:548" name="Пояснение" x="0" y="24" width="1092" height="20" />
+        </frame>
+      </frame>
+      <frame id="1:549" name="Данные школы и подсказки" x="32" y="222" width="1156" height="1071">
+        <frame id="1:550" name="Настройки школы" x="0" y="0" width="828" height="1071">
+          <frame id="1:551" name="Карточка" x="0" y="0" width="828" height="342">
+            <text id="1:552" name="Заголовок" x="24" y="24" width="780" height="27" />
+            <frame id="1:553" name="Поле ввода" x="24" y="67" width="780" height="73">
+              <text id="1:554" name="Название поля" x="0" y="0" width="780" height="20" />
+              <frame id="1:555" name="Область ввода" x="0" y="27" width="780" height="46">
+                <text id="1:556" name="Значение" x="14" y="12" width="752" height="21" />
+              </frame>
+            </frame>
+            <frame id="1:557" name="Регион и город" x="24" y="156" width="780" height="73">
+              <frame id="1:558" name="Поле ввода" x="0" y="0" width="382" height="73">
+                <text id="1:559" name="Название поля" x="0" y="0" width="382" height="20" />
+                <frame id="1:560" name="Область ввода" x="0" y="27" width="382" height="46">
+                  <text id="1:561" name="Значение" x="14" y="12" width="354" height="21" />
+                </frame>
+              </frame>
+              <frame id="1:562" name="Поле ввода" x="398" y="0" width="382" height="73">
+                <text id="1:563" name="Название поля" x="0" y="0" width="382" height="20" />
+                <frame id="1:564" name="Область ввода" x="0" y="27" width="382" height="46">
+                  <text id="1:565" name="Значение" x="14" y="12" width="354" height="21" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1:566" name="Поле ввода" x="24" y="245" width="780" height="73">
+              <text id="1:567" name="Название поля" x="0" y="0" width="780" height="20" />
+              <frame id="1:568" name="Область ввода" x="0" y="27" width="780" height="46">
+                <text id="1:569" name="Значение" x="14" y="12" width="752" height="21" />
+              </frame>
+            </frame>
+          </frame>
+          <frame id="1:570" name="Карточка" x="0" y="362" width="828" height="198">
+            <text id="1:571" name="Заголовок" x="24" y="24" width="780" height="27" />
+            <frame id="1:572" name="Параметры класса" x="24" y="67" width="780" height="73">
+              <frame id="1:573" name="Поле ввода" x="0" y="0" width="249.3333282470703" height="73">
+                <text id="1:574" name="Название поля" x="0" y="0" width="249.3333282470703" height="20" />
+                <frame id="1:575" name="Область ввода" x="0" y="27" width="249.3333282470703" height="46">
+                  <text id="1:576" name="Значение" x="14" y="12" width="221.3333282470703" height="21" />
+                </frame>
+              </frame>
+              <frame id="1:577" name="Поле ввода" x="265.33331298828125" y="0" width="249.33334350585938" height="73">
+                <text id="1:578" name="Название поля" x="0" y="0" width="249.33334350585938" height="20" />
+                <frame id="1:579" name="Область ввода" x="0" y="27" width="249.33334350585938" height="46">
+                  <text id="1:580" name="Значение" x="14" y="12" width="221.33334350585938" height="21" />
+                </frame>
+              </frame>
+              <frame id="1:581" name="Поле ввода" x="530.6666259765625" y="0" width="249.33334350585938" height="73">
+                <text id="1:582" name="Название поля" x="0" y="0" width="249.33334350585938" height="20" />
+                <frame id="1:583" name="Область ввода" x="0" y="27" width="249.33334350585938" height="46">
+                  <text id="1:584" name="Значение" x="14" y="12" width="221.33334350585938" height="21" />
+                </frame>
+              </frame>
+            </frame>
+            <text id="1:585" name="Описание" x="24" y="156" width="780" height="18" />
+          </frame>
+          <frame id="1:586" name="Карточка" x="0" y="580" width="828" height="491">
+            <text id="1:587" name="Заголовок" x="24" y="24" width="780" height="27" />
+            <text id="1:588" name="Описание" x="24" y="67" width="780" height="20" />
+            <frame id="1:589" name="Ресурс школы" x="24" y="103" width="780" height="60">
+              <frame id="1:590" name="Флажок выбора" x="0" y="19.5" width="21" height="21">
+                <frame id="1:591" name="check" x="3" y="3" width="15" height="15" />
+              </frame>
+              <frame id="1:593" name="Описание ресурса" x="35" y="9" width="745" height="42">
+                <text id="1:594" name="Описание" x="0" y="0" width="745" height="21" />
+                <text id="1:595" name="Описание" x="0" y="24" width="745" height="18" />
+              </frame>
+            </frame>
+            <frame id="1:596" name="Ресурс школы" x="24" y="179" width="780" height="60">
+              <frame id="1:597" name="Флажок выбора" x="0" y="19.5" width="21" height="21">
+                <frame id="1:598" name="check" x="3" y="3" width="15" height="15" />
+              </frame>
+              <frame id="1:600" name="Описание ресурса" x="35" y="9" width="745" height="42">
+                <text id="1:601" name="Описание" x="0" y="0" width="745" height="21" />
+                <text id="1:602" name="Описание" x="0" y="24" width="745" height="18" />
+              </frame>
+            </frame>
+            <frame id="1:603" name="Ресурс школы" x="24" y="255" width="780" height="60">
+              <frame id="1:604" name="Флажок выбора" x="0" y="19.5" width="21" height="21">
+                <frame id="1:605" name="check" x="3" y="3" width="15" height="15" />
+              </frame>
+              <frame id="1:607" name="Описание ресурса" x="35" y="9" width="745" height="42">
+                <text id="1:608" name="Описание" x="0" y="0" width="745" height="21" />
+                <text id="1:609" name="Описание" x="0" y="24" width="745" height="18" />
+              </frame>
+            </frame>
+            <frame id="1:610" name="Ресурс школы" x="24" y="331" width="780" height="60">
+              <frame id="1:611" name="Флажок выбора" x="0" y="19.5" width="21" height="21">
+                <frame id="1:612" name="check" x="3" y="3" width="15" height="15" />
+              </frame>
+              <frame id="1:614" name="Описание ресурса" x="35" y="9" width="745" height="42">
+                <text id="1:615" name="Описание" x="0" y="0" width="745" height="21" />
+                <text id="1:616" name="Описание" x="0" y="24" width="745" height="18" />
+              </frame>
+            </frame>
+            <frame id="1:617" name="Ресурс школы" x="24" y="407" width="780" height="60">
+              <frame id="1:618" name="Флажок выбора" x="0" y="19.5" width="21" height="21" />
+              <frame id="1:619" name="Описание ресурса" x="35" y="9" width="745" height="42">
+                <text id="1:620" name="Описание" x="0" y="0" width="745" height="21" />
+                <text id="1:621" name="Описание" x="0" y="24" width="745" height="18" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1:622" name="Контекст профиля" x="852" y="0" width="304" height="512">
+          <frame id="1:623" name="Карточка" x="0" y="0" width="304" height="232">
+            <text id="1:624" name="Заголовок" x="24" y="24" width="256" height="27" />
+            <frame id="1:625" name="Сведения педагога" x="24" y="67" width="256" height="48">
+              <frame id="1:626" name="Аватар" x="0" y="0" width="48" height="48">
+                <text id="1:627" name="Инициалы" x="13.5" y="15" width="21" height="18" />
+              </frame>
+              <text id="1:628" name="Описание" x="60" y="3" width="196" height="42" />
+            </frame>
+            <frame id="1:629" name="Плашка статуса" x="24" y="131" width="183" height="25">
+              <text id="1:630" name="Статус" x="10" y="5" width="163" height="15" />
+            </frame>
+            <text id="1:631" name="Описание" x="24" y="172" width="256" height="36" />
+          </frame>
+          <frame id="1:632" name="Карточка" x="0" y="252" width="304" height="260">
+            <text id="1:633" name="Заголовок" x="24" y="24" width="256" height="27" />
+            <text id="1:634" name="Описание" x="24" y="67" width="256" height="100" />
+            <rounded-rectangle id="1:635" name="Разделитель" x="24" y="183" width="256" height="1" />
+            <text id="1:636" name="Описание" x="24" y="200" width="256" height="36" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:637" name="Подвал" x="0" y="1409" width="1220" height="57">
+      <text id="1:638" name="Описание" x="32" y="20" width="1156" height="17" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

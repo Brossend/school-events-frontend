@@ -1,0 +1,7 @@
+# Isolated testing runtime. Do not apply to app/queue services.
+services:
+  app-test:
+    environment:
+      QUEUE_CONNECTION: redis
+      REDIS_QUEUE: ${FE012_REDIS_QUEUE:?Set isolated FE012 queue}
+      REDIS_PREFIX: ${FE012_REDIS_PREFIX:?Set isolated FE012 prefix}

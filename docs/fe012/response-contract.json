@@ -1,0 +1,819 @@
+{
+  "validated": 90,
+  "failures": 0,
+  "results": [
+    {
+      "method": "GET",
+      "path": "/tenant/current",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/tenant/current",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/dashboard/summary",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/calendar-events",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/calendar-events/01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/schools/01a18a00-e8ed-7024-abcc-026d446c422c/traditions",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/traditions/01a18a02-578b-726c-998e-3279ed24386d",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78/reviews",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e/evidence",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/cultural-claims/01a18a00-ea3a-724b-a78f-eda5c8ea23f6/evidence",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "PATCH",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78/reviews",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e/evidence",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/cultural-claims/01a18a00-ea3a-724b-a78f-eda5c8ea23f6/evidence",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "PATCH",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "PATCH",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/event-sources/01a18a00-ea30-7172-a5b0-38863edb9e78/reviews",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e/evidence",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/cultural-claims/01a18a00-ea3a-724b-a78f-eda5c8ea23f6/evidence",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenario-requests/01a18a03-061b-722d-adfc-73ad630129ea",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests/01a18a03-061b-722d-adfc-73ad630129ea/generate",
+      "status": 202,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/generation-runs/01a18a03-0e85-726b-bf0b-634327471ab7",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/generation-runs/01a18a03-0e85-726b-bf0b-634327471ab7",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/generation-runs/01a18a03-0e85-726b-bf0b-634327471ab7",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests/01a18a03-061b-722d-adfc-73ad630129ea/generate",
+      "status": 202,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenario-requests/01a18a03-2f5f-7067-b23a-72fa247aa2f6",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests/01a18a03-2f5f-7067-b23a-72fa247aa2f6/generate",
+      "status": 202,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/generation-runs/01a18a03-3f83-709a-9fed-f576898fb082",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests/01a18a03-2f5f-7067-b23a-72fa247aa2f6/generate",
+      "status": 202,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-4393-731e-8e43-5c5a73115f0f",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenario-requests/01a18a03-726e-73fe-89cf-f542564d82b7",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests/01a18a03-726e-73fe-89cf-f542564d82b7/generate",
+      "status": 202,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/generation-runs/01a18a03-7ddc-70e1-9b14-60aa490005ac",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-requests/01a18a03-726e-73fe-89cf-f542564d82b7/generate",
+      "status": 202,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-8051-7258-9b5e-69e42c933746",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/1",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "PATCH",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/1",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/1",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/verifications",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a03-fbc3-72a7-8954-917358a0a39f",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a03-fbc3-72a7-8954-917358a0a39f",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a03-fbc3-72a7-8954-917358a0a39f",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a03-fbc3-72a7-8954-917358a0a39f",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-271f-72e0-b332-3114a8e6ed24",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-271f-72e0-b332-3114a8e6ed24",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-64d4-7391-b02b-a803a7b27779",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-64d4-7391-b02b-a803a7b27779",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-a128-70cd-91eb-b46931a7cbf9",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-a128-70cd-91eb-b46931a7cbf9",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-a128-70cd-91eb-b46931a7cbf9",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/archive",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/restore",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "DELETE",
+      "path": "/scenarios/01a18a03-4393-731e-8e43-5c5a73115f0f",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-comparisons",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenario-comparisons/01a18a05-38d4-7033-a2b6-37fede971ae1/variants",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-comparisons/01a18a05-38d4-7033-a2b6-37fede971ae1/selection",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-comparisons",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenario-comparisons",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/participants",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/pilot/responses",
+      "status": 201,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/responses/01a18a05-884f-70d7-aa80-36735d51f970",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/responses/01a18a05-884f-70d7-aa80-36735d51f970/reviews",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/pilot/responses/01a18a05-884f-70d7-aa80-36735d51f970/reviews",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "POST",
+      "path": "/pilot/responses/01a18a05-884f-70d7-aa80-36735d51f970/reviews",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/responses/01a18a05-884f-70d7-aa80-36735d51f970/reviews",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/participants",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/metrics",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/export",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "PATCH",
+      "path": "/schools/01a18a00-e8ed-7024-abcc-026d446c422c",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/schools/01a18a00-e919-73a3-b91a-471b368b97c7",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/system/status",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "DELETE",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e/evidence/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e",
+      "status": 200,
+      "errors": []
+    },
+    {
+      "method": "GET",
+      "path": "/scenario-comparisons/01a18a05-5154-72ea-9525-aaf0347bdc4f",
+      "status": 200,
+      "errors": []
+    }
+  ],
+  "skipped": [
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/login",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/tenant/current",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/schools/01a18a00-e918-708f-9b8b-7e18acd1559d",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/calendar-events/00000000-0000-4000-8000-000000000012",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/schools/01a18a00-e8ed-7024-abcc-026d446c422c/traditions",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/traditions/01a18a02-578b-726c-998e-3279ed24386d/versions",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/traditions/01a18a02-578b-726c-998e-3279ed24386d/versions",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/1",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/verify",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/signoff",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a03-fbc3-72a7-8954-917358a0a39f/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-271f-72e0-b332-3114a8e6ed24/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-64d4-7391-b02b-a803a7b27779/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-a128-70cd-91eb-b46931a7cbf9/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-4393-731e-8e43-5c5a73115f0f",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-comparisons/01a18a05-38d4-7033-a2b6-37fede971ae1/selection",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/pilot/participants",
+      "reason": "one-time invite_token deliberately redacted; validated by live harness before redaction"
+    },
+    {
+      "method": "POST",
+      "path": "/pilot/responses",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/pilot/responses",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/responses/01a18a05-884f-70d7-aa80-36735d51f970",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/pilot/metrics",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/schools/01a18a00-e8ed-7024-abcc-026d446c422c",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "PATCH",
+      "path": "/schools/01a18a00-e8ed-7024-abcc-026d446c422c",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "DELETE",
+      "path": "/cultural-claims/01a18a00-ea38-70f3-b826-c42ee126512e/evidence/01a18a00-ea30-7172-a5b0-38863edb9e78",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a03-fbc3-72a7-8954-917358a0a39f/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-271f-72e0-b332-3114a8e6ed24/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-64d4-7391-b02b-a803a7b27779/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "GET",
+      "path": "/export-jobs/01a18a04-a128-70cd-91eb-b46931a7cbf9/download",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenarios/01a18a03-1942-72c4-86da-9fab5ed0cfd0/revisions/2/exports",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/scenario-comparisons/01a18a05-5154-72ea-9525-aaf0347bdc4f/selection",
+      "reason": "no JSON schema for status"
+    },
+    {
+      "method": "POST",
+      "path": "/auth/logout",
+      "reason": "no matching operation or body intentionally omitted"
+    },
+    {
+      "method": "GET",
+      "path": "/auth/me",
+      "reason": "no matching operation or body intentionally omitted"
+    }
+  ],
+  "scope": "Recorded response bodies only; omitted authentication, binary bodies and undocumented error schemas are explicitly excluded. Generic object schemas do not verify nested fields."
+}

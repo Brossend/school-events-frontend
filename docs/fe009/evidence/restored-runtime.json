@@ -1,0 +1,10 @@
+{
+  "runtimeConfigVerified": true,
+  "frontendStatus": 200,
+  "observedDate": "2026-10-28",
+  "role": "school_test_user",
+  "frontendApiOrigin": "http://localhost:8000",
+  "queueConnection": "sync",
+  "sessionLoggedOut": true,
+  "database": "school_events_test"
+}

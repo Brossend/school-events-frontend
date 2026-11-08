@@ -1,0 +1,28 @@
+{
+  "typecheck": {
+    "exitCode": 0,
+    "log": "docs/fe011/typecheck.log"
+  },
+  "eslint": {
+    "exitCode": 0,
+    "log": "docs/fe011/eslint.log"
+  },
+  "vitest": {
+    "exitCode": 0,
+    "log": "docs/fe011/vitest.log",
+    "passed": 588,
+    "files": 19,
+    "historicalTests": 469
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "log": "docs/fe011/production-build.log"
+  },
+  "http": {
+    "exitCode": 0,
+    "responses": 94,
+    "receipt": "docs/fe011/evidence/validation.json",
+    "runId": "f7b999d3d1"
+  },
+  "date": "2026-10-29T22:42:50.167071+00:00"
+}

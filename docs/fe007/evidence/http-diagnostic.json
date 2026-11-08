@@ -1,0 +1,193 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": false,
+  "requests": [
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "director",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "director",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests",
+      "status": 201,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests/01a177b6-044f-72cc-8466-1904bec6fab4/generate",
+      "status": 202,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/generation-runs/01a177b6-0d4b-7186-973d-7c65fb04cbec",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 403,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1/verify",
+      "status": 403,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1/signoff",
+      "status": 403,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 201,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 409,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 409,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "2"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1/signoff",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b6-603c-71e5-9fb1-d0c952499ab8/revisions/1",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    }
+  ],
+  "contour": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "queue": "fe007_248d32d117",
+    "redisDatabase": "1"
+  },
+  "ids": {
+    "requestId": "01a177b6-044f-72cc-8466-1904bec6fab4",
+    "runId": "01a177b6-0d4b-7186-973d-7c65fb04cbec",
+    "scenarioId": "01a177b6-603c-71e5-9fb1-d0c952499ab8"
+  }
+}

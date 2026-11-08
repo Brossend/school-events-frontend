@@ -1,0 +1,259 @@
+const imgHouse = "<temporary-asset-url-redacted>";
+const imgCalendarDays = "<temporary-asset-url-redacted>";
+const imgFiles = "<temporary-asset-url-redacted>";
+const imgSchool = "<temporary-asset-url-redacted>";
+
+export default function Component11440() {
+  return (
+    <div className="bg-[#eef2f8] content-stretch flex items-start relative size-full" data-node-id="13:175" data-name="Конструктор / Шаг 1 — Событие / 1440">
+      <div className="bg-white border-[#d8e4ec] border-r border-solid content-stretch flex flex-col gap-[32px] h-full items-start min-h-[1024px] overflow-clip pb-[24px] pt-[28px] px-[16px] relative shrink-0 w-[220px]" data-node-id="13:176" data-name="Боковая навигация">
+        <div className="content-stretch flex flex-col gap-[8px] items-start overflow-clip px-[12px] relative shrink-0 w-full" data-node-id="13:177" data-name="Название приложения">
+          <div className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[0] min-w-full not-italic relative shrink-0 text-[#182b36] text-[20px] w-[min-content]" data-node-id="13:178">
+            <p className="leading-[1.25] mb-0">Школьные</p>
+            <p className="leading-[1.25]">события</p>
+          </div>
+          <div className="bg-gradient-to-r content-stretch flex from-[#079d66] items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0 to-[#2155bc] via-1/2 via-[#087e94]" data-node-id="13:179" data-name="Плашка статуса">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[12px] text-center text-white w-[114px]" data-node-id="I13:179;1:2720">
+              Сбер × УрФУ
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch cursor-pointer flex flex-col gap-[6px] items-start overflow-clip relative shrink-0 w-full" data-node-id="13:180" data-name="Разделы">
+          <a className="bg-white content-stretch flex gap-[10px] h-[48px] items-center overflow-clip px-[12px] relative rounded-[10px] shrink-0 w-full" data-node-id="13:181" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[20px]" data-node-id="13:182" data-name="house">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHouse} />
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Medium'] font-medium leading-[1.5] min-w-px not-italic relative text-[#576b7a] text-[13px] text-left" data-node-id="13:184">
+              Главная
+            </p>
+          </a>
+          <a className="bg-[#d9f6e6] content-stretch flex gap-[10px] h-[48px] items-center overflow-clip px-[12px] relative rounded-[10px] shrink-0 w-full" data-node-id="13:185" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[20px]" data-node-id="13:186" data-name="calendar-days">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCalendarDays} />
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-px not-italic relative text-[#086f4d] text-[13px] text-left" data-node-id="13:188">
+              Календарь
+            </p>
+          </a>
+          <a className="bg-white content-stretch flex gap-[10px] h-[48px] items-center overflow-clip px-[12px] relative rounded-[10px] shrink-0 w-full" data-node-id="13:189" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[20px]" data-node-id="13:190" data-name="files">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFiles} />
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Medium'] font-medium leading-[1.5] min-w-px not-italic relative text-[#576b7a] text-[13px] text-left" data-node-id="13:192">
+              Мои мероприятия
+            </p>
+          </a>
+          <a className="bg-white content-stretch flex gap-[10px] h-[48px] items-center overflow-clip px-[12px] relative rounded-[10px] shrink-0 w-full" data-node-id="13:193" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[20px]" data-node-id="13:194" data-name="school">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSchool} />
+            </div>
+            <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Medium'] font-medium leading-[1.5] min-w-px not-italic relative text-[#576b7a] text-[13px] text-left" data-node-id="13:196">
+              Профиль школы
+            </p>
+          </a>
+        </div>
+        <div className="[word-break:break-word] bg-[#f7fafd] content-stretch flex flex-col gap-[9px] items-start leading-[1.5] not-italic overflow-clip p-[14px] relative rounded-[16px] shrink-0 w-full" data-node-id="13:197" data-name="О пилоте">
+          <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#182b36] text-[12px] w-full" data-node-id="13:198">
+            Пилотный регион
+          </p>
+          <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="13:199">
+            Свердловская область
+          </p>
+          <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#526779] text-[11px] w-full" data-node-id="13:200">
+            Демонстрационная версия
+          </p>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-col font-['Inter:Regular'] font-normal gap-[12px] items-start leading-[1.5] not-italic overflow-clip px-[12px] relative shrink-0 w-full" data-node-id="13:201" data-name="Помощь">
+          <p className="relative shrink-0 text-[#576b7a] text-[13px] w-full" data-node-id="13:202">
+            Как работать с ИИ
+          </p>
+          <p className="relative shrink-0 text-[#526779] text-[12px] w-full" data-node-id="13:203">
+            Проект всегда проверяет педагог
+          </p>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="13:204" data-name="Рабочая область">
+        <div className="bg-white border-[#d8e4ec] border-b border-solid content-stretch flex h-[76px] items-center justify-between overflow-clip px-[32px] relative shrink-0 w-full" data-node-id="13:205" data-name="Верхняя панель">
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[14px] whitespace-nowrap" data-node-id="13:206">
+            Рабочее пространство педагога
+          </p>
+          <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0" data-node-id="13:207" data-name="Пользователь">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[13px] whitespace-nowrap" data-node-id="13:208">
+              Анна Смирнова
+            </p>
+            <div className="bg-[#dbeaff] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[36px]" data-node-id="13:209" data-name="Аватар">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#1859be] text-[12px] whitespace-nowrap" data-node-id="13:210">
+                АС
+              </p>
+            </div>
+          </div>
+          <div className="absolute bg-gradient-to-r from-[#079d66] h-[4px] left-0 to-[#2155bc] top-[72px] via-1/2 via-[#087e94] w-[1220px]" data-node-id="13:211" data-name="Сбер × УрФУ / цветовая линия" />
+        </div>
+        <div className="content-stretch flex flex-col gap-[24px] items-start pb-[40px] pt-[32px] px-[32px] relative shrink-0 w-full" data-node-id="13:212" data-name="Содержимое">
+          <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="13:213" data-name="Заголовок страницы">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="13:214">
+              Календарь / День народного единства
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="13:215" data-name="Название и действие">
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[7px] items-start min-w-[250px] not-italic overflow-clip relative" data-node-id="13:216" data-name="Описание страницы">
+                <p className="font-['Inter:Bold'] font-bold leading-[1.25] relative shrink-0 text-[#182b36] text-[30px] w-full" data-node-id="13:217">
+                  Конструктор мероприятия
+                </p>
+                <p className="font-['Inter:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#576b7a] text-[14px] w-full" data-node-id="13:218">
+                  Проверьте условия. На их основе ИИ подготовит проект сценария.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex gap-[12px] items-start overflow-clip p-[20px] relative rounded-[16px] shrink-0 w-full" data-node-id="13:219" data-name="Пять шагов конструктора">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="13:220" data-name="Шаг конструктора">
+              <div className="bg-[#08784f] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[30px]" data-node-id="13:221" data-name="Индикатор шага">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[12px] text-center text-white w-[14px]" data-node-id="13:331">
+                  1
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] min-w-full not-italic relative shrink-0 text-[#076947] text-[12px] w-[min-content]" data-node-id="13:224">
+                Событие
+              </p>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="13:225" data-name="Шаг конструктора">
+              <div className="bg-[#eef2f8] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[30px]" data-node-id="13:226" data-name="Индикатор шага">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#697b89] text-[12px] text-center w-[14px]" data-node-id="13:332">
+                  2
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] min-w-full not-italic relative shrink-0 text-[#667988] text-[12px] w-[min-content]" data-node-id="13:229">
+                Участники
+              </p>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="13:230" data-name="Шаг конструктора">
+              <div className="bg-[#eef2f8] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[30px]" data-node-id="13:231" data-name="Индикатор шага">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#697b89] text-[12px] text-center w-[14px]" data-node-id="13:333">
+                  3
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] min-w-full not-italic relative shrink-0 text-[#667988] text-[12px] w-[min-content]" data-node-id="13:234">
+                Формат
+              </p>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="13:235" data-name="Шаг конструктора">
+              <div className="bg-[#eef2f8] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[30px]" data-node-id="13:236" data-name="Индикатор шага">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#697b89] text-[12px] text-center w-[14px]" data-node-id="13:334">
+                  4
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[1.5] min-w-full not-italic relative shrink-0 text-[#667988] text-[12px] w-[min-content]" data-node-id="13:239">
+                Цели и ресурсы
+              </p>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[8px] items-start min-w-px overflow-clip relative" data-node-id="13:240" data-name="Шаг конструктора">
+              <div className="bg-[#eef2f8] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[30px]" data-node-id="13:241" data-name="Индикатор шага">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#697b89] text-[12px] text-center w-[14px]" data-node-id="13:335">
+                  5
+                </p>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#667988] text-[12px] w-[min-content]" data-node-id="13:243">
+                Проверка данных
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0" data-node-id="13:336" data-name="Шаг 1 / Форма и сводка">
+            <div className="bg-white content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[24px] relative rounded-[16px] shrink-0 w-[832px]" data-node-id="13:337" data-name="Шаг 1 · Выбор события">
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[22px] w-[784px]" data-node-id="13:338">
+                01 / Выберите событие
+              </p>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#62788a] text-[13px] w-[784px]" data-node-id="13:339">
+                Начните с календарной даты или задайте собственную тему. Позже её можно изменить.
+              </p>
+              <div className="bg-[#e0f7eb] border border-[#08784f] border-solid content-stretch flex flex-col h-[58px] items-start justify-center overflow-clip pl-[14px] pr-[12px] relative rounded-[12px] shrink-0 w-[784px]" data-node-id="13:340" data-name="Вариант · ●  День народного единства · 4 ноября">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#076947] text-[13px] w-[756px] whitespace-pre-wrap" data-node-id="13:341">{`●  День народного единства · 4 ноября`}</p>
+              </div>
+              <div className="bg-white border border-[#d9e3eb] border-solid content-stretch flex flex-col h-[58px] items-start justify-center overflow-clip pl-[14px] pr-[12px] relative rounded-[12px] shrink-0 w-[784px]" data-node-id="13:342" data-name="Вариант · ＋  Собственная тема мероприятия">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#2a4453] text-[13px] w-[756px] whitespace-pre-wrap" data-node-id="13:343">{`＋  Собственная тема мероприятия`}</p>
+              </div>
+              <div className="content-stretch flex flex-col gap-[7px] items-start overflow-clip relative shrink-0 w-[784px]" data-node-id="13:344" data-name="Название мероприятия">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#263f51] text-[12px] w-[784px]" data-node-id="13:345">
+                  Название мероприятия
+                </p>
+                <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col h-[48px] items-start justify-center overflow-clip px-[14px] relative rounded-[10px] shrink-0 w-[784px]" data-node-id="13:346" data-name="Поле / заполнено">
+                  <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#203743] text-[14px] w-[754px]" data-node-id="13:347">
+                    День народного единства
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[7px] items-start overflow-clip relative shrink-0 w-[784px]" data-node-id="13:348" data-name="Дата проведения">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#263f51] text-[12px] w-[784px]" data-node-id="13:349">
+                  Дата проведения
+                </p>
+                <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col h-[48px] items-start justify-center overflow-clip px-[14px] relative rounded-[10px] shrink-0 w-[784px]" data-node-id="13:350" data-name="Поле / заполнено">
+                  <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#203743] text-[14px] w-[754px]" data-node-id="13:351">
+                    4 ноября 2026 · среда
+                  </p>
+                </div>
+              </div>
+              <div className="content-stretch flex flex-col gap-[7px] items-start overflow-clip relative shrink-0 w-[784px]" data-node-id="100:2512" data-name="Регион события">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#263f51] text-[12px] w-[784px]" data-node-id="100:2513">
+                  Регион события
+                </p>
+                <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col h-[48px] items-start justify-center overflow-clip px-[14px] relative rounded-[10px] shrink-0 w-[784px]" data-node-id="100:2514" data-name="Поле / заполнено">
+                  <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#203743] text-[14px] w-[754px]" data-node-id="100:2515">
+                    Свердловская область · можно изменить
+                  </p>
+                </div>
+              </div>
+              <div className="bg-[#eaf4fd] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[11px] shrink-0 w-[784px]" data-node-id="13:352" data-name="Подсказка педагогу">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#28536b] text-[12px] w-[760px]" data-node-id="13:353">
+                  Сведения о культурных традициях нужно подтверждать источниками. Пилотный регион: Свердловская область.
+                </p>
+              </div>
+              <div className="content-stretch cursor-pointer flex gap-[12px] h-[48px] items-start justify-end overflow-clip relative shrink-0 w-[784px]" data-node-id="13:354" data-name="Навигация / шаг 1">
+                <a className="bg-white border border-[#ccdde8] border-solid content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[10px] shrink-0 w-[148px]" data-node-id="13:355" data-name="Кнопка / К календарю">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#194453] text-[13px] text-left w-[122px]" data-node-id="13:356">
+                    К календарю
+                  </p>
+                </a>
+                <a className="bg-[#08784f] content-stretch flex h-[46px] items-center justify-center overflow-clip relative rounded-[10px] shrink-0 w-[174px]" data-node-id="13:357" data-name="Кнопка / Далее →">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[13px] text-left text-white w-[148px]" data-node-id="13:358">
+                    Далее →
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div className="bg-white content-stretch flex flex-col gap-[14px] items-start overflow-clip p-[24px] relative rounded-[16px] shrink-0 w-[304px]" data-node-id="13:359" data-name="Контекст проекта / шаг 1">
+              <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#183743] text-[17px] w-[256px]" data-node-id="13:360">
+                Ваш проект
+              </p>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#076947] text-[13px] w-[256px]" data-node-id="13:361">
+                Шаг 1 из 5 · Событие
+              </p>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[16px] w-[256px]" data-node-id="13:362">
+                День народного единства
+              </p>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#62788a] text-[12px] w-[256px]" data-node-id="13:363">
+                4 ноября 2026 · Свердловская область
+              </p>
+              <div className="bg-[#ddf6e7] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[11px] shrink-0 w-[256px]" data-node-id="13:364" data-name="Подсказка педагогу">
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#28536b] text-[12px] w-[232px]" data-node-id="13:365">
+                  Следующий шаг: участники и особенности класса.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex items-start overflow-clip px-[32px] py-[20px] relative shrink-0 w-full" data-node-id="13:325" data-name="Подвал">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[1.5] min-w-px not-italic relative text-[#526779] text-[11px] whitespace-pre-wrap" data-node-id="13:326">{`Школьные события · Пилот для педагогов Свердловской области   /   ИИ предлагает — педагог решает`}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: ШС / Цвет / #182B36: #182B36, ШС / Текст / 20 / Bold / 125PERCENT: Font(family: "Inter", style: Bold, size: 20, weight: 700, lineHeight: 1.25, letterSpacing: 0), ШС / Текст / 12 / Semi Bold / Авто: Font(family: "Inter", style: Semi Bold, size: 12, weight: 600, lineHeight: 100, letterSpacing: 0), ШС / Текст / 13 / Medium / 150PERCENT: Font(family: "Inter", style: Medium, size: 13, weight: 500, lineHeight: 1.5, letterSpacing: 0), ШС / Цвет / #FFFFFF: #FFFFFF, ШС / Текст / 13 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 13, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 12 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 12, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 12 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 11 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 11, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 13 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 13, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 14 / Medium / Авто: Font(family: "Inter", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0), ШС / Текст / 13 / Regular / Авто: Font(family: "Inter", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0), ШС / Текст / 12 / Regular / Авто: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0), ШС / Текст / 30 / Bold / 125PERCENT: Font(family: "Inter", style: Bold, size: 30, weight: 700, lineHeight: 1.25, letterSpacing: 0), ШС / Текст / 14 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 14, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 12 / Medium / 150PERCENT: Font(family: "Inter", style: Medium, size: 12, weight: 500, lineHeight: 1.5, letterSpacing: 0).
+The generated code contains image and SVG URL constants, e.g. const image = '<temporary-asset-url-redacted> These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

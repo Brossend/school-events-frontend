@@ -1,0 +1,577 @@
+[
+  {
+    "nodeId": "105:1186",
+    "screenshot": "docs/fe010/figma/screenshots/105-1186.png",
+    "width": 1440,
+    "height": 1475,
+    "expectedWidth": 1440,
+    "expectedHeight": 1475,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/105-1186-house.svg",
+        "bytes": 1015,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/105-1186-calendar-days.svg",
+        "bytes": 795,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/105-1186-files.svg",
+        "bytes": 1219,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/105-1186-school.svg",
+        "bytes": 1403,
+        "width": "20",
+        "height": "20"
+      }
+    ]
+  },
+  {
+    "nodeId": "105:1603",
+    "screenshot": "docs/fe010/figma/screenshots/105-1603.png",
+    "width": 768,
+    "height": 1533,
+    "expectedWidth": 768,
+    "expectedHeight": 1533,
+    "matches": true,
+    "assets": []
+  },
+  {
+    "nodeId": "105:1980",
+    "screenshot": "docs/fe010/figma/screenshots/105-1980.png",
+    "width": 390,
+    "height": 1611,
+    "expectedWidth": 390,
+    "expectedHeight": 1611,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/105-1980-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-1980-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-1980-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-1980-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "105:2373",
+    "screenshot": "docs/fe010/figma/screenshots/105-2373.png",
+    "width": 360,
+    "height": 1628,
+    "expectedWidth": 360,
+    "expectedHeight": 1628,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/105-2373-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2373-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2373-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2373-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "110:1608",
+    "screenshot": "docs/fe010/figma/screenshots/110-1608.png",
+    "width": 1661,
+    "height": 1475,
+    "expectedWidth": 1440,
+    "expectedHeight": 1475,
+    "matches": false,
+    "assets": [
+      {
+        "path": "public/icons/fe010/110-1608-house.svg",
+        "bytes": 1015,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/110-1608-calendar-days.svg",
+        "bytes": 795,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/110-1608-files.svg",
+        "bytes": 1219,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/110-1608-school.svg",
+        "bytes": 1403,
+        "width": "20",
+        "height": "20"
+      }
+    ]
+  },
+  {
+    "nodeId": "110:1717",
+    "screenshot": "docs/fe010/figma/screenshots/110-1717.png",
+    "width": 769,
+    "height": 1533,
+    "expectedWidth": 768,
+    "expectedHeight": 1533,
+    "matches": false,
+    "assets": []
+  },
+  {
+    "nodeId": "110:1809",
+    "screenshot": "docs/fe010/figma/screenshots/110-1809.png",
+    "width": 391,
+    "height": 1611,
+    "expectedWidth": 390,
+    "expectedHeight": 1611,
+    "matches": false,
+    "assets": [
+      {
+        "path": "public/icons/fe010/110-1809-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/110-1809-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/110-1809-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/110-1809-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "110:1908",
+    "screenshot": "docs/fe010/figma/screenshots/110-1908.png",
+    "width": 361,
+    "height": 1628,
+    "expectedWidth": 360,
+    "expectedHeight": 1628,
+    "matches": false,
+    "assets": [
+      {
+        "path": "public/icons/fe010/110-1908-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/110-1908-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/110-1908-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/110-1908-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "105:1403",
+    "screenshot": "docs/fe010/figma/screenshots/105-1403.png",
+    "width": 1440,
+    "height": 1449,
+    "expectedWidth": 1440,
+    "expectedHeight": 1449,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/105-1403-house.svg",
+        "bytes": 1015,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/105-1403-calendar-days.svg",
+        "bytes": 795,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/105-1403-files.svg",
+        "bytes": 1219,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/105-1403-school.svg",
+        "bytes": 1403,
+        "width": "20",
+        "height": "20"
+      }
+    ]
+  },
+  {
+    "nodeId": "105:1800",
+    "screenshot": "docs/fe010/figma/screenshots/105-1800.png",
+    "width": 768,
+    "height": 1538,
+    "expectedWidth": 768,
+    "expectedHeight": 1538,
+    "matches": true,
+    "assets": []
+  },
+  {
+    "nodeId": "105:2185",
+    "screenshot": "docs/fe010/figma/screenshots/105-2185.png",
+    "width": 390,
+    "height": 1581,
+    "expectedWidth": 390,
+    "expectedHeight": 1581,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/105-2185-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2185-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2185-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2185-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "105:2578",
+    "screenshot": "docs/fe010/figma/screenshots/105-2578.png",
+    "width": 360,
+    "height": 1661,
+    "expectedWidth": 360,
+    "expectedHeight": 1661,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/105-2578-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2578-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2578-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/105-2578-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "100:1014",
+    "screenshot": "docs/fe010/figma/screenshots/100-1014.png",
+    "width": 1440,
+    "height": 1024,
+    "expectedWidth": 1440,
+    "expectedHeight": 1024,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/100-1014-house.svg",
+        "bytes": 1015,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/100-1014-calendar-days.svg",
+        "bytes": 795,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/100-1014-files.svg",
+        "bytes": 1219,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/100-1014-school.svg",
+        "bytes": 1403,
+        "width": "20",
+        "height": "20"
+      }
+    ]
+  },
+  {
+    "nodeId": "100:1209",
+    "screenshot": "docs/fe010/figma/screenshots/100-1209.png",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "matches": true,
+    "assets": []
+  },
+  {
+    "nodeId": "100:1384",
+    "screenshot": "docs/fe010/figma/screenshots/100-1384.png",
+    "width": 390,
+    "height": 1334,
+    "expectedWidth": 390,
+    "expectedHeight": 1334,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/100-1384-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-1384-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-1384-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-1384-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "100:1567",
+    "screenshot": "docs/fe010/figma/screenshots/100-1567.png",
+    "width": 360,
+    "height": 1388,
+    "expectedWidth": 360,
+    "expectedHeight": 1388,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/100-1567-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-1567-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-1567-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-1567-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "100:1750",
+    "screenshot": "docs/fe010/figma/screenshots/100-1750.png",
+    "width": 1440,
+    "height": 1024,
+    "expectedWidth": 1440,
+    "expectedHeight": 1024,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/100-1750-house.svg",
+        "bytes": 1015,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/100-1750-calendar-days.svg",
+        "bytes": 795,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/100-1750-files.svg",
+        "bytes": 1219,
+        "width": "20",
+        "height": "20"
+      },
+      {
+        "path": "public/icons/fe010/100-1750-school.svg",
+        "bytes": 1403,
+        "width": "20",
+        "height": "20"
+      }
+    ]
+  },
+  {
+    "nodeId": "100:1945",
+    "screenshot": "docs/fe010/figma/screenshots/100-1945.png",
+    "width": 768,
+    "height": 1024,
+    "expectedWidth": 768,
+    "expectedHeight": 1024,
+    "matches": true,
+    "assets": []
+  },
+  {
+    "nodeId": "100:2120",
+    "screenshot": "docs/fe010/figma/screenshots/100-2120.png",
+    "width": 390,
+    "height": 1334,
+    "expectedWidth": 390,
+    "expectedHeight": 1334,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/100-2120-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-2120-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-2120-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-2120-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  },
+  {
+    "nodeId": "100:2303",
+    "screenshot": "docs/fe010/figma/screenshots/100-2303.png",
+    "width": 360,
+    "height": 1381,
+    "expectedWidth": 360,
+    "expectedHeight": 1381,
+    "matches": true,
+    "assets": [
+      {
+        "path": "public/icons/fe010/100-2303-house.svg",
+        "bytes": 1034,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-2303-calendar-days.svg",
+        "bytes": 842,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-2303-files.svg",
+        "bytes": 1266,
+        "width": "19",
+        "height": "19"
+      },
+      {
+        "path": "public/icons/fe010/100-2303-school.svg",
+        "bytes": 1460,
+        "width": "19",
+        "height": "19"
+      }
+    ]
+  }
+]

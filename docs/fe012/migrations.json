@@ -1,0 +1,21 @@
+{
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "results": {
+        "fresh": {
+            "exitCode": 0,
+            "schema": "fe012_migration_d2604270c8_fresh",
+            "migrations": 19,
+            "sentinelPreserved": null
+        },
+        "upgrade": {
+            "exitCode": 0,
+            "schema": "fe012_migration_d2604270c8_upgrade",
+            "migrations": 19,
+            "sentinelPreserved": true
+        }
+    },
+    "temporarySchemasRemoved": true,
+    "publicMigrationCountBefore": 19,
+    "publicMigrationCountAfter": 19
+}

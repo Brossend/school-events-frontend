@@ -1,0 +1,82 @@
+[
+  {
+    "badges": [
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Вариант A",
+        "whiteSpace": "nowrap",
+        "width": 81.546875
+      },
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Выбран B",
+        "whiteSpace": "nowrap",
+        "width": 77.328125
+      }
+    ],
+    "scrollWidth": 1425,
+    "width": 1440
+  },
+  {
+    "badges": [
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Вариант A",
+        "whiteSpace": "nowrap",
+        "width": 81.546875
+      },
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Выбран B",
+        "whiteSpace": "nowrap",
+        "width": 77.328125
+      }
+    ],
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "badges": [
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Вариант A",
+        "whiteSpace": "nowrap",
+        "width": 81.546875
+      },
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Выбран B",
+        "whiteSpace": "nowrap",
+        "width": 77.328125
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "badges": [
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Вариант A",
+        "whiteSpace": "nowrap",
+        "width": 81.546875
+      },
+      {
+        "height": 25,
+        "shrink": "0",
+        "text": "Выбран B",
+        "whiteSpace": "nowrap",
+        "width": 77.328125
+      }
+    ],
+    "scrollWidth": 345,
+    "width": 360
+  }
+]

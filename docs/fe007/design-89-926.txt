@@ -1,0 +1,529 @@
+const imgSave = "[temporary asset URL removed]";
+const imgDownload = "[temporary asset URL removed]";
+const imgTriangleAlert = "[temporary asset URL removed]";
+const imgInfo = "[temporary asset URL removed]";
+const imgInfo1 = "[temporary asset URL removed]";
+
+function Component24({ className }: { className?: string }) {
+  return (
+    <div className={className || "bg-[#fff6e5] content-stretch flex h-[25px] items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] w-[163px]"} data-node-id="1:2777" data-name="Плашка статуса / 24">
+      <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#956115] text-[12px] whitespace-nowrap" data-node-id="1:2778">
+        Не проверен педагогом
+      </p>
+    </div>
+  );
+}
+
+export default function Component768() {
+  return (
+    <div className="bg-[#eef2f8] content-stretch flex items-start relative size-full" data-node-id="89:926" data-name="Редактор / Подтверждение педагогом / 768">
+      <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="89:927" data-name="Рабочая область">
+        <div className="bg-white border-[#d8e4ec] border-b border-solid content-stretch flex h-[76px] items-center justify-between overflow-clip px-[32px] relative shrink-0 w-full" data-node-id="89:928" data-name="Верхняя панель">
+          <p className="[word-break:break-word] font-['Inter:Medium'] font-medium leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[14px] whitespace-nowrap" data-node-id="89:929">
+            Школьные события
+          </p>
+          <div className="content-stretch flex gap-[12px] items-center overflow-clip relative shrink-0" data-node-id="89:930" data-name="Пользователь">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[13px] whitespace-nowrap" data-node-id="89:931">
+              Анна Смирнова
+            </p>
+            <div className="bg-[#dbeaff] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[36px]" data-node-id="89:932" data-name="Аватар">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#1859be] text-[12px] whitespace-nowrap" data-node-id="89:933">
+                АС
+              </p>
+            </div>
+          </div>
+          <div className="absolute bg-gradient-to-r from-[#079d66] h-[4px] left-0 to-[#2155bc] top-[72px] via-1/2 via-[#087e94] w-[768px]" data-node-id="89:934" data-name="Сбер × УрФУ / цветовая линия" />
+          <div className="absolute bg-gradient-to-r from-[#079d66] h-[26px] left-[205px] overflow-clip rounded-[13px] to-[#2155bc] top-[25px] w-[122px]" data-node-id="89:935" data-name="Сбер × УрФУ / партнёрский знак">
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold h-[26px] justify-center leading-[0] left-[61px] not-italic text-[10px] text-center text-white top-[13px] w-[122px]" data-node-id="89:936">
+              <p className="leading-[normal]">Сбер × УрФУ</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch flex gap-[12px] items-start overflow-clip px-[32px] py-[12px] relative shrink-0 w-full" data-node-id="89:937" data-name="Компактная навигация">
+          <div className="bg-white content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="89:938" data-name="Пункт навигации">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] text-center w-full" data-node-id="89:939">
+              Главная
+            </p>
+          </div>
+          <div className="bg-white content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="89:940" data-name="Пункт навигации">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] text-center w-full" data-node-id="89:941">
+              Календарь
+            </p>
+          </div>
+          <div className="bg-[#d9f6e6] content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="89:942" data-name="Пункт навигации">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#086f4d] text-[12px] text-center w-full" data-node-id="89:943">
+              Мои мероприятия
+            </p>
+          </div>
+          <div className="bg-white content-stretch flex flex-[1_0_0] flex-col items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="89:944" data-name="Пункт навигации">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] text-center w-full" data-node-id="89:945">
+              Профиль школы
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[24px] items-start pb-[40px] pt-[32px] px-[32px] relative shrink-0 w-full" data-node-id="89:946" data-name="Содержимое">
+          <div className="content-stretch flex flex-col gap-[16px] items-start overflow-clip relative shrink-0 w-full" data-node-id="89:947" data-name="Заголовок страницы">
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="89:948">
+              Мои мероприятия / Редактор сценария
+            </p>
+            <div className="content-stretch flex items-center overflow-clip relative shrink-0 w-full" data-node-id="89:949" data-name="Название и действие">
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[7px] items-start min-w-[250px] not-italic overflow-clip relative" data-node-id="89:950" data-name="Описание страницы">
+                <p className="font-['Inter:Bold'] font-bold leading-[1.25] relative shrink-0 text-[#182b36] text-[30px] w-full" data-node-id="89:951">
+                  День народного единства
+                </p>
+                <p className="font-['Inter:Regular'] font-normal leading-[1.5] relative shrink-0 text-[#576b7a] text-[14px] w-full" data-node-id="89:952">
+                  Проект классного часа · 4 ноября 2026 · 6Б · 25 учеников · 45 минут
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="content-center flex flex-wrap gap-[12px] items-center overflow-clip relative shrink-0 w-full" data-node-id="89:953" data-name="Состояние и действия">
+            <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:954" data-name="Плашка статуса">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:954;1:2732">
+                Черновик · создан с ИИ
+              </p>
+            </div>
+            <Component24 className="bg-[#fff6e5] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" />
+            <div className="bg-[#08784f] border border-[rgba(255,255,255,0)] border-solid content-stretch flex gap-[8px] h-[44px] items-center justify-center overflow-clip px-[18px] relative rounded-[10px] shrink-0" data-node-id="89:956" data-name="Кнопка основная">
+              <div className="relative shrink-0 size-[17px]" data-node-id="I89:956;1:2734" data-name="save">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSave} />
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="I89:956;1:2736">
+                Сохранить
+              </p>
+            </div>
+            <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex gap-[8px] h-[44px] items-center justify-center overflow-clip px-[18px] relative rounded-[10px] shrink-0" data-node-id="89:957" data-name="Кнопка вторичная">
+              <div className="relative shrink-0 size-[17px]" data-node-id="I89:957;1:2738" data-name="download">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDownload} />
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[14px] whitespace-nowrap" data-node-id="I89:957;1:2740">
+                Экспорт
+              </p>
+            </div>
+          </div>
+          <div className="bg-[#fff6e5] content-stretch flex gap-[12px] items-start overflow-clip p-[16px] relative rounded-[10px] shrink-0 w-full" data-node-id="89:958" data-name="Информационная плашка">
+            <div className="relative shrink-0 size-[20px]" data-node-id="89:959" data-name="triangle-alert">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgTriangleAlert} />
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start leading-[1.5] min-w-px not-italic overflow-clip relative text-[#956115] text-[13px]" data-node-id="89:961" data-name="Сообщение">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 w-full" data-node-id="89:962">
+                Это рабочий проект для проверки педагогом
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 w-full" data-node-id="89:963">
+                ИИ может ошибаться. Проверьте содержание и факты, учтите особенности класса и школьные требования перед использованием.
+              </p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="89:964" data-name="Сценарий / чтение и редактирование">
+            <div className="content-stretch flex gap-[12px] h-[50px] items-start overflow-clip relative shrink-0 w-[704px]" data-node-id="89:965" data-name="Быстрые действия / сценарий">
+              <div className="bg-[#e5f0ff] border border-[#a8c7f0] border-solid content-stretch flex h-[46px] items-start justify-center overflow-clip pl-[14px] pr-[12px] relative rounded-[10px] shrink-0 w-[225px]" data-node-id="89:966" data-name="Действие / ☰  Разделы · 5">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#1558be] text-[12px] w-[197px] whitespace-pre-wrap" data-node-id="89:967">{`☰  Разделы · 7`}</p>
+              </div>
+              <div className="bg-[#fff0d9] border border-[#f8d8a6] border-solid content-stretch flex h-[46px] items-start justify-center overflow-clip pl-[14px] pr-[12px] relative rounded-[10px] shrink-0 w-[225px]" data-node-id="89:968" data-name="Действие / !  Замечания · 2">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#8a5711] text-[12px] w-[197px] whitespace-pre-wrap" data-node-id="89:969">{`!  Замечания · 2`}</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0 w-full" data-node-id="89:970" data-name="Текст сценария">
+              <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[24px] relative rounded-[16px] shadow-[0px_4px_20px_0px_rgba(23,60,39,0.06)] shrink-0 w-full" data-node-id="89:971" data-name="Карточка">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[18px] w-[min-content]" data-node-id="89:972">
+                  01 / Цель и ожидаемый результат
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[14px] w-[min-content]" data-node-id="89:973">
+                  Создать условия для уважительного диалога и совместного решения задачи. Тема Дня народного единства рассматривается через опыт сотрудничества в классе.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[14px] w-[min-content]" data-node-id="89:974">
+                  К концу встречи ученики предложат правила совместной работы, распределят роли и составят план одного общего дела. Это педагогический ориентир, а не гарантированный результат.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:975">
+                  Воспитательные задачи
+                </p>
+                <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:976">
+                  <p className="leading-[normal] mb-0">• Тренировать уважительное выслушивание разных мнений.</p>
+                  <p className="leading-[normal] mb-0">• Практиковать распределение ролей и совместное решение.</p>
+                  <p className="leading-[normal]">• Поддерживать добровольное участие и доступные способы ответа.</p>
+                </div>
+                <div className="absolute bg-[#eef5fc] border border-[#d8e6f2] border-solid content-stretch flex h-[30px] items-center justify-center left-[574px] overflow-clip rounded-[8px] top-[15px] w-[105px]" data-node-id="89:977" data-name="Действие / редактировать раздел">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#1558be] text-[11px] w-[90px]" data-node-id="89:978">
+                    ✎ Изменить
+                  </p>
+                </div>
+              </div>
+              <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[24px] relative rounded-[16px] shadow-[0px_4px_20px_0px_rgba(23,60,39,0.06)] shrink-0 w-full" data-node-id="89:979" data-name="Карточка">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[18px] w-[min-content]" data-node-id="89:980">
+                  02 / Подготовка педагога
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[14px] w-[min-content]" data-node-id="89:981">
+                  До встречи: расставьте столы для 5 групп, распечатайте 5 рабочих листов и 5 карточек задания. Проверьте проектор и откройте слайд с вопросом «Что помогает нам действовать вместе?». Подготовьте 25 небольших листков для рефлексии.
+                </p>
+                <div className="bg-[#dbeaff] content-stretch flex gap-[12px] items-start overflow-clip p-[16px] relative rounded-[10px] shrink-0 w-full" data-node-id="89:982" data-name="Информационная плашка">
+                  <div className="relative shrink-0 size-[20px]" data-node-id="89:983" data-name="info">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfo} />
+                  </div>
+                  <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start leading-[1.5] min-w-px not-italic overflow-clip relative text-[#1859be] text-[13px]" data-node-id="89:985" data-name="Сообщение">
+                    <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 w-full" data-node-id="89:986">
+                      Содержательная граница проекта
+                    </p>
+                    <p className="font-['Inter:Regular'] font-normal relative shrink-0 w-full" data-node-id="89:987">
+                      Исторические и культурные сведения здесь не раскрываются. Если вы дополните сценарий такими материалами, заранее проверьте источники и формулировки.
+                    </p>
+                  </div>
+                </div>
+                <div className="absolute bg-[#eef5fc] border border-[#d8e6f2] border-solid content-stretch flex h-[30px] items-center justify-center left-[574px] overflow-clip rounded-[8px] top-[15px] w-[105px]" data-node-id="89:988" data-name="Действие / редактировать раздел">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#1558be] text-[11px] w-[90px]" data-node-id="89:989">
+                    ✎ Изменить
+                  </p>
+                </div>
+              </div>
+              <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[24px] relative rounded-[16px] shadow-[0px_4px_20px_0px_rgba(23,60,39,0.06)] shrink-0 w-full" data-node-id="89:990" data-name="Карточка">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[18px] w-[min-content]" data-node-id="89:991">
+                  03 / Ход мероприятия
+                </p>
+                <div className="content-start flex flex-wrap gap-[8px] items-start overflow-clip relative shrink-0 w-full" data-node-id="89:992" data-name="Общий тайминг">
+                  <div className="bg-[#d9f6e6] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:993" data-name="Плашка статуса">
+                    <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#086f4d] text-[12px] whitespace-nowrap" data-node-id="I89:993;1:2742">
+                      45 минут всего
+                    </p>
+                  </div>
+                  <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:994" data-name="Плашка статуса">
+                    <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:994;1:2744">
+                      5 + 7 + 15 + 12 + 6
+                    </p>
+                  </div>
+                </div>
+                <div className="border-[#d8e4ec] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[20px] pt-[18px] relative shrink-0 w-full" data-node-id="89:995" data-name="Этап сценария">
+                  <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="89:996" data-name="Тайминг этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#08784f] text-[12px] whitespace-nowrap" data-node-id="89:997">
+                      00–05 мин
+                    </p>
+                    <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:998" data-name="Плашка статуса">
+                      <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:998;1:2746">
+                        5 минут
+                      </p>
+                    </div>
+                  </div>
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[17px] w-full" data-node-id="89:999">
+                    Встреча и договорённости
+                  </p>
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[14px] w-full" data-node-id="89:1000">
+                    Педагог задаёт вопрос: «Что помогает разным людям действовать вместе?» Ученики по желанию называют одно слово. Зафиксируйте три правила: слушаем, не перебиваем, можем отказаться от ответа.
+                  </p>
+                  <div className="bg-[#f7fafd] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[8px] shrink-0 w-full" data-node-id="89:1001" data-name="Результат этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="89:1002">
+                      На доске — правила безопасного диалога.
+                    </p>
+                  </div>
+                </div>
+                <div className="border-[#d8e4ec] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[20px] pt-[18px] relative shrink-0 w-full" data-node-id="89:1003" data-name="Этап сценария">
+                  <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="89:1004" data-name="Тайминг этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#08784f] text-[12px] whitespace-nowrap" data-node-id="89:1005">
+                      05–12 мин
+                    </p>
+                    <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:1006" data-name="Плашка статуса">
+                      <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:1006;1:2748">
+                        7 минут
+                      </p>
+                    </div>
+                  </div>
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[17px] w-full" data-node-id="89:1007">
+                    Что для нас значит единство
+                  </p>
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[14px] w-full" data-node-id="89:1008">
+                    В парах обсудите ситуацию: в общий проект предлагают две разные идеи. Как выбрать решение, не обесценивая ни одну? Соберите 3–4 варианта. Педагог связывает ответы с темой встречи, не приписывая качества целым народам или культурам.
+                  </p>
+                  <div className="bg-[#f7fafd] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[8px] shrink-0 w-full" data-node-id="89:1009" data-name="Результат этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="89:1010">
+                      Класс формулирует: сотрудничество допускает разные мнения.
+                    </p>
+                  </div>
+                </div>
+                <div className="border-[#d8e4ec] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[20px] pt-[18px] relative shrink-0 w-full" data-node-id="89:1011" data-name="Этап сценария">
+                  <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="89:1012" data-name="Тайминг этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#08784f] text-[12px] whitespace-nowrap" data-node-id="89:1013">
+                      12–27 мин
+                    </p>
+                    <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:1014" data-name="Плашка статуса">
+                      <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:1014;1:2750">
+                        15 минут
+                      </p>
+                    </div>
+                  </div>
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[17px] w-full" data-node-id="89:1015">
+                    Командное задание «Общее дело»
+                  </p>
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[14px] w-full" data-node-id="89:1016">
+                    Разделите 25 учеников на 5 групп. Каждая получает задачу: придумать доступную всем инициативу для класса — обмен книгами, помощь новичку или общую выставку. За 3 минуты выберите роли, за 8 минут заполните лист «идея — вклад каждого — правила участия», за 4 минуты подготовьте представление.
+                  </p>
+                  <div className="bg-[#f7fafd] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[8px] shrink-0 w-full" data-node-id="89:1017" data-name="Результат этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="89:1018">
+                      У каждой команды — один заполненный лист с планом.
+                    </p>
+                  </div>
+                </div>
+                <div className="border-[#d8e4ec] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[20px] pt-[18px] relative shrink-0 w-full" data-node-id="89:1019" data-name="Этап сценария">
+                  <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="89:1020" data-name="Тайминг этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#08784f] text-[12px] whitespace-nowrap" data-node-id="89:1021">
+                      27–39 мин
+                    </p>
+                    <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:1022" data-name="Плашка статуса">
+                      <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:1022;1:2752">
+                        12 минут
+                      </p>
+                    </div>
+                  </div>
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[17px] w-full" data-node-id="89:1023">
+                    Представление и общий выбор
+                  </p>
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[14px] w-full" data-node-id="89:1024">
+                    Дайте каждой группе по 2 минуты на представление: можно выступить, показать плакат или передать текст педагогу. За оставшиеся 2 минуты класс выбирает одну идею для дальнейшего обсуждения. Сравнивайте доступность и пользу идей, а не команды.
+                  </p>
+                  <div className="bg-[#f7fafd] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[8px] shrink-0 w-full" data-node-id="89:1025" data-name="Результат этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="89:1026">
+                      Выбрана общая идея, зафиксированы предложения всех групп.
+                    </p>
+                  </div>
+                </div>
+                <div className="border-[#d8e4ec] border-solid border-t content-stretch flex flex-col gap-[12px] items-start overflow-clip pb-[20px] pt-[18px] relative shrink-0 w-full" data-node-id="89:1027" data-name="Этап сценария">
+                  <div className="content-stretch flex items-center justify-between overflow-clip relative shrink-0 w-full" data-node-id="89:1028" data-name="Тайминг этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#08784f] text-[12px] whitespace-nowrap" data-node-id="89:1029">
+                      39–45 мин
+                    </p>
+                    <div className="bg-[#eef2f8] content-stretch flex items-start overflow-clip px-[10px] py-[5px] relative rounded-[8px] shrink-0" data-node-id="89:1030" data-name="Плашка статуса">
+                      <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#576b7a] text-[12px] whitespace-nowrap" data-node-id="I89:1030;1:2754">
+                        6 минут
+                      </p>
+                    </div>
+                  </div>
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[17px] w-full" data-node-id="89:1031">
+                    Рефлексия и завершение
+                  </p>
+                  <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#182b36] text-[14px] w-full" data-node-id="89:1032">
+                    За 3 минуты ученики письменно завершают фразы: «Сегодня я помог(ла)…» и «В следующий раз попробую…». Ещё 2 минуты — обмен ответами по желанию. В последнюю минуту педагог подводит итог и уточняет, когда класс вернётся к выбранной идее.
+                  </p>
+                  <div className="bg-[#f7fafd] content-stretch flex flex-col items-start overflow-clip p-[12px] relative rounded-[8px] shrink-0 w-full" data-node-id="89:1033" data-name="Результат этапа">
+                    <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] not-italic relative shrink-0 text-[#576b7a] text-[12px] w-full" data-node-id="89:1034">
+                      Индивидуальный вклад замечен; следующий шаг понятен.
+                    </p>
+                  </div>
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[12px] w-[min-content]" data-node-id="89:1035">
+                  Если обсуждение затянулось, сократите число устных ответов, но сохраните 6 минут для рефлексии. Не исключайте учеников ради соблюдения тайминга.
+                </p>
+                <div className="absolute bg-[#eef5fc] border border-[#d8e6f2] border-solid content-stretch flex h-[30px] items-center justify-center left-[574px] overflow-clip rounded-[8px] top-[15px] w-[105px]" data-node-id="89:1036" data-name="Действие / редактировать раздел">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#1558be] text-[11px] w-[90px]" data-node-id="89:1037">
+                    ✎ Изменить
+                  </p>
+                </div>
+              </div>
+              <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[24px] relative rounded-[16px] shadow-[0px_4px_20px_0px_rgba(23,60,39,0.06)] shrink-0 w-full" data-node-id="89:1038" data-name="Карточка">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[18px] w-[min-content]" data-node-id="89:1039">
+                  04 / Роли и участие каждого
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[14px] w-[min-content]" data-node-id="89:1040">
+                  Педагог — ведущий и модератор: объясняет задачу, следит за уважительным общением и помогает группам. В каждой команде из пяти учеников распределите роли:
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[13px] w-[min-content]" data-node-id="89:1041">
+                  Координатор — помогает договориться о порядке работы.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[13px] w-[min-content]" data-node-id="89:1042">
+                  Секретарь — записывает общую идею и предложения.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[13px] w-[min-content]" data-node-id="89:1043">
+                  Хранитель времени — напоминает об оставшихся минутах.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[13px] w-[min-content]" data-node-id="89:1044">
+                  Представитель — показывает результат или передаёт текст педагогу.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[13px] w-[min-content]" data-node-id="89:1045">
+                  Наблюдатель участия — следит, чтобы каждый мог внести вклад.
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#1859be] text-[12px] w-[min-content]" data-node-id="89:1046">
+                  Роли выбирают, а не назначают по личным качествам. Публичное выступление можно заменить письменным ответом.
+                </p>
+                <div className="absolute bg-[#eef5fc] border border-[#d8e6f2] border-solid content-stretch flex h-[30px] items-center justify-center left-[574px] overflow-clip rounded-[8px] top-[15px] w-[105px]" data-node-id="89:1047" data-name="Действие / редактировать раздел">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#1558be] text-[11px] w-[90px]" data-node-id="89:1048">
+                    ✎ Изменить
+                  </p>
+                </div>
+              </div>
+              <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex flex-col gap-[16px] items-start overflow-clip p-[24px] relative rounded-[16px] shadow-[0px_4px_20px_0px_rgba(23,60,39,0.06)] shrink-0 w-full" data-node-id="89:1049" data-name="Карточка">
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[18px] w-[min-content]" data-node-id="89:1050">
+                  05 / Материалы и задания
+                </p>
+                <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#182b36] text-[14px] w-[min-content]" data-node-id="89:1051">
+                  Комплект к проведению
+                </p>
+                <div className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] min-w-full not-italic relative shrink-0 text-[#182b36] text-[14px] w-[min-content]" data-node-id="89:1052">
+                  <p className="leading-[1.5] mb-0">• 5 карточек «Общее дело» — по одной на группу.</p>
+                  <p className="leading-[1.5] mb-0">• 5 листов А4 с полями «Идея / Вклад каждого / Правила участия».</p>
+                  <p className="leading-[1.5] mb-0">• 25 листков для рефлексии, фломастеры и ручки.</p>
+                  <p className="leading-[1.5]">• Ноутбук, проектор, колонки; интернет не нужен.</p>
+                </div>
+                <div className="[word-break:break-word] bg-[#d9f6e6] content-stretch flex flex-col gap-[8px] items-start leading-[1.5] not-italic overflow-clip p-[16px] relative rounded-[10px] shrink-0 text-[#086f4d] text-[13px] w-full" data-node-id="89:1053" data-name="Карточка задания для печати">
+                  <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 w-full" data-node-id="89:1054">
+                    Текст карточки «Общее дело»
+                  </p>
+                  <p className="font-['Inter:Regular'] font-normal relative shrink-0 w-full" data-node-id="89:1055">
+                    Предложите дело, в котором сможет участвовать каждый. Кому оно поможет? Что понадобится? Как распределить вклад без принуждения? Запишите одну идею, три шага и правило уважительного общения.
+                  </p>
+                </div>
+                <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[1.5] min-w-full not-italic relative shrink-0 text-[#576b7a] text-[12px] w-[min-content]" data-node-id="89:1056">
+                  Перед печатью проверьте формулировки и доступность материалов. Аудио и культурные иллюстрации в проект не включены.
+                </p>
+                <div className="absolute bg-[#eef5fc] border border-[#d8e6f2] border-solid content-stretch flex h-[30px] items-center justify-center left-[574px] overflow-clip rounded-[8px] top-[15px] w-[105px]" data-node-id="89:1057" data-name="Действие / редактировать раздел">
+                  <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#1558be] text-[11px] w-[90px]" data-node-id="89:1058">
+                    ✎ Изменить
+                  </p>
+                </div>
+              </div>
+              <div className="[word-break:break-word] bg-white border border-[#dce6ec] border-solid content-stretch flex flex-col gap-[11px] items-start leading-[normal] not-italic overflow-clip p-[24px] relative rounded-[14px] shrink-0 w-[704px]" data-node-id="89:1059" data-name="06 / Методические рекомендации">
+                <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[#1b3443] text-[19px] w-[656px]" data-node-id="89:1060">
+                  06 / Методические рекомендации
+                </p>
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1061">
+                  Перед началом
+                </p>
+                <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1062">
+                  Проверьте доступность материалов, рассадку для пяти групп и понятность формулировок. Не требуйте от детей раскрывать личные сведения.
+                </p>
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1063">
+                  Во время проведения
+                </p>
+                <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1064">
+                  Предлагайте альтернативу публичному выступлению: письменную заметку, рисунок или передачу ответа педагогу. Сохраняйте время на рефлексию.
+                </p>
+                <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1065">
+                  При затруднениях
+                </p>
+                <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1066">
+                  Сократите количество устных ответов, а не время обратной связи. Избегайте стереотипных формулировок и сверяйте культурные сведения с источниками.
+                </p>
+              </div>
+              <div className="[word-break:break-word] bg-white border border-[#dce6ec] border-solid content-stretch flex flex-col gap-[11px] items-start not-italic overflow-clip p-[24px] relative rounded-[14px] shrink-0 w-[704px]" data-node-id="89:1067" data-name="07 / Материалы педагога и приложения">
+                <p className="font-['Inter:Bold'] font-bold leading-[normal] relative shrink-0 text-[#1b3443] text-[19px] w-[656px]" data-node-id="89:1068">
+                  07 / Материалы и приложения
+                </p>
+                <p className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1069">
+                  Структура презентации · 5 слайдов
+                </p>
+                <div className="font-['Inter:Regular'] font-normal leading-[0] relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1070">
+                  <p className="leading-[normal] mb-0">1. Тема и правила диалога</p>
+                  <p className="leading-[normal] mb-0">2. Ситуация для обсуждения</p>
+                  <p className="leading-[normal] mb-0">3. Командная задача «Общее дело»</p>
+                  <p className="leading-[normal] mb-0">4. Шаблон плана общей инициативы</p>
+                  <p className="leading-[normal]">5. Вопросы для рефлексии</p>
+                </div>
+                <p className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1071">
+                  Карточка для печати · 5 экземпляров
+                </p>
+                <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1072">
+                  «Общее дело»: кому поможет инициатива? Что понадобится? Как распределить роли? Запишите одну идею, три шага и вклад каждого.
+                </p>
+                <p className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1073">
+                  Памятка педагога
+                </p>
+                <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1074">
+                  До начала: 5 рабочих карточек, 5 листов А4 для групп, 25 листков рефлексии, проектор. Перед использованием проверить корректность источников и доступность заданий.
+                </p>
+                <p className="font-['Inter:Semi_Bold'] font-semibold leading-[normal] relative shrink-0 text-[#08784f] text-[13px] w-[656px]" data-node-id="89:1075">
+                  Источники
+                </p>
+                <p className="font-['Inter:Regular'] font-normal leading-[normal] relative shrink-0 text-[#304a5d] text-[13px] w-[656px]" data-node-id="89:1076">
+                  Для исторических и национально-культурных утверждений подтверждённые ссылки пока не приложены. Добавьте проверенные источники перед проведением.
+                </p>
+              </div>
+              <div className="bg-[#d9f6e6] content-stretch flex gap-[12px] items-start overflow-clip p-[16px] relative rounded-[10px] shrink-0 w-full" data-node-id="89:1077" data-name="Информационная плашка">
+                <div className="relative shrink-0 size-[20px]" data-node-id="89:1078" data-name="info">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgInfo1} />
+                </div>
+                <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[4px] items-start leading-[1.5] min-w-px not-italic overflow-clip relative text-[#086f4d] text-[13px]" data-node-id="89:1080" data-name="Сообщение">
+                  <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 w-full" data-node-id="89:1081">
+                    Проект готов к вашей проверке, а не к автоматическому проведению
+                  </p>
+                  <p className="font-['Inter:Regular'] font-normal relative shrink-0 w-full" data-node-id="89:1082">
+                    Согласуйте дату со школой, проверьте факты и при необходимости измените задания. Сохраните свою редакцию после проверки.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="content-start flex flex-wrap gap-[12px] items-start overflow-clip relative shrink-0 w-full" data-node-id="89:1083" data-name="Завершение редактирования">
+            <div className="bg-[#08784f] border border-[rgba(255,255,255,0)] border-solid content-stretch flex gap-[8px] h-[44px] items-center justify-center overflow-clip px-[18px] relative rounded-[10px] shrink-0" data-node-id="89:1084" data-name="Кнопка основная">
+              <div className="relative shrink-0 size-[17px]" data-node-id="I89:1084;1:2756" data-name="save">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSave} />
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[14px] text-white whitespace-nowrap" data-node-id="I89:1084;1:2758">
+                Сохранить проект
+              </p>
+            </div>
+            <div className="bg-white border border-[#d8e4ec] border-solid content-stretch flex gap-[8px] h-[44px] items-center justify-center overflow-clip px-[18px] relative rounded-[10px] shrink-0" data-node-id="89:1085" data-name="Кнопка вторичная">
+              <div className="relative shrink-0 size-[17px]" data-node-id="I89:1085;1:2760" data-name="download">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgDownload} />
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[14px] whitespace-nowrap" data-node-id="I89:1085;1:2762">
+                Экспортировать
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex items-start overflow-clip px-[32px] py-[20px] relative shrink-0 w-full" data-node-id="89:1086" data-name="Подвал">
+          <p className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[1.5] min-w-px not-italic relative text-[#526779] text-[11px] whitespace-pre-wrap" data-node-id="89:1087">{`Школьные события · Пилот для педагогов Свердловской области   /   ИИ предлагает — педагог решает`}</p>
+        </div>
+      </div>
+      <div className="absolute bg-[rgba(20,45,60,0.25)] h-[4391px] left-px top-0 w-[768px]" data-node-id="89:1088" data-name="Затемнение / модальное подтверждение" />
+      <div className="absolute bg-white border border-[#d6e2ea] border-solid h-[516px] left-[248px] overflow-clip rounded-[16px] top-0 w-[520px]" data-node-id="89:1089" data-name="Подтверждение проверки / контрольный лист">
+        <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[normal] left-[19px] not-italic text-[#1e3848] text-[24px] top-[23px] w-[480px]" data-node-id="89:1090">
+          Подтверждение педагогом
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[19px] not-italic text-[#597487] text-[12px] top-[65px] w-[480px]" data-node-id="89:1091">
+          Не заменяется результатом ИИ-проверки
+        </p>
+        <div className="[word-break:break-word] absolute bg-[#fff2de] h-[69px] leading-[normal] left-[19px] not-italic overflow-clip rounded-[9px] top-[108px] w-[480px]" data-node-id="89:1092" data-name="Предупреждение / есть замечания">
+          <p className="absolute font-['Inter:Semi_Bold'] font-semibold left-[12px] text-[#8a5417] text-[13px] top-[9px] w-[456px]" data-node-id="89:1093">
+            2 замечания ещё не закрыты
+          </p>
+          <p className="absolute font-['Inter:Regular'] font-normal left-[12px] text-[#795e3a] text-[12px] top-[35px] w-[456px]" data-node-id="89:1094">
+            Проверка источников и подготовка материалов не завершены.
+          </p>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[19px] not-italic text-[#284658] text-[13px] top-[199px] w-[480px]" data-node-id="89:1095">
+          Подтверждаю, что лично проверил(а):
+        </p>
+        <div className="absolute bg-white border border-[#b8c9d6] border-solid left-[19px] rounded-[5px] size-[19px] top-[237px]" data-node-id="89:1096" data-name="Чекбокс / не отмечено" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[50px] not-italic text-[#345164] text-[13px] top-[238px] w-[424px]" data-node-id="89:1097">
+          Содержание и культурные факты
+        </p>
+        <div className="absolute bg-white border border-[#b8c9d6] border-solid left-[19px] rounded-[5px] size-[19px] top-[281px]" data-node-id="89:1098" data-name="Чекбокс / не отмечено" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[50px] not-italic text-[#345164] text-[13px] top-[282px] w-[424px]" data-node-id="89:1099">
+          Возрастную уместность и участие каждого
+        </p>
+        <div className="absolute bg-white border border-[#b8c9d6] border-solid left-[19px] rounded-[5px] size-[19px] top-[325px]" data-node-id="89:1100" data-name="Чекбокс / не отмечено" />
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[50px] not-italic text-[#345164] text-[13px] top-[326px] w-[424px]" data-node-id="89:1101">
+          Материалы, условия и тайминг
+        </p>
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[normal] left-[19px] not-italic text-[#7b5b36] text-[12px] top-[386px] w-[480px]" data-node-id="89:1102">
+          Проверка ещё не завершена: нельзя присвоить статус «Проверен педагогом».
+        </p>
+        <div className="absolute bg-white border border-[#c8d9e3] border-solid h-[47px] left-[19px] overflow-clip rounded-[9px] top-[458px] w-[234px]" data-node-id="89:1103" data-name="Действие / Вернуться">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[116px] not-italic text-[#27536d] text-[13px] text-center top-[14px] w-[218px]" data-node-id="89:1104">
+            Вернуться
+          </p>
+        </div>
+        <div className="absolute bg-[#b4c4cd] h-[47px] left-[265px] overflow-clip rounded-[9px] top-[458px] w-[234px]" data-node-id="89:1105" data-name="Действие / Подтвердить">
+          <p className="-translate-x-1/2 [word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[normal] left-[117px] not-italic text-[13px] text-center text-white top-[15px] w-[218px]" data-node-id="89:1106">
+            Подтвердить
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: ШС / Цвет / #182B36: #182B36, ШС / Текст / 14 / Medium / Авто: Font(family: "Inter", style: Medium, size: 14, weight: 500, lineHeight: 100, letterSpacing: 0), ШС / Текст / 13 / Regular / Авто: Font(family: "Inter", style: Regular, size: 13, weight: 400, lineHeight: 100, letterSpacing: 0), ШС / Текст / 12 / Regular / Авто: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0), ШС / Цвет / #FFFFFF: #FFFFFF, ШС / Текст / 12 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 12, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 12 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 30 / Bold / 125PERCENT: Font(family: "Inter", style: Bold, size: 30, weight: 700, lineHeight: 1.25, letterSpacing: 0), ШС / Текст / 14 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 14, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 12 / Semi Bold / Авто: Font(family: "Inter", style: Semi Bold, size: 12, weight: 600, lineHeight: 100, letterSpacing: 0), ШС / Цвет / #956115: #956115, ШС / Цвет / #FFF6E5: #FFF6E5, ШС / Текст / 14 / Semi Bold / Авто: Font(family: "Inter", style: Semi Bold, size: 14, weight: 600, lineHeight: 100, letterSpacing: 0), ШС / Текст / 13 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 13, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 13 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 13, weight: 400, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 18 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 18, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 17 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 17, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 14 / Semi Bold / 150PERCENT: Font(family: "Inter", style: Semi Bold, size: 14, weight: 600, lineHeight: 1.5, letterSpacing: 0), ШС / Текст / 11 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 11, weight: 400, lineHeight: 1.5, letterSpacing: 0).
+The generated code contains image and SVG URL constants, e.g. const image = '[temporary asset URL removed]'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

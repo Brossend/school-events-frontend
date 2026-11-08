@@ -1,0 +1,310 @@
+<frame id="1:2146" name="Календарь / 1440" x="185" y="6647" width="1440" height="1390">
+  <frame id="1:2147" name="Боковая навигация" x="0" y="0" width="220" height="1390">
+    <frame id="1:2148" name="Название приложения" x="16" y="28" width="188" height="83">
+      <text id="1:2149" name="Описание" x="12" y="0" width="164" height="50" />
+      <instance id="1:2150" name="Плашка статуса" x="12" y="58" width="134" height="25" />
+    </frame>
+    <frame id="1:2151" name="Разделы" x="16" y="143" width="188" height="210">
+      <frame id="1:2152" name="Пункт навигации" x="0" y="0" width="188" height="48">
+        <frame id="1:2153" name="house" x="12" y="14" width="20" height="20" />
+        <text id="1:2155" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="1:2156" name="Пункт навигации" x="0" y="54" width="188" height="48">
+        <frame id="1:2157" name="calendar-days" x="12" y="14" width="20" height="20" />
+        <text id="1:2159" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="1:2160" name="Пункт навигации" x="0" y="108" width="188" height="48">
+        <frame id="1:2161" name="files" x="12" y="14" width="20" height="20" />
+        <text id="1:2163" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+      <frame id="1:2164" name="Пункт навигации" x="0" y="162" width="188" height="48">
+        <frame id="1:2165" name="school" x="12" y="14" width="20" height="20" />
+        <text id="1:2167" name="Описание" x="42" y="14" width="134" height="20" />
+      </frame>
+    </frame>
+    <frame id="1:2168" name="О пилоте" x="16" y="385" width="188" height="99">
+      <text id="1:2169" name="Описание" x="14" y="14" width="160" height="18" />
+      <text id="1:2170" name="Описание" x="14" y="41" width="160" height="18" />
+      <text id="1:2171" name="Описание" x="14" y="68" width="160" height="17" />
+    </frame>
+    <frame id="1:2172" name="Помощь" x="16" y="516" width="188" height="68">
+      <text id="1:2173" name="Описание" x="12" y="0" width="164" height="20" />
+      <text id="1:2174" name="Описание" x="12" y="32" width="164" height="36" />
+    </frame>
+  </frame>
+  <frame id="1:2175" name="Рабочая область" x="220" y="0" width="1220" height="1390">
+    <frame id="1:2176" name="Верхняя панель" x="0" y="0" width="1220" height="76">
+      <text id="1:2177" name="Контекст" x="32" y="29.5" width="225" height="17" />
+      <frame id="1:2178" name="Пользователь" x="1040" y="20" width="148" height="36">
+        <text id="1:2179" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="1:2180" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="1:2181" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="8:189" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="1220" height="4" />
+    </frame>
+    <frame id="1:2182" name="Содержимое" x="0" y="76" width="1220" height="1257">
+      <frame id="1:2183" name="Заголовок страницы" x="32" y="32" width="1156" height="100">
+        <text id="1:2184" name="Хлебные крошки" x="0" y="0" width="1156" height="18" />
+        <frame id="1:2185" name="Название и действие" x="0" y="34" width="1156" height="66">
+          <frame id="1:2186" name="Описание страницы" x="0" y="0" width="1156" height="66">
+            <text id="1:2187" name="Заголовок" x="0" y="0" width="1156" height="38" />
+            <text id="1:2188" name="Подзаголовок" x="0" y="45" width="1156" height="21" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="1:2189" name="Период и представление" x="32" y="156" width="1156" height="39">
+        <frame id="1:2190" name="Выбор месяца" x="0" y="5" width="217" height="29">
+          <frame id="1:2191" name="chevron-left" x="0" y="5.5" width="18" height="18" />
+          <text id="1:2193" name="Месяц" x="30" y="0" width="157" height="29" />
+          <frame id="1:2194" name="chevron-right" x="199" y="5.5" width="18" height="18" />
+        </frame>
+        <frame id="1:2196" name="Переключатель представления" x="1003" y="0" width="153" height="39">
+          <frame id="1:2197" name="Вариант представления" x="4" y="4" width="68" height="31">
+            <text id="1:2198" name="Название" x="14" y="8" width="40" height="15" />
+          </frame>
+          <frame id="1:2199" name="Вариант представления" x="76" y="4" width="73" height="31">
+            <text id="1:2200" name="Название" x="14" y="8" width="45" height="15" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="37:342" name="Поиск и своё событие" x="32" y="219" width="1156" height="48">
+        <frame id="34:341" name="Поиск событий / поле" x="0" y="0" width="955" height="48">
+          <text id="34:342" name="Иконка поиска" x="17" y="10" width="24" height="28" />
+          <text id="34:343" name="Плейсхолдер поиска" x="53" y="15.5" width="879" height="17" />
+        </frame>
+        <frame id="37:343" name="Кнопка / Создать собственное событие" x="967" y="0" width="189" height="48">
+          <text id="37:344" name="Добавить своё событие" x="26.5" y="16" width="136" height="16" />
+        </frame>
+      </frame>
+      <frame id="1:2201" name="Фильтры календаря" x="32" y="291" width="1156" height="62">
+        <frame id="1:2202" name="Категории" x="0" y="0" width="1156" height="25">
+          <frame id="1:2203" name="Плашка статуса" x="0" y="0" width="68" height="25">
+            <text id="1:2204" name="Тип · Все" x="10" y="5" width="48" height="15" />
+          </frame>
+          <frame id="1:2205" name="Плашка статуса" x="76" y="0" width="126" height="25">
+            <text id="1:2206" name="Тип · Федеральные" x="10" y="5" width="106" height="15" />
+          </frame>
+          <frame id="1:2207" name="Плашка статуса" x="210" y="0" width="130" height="25">
+            <text id="1:2208" name="Тип · Региональные" x="10" y="5" width="110" height="15" />
+          </frame>
+          <frame id="1:2209" name="Плашка статуса" x="348" y="0" width="189" height="25">
+            <text id="1:2210" name="Категория / Национально-культурные" x="10" y="5" width="169" height="15" />
+          </frame>
+          <frame id="29:341" name="Плашка статуса · Школьные" x="545" y="0" width="114" height="25">
+            <text id="29:342" name="Тип · Школьные" x="10" y="5" width="94" height="15" />
+          </frame>
+        </frame>
+        <frame id="1:2211" name="Параметры фильтра" x="0" y="37" width="1156" height="25">
+          <frame id="1:2212" name="Плашка статуса" x="0" y="0" width="100" height="25">
+            <text id="1:2213" name="Статус" x="10" y="5" width="80" height="15" />
+          </frame>
+          <frame id="1:2214" name="Плашка статуса" x="112" y="0" width="170" height="25">
+            <text id="1:2215" name="Статус" x="10" y="5" width="150" height="15" />
+          </frame>
+          <text id="1:2216" name="Количество" x="294" y="5" width="194" height="15" />
+        </frame>
+      </frame>
+      <frame id="1:2217" name="Календарь и выбранное событие" x="32" y="377" width="1156" height="664">
+        <frame id="1:2218" name="Календарь месяца" x="0" y="0" width="832" height="655">
+          <frame id="1:2219" name="Сетка ноября 2026" x="0" y="0" width="832" height="655">
+            <frame id="1:2220" name="Дни недели" x="0" y="0" width="832" height="43">
+              <text id="1:2221" name="День недели" x="0" y="14" width="118.85713958740234" height="15" />
+              <text id="1:2222" name="День недели" x="118.85713958740234" y="14" width="118.85714721679688" height="15" />
+              <text id="1:2223" name="День недели" x="237.71429443359375" y="14" width="118.8571548461914" height="15" />
+              <text id="1:2224" name="День недели" x="356.5714416503906" y="14" width="118.8571548461914" height="15" />
+              <text id="1:2225" name="День недели" x="475.4285888671875" y="14" width="118.8571548461914" height="15" />
+              <text id="1:2226" name="День недели" x="594.2857666015625" y="14" width="118.85716247558594" height="15" />
+              <text id="1:2227" name="День недели" x="713.1429443359375" y="14" width="118.85716247558594" height="15" />
+            </frame>
+            <frame id="1:2228" name="Неделя" x="0" y="43" width="832" height="102">
+              <frame id="1:2229" name="Ячейка даты" x="0" y="0" width="118.85713958740234" height="102">
+                <text id="1:2230" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2231" name="Ячейка даты" x="118.85713958740234" y="0" width="118.85714721679688" height="102">
+                <text id="1:2232" name="Дата" x="8" y="8" width="16" height="16" />
+              </frame>
+              <frame id="1:2233" name="Ячейка даты" x="237.71429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2234" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2235" name="Ячейка даты" x="356.5714416503906" y="0" width="118.85714721679688" height="102">
+                <text id="1:2236" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2237" name="Ячейка даты" x="475.4285888671875" y="0" width="118.85714721679688" height="102">
+                <text id="1:2238" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2239" name="Ячейка даты" x="594.2857666015625" y="0" width="118.85714721679688" height="102">
+                <text id="1:2240" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2241" name="Ячейка даты" x="713.1429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2242" name="Дата" x="8" y="8" width="7" height="16" />
+              </frame>
+            </frame>
+            <frame id="1:2243" name="Неделя" x="0" y="145" width="832" height="102">
+              <frame id="1:2244" name="Ячейка даты" x="0" y="0" width="118.42857360839844" height="102">
+                <text id="1:2245" name="Дата" x="8" y="8" width="8" height="16" />
+              </frame>
+              <frame id="1:2246" name="Ячейка даты" x="118.42857360839844" y="0" width="118.4285659790039" height="102">
+                <text id="1:2247" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2248" name="Ячейка даты" x="236.85714721679688" y="0" width="121.42857360839844" height="102">
+                <text id="1:2249" name="Дата" x="8" y="8" width="9" height="16" />
+                <frame id="1:2250" name="Событие дня" x="8" y="34" width="105.42857360839844" height="22">
+                  <rounded-rectangle id="1:2251" name="Маркер события" x="0" y="0" width="18" height="3" />
+                  <text id="1:2252" name="Описание" x="0" y="7" width="105.42857360839844" height="15" />
+                </frame>
+              </frame>
+              <frame id="1:2253" name="Ячейка даты" x="358.28570556640625" y="0" width="118.42857360839844" height="102">
+                <text id="1:2254" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2255" name="Ячейка даты" x="476.71429443359375" y="0" width="118.4285659790039" height="102">
+                <text id="1:2256" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2257" name="Ячейка даты" x="595.1428833007812" y="0" width="118.42857360839844" height="102">
+                <text id="1:2258" name="Дата" x="8" y="8" width="8" height="16" />
+              </frame>
+              <frame id="1:2259" name="Ячейка даты" x="713.5714721679688" y="0" width="118.42857360839844" height="102">
+                <text id="1:2260" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+            </frame>
+            <frame id="1:2261" name="Неделя" x="0" y="247" width="832" height="102">
+              <frame id="1:2262" name="Ячейка даты" x="0" y="0" width="118.85713958740234" height="102">
+                <text id="1:2263" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2264" name="Ячейка даты" x="118.85713958740234" y="0" width="118.85714721679688" height="102">
+                <text id="1:2265" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2266" name="Ячейка даты" x="237.71429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2267" name="Дата" x="8" y="8" width="13" height="16" />
+              </frame>
+              <frame id="1:2268" name="Ячейка даты" x="356.5714416503906" y="0" width="118.85714721679688" height="102">
+                <text id="1:2269" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2270" name="Ячейка даты" x="475.4285888671875" y="0" width="118.85714721679688" height="102">
+                <text id="1:2271" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2272" name="Ячейка даты" x="594.2857666015625" y="0" width="118.85714721679688" height="102">
+                <text id="1:2273" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2274" name="Ячейка даты" x="713.1429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2275" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+            </frame>
+            <frame id="1:2276" name="Неделя" x="0" y="349" width="832" height="102">
+              <frame id="1:2277" name="Ячейка даты" x="0" y="0" width="118.85713958740234" height="102">
+                <text id="1:2278" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2279" name="Ячейка даты" x="118.85713958740234" y="0" width="118.85714721679688" height="102">
+                <text id="1:2280" name="Дата" x="8" y="8" width="14" height="16" />
+              </frame>
+              <frame id="1:2281" name="Ячейка даты" x="237.71429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2282" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2283" name="Ячейка даты" x="356.5714416503906" y="0" width="118.85714721679688" height="102">
+                <text id="1:2284" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2285" name="Ячейка даты" x="475.4285888671875" y="0" width="118.85714721679688" height="102">
+                <text id="1:2286" name="Дата" x="8" y="8" width="17" height="16" />
+                <frame id="1:2287" name="Событие дня" x="8" y="34" width="102.85714721679688" height="22">
+                  <rounded-rectangle id="1:2288" name="Маркер события" x="0" y="0" width="18" height="3" />
+                  <text id="1:2289" name="Описание" x="0" y="7" width="102.85714721679688" height="15" />
+                </frame>
+              </frame>
+              <frame id="1:2290" name="Ячейка даты" x="594.2857666015625" y="0" width="118.85714721679688" height="102">
+                <text id="1:2291" name="Дата" x="8" y="8" width="15" height="16" />
+              </frame>
+              <frame id="1:2292" name="Ячейка даты" x="713.1429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2293" name="Дата" x="8" y="8" width="16" height="16" />
+              </frame>
+            </frame>
+            <frame id="1:2294" name="Неделя" x="0" y="451" width="832" height="102">
+              <frame id="1:2295" name="Ячейка даты" x="0" y="0" width="118.85713958740234" height="102">
+                <text id="1:2296" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2297" name="Ячейка даты" x="118.85713958740234" y="0" width="118.85714721679688" height="102">
+                <text id="1:2298" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2299" name="Ячейка даты" x="237.71429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2300" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2301" name="Ячейка даты" x="356.5714416503906" y="0" width="118.85714721679688" height="102">
+                <text id="1:2302" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2303" name="Ячейка даты" x="475.4285888671875" y="0" width="118.85714721679688" height="102">
+                <text id="1:2304" name="Дата" x="8" y="8" width="16" height="16" />
+              </frame>
+              <frame id="1:2305" name="Ячейка даты" x="594.2857666015625" y="0" width="118.85714721679688" height="102">
+                <text id="1:2306" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2307" name="Ячейка даты" x="713.1429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2308" name="Дата" x="8" y="8" width="17" height="16" />
+                <frame id="1:2309" name="Событие дня" x="8" y="34" width="102.85714721679688" height="22">
+                  <rounded-rectangle id="1:2310" name="Маркер события" x="0" y="0" width="18" height="3" />
+                  <text id="1:2311" name="Описание" x="0" y="7" width="102.85714721679688" height="15" />
+                </frame>
+              </frame>
+            </frame>
+            <frame id="1:2312" name="Неделя" x="0" y="553" width="832" height="102">
+              <frame id="1:2313" name="Ячейка даты" x="0" y="0" width="118.85713958740234" height="102">
+                <text id="1:2314" name="Дата" x="8" y="8" width="17" height="16" />
+              </frame>
+              <frame id="1:2315" name="Ячейка даты" x="118.85713958740234" y="0" width="118.85714721679688" height="102">
+                <text id="1:2316" name="Дата" x="8" y="8" width="7" height="16" />
+              </frame>
+              <frame id="1:2317" name="Ячейка даты" x="237.71429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2318" name="Дата" x="8" y="8" width="8" height="16" />
+              </frame>
+              <frame id="1:2319" name="Ячейка даты" x="356.5714416503906" y="0" width="118.85714721679688" height="102">
+                <text id="1:2320" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2321" name="Ячейка даты" x="475.4285888671875" y="0" width="118.85714721679688" height="102">
+                <text id="1:2322" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2323" name="Ячейка даты" x="594.2857666015625" y="0" width="118.85714721679688" height="102">
+                <text id="1:2324" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+              <frame id="1:2325" name="Ячейка даты" x="713.1429443359375" y="0" width="118.85714721679688" height="102">
+                <text id="1:2326" name="Дата" x="8" y="8" width="9" height="16" />
+              </frame>
+            </frame>
+          </frame>
+        </frame>
+        <frame id="1:2327" name="Подробности события" x="852" y="0" width="304" height="664">
+          <frame id="1:2328" name="Карточка" x="0" y="0" width="304" height="664">
+            <frame id="1:2329" name="Плашка статуса" x="24" y="24" width="151" height="25">
+              <text id="1:2330" name="Статус" x="10" y="5" width="131" height="15" />
+            </frame>
+            <text id="1:2331" name="Описание" x="24" y="65" width="256" height="18" />
+            <text id="1:2332" name="Описание" x="24" y="99" width="256" height="58" />
+            <instance id="1:2333" name="Плашка статуса" x="24" y="173" width="174" height="25" />
+            <text id="1:2334" name="Описание" x="24" y="214" width="256" height="105" />
+            <rounded-rectangle id="1:2335" name="Разделитель" x="24" y="335" width="256" height="1" />
+            <text id="1:2336" name="Описание" x="24" y="352" width="256" height="20" />
+            <text id="1:2337" name="Описание" x="24" y="388" width="256" height="40" />
+            <frame id="87:650" name="Достоверность / каталог" x="24" y="444" width="256" height="86">
+              <text id="87:651" name="Метаданные / заголовок" x="12" y="10" width="232" height="15" />
+              <text id="87:652" name="Метаданные / статус" x="12" y="31" width="232" height="13" />
+              <text id="87:653" name="Метаданные / решение" x="12" y="50" width="232" height="26" />
+            </frame>
+            <instance id="1:2338" name="Кнопка основная" x="24" y="546" width="217" height="44" />
+            <text id="1:2339" name="Описание" x="24" y="606" width="256" height="34" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="29:343" name="Контекст источников / календарь" x="32" y="1065" width="1156" height="52">
+        <text id="29:344" name="ⓘ" x="15" y="13" width="20" height="18" />
+        <text id="29:345" name="Пилотный каталог · Свердловская обл" x="43" y="13" width="1088" height="15" />
+      </frame>
+      <frame id="1:2340" name="Информационная плашка" x="32" y="1141" width="1156" height="76">
+        <frame id="1:2341" name="info" x="16" y="16" width="20" height="20" />
+        <frame id="1:2343" name="Сообщение" x="48" y="16" width="1092" height="44">
+          <text id="1:2344" name="Заголовок" x="0" y="0" width="1092" height="20" />
+          <text id="1:2345" name="Пояснение" x="0" y="24" width="1092" height="20" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="1:2346" name="Подвал" x="0" y="1333" width="1220" height="57">
+      <text id="1:2347" name="Описание" x="32" y="20" width="1156" height="17" />
+    </frame>
+  </frame>
+</frame>

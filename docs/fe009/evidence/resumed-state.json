@@ -1,0 +1,179 @@
+{
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "action": "inspect",
+    "queueConnection": "sync",
+    "sql": "SELECT scenarios (including deleted_at), revisions, moderation, signoffs, exports, verification counts WHERE school_id IN (own FE009 schools)",
+    "scenarios": [
+        {
+            "id": "01a17cba-5372-710e-818d-00db311e7fcf",
+            "school_id": "01a17cb9-9d47-724c-849a-444aa8af23b4",
+            "user_id": "01a17cb9-9ec8-7144-b831-5f8649d47abe",
+            "request_id": "01a17cba-3b28-7054-87fa-a03d4e1213d1",
+            "title": "Сценарий: FE009 approved e05f1aee12",
+            "is_archived": false,
+            "deleted_at": null,
+            "current_revision_id": "01a17cc6-80c2-7102-9571-bd8547b7f572",
+            "lock": 2,
+            "revisions": [
+                {
+                    "id": "01a17cba-537d-7369-b491-ca32c28b700d",
+                    "version": 1,
+                    "contentSha256": "81d346d6328586f8083b8988000e985455e52395dbc54f25113d9a4aeddadaa2",
+                    "moderation": {
+                        "status": "verification_blocked",
+                        "provenance_fingerprint": "caf2bfb5eb69647a9cb5e9e8f58297f955fada6ec7b4d2c869b9c35b83df1752",
+                        "p0_violations_count": 1,
+                        "p1_violations_count": 0
+                    },
+                    "signoffs": [
+                        {
+                            "id": "01a17cba-f70d-7178-a651-32e58a8dce4a",
+                            "is_confirmed": true,
+                            "provenance_fingerprint": "caf2bfb5eb69647a9cb5e9e8f58297f955fada6ec7b4d2c869b9c35b83df1752",
+                            "confirmed_at": "2026-10-27T09:39:50.000000Z"
+                        }
+                    ],
+                    "exports": [
+                        {
+                            "id": "01a17cba-ffc6-721c-a863-e6e1078c6274",
+                            "status": "ready",
+                            "format": "docx",
+                            "provenance_fingerprint": "caf2bfb5eb69647a9cb5e9e8f58297f955fada6ec7b4d2c869b9c35b83df1752",
+                            "artifact": {
+                                "id": "01a17cbb-06c5-7371-b346-24028658d3d0",
+                                "sha256_hash": "09479c4dc7001cd19d33e2cef949744fab5a34f133e36c583bc0ed85f4462472",
+                                "file_size_bytes": 12126,
+                                "file_name": "scenario-01a17cba-5372-710e-818d-00db311e7fcf-v1.docx",
+                                "mime_type": "application\/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                            }
+                        }
+                    ],
+                    "verifications": 2
+                },
+                {
+                    "id": "01a17cc6-80c2-7102-9571-bd8547b7f572",
+                    "version": 2,
+                    "contentSha256": "16061d0a593f8aa9f8e97a09404d9850b76f11c7694339f17362a7a1a370e059",
+                    "moderation": {
+                        "status": "verification_passed",
+                        "provenance_fingerprint": "caf2bfb5eb69647a9cb5e9e8f58297f955fada6ec7b4d2c869b9c35b83df1752",
+                        "p0_violations_count": 0,
+                        "p1_violations_count": 0
+                    },
+                    "signoffs": [],
+                    "exports": [],
+                    "verifications": 1
+                }
+            ]
+        },
+        {
+            "id": "01a17cba-9062-7028-8a28-bb04e96797c9",
+            "school_id": "01a17cb9-9d47-724c-849a-444aa8af23b4",
+            "user_id": "01a17cb9-9ec8-7144-b831-5f8649d47abe",
+            "request_id": "01a17cba-717c-739e-ba9f-838b7a6c1ce1",
+            "title": "Сценарий: FE009 добровольческая мастерская e05f1aee12",
+            "is_archived": false,
+            "deleted_at": "2026-10-27T09:42:01+00:00",
+            "current_revision_id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+            "lock": 1,
+            "revisions": [
+                {
+                    "id": "01a17cba-906b-7397-93cf-19a6ec2bb129",
+                    "version": 1,
+                    "contentSha256": "e4d22bf9dc31233449fe4b8ded76304396c6a06987d0a2bfd1074fb916b4d97b",
+                    "moderation": {
+                        "status": "verification_passed",
+                        "provenance_fingerprint": "9b72967d9224d35113a4fc66ead1daf730ce76caf3377b2b937a3490e5b706b5",
+                        "p0_violations_count": 0,
+                        "p1_violations_count": 0
+                    },
+                    "signoffs": [],
+                    "exports": [],
+                    "verifications": 1
+                }
+            ]
+        },
+        {
+            "id": "01a17cba-c06b-70e9-8e15-a8f46e816f9f",
+            "school_id": "01a17cb9-9d47-724c-849a-444aa8af23b4",
+            "user_id": "01a17cb9-9ebe-726a-bf7b-7ad57e5d3c1a",
+            "request_id": "01a17cba-a17a-7302-be55-50b6a681d34f",
+            "title": "Сценарий: FE009 другой автор e05f1aee12",
+            "is_archived": false,
+            "deleted_at": null,
+            "current_revision_id": "01a17cba-c074-71a6-b0e1-6bbd20d12f18",
+            "lock": 1,
+            "revisions": [
+                {
+                    "id": "01a17cba-c074-71a6-b0e1-6bbd20d12f18",
+                    "version": 1,
+                    "contentSha256": "d0587102a563ddf9e3b5a7a844b2c8d25bdc7bb8227cfd3a7c821665aabab1b6",
+                    "moderation": {
+                        "status": "verification_passed",
+                        "provenance_fingerprint": "b31dd3b716b42d16a908b8944702a6bf8034d15aa5b780f1c828104904569c67",
+                        "p0_violations_count": 0,
+                        "p1_violations_count": 0
+                    },
+                    "signoffs": [],
+                    "exports": [],
+                    "verifications": 1
+                }
+            ]
+        },
+        {
+            "id": "01a17cba-dcd9-719a-aee2-bc14ff55e058",
+            "school_id": "01a17cb9-9d94-7131-a254-7b8de0dfad84",
+            "user_id": "01a17cb9-9ec8-7144-b831-5f8649d47abe",
+            "request_id": "01a17cba-cfd5-7205-8b47-c28e974cb4a6",
+            "title": "Сценарий: FE009 другая школа e05f1aee12",
+            "is_archived": false,
+            "deleted_at": null,
+            "current_revision_id": "01a17cba-dcdf-7353-8a29-66570b3cdc68",
+            "lock": 1,
+            "revisions": [
+                {
+                    "id": "01a17cba-dcdf-7353-8a29-66570b3cdc68",
+                    "version": 1,
+                    "contentSha256": "061ded5e87b39e592a1d97a117e2764541f35e8e508d476857e453fe5dd05493",
+                    "moderation": {
+                        "status": "verification_passed",
+                        "provenance_fingerprint": "eda40c90b93c2a6bb51ce0652409c894a669a22e5eeaf185530a6acf1a11bc08",
+                        "p0_violations_count": 0,
+                        "p1_violations_count": 0
+                    },
+                    "signoffs": [],
+                    "exports": [],
+                    "verifications": 1
+                }
+            ]
+        },
+        {
+            "id": "01a17cbe-2213-70b0-9d19-707221106639",
+            "school_id": "01a17cb9-9d47-724c-849a-444aa8af23b4",
+            "user_id": "01a17cb9-9ec8-7144-b831-5f8649d47abe",
+            "request_id": "01a17cbe-0fd7-7244-9535-49dcaa9b6472",
+            "title": "Сценарий: FE009 встреча школьного сообщества e05f1aee12",
+            "is_archived": true,
+            "deleted_at": null,
+            "current_revision_id": "01a17cbe-2217-7102-8668-335b0fff667e",
+            "lock": 1,
+            "revisions": [
+                {
+                    "id": "01a17cbe-2217-7102-8668-335b0fff667e",
+                    "version": 1,
+                    "contentSha256": "69d4657b10586d5ecf5f3400f5e72792cb4e29b4686a2752a5fbbb79d160a870",
+                    "moderation": {
+                        "status": "verification_passed",
+                        "provenance_fingerprint": "b5b6e2eac6609a487adeac3c8369b755850a0b7003a5b247b0d243679906e71b",
+                        "p0_violations_count": 0,
+                        "p1_violations_count": 0
+                    },
+                    "signoffs": [],
+                    "exports": [],
+                    "verifications": 1
+                }
+            ]
+        }
+    ]
+}

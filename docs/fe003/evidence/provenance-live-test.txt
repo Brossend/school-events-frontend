@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 C:/Users/bross/WebstormProjects/schoolFrontend
+
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  23:26:54
+   Duration  58.56s (tests 100%)
+

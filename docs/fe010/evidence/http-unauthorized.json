@@ -1,0 +1,9 @@
+{
+  "credentialsSent": false,
+  "method": "GET",
+  "origin": "http://localhost:8001",
+  "observedDate": "2026-10-29",
+  "expectedStatus": 401,
+  "path": "/api/v1/pilot/metrics",
+  "actualStatus": 401
+}

@@ -1,0 +1,52 @@
+{
+    "database": "school_events_test",
+    "environment": "testing",
+    "databaseUser": "school_test_user",
+    "runId": "7a5ad314ea",
+    "events": {
+        "approved": "01a17494-6391-715a-ae98-6a5987a5eb1a",
+        "draft": "01a17494-6393-703d-ba71-f3394dc50722",
+        "foreign": "01a17494-6394-7204-9127-dac67600c1bc"
+    },
+    "versions": {
+        "A": "01a17494-6385-71e9-954e-9ef78b0669a2",
+        "B": "01a17494-6389-70ed-ab2d-95b076f7df23"
+    },
+    "baselineGenerationRuns": 14,
+    "schools": {
+        "A": {
+            "id": "01a17494-6249-71b9-8f24-aa3a665c8922",
+            "name": "FE005 A · тестовый контур"
+        },
+        "B": {
+            "id": "01a17494-6277-7228-8176-a41e42628dcc",
+            "name": "FE005 B · тестовый контур"
+        }
+    },
+    "users": {
+        "author": {
+            "id": "01a17494-6349-7099-a6a0-c774cd03e9dd",
+            "email": "fe005-7a5ad314ea-author@example.test"
+        },
+        "other": {
+            "id": "01a17494-6356-7115-88b4-a6386efa9639",
+            "email": "fe005-7a5ad314ea-other@example.test"
+        },
+        "director": {
+            "id": "01a17494-6359-7370-b299-4fef89338da3",
+            "email": "fe005-7a5ad314ea-director@example.test"
+        },
+        "multi": {
+            "id": "01a17494-635c-7143-961e-e723d34124e6",
+            "email": "fe005-7a5ad314ea-multi@example.test"
+        },
+        "admin": {
+            "id": "01a17494-635f-7014-aa5f-ca66fc668687",
+            "email": "fe005-7a5ad314ea-admin@example.test"
+        }
+    },
+    "traditions": {
+        "A": "01a17494-6368-72a4-ae99-e053eee811d4",
+        "B": "01a17494-6386-73b5-a80d-0b12faef759d"
+    }
+}

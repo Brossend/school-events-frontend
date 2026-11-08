@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-29T22:42:50.263002+00:00",
+  "queueConnection": "sync",
+  "frontendApiOrigin": "http://localhost:8000",
+  "frontend": "http://localhost:3000",
+  "htmlConfigVerified": true,
+  "appTestBaseCompose": true,
+  "temporaryProductionPreviewStopped": true,
+  "browserTestSessionLoggedOut": true
+}

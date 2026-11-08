@@ -1,0 +1,305 @@
+{
+  "origin": "http://localhost:8000",
+  "webOrigin": "http://localhost:3000",
+  "completed": true,
+  "steps": [
+    {
+      "name": "Explicit /sanctum/csrf-cookie",
+      "status": "PASS: 204"
+    },
+    {
+      "name": "Unauthenticated /auth/me",
+      "status": "PASS: 401"
+    },
+    {
+      "name": "CSRF cookie and successful login",
+      "status": "PASS: 204 → 200"
+    },
+    {
+      "name": "/auth/me includes user and memberships",
+      "status": "PASS: 200"
+    },
+    {
+      "name": "Tenant selection school-1",
+      "status": "PASS: 200 with X-School-Id"
+    },
+    {
+      "name": "Tenant selection school-2",
+      "status": "PASS: 200 with X-School-Id"
+    },
+    {
+      "name": "Nonexistent school",
+      "status": "PASS: 404"
+    },
+    {
+      "name": "School user cannot access system status",
+      "status": "PASS: 403"
+    },
+    {
+      "name": "Invalid credentials",
+      "status": "PASS: 422"
+    },
+    {
+      "name": "Real stale CSRF → refresh → logout",
+      "status": "PASS: 419 → 204 → 204"
+    },
+    {
+      "name": "Session invalidated after logout",
+      "status": "PASS: auth/me and tenant/current 401"
+    },
+    {
+      "name": "Existing school outside teacher memberships",
+      "status": "PASS: 403"
+    },
+    {
+      "name": "Actual refused TCP connection",
+      "status": "PASS: normalized network error"
+    }
+  ],
+  "requests": [
+    {
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "school": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/me",
+      "method": "GET",
+      "status": 401,
+      "school": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/me",
+      "method": "GET",
+      "status": 200,
+      "school": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "method": "GET",
+      "status": 200,
+      "school": "school-1",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "method": "GET",
+      "status": 200,
+      "school": "school-2",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "method": "GET",
+      "status": 404,
+      "school": "foreign-school",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/system/status",
+      "method": "GET",
+      "status": 403,
+      "school": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 422,
+      "school": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 419,
+      "school": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/sanctum/csrf-cookie",
+      "method": "GET",
+      "status": 204,
+      "school": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/me",
+      "method": "GET",
+      "status": 401,
+      "school": null,
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "method": "GET",
+      "status": 401,
+      "school": "school-2",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200,
+      "school": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/tenant/current",
+      "method": "GET",
+      "status": 403,
+      "school": "school-2",
+      "hasXsrfHeader": false,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    },
+    {
+      "path": "/api/v1/auth/logout",
+      "method": "POST",
+      "status": 204,
+      "school": null,
+      "hasXsrfHeader": true,
+      "setCookieNames": [
+        "XSRF-TOKEN",
+        "laravel_session"
+      ],
+      "allowOrigin": "http://localhost:3000",
+      "allowCredentials": "true"
+    }
+  ],
+  "actualMeRedacted": {
+    "data": {
+      "user": {
+        "id": "<user-uuid>",
+        "name": "<redacted>",
+        "email": "<redacted>",
+        "system_role": "none"
+      },
+      "schools": [
+        {
+          "school_id": "<school-1-uuid>",
+          "name": "<school-1>",
+          "role": "teacher",
+          "is_default": true
+        },
+        {
+          "school_id": "<school-2-uuid>",
+          "name": "<school-2>",
+          "role": "teacher",
+          "is_default": false
+        }
+      ]
+    }
+  }
+}

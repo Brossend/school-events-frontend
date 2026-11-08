@@ -1,0 +1,17 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "runs": 4,
+  "statuses": {
+    "failed": 1,
+    "completed": 3
+  },
+  "scenarios": 3,
+  "oneRevisionVersion1Each": true,
+  "oneRunPerRequest": true,
+  "httpIdsPersisted": true,
+  "sources": [
+    "persisted-generation-final.json",
+    "http-mutations.json"
+  ]
+}

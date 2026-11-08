@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-29T22:42:05.183956+00:00",
+  "origin": "http://127.0.0.1:3111",
+  "frontendApiOrigin": "http://localhost:8000",
+  "routes": [
+    {
+      "path": "/login",
+      "status": 200,
+      "html": true,
+      "apiOrigin8000": true
+    },
+    {
+      "path": "/school",
+      "status": 200,
+      "html": true,
+      "apiOrigin8000": true
+    },
+    {
+      "path": "/profile",
+      "status": 200,
+      "html": true,
+      "apiOrigin8000": true
+    },
+    {
+      "path": "/system",
+      "status": 200,
+      "html": true,
+      "apiOrigin8000": true
+    },
+    {
+      "path": "/catalog",
+      "status": 200,
+      "html": true,
+      "apiOrigin8000": true
+    }
+  ],
+  "assets200": 11,
+  "scope": "Production HTTP shell, runtime config and emitted assets. Authenticated UI separately tested against real app-test."
+}

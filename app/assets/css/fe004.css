@@ -1,0 +1,38 @@
+/* Annual tradition 97:1007/1289/1534/1794; version dialog 97:1194/1456/1709/1969. */
+.traditions-page, .tradition-detail-content { display: grid; gap: 24px; min-width: 0; overflow-wrap: anywhere; }
+.traditions-page { color: var(--color-text); }
+.app-workspace:has(.traditions-page) { background: #eef2f8; }
+.tradition-heading { display: grid; gap: 12px; }
+.tradition-heading .row { align-items: start; flex-wrap: wrap; }
+.tradition-heading h1 { flex: 1; min-width: min(250px, 100%); }
+.tradition-meta { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; font-size: 12px; }
+.tradition-concept { background: white; border-color: #d7e3eb; }
+.tradition-detail-content .tradition-heading > p:first-child { color: var(--color-primary); font-size: 12px; font-weight: 600; }
+.tradition-concept h2 { font-size: 20px; }
+.tradition-concept > p + p { margin-top: 14px; }
+.tradition-description { white-space: pre-wrap; color: #304b5d; }
+.tradition-current { color: var(--color-primary); font-weight: 600; font-size: 12px; }
+.tradition-actions { display: grid; gap: 10px; }
+.tradition-history { display: grid; gap: 14px; min-width: 0; }
+.tradition-history > h2 { font-size: 21px; }
+.tradition-version { padding: 16px; border: 1px solid #d7e3eb; border-radius: 14px; background: white; display: grid; gap: 8px; min-width: 0; }
+.tradition-version h3 { font-size: 14px; }
+.tradition-version > p { font-size: 12px; }
+.tradition-version--current { background: #ecf7f1; }
+.traditions-page pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 12px 0 0; font-size: 12px; }
+.traditions-page summary, .tradition-modal summary { cursor: pointer; color: #24516d; font-weight: 600; padding: 8px 0; }
+.tradition-list { display: grid; gap: 16px; }
+.tradition-list-card { display: grid; gap: 16px; }
+.tradition-list-card h2 { margin: 0; font-size: 20px; }
+.tradition-list-card h2 a { color: var(--color-heading); }
+.tradition-list-card > .row { flex-wrap: wrap; font-size: 12px; }
+.tradition-filter { max-width: 340px; }
+.tradition-form { display: grid; gap: 18px; }
+.tradition-modal { width: min(640px, calc(100% - 32px)); overflow-wrap: anywhere; }
+.tradition-modal > .row { align-items: flex-start; }
+.tradition-modal > .row .text-button { flex-shrink: 0; white-space: nowrap; }
+.ui-textarea textarea { display: block; width: 100%; min-width: 0; min-height: 120px; resize: vertical; padding: 12px 14px; border: 1px solid var(--color-input-border); border-radius: var(--radius-input); background: white; color: var(--color-text); }
+.ui-textarea textarea:focus { outline: 0; border-color: var(--color-link); box-shadow: var(--focus-ring); }
+.ui-textarea textarea[aria-invalid='true'] { border-color: var(--color-danger); }
+.ui-textarea textarea:disabled { background: #f3f6f8; color: var(--color-muted); }
+@media (max-width: 600px) { .traditions-page h1 { font-size: 26px; } .tradition-heading .row > .ui-button { width: 100%; } .tradition-modal { padding: 20px; } .tradition-list-card, .tradition-concept { padding: 18px; } }

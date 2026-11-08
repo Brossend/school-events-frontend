@@ -1,0 +1,2869 @@
+[
+  {
+    "id": "1:794",
+    "name": "Ожидание генерации / 1440",
+    "links": [
+      {
+        "id": "1:800",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:804",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2146",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2146",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:808",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:639",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:639",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:812",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:497",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:497",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43:352",
+    "name": "Ожидание генерации / 768",
+    "links": [
+      {
+        "id": "43:364",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2463",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2463",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "43:366",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1965",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1965",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "43:368",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:342",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:342",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "43:370",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "42:352",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "42:352",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "43:523",
+    "name": "Ожидание генерации / 390",
+    "links": [
+      {
+        "id": "43:534",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2348",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2348",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "43:538",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1873",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1873",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "43:542",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "43:546",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "42:537",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "42:537",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50:2132",
+    "name": "Ожидание генерации / 360 · compact QA",
+    "links": [
+      {
+        "id": "50:2143",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "49:352",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "49:352",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:2147",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:650",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:650",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:2151",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:1894",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:1894",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:2155",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:2038",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:2038",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "54:455",
+    "name": "Генерация / Ошибка и повтор / 1440",
+    "links": []
+  },
+  {
+    "id": "54:583",
+    "name": "Генерация / Ошибка и повтор / 768",
+    "links": []
+  },
+  {
+    "id": "54:670",
+    "name": "Генерация / Ошибка и повтор / 390",
+    "links": []
+  },
+  {
+    "id": "54:764",
+    "name": "Генерация / Ошибка и повтор / 360",
+    "links": []
+  },
+  {
+    "id": "98:1009",
+    "name": "ИИ / Предвыдачная проверка / 1440",
+    "links": [
+      {
+        "id": "98:1015",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:1019",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2146",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2146",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:1023",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:639",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:639",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:1027",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:497",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:497",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "110:1190",
+        "name": "Демо / Проверка пройдена",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "98:2307",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "98:2307",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "110:1193",
+        "name": "Демо / Критическая ошибка",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "98:1439",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "98:1439",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98:2307",
+    "name": "ИИ / Проверка пройдена / 1440",
+    "links": [
+      {
+        "id": "98:2313",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2317",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2146",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2146",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2321",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:639",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:639",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2325",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:497",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:497",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2439",
+        "name": "Действие / Открыть сценарий",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1260",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1260",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2441",
+        "name": "Действие / Просмотреть сведения о проверке",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "112:1444",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "112:1444",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98:2443",
+    "name": "ИИ / Проверка пройдена / 768",
+    "links": [
+      {
+        "id": "98:2455",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2463",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2463",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2457",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1965",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1965",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2459",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:342",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:342",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2461",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "42:352",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "42:352",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2535",
+        "name": "Действие / Открыть сценарий",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1087",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1087",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2537",
+        "name": "Действие / Просмотреть сведения о проверке",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "112:1539",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "112:1539",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98:2539",
+    "name": "ИИ / Проверка пройдена / 390",
+    "links": [
+      {
+        "id": "98:2550",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2348",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2348",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2554",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1873",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1873",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2558",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2562",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "42:537",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "42:537",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2638",
+        "name": "Действие / Открыть сценарий",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:907",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:907",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2640",
+        "name": "Действие / Просмотреть сведения о проверке",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "112:1617",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "112:1617",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "98:2642",
+    "name": "ИИ / Проверка пройдена / 360",
+    "links": [
+      {
+        "id": "98:2653",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "49:352",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "49:352",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2657",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:650",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:650",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2661",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:1894",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:1894",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2665",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:2038",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:2038",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2741",
+        "name": "Действие / Открыть сценарий",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:358",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:358",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "98:2743",
+        "name": "Действие / Просмотреть сведения о проверке",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "112:1702",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "112:1702",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1:1260",
+    "name": "Редактор сценария / 1440",
+    "links": [
+      {
+        "id": "1:1266",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1270",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2146",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2146",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1274",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:639",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:639",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1278",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:497",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:497",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1307",
+        "name": "Кнопка вторичная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "82:456",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "82:456",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1451",
+        "name": "Кнопка основная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:639",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:639",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "I1:1451;1:2758",
+        "name": "Подпись",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:639",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.20000000298023224
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:639",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.20000000298023224
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1:1087",
+    "name": "Редактор сценария / 768",
+    "links": [
+      {
+        "id": "1:1096",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2463",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2463",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1098",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1965",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1965",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1100",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:342",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:342",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1102",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "42:352",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "42:352",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1115",
+        "name": "Кнопка вторичная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "82:716",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "82:716",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1256",
+        "name": "Кнопка основная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:342",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:342",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1:907",
+    "name": "Редактор сценария / 390",
+    "links": [
+      {
+        "id": "1:915",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:2348",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:2348",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:919",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "1:1873",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "1:1873",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:923",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:927",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "42:537",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "42:537",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:942",
+        "name": "Кнопка вторичная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "82:901",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "82:901",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1:1083",
+        "name": "Кнопка основная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "41:580",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "41:580",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "50:358",
+    "name": "Редактор сценария / 360 · compact QA",
+    "links": [
+      {
+        "id": "50:369",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "49:352",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "49:352",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:373",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:650",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:650",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:377",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:1894",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:1894",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:381",
+        "name": "Пункт навигации",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:2038",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:2038",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:396",
+        "name": "Кнопка вторичная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "82:1093",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "82:1093",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      },
+      {
+        "id": "50:503",
+        "name": "Кнопка основная",
+        "reactions": [
+          {
+            "action": {
+              "type": "NODE",
+              "destinationId": "50:1894",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "DISSOLVE",
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "duration": 0.18000000715255737
+              },
+              "resetVideoPosition": false
+            },
+            "actions": [
+              {
+                "type": "NODE",
+                "destinationId": "50:1894",
+                "navigation": "NAVIGATE",
+                "transition": {
+                  "type": "DISSOLVE",
+                  "easing": {
+                    "type": "EASE_OUT"
+                  },
+                  "duration": 0.18000000715255737
+                },
+                "resetVideoPosition": false
+              }
+            ],
+            "trigger": {
+              "type": "ON_CLICK"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

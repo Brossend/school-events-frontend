@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-26",
+  "node": "24.22.1",
+  "typecheck": {
+    "exitCode": 0,
+    "log": "typecheck.log"
+  },
+  "eslint": {
+    "exitCode": 0,
+    "warnings": 0,
+    "log": "eslint.log"
+  },
+  "vitest": {
+    "exitCode": 0,
+    "files": 8,
+    "tests": 149,
+    "previousRegression": 104,
+    "newTests": 45,
+    "log": "unit.log"
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "preset": "node-server",
+    "log": "build.log"
+  },
+  "laravel": {
+    "command": "docker compose exec -T app-test php artisan test --filter=ScenarioConstructorTest --no-ansi",
+    "exitCode": 0,
+    "tests": 16,
+    "assertions": 46
+  },
+  "http": {
+    "exitCode": 0,
+    "completed": true,
+    "requests": 31,
+    "createdThisPassingRun": 3,
+    "log": "live.log"
+  },
+  "postgres": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "persistedRequestsInFixtureSchools": 13,
+    "newGenerationRuns": 0,
+    "evidence": "persistence-verification.json"
+  }
+}

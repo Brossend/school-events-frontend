@@ -1,0 +1,42 @@
+export default function Component01169() {
+  return (
+    <div className="bg-[#f6f9fc] relative size-full" data-node-id="104:1331" data-name="Презентация / Слайд 01 / 16:9">
+      <div className="absolute bg-[#08784f] h-[7px] left-0 top-0 w-[1280px]" data-node-id="104:1332" data-name="Акцент бренда" />
+      <div className="absolute bg-[#2258ba] h-[7px] left-[790px] top-0 w-[490px]" data-node-id="104:1333" data-name="Акцент университет" />
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.35] left-[70px] not-italic text-[#1b3443] text-[22px] top-[44px] w-[390px]" data-node-id="104:1334">
+        Школьные события
+      </p>
+      <div className="absolute bg-gradient-to-r from-[#0a9d63] h-[44px] left-[1000px] overflow-clip rounded-[12px] to-[#2258ba] top-[38px] via-[#0c8c93] via-[53%] w-[210px]" data-node-id="104:1335" data-name="Бренд / Сбер × УрФУ">
+        <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold h-[44px] justify-center leading-[0] left-[105px] not-italic text-[19px] text-center text-white top-[22px] w-[210px]" data-node-id="104:1336">
+          <p className="leading-[1.35]">Сбер × УрФУ</p>
+        </div>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[70px] not-italic text-[#08784f] text-[15px] top-[130px] w-[150px]" data-node-id="104:1337">
+        01 / 05
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[70px] not-italic text-[#1759b6] text-[21px] top-[169px] w-[1100px]" data-node-id="104:1338">
+        Школьные события
+      </p>
+      <p className="[word-break:break-word] absolute font-['Inter:Bold'] font-bold leading-[1.18] left-[70px] not-italic text-[#1b3443] text-[53px] top-[220px] w-[1120px]" data-node-id="104:1339">
+        От школьной идеи к общему делу
+      </p>
+      <div className="absolute bg-white border border-[#d9e5ec] border-solid h-[266px] left-[70px] overflow-clip rounded-[18px] top-[345px] w-[1139px]" data-node-id="104:1340" data-name="Содержимое">
+        <p className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[1.42] left-[31px] not-italic text-[#365568] text-[27px] top-[42px] w-[1080px]" data-node-id="104:1341">
+          Сценарий классного часа, семейной мастерской или общешкольного события под реальные условия школы.
+        </p>
+      </div>
+      <p className="[word-break:break-word] absolute font-['Inter:Semi_Bold'] font-semibold leading-[1.35] left-[70px] not-italic text-[#526f80] text-[17px] top-[648px] w-[1000px]" data-node-id="104:1342">
+        Подготовка и педагогическая проверка
+      </p>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+The generated code contains image and SVG URL constants, e.g. const image = '[temporary asset URL removed]'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

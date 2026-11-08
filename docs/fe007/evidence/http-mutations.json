@@ -1,0 +1,505 @@
+{
+  "origin": "http://localhost:8001",
+  "completed": true,
+  "requests": [
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "director",
+      "method": "GET",
+      "path": "/sanctum/csrf-cookie",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "director",
+      "method": "POST",
+      "path": "/api/v1/auth/login",
+      "status": 200,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests",
+      "status": 201,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenario-requests/01a177b8-6862-7297-9b30-794ad7711e39/generate",
+      "status": 202,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/generation-runs/01a177b8-6f18-732f-abbc-9e71473e924d",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 403,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1/verify",
+      "status": 403,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1/signoff",
+      "status": 403,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 201,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 409,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "1"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 409,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "2"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1/signoff",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/1",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verify",
+      "status": 202,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/signoff",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/signoff",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/signoff",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verify",
+      "status": 202,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/signoff",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verify",
+      "status": 202,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2/signoff",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/2",
+      "status": 201,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "2"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/3/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/3/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/3/signoff",
+      "status": 422,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/3/signoff",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/3",
+      "status": 201,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": "3"
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/4",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/4/verifications",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 403,
+      "school": "01a177b3-cbd6-7146-bbaf-2f7260feee81",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "PATCH",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/4",
+      "status": 403,
+      "school": "01a177b3-cbd6-7146-bbaf-2f7260feee81",
+      "ifMatch": "4"
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/4/verify",
+      "status": 403,
+      "school": "01a177b3-cbd6-7146-bbaf-2f7260feee81",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2/revisions/4/signoff",
+      "status": 403,
+      "school": "01a177b3-cbd6-7146-bbaf-2f7260feee81",
+      "ifMatch": null
+    },
+    {
+      "role": "director",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 200,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "other",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "director",
+      "method": "POST",
+      "path": "/api/v1/auth/logout",
+      "status": 204,
+      "school": null,
+      "ifMatch": null
+    },
+    {
+      "role": "multi",
+      "method": "GET",
+      "path": "/api/v1/scenarios/01a177b8-9b35-7170-bf04-de5408955bb2",
+      "status": 401,
+      "school": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+      "ifMatch": null
+    }
+  ],
+  "contour": {
+    "database": "school_events_test",
+    "role": "school_test_user",
+    "queue": "fe007_248d32d117",
+    "redisDatabase": "1"
+  },
+  "ids": {
+    "requestId": "01a177b8-6862-7297-9b30-794ad7711e39",
+    "runId": "01a177b8-6f18-732f-abbc-9e71473e924d",
+    "scenarioId": "01a177b8-9b35-7170-bf04-de5408955bb2"
+  },
+  "revokedVerification": {
+    "verification_run_id": "01a177ba-1e97-7357-aba4-15dcd7c41072",
+    "status": "blocked",
+    "p0_violations_count": 1,
+    "p1_violations_count": 0,
+    "execution_time_ms": 104,
+    "created_at": "2026-10-26T10:20:48+00:00",
+    "findings": [
+      {
+        "id": "01a177ba-1f1f-70d1-a84a-cf4fc4e5d174",
+        "severity": "P0",
+        "rule_code": "P0_FABRICATED_CULTURE",
+        "target_path": "cultural_claims[0].evidence_records[0]",
+        "message": "Первоисточник 01a177b3-cfa6-7101-bf0d-b767bbe354fa не подтверждён (статус: 'unverified'). Рецензия отозвана или отклонена.",
+        "suggested_fix": "Оставьте утверждение со статусом unverified до завершения или восстановления экспертизы первоисточника.",
+        "status": "open",
+        "created_at": "2026-10-26T10:20:48+00:00"
+      }
+    ]
+  },
+  "warningVerification": {
+    "verification_run_id": "01a177ba-9d4d-72f3-8eb6-7ded9515bcd9",
+    "status": "passed_with_warnings",
+    "p0_violations_count": 0,
+    "p1_violations_count": 1,
+    "execution_time_ms": 1085,
+    "created_at": "2026-10-26T10:21:21+00:00",
+    "findings": [
+      {
+        "id": "01a177ba-d071-738f-a5c0-b424f8a0af49",
+        "severity": "P1",
+        "rule_code": "P1_PEDAGOGICAL_WORKLOAD",
+        "target_path": "stages[1].duration_minutes",
+        "message": "Этап 'Практический деятельностный этап: «Лаборатория анализа исторических источников»' длительностью 41 мин может быть перегруженным для непрерывного детского внимания.",
+        "suggested_fix": "Разделите этап на динамические интерактивные блоки по 10-15 минут со сменой активности.",
+        "status": "open",
+        "created_at": "2026-10-26T10:21:33+00:00"
+      }
+    ]
+  }
+}

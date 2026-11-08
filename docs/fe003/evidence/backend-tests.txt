@@ -1,0 +1,17 @@
+Command: docker compose exec -T app-test php artisan test --filter='CatalogReviewAndEvidenceTest|ImmutableEvidenceAuditAndStaleExportTest' --no-ansi
+Container: app-test, APP_ENV=testing, DB_DATABASE=school_events_test, isolated test DB user.
+No production seeding/migrations or business mutations were performed.
+CatalogReviewAndEvidenceTest: PASS (14 tests; initial console chunk)
+Final console chunk:
+
+   PASS  Tests\Feature\ImmutableEvidenceAuditAndStaleExportTest
+  ✓ mandatory a immutable evidence history detach then reattach          2.82s  
+  ✓ mandatory b stale pdf blocked after source modification and reappro… 2.52s  
+  ✓ mandatory c new valid export after reconfirmation                   14.66s  
+  ✓ section 4 scenario status draft when current v2 not signed off       2.30s  
+
+  Tests:    18 passed (109 assertions)
+  Duration: 116.11s
+
+
+Exit code: 0

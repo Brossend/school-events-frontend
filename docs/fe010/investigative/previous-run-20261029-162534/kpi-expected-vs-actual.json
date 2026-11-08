@@ -1,0 +1,41 @@
+{
+  "methodology": "20 planned inputs: 10*80% + 10*40% savings; 14/20 personalization; 14/20 <=20% edits; 12/20 cultural use; six 4 and six 5 ratings; 20 effective audited reviews with zero errors.",
+  "kpi": [
+    {
+      "field": "median_relative_time_saving_percent",
+      "expected": 60,
+      "actual": 60,
+      "equal": true
+    },
+    {
+      "field": "personalization_choice_percent",
+      "expected": 70,
+      "actual": 70,
+      "equal": true
+    },
+    {
+      "field": "manual_edit_under_20_percent_ratio",
+      "expected": 70,
+      "actual": 70,
+      "equal": true
+    },
+    {
+      "field": "cultural_context_usage_percent",
+      "expected": 60,
+      "actual": 60,
+      "equal": true
+    },
+    {
+      "field": "average_cultural_usefulness_score",
+      "expected": 4.5,
+      "actual": 4.5,
+      "equal": true
+    },
+    {
+      "field": "critical_cultural_errors_count",
+      "expected": 0,
+      "actual": 0,
+      "equal": true
+    }
+  ]
+}

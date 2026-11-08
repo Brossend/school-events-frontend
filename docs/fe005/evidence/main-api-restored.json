@@ -1,0 +1,8 @@
+{
+  "mainDatabaseBusinessMutations": 0,
+  "configuration": "process environment, no .env change",
+  "apiOrigin": "http://localhost:8000",
+  "frontendStatus": 200,
+  "apiHealthStatus": 200,
+  "frontend": "http://localhost:3000"
+}

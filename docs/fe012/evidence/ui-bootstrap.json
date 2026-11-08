@@ -1,0 +1,137 @@
+{
+  "runId": "bb46ed8810",
+  "origin": "http://localhost:8001",
+  "database": "school_events_test",
+  "environment": "testing",
+  "databaseUser": "school_test_user",
+  "queue": "redis",
+  "completed": true,
+  "schools": {
+    "A": {
+      "id": "01a18a00-e8ed-7024-abcc-026d446c422c",
+      "name": "FE012 bb46ed8810 A · synthetic test school",
+      "region_code": "66"
+    },
+    "B": {
+      "id": "01a18a00-e918-708f-9b8b-7e18acd1559d",
+      "name": "FE012 bb46ed8810 B · synthetic test school",
+      "region_code": "66"
+    },
+    "C": {
+      "id": "01a18a00-e919-73a3-b91a-471b368b97c7",
+      "name": "FE012 bb46ed8810 C · synthetic test school",
+      "region_code": "77"
+    }
+  },
+  "users": {
+    "teacher": {
+      "id": "01a18a00-e9ee-70d7-9ada-6545c8eaa5c7",
+      "email": "fe012-bb46ed8810-teacher@example.test",
+      "system_role": "none"
+    },
+    "schoolAdmin": {
+      "id": "01a18a00-e9fb-7029-ad00-89481e69d244",
+      "email": "fe012-bb46ed8810-schoolAdmin@example.test",
+      "system_role": "none"
+    },
+    "other": {
+      "id": "01a18a00-e9ff-73d7-9626-a4fc00256e0b",
+      "email": "fe012-bb46ed8810-other@example.test",
+      "system_role": "none"
+    },
+    "foreign": {
+      "id": "01a18a00-ea01-71ae-a587-a6d099af1c7b",
+      "email": "fe012-bb46ed8810-foreign@example.test",
+      "system_role": "none"
+    },
+    "regional": {
+      "id": "01a18a00-ea05-7058-87b5-aced05e5278a",
+      "email": "fe012-bb46ed8810-regional@example.test",
+      "system_role": "catalog_curator"
+    },
+    "system": {
+      "id": "01a18a00-ea07-7036-9452-b937bde7e254",
+      "email": "fe012-bb46ed8810-system@example.test",
+      "system_role": "system_admin"
+    },
+    "inactive": {
+      "id": "01a18a00-ea09-72ab-b666-bc82d6a20f07",
+      "email": "fe012-bb46ed8810-inactive@example.test",
+      "system_role": "none"
+    },
+    "multi": {
+      "id": "01a18a00-ea0c-7201-bb6f-b80e35f306be",
+      "email": "fe012-bb46ed8810-multi@example.test",
+      "system_role": "none"
+    }
+  },
+  "events": {
+    "regional66": "01a18a00-ea1f-70a7-ae43-da4f07bdc698",
+    "regional77": "01a18a00-ea3b-73ee-bb14-9ff4e01062bc",
+    "federal": "01a18a00-ea3e-72c7-858c-c4390383e902",
+    "schoolA": "01a18a00-ea41-73b8-ab45-72e61b354b4d",
+    "schoolB": "01a18a00-ea44-71ec-8fba-c623645503e4",
+    "schoolC": "01a18a00-ea48-7330-9493-1b7a191b1143",
+    "draft": "01a18a00-ea4b-705a-8a78-a70644a16f12"
+  },
+  "sources": {
+    "regional66": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+    "regional77": "01a18a00-ea3c-7238-9c6b-3e6696189e6d",
+    "federal": "01a18a00-ea3f-72b6-bd79-72301d744e3f",
+    "schoolA": "01a18a00-ea42-70ef-8cc3-fb795d965979",
+    "schoolB": "01a18a00-ea45-728f-bd69-2229cb3a8703",
+    "schoolC": "01a18a00-ea49-73d0-97e4-67f2e27e3bfe",
+    "draft": "01a18a00-ea4c-719c-b373-f354a0cadf75"
+  },
+  "claims": {
+    "regional66": {
+      "primary": "01a18a00-ea38-70f3-b826-c42ee126512e",
+      "sibling": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6"
+    },
+    "regional77": {
+      "primary": "01a18a00-ea3d-724e-be48-7354b83bd884",
+      "sibling": "01a18a00-ea3d-724e-be48-7354b8eeea96"
+    },
+    "federal": {
+      "primary": "01a18a00-ea40-7102-b1fc-9af7b652e84a",
+      "sibling": "01a18a00-ea40-7102-b1fc-9af7b6bc2353"
+    },
+    "schoolA": {
+      "primary": "01a18a00-ea43-70c4-b428-281f5fb84569",
+      "sibling": "01a18a00-ea44-71ec-8fba-c623644004f9"
+    },
+    "schoolB": {
+      "primary": "01a18a00-ea46-71b6-b547-c537091545e4",
+      "sibling": "01a18a00-ea47-71fa-885c-b068bf1f9f4e"
+    },
+    "schoolC": {
+      "primary": "01a18a00-ea4a-71ee-a5f5-7d87c51c744a",
+      "sibling": "01a18a00-ea4a-71ee-a5f5-7d87c5da59ef"
+    },
+    "draft": {
+      "primary": "01a18a00-ea4d-725e-ae54-602c27c7e6dd",
+      "sibling": "01a18a00-ea4d-725e-ae54-602c288eba8f"
+    }
+  },
+  "ui": {
+    "scenarioId": "01a18a03-1942-72c4-86da-9fab5ed0cfd0",
+    "revisionVersion": 2,
+    "sourceId": "01a18a00-ea30-7172-a5b0-38863edb9e78",
+    "claimId": "01a18a00-ea38-70f3-b826-c42ee126512e",
+    "siblingClaimId": "01a18a00-ea3a-724b-a78f-eda5c8ea23f6",
+    "comparisonId": "01a18a05-38d4-7033-a2b6-37fede971ae1",
+    "culturalComparisonId": "01a18a05-5154-72ea-9525-aaf0347bdc4f",
+    "pilotResponseId": "01a18a05-884f-70d7-aa80-36735d51f970",
+    "traditionId": "01a18a02-578b-726c-998e-3279ed24386d"
+  },
+  "requests": {
+    "class_level": "01a18a03-061b-722d-adfc-73ad630129ea",
+    "all_school": "01a18a03-2f5f-7067-b23a-72fa247aa2f6",
+    "family_community": "01a18a03-726e-73fe-89cf-f542564d82b7"
+  },
+  "scenarios": {
+    "class_level": "01a18a03-1942-72c4-86da-9fab5ed0cfd0",
+    "all_school": "01a18a03-4393-731e-8e43-5c5a73115f0f",
+    "family_community": "01a18a03-8051-7258-9b5e-69e42c933746"
+  }
+}

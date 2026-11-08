@@ -1,0 +1,70 @@
+stages: [validate, test, build, mirror]
+
+default:
+  image: node:24.22.1-bookworm-slim
+  interruptible: true
+
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+    - if: '$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+
+dependencies:
+  stage: validate
+  cache:
+    key:
+      files: [package-lock.json]
+    paths: [.npm/]
+  script:
+    - npm ci --cache .npm --prefer-offline
+  artifacts:
+    expire_in: 1 day
+    paths: [node_modules/, .nuxt/]
+
+typecheck:
+  stage: test
+  needs: [dependencies]
+  script: [npm run typecheck]
+
+eslint:
+  stage: test
+  needs: [dependencies]
+  script: [npm run lint]
+
+vitest:
+  stage: test
+  needs: [dependencies]
+  script: [npm test]
+
+production_build:
+  stage: build
+  dependencies: [dependencies]
+  script: [npm run build]
+  artifacts:
+    expire_in: 7 days
+    paths: [.output/]
+
+github_mirror:
+  stage: mirror
+  image:
+    name: alpine/git:latest
+    entrypoint: [""]
+  variables:
+    GIT_DEPTH: "0"
+  dependencies: []
+  interruptible: false
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" && $GITHUB_MIRROR_TOKEN'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+      when: manual
+      allow_failure: true
+  script:
+    - test -n "$GITHUB_MIRROR_TOKEN"
+    - |
+      umask 077
+      trap 'rm -f "$HOME/.netrc"' EXIT
+      printf 'machine github.com\nlogin x-access-token\npassword %s\n' "$GITHUB_MIRROR_TOKEN" > "$HOME/.netrc"
+      git push https://github.com/Brossend/school-events-frontend.git "$CI_COMMIT_SHA:refs/heads/main"

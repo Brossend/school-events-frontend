@@ -1,0 +1,7 @@
+<script setup lang="ts">
+import type { Verification } from '~/types/editor'
+import { moderationLabel } from '~/utils/generation'
+defineProps<{ verification: Verification | null; busy?: boolean; disabled?: boolean; pause?: string }>()
+defineEmits<{ verify: []; refresh: [] }>()
+</script>
+<template><UiCard class="editor-moderation"><h2>Проверки и источники</h2><p aria-live="polite">{{ verification ? moderationLabel(verification.status) : 'Проверка не загружена' }}</p><div v-if="verification" class="editor-actions"><UiBadge :tone="verification.p0 ? 'warning':'neutral'">P0: {{ verification.p0 }}</UiBadge><UiBadge :tone="verification.p1 ? 'warning':'neutral'">P1: {{ verification.p1 }}</UiBadge></div><p v-if="pause" role="status">{{ pause }}</p><div v-for="finding in verification?.findings ?? []" :key="finding.id" class="verification-finding" :class="`verification-finding--${finding.severity}`"><strong>{{ finding.severity }} · {{ finding.rule_code }}</strong><p class="muted">Поле: {{ finding.target_path }}</p><p>{{ finding.message }}</p><p v-if="finding.suggested_fix"><strong>Рекомендация:</strong> {{ finding.suggested_fix }}</p></div><p>Автоматическая модерация не удостоверяет каждый исторический факт. Актуальность доказательств проверяет сервер.</p><div class="editor-actions"><UiButton :disabled="disabled || busy || verification?.status==='running'" @click="$emit('verify')">Повторить проверку</UiButton><UiButton variant="secondary" :disabled="busy" @click="$emit('refresh')">Перечитать проверку</UiButton></div></UiCard></template>

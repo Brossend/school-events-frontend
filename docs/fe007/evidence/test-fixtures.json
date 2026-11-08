@@ -1,0 +1,55 @@
+{
+    "database": "school_events_test",
+    "environment": "testing",
+    "databaseUser": "school_test_user",
+    "runId": "248d32d117",
+    "sourceId": "01a177b3-cfa6-7101-bf0d-b767bbe354fa",
+    "claimId": "01a177b3-d0e6-7178-b86e-15ff2211ca09",
+    "queue": "fe007_248d32d117",
+    "events": {
+        "approved": "01a177b3-cf47-70a7-ba00-f6a2610e57a8",
+        "draft": "01a177b3-cf82-726a-bf2d-7ef5ea04b563",
+        "foreign": "01a177b3-cf84-7377-a408-bdc003a3d3b2"
+    },
+    "versions": {
+        "A": "01a177b3-cedc-71b4-947e-a1a0a3d7abbe",
+        "B": "01a177b3-cef6-70fe-85c6-c4f36abf951b"
+    },
+    "baselineGenerationRuns": 18,
+    "schools": {
+        "A": {
+            "id": "01a177b3-ca9b-71d0-91ba-d42583c76c4d",
+            "name": "FE007 A · тестовый контур"
+        },
+        "B": {
+            "id": "01a177b3-cbd6-7146-bbaf-2f7260feee81",
+            "name": "FE007 B · тестовый контур"
+        }
+    },
+    "users": {
+        "author": {
+            "id": "01a177b3-cd2f-7382-83d4-a22d95c0ed75",
+            "email": "fe007-248d32d117-author@example.test"
+        },
+        "other": {
+            "id": "01a177b3-cdf3-703d-9994-3f7bfe3b66dc",
+            "email": "fe007-248d32d117-other@example.test"
+        },
+        "director": {
+            "id": "01a177b3-cdf6-7383-9acd-53be4e9ea2d2",
+            "email": "fe007-248d32d117-director@example.test"
+        },
+        "multi": {
+            "id": "01a177b3-cdfa-708e-b6b4-948c8c7bedf5",
+            "email": "fe007-248d32d117-multi@example.test"
+        },
+        "admin": {
+            "id": "01a177b3-cdff-7106-9a6a-bec26bfbe75a",
+            "email": "fe007-248d32d117-admin@example.test"
+        }
+    },
+    "traditions": {
+        "A": "01a177b3-ce0b-72f1-a3e0-b1bbffba8b6d",
+        "B": "01a177b3-cedd-734e-92ca-acdcfd7aa8da"
+    }
+}

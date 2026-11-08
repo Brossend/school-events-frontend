@@ -1,0 +1,497 @@
+[
+  {
+    "id": "105:1186",
+    "name": "Пилот / Протокол одного педагога / 1440",
+    "type": "FRAME",
+    "w": 1440,
+    "h": 1475,
+    "context": "docs/fe010/figma/context-105-1186.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-1186.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/105-1186-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/105-1186-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/105-1186-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/105-1186-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:1603",
+    "name": "Пилот / Протокол одного педагога / 768",
+    "type": "FRAME",
+    "w": 768,
+    "h": 1533,
+    "context": "docs/fe010/figma/context-105-1603.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-1603.png",
+    "assets": [],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:1980",
+    "name": "Пилот / Протокол одного педагога / 390",
+    "type": "FRAME",
+    "w": 390,
+    "h": 1611,
+    "context": "docs/fe010/figma/context-105-1980.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-1980.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/105-1980-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/105-1980-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/105-1980-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/105-1980-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:2373",
+    "name": "Пилот / Протокол одного педагога / 360",
+    "type": "FRAME",
+    "w": 360,
+    "h": 1628,
+    "context": "docs/fe010/figma/context-105-2373.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-2373.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/105-2373-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/105-2373-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/105-2373-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/105-2373-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "110:1608",
+    "name": "Пилот / Ошибка обязательных полей / 1440",
+    "type": "FRAME",
+    "w": 1440,
+    "h": 1475,
+    "context": "docs/fe010/figma/context-110-1608.txt",
+    "screenshot": "docs/fe010/figma/screenshots/110-1608.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/110-1608-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/110-1608-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/110-1608-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/110-1608-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "110:1717",
+    "name": "Пилот / Ошибка обязательных полей / 768",
+    "type": "FRAME",
+    "w": 768,
+    "h": 1533,
+    "context": "docs/fe010/figma/context-110-1717.txt",
+    "screenshot": "docs/fe010/figma/screenshots/110-1717.png",
+    "assets": [],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "110:1809",
+    "name": "Пилот / Ошибка обязательных полей / 390",
+    "type": "FRAME",
+    "w": 390,
+    "h": 1611,
+    "context": "docs/fe010/figma/context-110-1809.txt",
+    "screenshot": "docs/fe010/figma/screenshots/110-1809.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/110-1809-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/110-1809-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/110-1809-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/110-1809-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "110:1908",
+    "name": "Пилот / Ошибка обязательных полей / 360",
+    "type": "FRAME",
+    "w": 360,
+    "h": 1628,
+    "context": "docs/fe010/figma/context-110-1908.txt",
+    "screenshot": "docs/fe010/figma/screenshots/110-1908.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/110-1908-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/110-1908-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/110-1908-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/110-1908-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:1403",
+    "name": "Пилот / Результаты 20 педагогов / 1440",
+    "type": "FRAME",
+    "w": 1440,
+    "h": 1449,
+    "context": "docs/fe010/figma/context-105-1403.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-1403.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/105-1403-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/105-1403-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/105-1403-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/105-1403-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:1800",
+    "name": "Пилот / Результаты 20 педагогов / 768",
+    "type": "FRAME",
+    "w": 768,
+    "h": 1538,
+    "context": "docs/fe010/figma/context-105-1800.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-1800.png",
+    "assets": [],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:2185",
+    "name": "Пилот / Результаты 20 педагогов / 390",
+    "type": "FRAME",
+    "w": 390,
+    "h": 1581,
+    "context": "docs/fe010/figma/context-105-2185.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-2185.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/105-2185-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/105-2185-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/105-2185-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/105-2185-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "105:2578",
+    "name": "Пилот / Результаты 20 педагогов / 360",
+    "type": "FRAME",
+    "w": 360,
+    "h": 1661,
+    "context": "docs/fe010/figma/context-105-2578.txt",
+    "screenshot": "docs/fe010/figma/screenshots/105-2578.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/105-2578-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/105-2578-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/105-2578-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/105-2578-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:1014",
+    "name": "Пилот / Персонализация / 1440",
+    "type": "FRAME",
+    "w": 1440,
+    "h": 1024,
+    "context": "docs/fe010/figma/context-100-1014.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-1014.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/100-1014-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/100-1014-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/100-1014-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/100-1014-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:1209",
+    "name": "Пилот / Персонализация / 768",
+    "type": "FRAME",
+    "w": 768,
+    "h": 1024,
+    "context": "docs/fe010/figma/context-100-1209.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-1209.png",
+    "assets": [],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:1384",
+    "name": "Пилот / Персонализация / 390",
+    "type": "FRAME",
+    "w": 390,
+    "h": 1334,
+    "context": "docs/fe010/figma/context-100-1384.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-1384.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/100-1384-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/100-1384-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/100-1384-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/100-1384-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:1567",
+    "name": "Пилот / Персонализация / 360",
+    "type": "FRAME",
+    "w": 360,
+    "h": 1388,
+    "context": "docs/fe010/figma/context-100-1567.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-1567.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/100-1567-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/100-1567-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/100-1567-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/100-1567-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:1750",
+    "name": "Пилот / Культурный контекст / 1440",
+    "type": "FRAME",
+    "w": 1440,
+    "h": 1024,
+    "context": "docs/fe010/figma/context-100-1750.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-1750.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/100-1750-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/100-1750-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/100-1750-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/100-1750-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:1945",
+    "name": "Пилот / Культурный контекст / 768",
+    "type": "FRAME",
+    "w": 768,
+    "h": 1024,
+    "context": "docs/fe010/figma/context-100-1945.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-1945.png",
+    "assets": [],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:2120",
+    "name": "Пилот / Культурный контекст / 390",
+    "type": "FRAME",
+    "w": 390,
+    "h": 1334,
+    "context": "docs/fe010/figma/context-100-2120.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-2120.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/100-2120-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/100-2120-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/100-2120-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/100-2120-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  },
+  {
+    "id": "100:2303",
+    "name": "Пилот / Культурный контекст / 360",
+    "type": "FRAME",
+    "w": 360,
+    "h": 1381,
+    "context": "docs/fe010/figma/context-100-2303.txt",
+    "screenshot": "docs/fe010/figma/screenshots/100-2303.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe010/100-2303-house.svg"
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe010/100-2303-calendar-days.svg"
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe010/100-2303-files.svg"
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe010/100-2303-school.svg"
+      }
+    ],
+    "rawImages": 0,
+    "svgTruncated": false
+  }
+]

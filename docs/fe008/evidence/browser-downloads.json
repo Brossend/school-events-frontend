@@ -1,0 +1,30 @@
+[
+  {
+    "format": "pdf",
+    "bytes": 1298439,
+    "sha256": "b4b59e2b723cf175c764c888387512dda3ad81027d0496d3fcf917163688f2db",
+    "source": "authenticated-browser-app-test",
+    "revision": 2
+  },
+  {
+    "format": "docx",
+    "bytes": 12113,
+    "sha256": "8d66d4cc01486f9c8e76012a88b7fccce4fa8e2e68668d74db498eda700eccb3",
+    "source": "authenticated-browser-app-test",
+    "revision": 2
+  },
+  {
+    "format": "pptx",
+    "bytes": 22384,
+    "sha256": "3a7305a78e514870d2a8b40d24eace2a197ebde5935979649598178705c88fc3",
+    "source": "authenticated-browser-app-test",
+    "revision": 2
+  },
+  {
+    "format": "print_pack_pdf",
+    "bytes": 1682999,
+    "sha256": "4de57bd4572627dd99f062e7728c1eee6186fdafe8be461dec8734f4d5ab52b0",
+    "source": "authenticated-browser-app-test",
+    "revision": 2
+  }
+]

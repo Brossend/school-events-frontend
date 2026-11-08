@@ -1,0 +1,95 @@
+<frame id="100:1945" name="Пилот / Культурный контекст / 768" x="1830" y="7515" width="768" height="1024">
+  <frame id="100:1946" name="Рабочая область" x="0" y="0" width="768" height="928">
+    <frame id="100:1947" name="Верхняя панель" x="0" y="0" width="768" height="76">
+      <text id="100:1948" name="Контекст" x="32" y="29.5" width="137" height="17" />
+      <frame id="100:1949" name="Пользователь" x="588" y="20" width="148" height="36">
+        <text id="100:1950" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="100:1951" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="100:1952" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="100:1953" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="768" height="4" />
+      <frame id="100:1954" name="Сбер × УрФУ / партнёрский знак" x="205" y="25" width="122" height="26">
+        <text id="100:1955" name="Партнёрство" x="0" y="0" width="122" height="26" />
+      </frame>
+    </frame>
+    <frame id="100:1956" name="Компактная навигация" x="0" y="76" width="768" height="58">
+      <frame id="100:1957" name="Пункт навигации" x="32" y="12" width="167" height="34">
+        <text id="100:1958" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="100:1959" name="Пункт навигации" x="211" y="12" width="167" height="34">
+        <text id="100:1960" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="100:1961" name="Пункт навигации" x="390" y="12" width="167" height="34">
+        <text id="100:1962" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="100:1963" name="Пункт навигации" x="569" y="12" width="167" height="34">
+        <text id="100:1964" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+    </frame>
+    <frame id="100:1965" name="Содержимое" x="0" y="134" width="768" height="737">
+      <frame id="100:2081" name="Описание сравнения" x="32" y="32" width="704" height="98">
+        <text id="100:2082" name="Сравнение / с культурным контекстом и бе" x="0" y="0" width="704" height="15" />
+        <text id="100:2083" name="Культурная часть без стереотипов" x="0" y="23" width="704" height="35" />
+        <text id="100:2084" name="Пилотный пример Международного дня родно" x="0" y="66" width="704" height="32" />
+      </frame>
+      <frame id="100:2085" name="Варианты одного события" x="32" y="154" width="704" height="442">
+        <frame id="100:2086" name="Сценарий / Без культурного контекста" x="0" y="0" width="344" height="379">
+          <text id="100:2087" name="Без культурного контекста" x="21" y="21" width="304" height="23" />
+          <text id="100:2088" name="Базовый диалог о родном языке" x="21" y="57" width="304" height="15" />
+          <frame id="100:2089" name="Раздел / Тема" x="21" y="85" width="304" height="52">
+            <text id="100:2090" name="Тема" x="0" y="0" width="304" height="15" />
+            <text id="100:2091" name="Почему важно бережно относиться к родном" x="0" y="20" width="304" height="32" />
+          </frame>
+          <frame id="100:2092" name="Раздел / Упражнение" x="21" y="150" width="304" height="52">
+            <text id="100:2093" name="Упражнение" x="0" y="0" width="304" height="15" />
+            <text id="100:2094" name="Учащиеся называют удобные способы поддер" x="0" y="20" width="304" height="32" />
+          </frame>
+          <frame id="100:2095" name="Раздел / Источник" x="21" y="215" width="304" height="36">
+            <text id="100:2096" name="Источник" x="0" y="0" width="304" height="15" />
+            <text id="100:2097" name="Для календарной даты используется UNESCO" x="0" y="20" width="304" height="16" />
+          </frame>
+          <frame id="100:2098" name="Раздел / Результат" x="21" y="264" width="304" height="36">
+            <text id="100:2099" name="Результат" x="0" y="0" width="304" height="15" />
+            <text id="100:2100" name="Общие правила уважительной коммуникации" x="0" y="20" width="304" height="16" />
+          </frame>
+          <frame id="100:2101" name="Действие / Открыть сценарий" x="21" y="313" width="304" height="45">
+            <text id="100:2102" name="Просмотреть" x="10" y="14.5" width="284" height="16" />
+          </frame>
+        </frame>
+        <frame id="100:2103" name="Сценарий / С культурным контекстом" x="360" y="0" width="344" height="442">
+          <text id="100:2104" name="С культурным контекстом" x="21" y="21" width="304" height="23" />
+          <text id="100:2105" name="Исследование языков и подтверждённых при" x="21" y="57" width="304" height="30" />
+          <frame id="100:2106" name="Раздел / Тема" x="21" y="100" width="304" height="52">
+            <text id="100:2107" name="Тема" x="0" y="0" width="304" height="15" />
+            <text id="100:2108" name="Как языковое разнообразие отражается в ш" x="0" y="20" width="304" height="32" />
+          </frame>
+          <frame id="100:2109" name="Раздел / Упражнение" x="21" y="165" width="304" height="68">
+            <text id="100:2110" name="Упражнение" x="0" y="0" width="304" height="15" />
+            <text id="100:2111" name="Группы сравнивают только заранее провере" x="0" y="20" width="304" height="48" />
+          </frame>
+          <frame id="100:2112" name="Раздел / Источник" x="21" y="246" width="304" height="52">
+            <text id="100:2113" name="Источник" x="0" y="0" width="304" height="15" />
+            <text id="100:2114" name="Дата UNESCO; локальные примеры добавляют" x="0" y="20" width="304" height="32" />
+          </frame>
+          <frame id="100:2115" name="Раздел / Результат" x="21" y="311" width="304" height="52">
+            <text id="100:2116" name="Результат" x="0" y="0" width="304" height="15" />
+            <text id="100:2117" name="Карточка источника, корректное описание " x="0" y="20" width="304" height="32" />
+          </frame>
+          <frame id="100:2118" name="Действие / Выбрать персонализированный" x="21" y="376" width="304" height="45">
+            <text id="100:2119" name="Выбрать вариант" x="10" y="14.5" width="284" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="100:2503" name="Условия тестирования" x="32" y="620" width="704" height="77">
+        <text id="100:2504" name="Для пилотного сравнения" x="12" y="12" width="680" height="16" />
+        <text id="100:2505" name="Обе версии должны быть доступны одному" x="12" y="35" width="680" height="30" />
+      </frame>
+    </frame>
+    <frame id="100:2079" name="Подвал" x="0" y="871" width="768" height="57">
+      <text id="100:2080" name="Описание" x="32" y="20" width="704" height="17" />
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

@@ -1,0 +1,6 @@
+Command: docker compose exec -T app-test php artisan test --filter='TraditionsTest|SchoolProfileAndTraditionsTest' --no-ansi
+Contour: app-test, APP_ENV=testing, school_events_test.
+SchoolProfileAndTraditionsTest: 7 PASS.
+TraditionsTest: 12 PASS, including append-only versions, repeated year, PostgreSQL uniqueness and cross-tenant denial.
+Total: 19 PASS, 88 assertions. Duration: 32.76s. Exit code: 0.
+No backend source edits or production data mutations.

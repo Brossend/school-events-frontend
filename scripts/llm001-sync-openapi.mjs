@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+import YAML from 'yaml';
+const file='../school/docs/openapi.yaml',doc=YAML.parseDocument(fs.readFileSync(file,'utf8'));
+doc.setIn(['info','version'],'1.6.0');
+const route=['paths','/scenario-comparisons','post'];
+doc.setIn([...route,'description'],'Mock returns completed synchronously. LiteLLM returns 201 pending: poll GET /scenario-comparisons/{id}. Failed comparisons are terminal; paid requests are never automatically replayed. Optional UUID Idempotency-Key replays within user and school scope; conflicting reuse returns 409.');
+const params=doc.getIn([...route,'parameters'])?.toJSON()??[];
+doc.setIn([...route,'parameters'],[...params.filter(p=>p.name!=='Idempotency-Key'),{name:'Idempotency-Key',in:'header',required:false,schema:{type:'string',format:'uuid'}}]);
+doc.setIn([...route,'responses','503'],{description:'Safe LLM configuration failure',content:{'application/json':{schema:{type:'object',required:['error'],properties:{error:{type:'object',required:['code','message'],properties:{code:{type:'string'},message:{type:'string'}}}}}}}});
+const generation={type:['object','null'],properties:{id:{type:'string',format:'uuid'},provider_name:{type:'string'},model_identifier:{type:'string'},prompt_version:{type:'string'},schema_version:{type:'string'},latency_ms:{type:['integer','null']},prompt_tokens:{type:['integer','null']},completion_tokens:{type:['integer','null']}}};
+doc.setIn(['components','schemas','ScenarioEnvelope','properties','data','properties','generation'],generation);
+fs.writeFileSync(file,String(doc));
+fs.copyFileSync(file,'docs/llm001/openapi.yaml');
+console.log('OpenAPI 1.6.0 documents asynchronous LiteLLM A/B and optional idempotency header');

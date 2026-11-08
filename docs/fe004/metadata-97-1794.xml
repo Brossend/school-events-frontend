@@ -1,0 +1,80 @@
+<frame id="97:1794" name="Библиотека / Ежегодное школьное событие / 360" x="3305" y="4606" width="360" height="1372">
+    <frame id="97:1795" name="Рабочая область" x="0" y="0" width="360" height="1372">
+      <frame id="97:1796" name="Верхняя панель" x="0" y="0" width="360" height="68">
+        <text id="97:1797" name="Контекст" x="16" y="24.5" width="161" height="19" />
+        <frame id="97:1798" name="Пользователь" x="308" y="16" width="36" height="36">
+          <frame id="97:1799" name="Аватар" x="0" y="0" width="36" height="36">
+            <text id="97:1800" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+          </frame>
+        </frame>
+        <rounded-rectangle id="97:1801" name="Сбер × УрФУ / цветовая линия" x="0" y="64" width="360" height="4" />
+        <frame id="97:1802" name="Сбер × УрФУ / партнёрский знак" x="183" y="21" width="105" height="26">
+          <text id="97:1803" name="Партнёрство" x="0" y="0" width="105" height="26" />
+        </frame>
+      </frame>
+      <frame id="97:1804" name="Компактная навигация" x="0" y="68" width="360" height="81">
+        <frame id="97:1805" name="Пункт навигации" x="12" y="12" width="81" height="57">
+          <frame id="97:1806" name="house" x="31" y="8" width="19" height="19" />
+          <text id="97:1808" name="Описание" x="2" y="32" width="77" height="17" />
+        </frame>
+        <frame id="97:1809" name="Пункт навигации" x="97" y="12" width="81" height="57">
+          <frame id="97:1810" name="calendar-days" x="31" y="8" width="19" height="19" />
+          <text id="97:1812" name="Описание" x="2" y="32" width="77" height="17" />
+        </frame>
+        <frame id="97:1813" name="Пункт навигации" x="182" y="12" width="81" height="57">
+          <frame id="97:1814" name="files" x="31" y="8" width="19" height="19" />
+          <text id="97:1816" name="Описание" x="2" y="32" width="77" height="17" />
+        </frame>
+        <frame id="97:1817" name="Пункт навигации" x="267" y="12" width="81" height="57">
+          <frame id="97:1818" name="school" x="31" y="8" width="19" height="19" />
+          <text id="97:1820" name="Описание" x="2" y="32" width="77" height="17" />
+        </frame>
+      </frame>
+      <frame id="97:1821" name="Содержимое" x="0" y="149" width="360" height="1132">
+        <frame id="97:1938" name="Название и метаданные события" x="16" y="24" width="328" height="132">
+          <text id="97:1939" name="Школьная традиция · ежегодное событие" x="0" y="0" width="328" height="16" />
+          <text id="97:1940" name="Осенняя мастерская добрых дел" x="0" y="25" width="328" height="62" />
+          <text id="97:1941" name="Собственная концепция школы, которую м" x="0" y="96" width="328" height="36" />
+        </frame>
+        <frame id="97:1942" name="Концепция, которая сохраняется" x="16" y="180" width="328" height="203">
+          <text id="97:1943" name="Концепция мероприятия" x="18" y="18" width="294" height="23" />
+          <text id="97:1944" name="Участники предлагают и реализуют полез" x="18" y="52" width="294" height="90" />
+          <text id="97:1945" name="Текущая версия: 2026/2027 · 4В · 23 уч" x="18" y="153" width="294" height="32" />
+        </frame>
+        <frame id="97:1946" name="Действия / ежегодная версия" x="16" y="407" width="328" height="102">
+          <frame id="97:1947" name="Действие / Создать версию на 2027/2028" x="0" y="0" width="328" height="46">
+            <text id="97:1948" name="Создать версию на 2027/2028" x="8" y="14" width="312" height="18" />
+          </frame>
+          <frame id="97:1949" name="Действие / Открыть текущий сценарий" x="0" y="56" width="328" height="46">
+            <text id="97:1950" name="Открыть текущий сценарий" x="8" y="14" width="312" height="18" />
+          </frame>
+        </frame>
+        <frame id="97:1951" name="История учебных годов" x="16" y="533" width="328" height="417">
+          <text id="97:1952" name="История версий" x="0" y="0" width="328" height="26" />
+          <text id="97:1953" name="Каждый выпуск сохраняется отдельно. Ст" x="0" y="36" width="328" height="32" />
+          <frame id="97:1954" name="Версия / 2026/2027" x="0" y="78" width="328" height="117">
+            <text id="97:1955" name="2026/2027" x="17" y="17" width="296" height="19" />
+            <text id="97:1956" name="Текущая · 12.10.2026" x="17" y="44" width="296" height="16" />
+            <text id="97:1957" name="Классная мастерская, 5 групп, чек-лист" x="17" y="68" width="296" height="32" />
+          </frame>
+          <frame id="97:1958" name="Версия / 2025/2026" x="0" y="205" width="328" height="101">
+            <text id="97:1959" name="2025/2026" x="17" y="17" width="296" height="19" />
+            <text id="97:1960" name="Прошлая версия · архив" x="17" y="44" width="296" height="16" />
+            <text id="97:1961" name="Общешкольный формат, 4 группы, 45 мину" x="17" y="68" width="296" height="16" />
+          </frame>
+          <frame id="97:1962" name="Версия / 2024/2025" x="0" y="316" width="328" height="101">
+            <text id="97:1963" name="2024/2025" x="17" y="17" width="296" height="19" />
+            <text id="97:1964" name="Архив · исходная концепция" x="17" y="44" width="296" height="16" />
+            <text id="97:1965" name="Совместная инициатива с участием родит" x="17" y="68" width="296" height="16" />
+          </frame>
+        </frame>
+        <frame id="97:1966" name="Правила обновления ежегодного события" x="16" y="974" width="328" height="118">
+          <text id="97:1967" name="При создании новой версии" x="15" y="15" width="300" height="18" />
+          <text id="97:1968" name="ИИ может использовать концепцию прошло" x="15" y="39" width="300" height="64" />
+        </frame>
+      </frame>
+      <frame id="97:1936" name="Подвал" x="0" y="1281" width="360" height="91">
+        <text id="97:1937" name="Описание" x="16" y="20" width="328" height="51" />
+      </frame>
+    </frame>
+  </frame>

@@ -1,0 +1,142 @@
+[
+  {
+    "step": 1,
+    "requestedViewportWidth": 1440,
+    "pngWidth": 1440,
+    "pngHeight": 1000,
+    "fullPage": true
+  },
+  {
+    "step": 1,
+    "requestedViewportWidth": 768,
+    "pngWidth": 753,
+    "pngHeight": 1147,
+    "fullPage": true
+  },
+  {
+    "step": 1,
+    "requestedViewportWidth": 390,
+    "pngWidth": 375,
+    "pngHeight": 1360,
+    "fullPage": true
+  },
+  {
+    "step": 1,
+    "requestedViewportWidth": 360,
+    "pngWidth": 345,
+    "pngHeight": 1390,
+    "fullPage": true
+  },
+  {
+    "step": 2,
+    "requestedViewportWidth": 1440,
+    "pngWidth": 1440,
+    "pngHeight": 1000,
+    "fullPage": true
+  },
+  {
+    "step": 2,
+    "requestedViewportWidth": 768,
+    "pngWidth": 753,
+    "pngHeight": 1257,
+    "fullPage": true
+  },
+  {
+    "step": 2,
+    "requestedViewportWidth": 390,
+    "pngWidth": 375,
+    "pngHeight": 1359,
+    "fullPage": true
+  },
+  {
+    "step": 2,
+    "requestedViewportWidth": 360,
+    "pngWidth": 345,
+    "pngHeight": 1446,
+    "fullPage": true
+  },
+  {
+    "step": 3,
+    "requestedViewportWidth": 1440,
+    "pngWidth": 1425,
+    "pngHeight": 1333,
+    "fullPage": true
+  },
+  {
+    "step": 3,
+    "requestedViewportWidth": 768,
+    "pngWidth": 753,
+    "pngHeight": 1686,
+    "fullPage": true
+  },
+  {
+    "step": 3,
+    "requestedViewportWidth": 390,
+    "pngWidth": 375,
+    "pngHeight": 1878,
+    "fullPage": true
+  },
+  {
+    "step": 3,
+    "requestedViewportWidth": 360,
+    "pngWidth": 345,
+    "pngHeight": 1908,
+    "fullPage": true
+  },
+  {
+    "step": 4,
+    "requestedViewportWidth": 1440,
+    "pngWidth": 1425,
+    "pngHeight": 1573,
+    "fullPage": true
+  },
+  {
+    "step": 4,
+    "requestedViewportWidth": 768,
+    "pngWidth": 753,
+    "pngHeight": 1926,
+    "fullPage": true
+  },
+  {
+    "step": 4,
+    "requestedViewportWidth": 390,
+    "pngWidth": 375,
+    "pngHeight": 2223,
+    "fullPage": true
+  },
+  {
+    "step": 4,
+    "requestedViewportWidth": 360,
+    "pngWidth": 345,
+    "pngHeight": 2267,
+    "fullPage": true
+  },
+  {
+    "step": 5,
+    "requestedViewportWidth": 1440,
+    "pngWidth": 1425,
+    "pngHeight": 1081,
+    "fullPage": true
+  },
+  {
+    "step": 5,
+    "requestedViewportWidth": 768,
+    "pngWidth": 753,
+    "pngHeight": 1453,
+    "fullPage": true
+  },
+  {
+    "step": 5,
+    "requestedViewportWidth": 390,
+    "pngWidth": 375,
+    "pngHeight": 1575,
+    "fullPage": true
+  },
+  {
+    "step": 5,
+    "requestedViewportWidth": 360,
+    "pngWidth": 345,
+    "pngHeight": 1644,
+    "fullPage": true
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "exported_at": "2026-10-28T13:55:58+00:00",
+  "scope": "school",
+  "school_id": "01a182c4-adf7-7205-9146-f4141e011491",
+  "metrics": {
+    "status": "completed",
+    "total_participants": 20,
+    "submitted_responses_count": 20,
+    "audited_responses_count": 20,
+    "audited_reviews_count": 20,
+    "pending_expert_reviews_count": 0,
+    "expert_review_coverage_percent": 100,
+    "median_relative_time_saving_percent": 60,
+    "personalization_choice_percent": 70,
+    "self_reported_personalization_choice_percent": 70,
+    "manual_edit_under_20_percent_ratio": 70,
+    "cultural_context_usage_percent": 60,
+    "average_cultural_usefulness_score": 4.5,
+    "critical_cultural_errors_count": 0,
+    "sample_size": 20,
+    "target_sample_size": 20,
+    "is_survey_completed": true,
+    "is_expert_evaluation_completed": true,
+    "is_pilot_completed": true,
+    "criteria_progress": {
+      "time_saving_ge_50": true,
+      "personalization_ge_70": true,
+      "manual_edit_under_20_ge_70": true,
+      "cultural_usage_ge_60": true,
+      "cultural_usefulness_ge_4": true,
+      "zero_critical_cultural_errors": true
+    },
+    "criteria_status": {
+      "time_saving_ge_50": "pass",
+      "personalization_ge_70": "pass",
+      "manual_edit_under_20_ge_70": "pass",
+      "cultural_usage_ge_60": "pass",
+      "cultural_usefulness_ge_4": "pass",
+      "zero_critical_cultural_errors": "pass"
+    },
+    "sample_breakdown": {
+      "personalization": {
+        "selected": 14,
+        "total": 20
+      },
+      "manual_edits": {
+        "under_20_percent": 14,
+        "total": 20
+      },
+      "cultural_context": {
+        "used": 12,
+        "rated_count": 12,
+        "total": 20
+      },
+      "expert_reviews": {
+        "audited": 20,
+        "pending": 0,
+        "coverage_percent": 100,
+        "critical_errors": 0
+      }
+    }
+  }
+}

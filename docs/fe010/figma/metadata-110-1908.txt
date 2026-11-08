@@ -1,0 +1,140 @@
+<frame id="110:1908" name="Пилот / Ошибка обязательных полей / 360" x="3305" y="2223" width="360" height="1628">
+  <frame id="110:1909" name="Рабочая область" x="0" y="0" width="360" height="1628">
+    <frame id="110:1910" name="Верхняя панель" x="0" y="0" width="360" height="68">
+      <text id="110:1911" name="Контекст" x="16" y="24.5" width="161" height="19" />
+      <frame id="110:1912" name="Пользователь" x="308" y="16" width="36" height="36">
+        <frame id="110:1913" name="Аватар" x="0" y="0" width="36" height="36">
+          <text id="110:1914" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="110:1915" name="Сбер × УрФУ / цветовая линия" x="0" y="64" width="360" height="4" />
+      <frame id="110:1916" name="Сбер × УрФУ / партнёрский знак" x="183" y="21" width="105" height="26">
+        <text id="110:1917" name="Партнёрство" x="0" y="0" width="105" height="26" />
+      </frame>
+    </frame>
+    <frame id="110:1918" name="Компактная навигация" x="0" y="68" width="360" height="81">
+      <frame id="110:1919" name="Пункт навигации" x="12" y="12" width="81" height="57">
+        <frame id="110:1920" name="house" x="31" y="8" width="19" height="19" />
+        <text id="110:1922" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="110:1923" name="Пункт навигации" x="97" y="12" width="81" height="57">
+        <frame id="110:1924" name="calendar-days" x="31" y="8" width="19" height="19" />
+        <text id="110:1926" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="110:1927" name="Пункт навигации" x="182" y="12" width="81" height="57">
+        <frame id="110:1928" name="files" x="31" y="8" width="19" height="19" />
+        <text id="110:1930" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+      <frame id="110:1931" name="Пункт навигации" x="267" y="12" width="81" height="57">
+        <frame id="110:1932" name="school" x="31" y="8" width="19" height="19" />
+        <text id="110:1934" name="Описание" x="2" y="32" width="77" height="17" />
+      </frame>
+    </frame>
+    <frame id="110:1935" name="Содержимое" x="0" y="149" width="360" height="1388">
+      <frame id="110:1936" name="Заголовок пилота" x="16" y="24" width="328" height="89">
+        <text id="110:1937" name="ПИЛОТ · 20 ПЕДАГОГОВ" x="0" y="0" width="328" height="15" />
+        <text id="110:1938" name="Протокол тестирования" x="0" y="23" width="328" height="28" />
+        <text id="110:1939" name="Одна дата и одинаковая задача для обеих верс" x="0" y="59" width="328" height="30" />
+      </frame>
+      <frame id="110:1940" name="Форма испытания педагога" x="16" y="137" width="328" height="1024">
+        <frame id="110:1941" name="Поле / Код участника" x="19" y="19" width="292" height="67">
+          <text id="110:1942" name="Код участника" x="0" y="0" width="292" height="15" />
+          <frame id="110:1943" name="Ввод / Код участника" x="0" y="20" width="292" height="47">
+            <text id="110:1944" name="T-___ (без ФИО)" x="19.5" y="1" width="266" height="16" />
+          </frame>
+        </frame>
+        <frame id="110:1945" name="Поле / Тема тестового события" x="19" y="103" width="292" height="67">
+          <text id="110:1946" name="Тема тестового события" x="0" y="0" width="292" height="15" />
+          <frame id="110:1947" name="Ввод / Тема тестового события" x="0" y="20" width="292" height="47">
+            <text id="110:1948" name="Один согласованный повод для всех" x="19.5" y="1" width="266" height="16" />
+          </frame>
+        </frame>
+        <frame id="110:1949" name="Поле / Подготовка без ИИ, минуты" x="19" y="187" width="292" height="67">
+          <text id="110:1950" name="Подготовка без ИИ, минуты" x="0" y="0" width="292" height="15" />
+          <frame id="110:1951" name="Ввод / Подготовка без ИИ, минуты" x="0" y="20" width="292" height="47">
+            <text id="110:1952" name="Введите фактическое время" x="19.5" y="1" width="266" height="16" />
+          </frame>
+        </frame>
+        <frame id="110:1953" name="Поле / Подготовка с ИИ, минуты" x="19" y="271" width="292" height="67">
+          <text id="110:1954" name="Подготовка с ИИ, минуты" x="0" y="0" width="292" height="15" />
+          <frame id="110:1955" name="Ввод / Подготовка с ИИ, минуты" x="0" y="20" width="292" height="47">
+            <text id="110:1956" name="Введите фактическое время" x="19.5" y="1" width="266" height="16" />
+          </frame>
+        </frame>
+        <frame id="110:1957" name="Поле / Сколько из 7 разделов доработано?" x="19" y="355" width="292" height="67">
+          <text id="110:1958" name="Сколько из 7 разделов доработано?" x="0" y="0" width="292" height="15" />
+          <frame id="110:1959" name="Ввод / Сколько из 7 разделов доработано?" x="0" y="20" width="292" height="47">
+            <text id="110:1960" name="Число 0–7, способ подсчёта согласовать" x="19.5" y="1" width="266" height="16" />
+          </frame>
+        </frame>
+        <frame id="110:1961" name="Какой сценарий выбран" x="19" y="439" width="292" height="94">
+          <text id="110:1962" name="Какую версию выбрали?" x="0" y="0" width="292" height="16" />
+          <frame id="110:1963" name="Вариант / Универсальный" x="0" y="23" width="292" height="32">
+            <rounded-rectangle id="110:1964" name="Чекбокс / не выбран" x="0" y="6.5" width="19" height="19" />
+            <text id="110:1965" name="Универсальный" x="29" y="8.5" width="263" height="15" />
+          </frame>
+          <frame id="110:1966" name="Вариант / Персонализированный" x="0" y="62" width="292" height="32">
+            <rounded-rectangle id="110:1967" name="Чекбокс / не выбран" x="0" y="6.5" width="19" height="19" />
+            <text id="110:1968" name="Персонализированный" x="29" y="8.5" width="263" height="15" />
+          </frame>
+        </frame>
+        <frame id="110:1969" name="Культурная адаптация" x="19" y="550" width="292" height="94">
+          <text id="110:1970" name="Использовали культурный контекст?" x="0" y="0" width="292" height="16" />
+          <frame id="110:1971" name="Вариант / Да, после проверки источников" x="0" y="23" width="292" height="32">
+            <rounded-rectangle id="110:1972" name="Чекбокс / не выбран" x="0" y="6.5" width="19" height="19" />
+            <text id="110:1973" name="Да, после проверки источников" x="29" y="8.5" width="263" height="15" />
+          </frame>
+          <frame id="110:1974" name="Вариант / Нет" x="0" y="62" width="292" height="32">
+            <rounded-rectangle id="110:1975" name="Чекбокс / не выбран" x="0" y="6.5" width="19" height="19" />
+            <text id="110:1976" name="Нет" x="29" y="8.5" width="263" height="15" />
+          </frame>
+        </frame>
+        <frame id="110:1977" name="Поле / Полезность, баллов" x="19" y="661" width="292" height="67">
+          <text id="110:1978" name="Полезность, баллов" x="0" y="0" width="292" height="15" />
+          <frame id="110:1979" name="Ввод / Полезность, баллов" x="0" y="20" width="292" height="47">
+            <text id="110:1980" name="Оценка 1–5" x="19.5" y="1" width="266" height="16" />
+          </frame>
+        </frame>
+        <frame id="110:1981" name="Экспертная культурная проверка" x="19" y="745" width="292" height="92">
+          <text id="110:1982" name="Критические культурные ошибки" x="12" y="12" width="268" height="16" />
+          <text id="110:1983" name="Запишите количество и ссылку на акт эксперта" x="12" y="35" width="268" height="45" />
+        </frame>
+        <frame id="110:1984" name="Поле / Количество выявленных ошибок" x="19" y="854" width="292" height="67">
+          <text id="110:1985" name="Количество выявленных ошибок" x="0" y="0" width="292" height="15" />
+          <frame id="110:1986" name="Ввод / Количество выявленных ошибок" x="0" y="20" width="292" height="47">
+            <text id="110:1987" name="0 только если эксперт подтвердил отсутствие" x="19.5" y="1" width="266" height="32" />
+          </frame>
+        </frame>
+        <frame id="110:1988" name="Поле / Замечания и ссылка на доказательство" x="19" y="938" width="292" height="67">
+          <text id="110:1989" name="Замечания и ссылка на доказательство" x="0" y="0" width="292" height="15" />
+          <frame id="110:1990" name="Ввод / Замечания и ссылка на доказательство" x="0" y="20" width="292" height="47">
+            <text id="110:1991" name="Ссылка на протокол или текст замечания" x="19.5" y="1" width="266" height="32" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="110:1992" name="Примечание о данных" x="16" y="1185" width="328" height="91">
+        <text id="110:1993" name="Без персональных данных детей" x="12" y="12" width="304" height="16" />
+        <text id="110:1994" name="Используйте обезличенные коды педагогов. Сох" x="12" y="34" width="304" height="45" />
+      </frame>
+      <frame id="110:1995" name="Действие / Сохранить протокол после проверки полей" x="16" y="1300" width="328" height="48">
+        <text id="110:1996" name="Сохранить протокол после проверки полей" x="12" y="16" width="304" height="16" />
+      </frame>
+    </frame>
+    <frame id="110:1997" name="Подвал" x="0" y="1537" width="360" height="91">
+      <text id="110:1998" name="Описание" x="16" y="20" width="328" height="51" />
+    </frame>
+  </frame>
+  <frame id="110:1999" name="Подложка диалога" x="1" y="0" width="360" height="1628" />
+  <frame id="110:2000" name="Валидация / неполные данные" x="24" y="0" width="336" height="331">
+    <text id="110:2001" name="Не все поля заполнены" x="20" y="22" width="296" height="24" />
+    <text id="110:2002" name="Для сохранения результатов обязательны" x="20" y="84" width="296" height="64" />
+    <frame id="110:2003" name="Список полей" x="20" y="174" width="296" height="57">
+      <text id="110:2004" name="Пустые и некорректные значения выделяю" x="12" y="11" width="272" height="45" />
+    </frame>
+    <frame id="110:2005" name="Действие / Вернуться к форме" x="20" y="252" width="296" height="45">
+      <text id="110:2006" name="Вернуться к форме" x="9" y="13" width="278" height="16" />
+    </frame>
+  </frame>
+</frame>
+
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

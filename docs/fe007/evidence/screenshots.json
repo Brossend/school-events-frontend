@@ -1,0 +1,407 @@
+[
+  {
+    "file": "figma-signoff.png",
+    "origin": "figma-reference",
+    "width": 705,
+    "height": 1800,
+    "requestedCssWidth": null,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "fixture-conflict-1440.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-conflict-360.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-conflict-390.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-conflict-768.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p0-1440.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p0-360.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p0-390.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p0-768.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p1-1440.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p1-360.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p1-390.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-p1-768.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-saving-1440.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-saving-360.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-saving-390.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "fixture-saving-768.jpg",
+    "origin": "isolated-component-fixture",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-confirmed-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-confirmed-360.jpg",
+    "origin": "live-app-test",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-confirmed-390.jpg",
+    "origin": "live-app-test",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-confirmed-768.jpg",
+    "origin": "live-app-test",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-editor-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-editor-360.jpg",
+    "origin": "live-app-test",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-editor-390.jpg",
+    "origin": "live-app-test",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-editor-768.jpg",
+    "origin": "live-app-test",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-saved-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1425,
+    "height": 990,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saved-360.jpg",
+    "origin": "live-app-test",
+    "width": 345,
+    "height": 958,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saved-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saved-768.jpg",
+    "origin": "live-app-test",
+    "width": 753,
+    "height": 980,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saving-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1425,
+    "height": 990,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saving-360.jpg",
+    "origin": "live-app-test",
+    "width": 345,
+    "height": 958,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saving-390.jpg",
+    "origin": "live-app-test",
+    "width": 375,
+    "height": 962,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-saving-768.jpg",
+    "origin": "live-app-test",
+    "width": 753,
+    "height": 980,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-school-denied-390.jpg",
+    "origin": "live-app-test",
+    "width": 465,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-signoff-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-signoff-360.jpg",
+    "origin": "live-app-test",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-signoff-390.jpg",
+    "origin": "live-app-test",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-signoff-768.jpg",
+    "origin": "live-app-test",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-unknown-verify-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1425,
+    "height": 990,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": null,
+    "viewportVerified": false
+  },
+  {
+    "file": "live-unsaved-guard-390.jpg",
+    "origin": "live-app-test",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-view-1440.jpg",
+    "origin": "live-app-test",
+    "width": 1694,
+    "height": 1190,
+    "requestedCssWidth": 1440,
+    "measuredCssWidth": 1440,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-view-360.jpg",
+    "origin": "live-app-test",
+    "width": 408,
+    "height": 1190,
+    "requestedCssWidth": 360,
+    "measuredCssWidth": 360,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-view-390.jpg",
+    "origin": "live-app-test",
+    "width": 444,
+    "height": 1190,
+    "requestedCssWidth": 390,
+    "measuredCssWidth": 390,
+    "viewportVerified": true
+  },
+  {
+    "file": "live-view-768.jpg",
+    "origin": "live-app-test",
+    "width": 893,
+    "height": 1190,
+    "requestedCssWidth": 768,
+    "measuredCssWidth": 767,
+    "viewportVerified": true
+  },
+  {
+    "file": "tablet-upper-769.jpg",
+    "origin": "live-app-test",
+    "width": 894,
+    "height": 1190,
+    "requestedCssWidth": 769,
+    "measuredCssWidth": 769,
+    "viewportVerified": true
+  }
+]

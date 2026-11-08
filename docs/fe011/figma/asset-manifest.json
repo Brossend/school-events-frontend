@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "1:497",
+    "context": "docs/fe011/figma/context-1-497.txt",
+    "metadata": "docs/fe011/figma/metadata-1-497.txt",
+    "screenshot": "docs/fe011/figma/screenshots/1-497.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/1-497-house.svg",
+        "slots": [
+          {
+            "nodeId": "1:504",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/1-497-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "1:508",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/1-497-files.svg",
+        "slots": [
+          {
+            "nodeId": "1:512",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/1-497-school.svg",
+        "slots": [
+          {
+            "nodeId": "1:516",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSave",
+        "path": "public/icons/fe011/1-497-save.svg",
+        "slots": [
+          {
+            "nodeId": "1:540",
+            "name": "save",
+            "wrapperClass": "relative shrink-0 size-[17px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/1-497-info.svg",
+        "slots": [
+          {
+            "nodeId": "1:544",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCheck",
+        "path": "public/icons/fe011/1-497-check.svg",
+        "slots": [
+          {
+            "nodeId": "1:591",
+            "name": "check",
+            "wrapperClass": "relative shrink-0 size-[15px]"
+          },
+          {
+            "nodeId": "1:598",
+            "name": "check",
+            "wrapperClass": "relative shrink-0 size-[15px]"
+          },
+          {
+            "nodeId": "1:605",
+            "name": "check",
+            "wrapperClass": "relative shrink-0 size-[15px]"
+          },
+          {
+            "nodeId": "1:612",
+            "name": "check",
+            "wrapperClass": "relative shrink-0 size-[15px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "42:352",
+    "context": "docs/fe011/figma/context-42-352.txt",
+    "metadata": "docs/fe011/figma/metadata-42-352.txt",
+    "screenshot": "docs/fe011/figma/screenshots/42-352.png",
+    "assets": [],
+    "rawImages": 0
+  },
+  {
+    "id": "42:537",
+    "context": "docs/fe011/figma/context-42-537.txt",
+    "metadata": "docs/fe011/figma/metadata-42-537.txt",
+    "screenshot": "docs/fe011/figma/screenshots/42-537.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/42-537-house.svg",
+        "slots": [
+          {
+            "nodeId": "42:549",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/42-537-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "42:553",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/42-537-files.svg",
+        "slots": [
+          {
+            "nodeId": "42:557",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/42-537-school.svg",
+        "slots": [
+          {
+            "nodeId": "42:561",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "50:2038",
+    "context": "docs/fe011/figma/context-50-2038.txt",
+    "metadata": "docs/fe011/figma/metadata-50-2038.txt",
+    "screenshot": "docs/fe011/figma/screenshots/50-2038.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/50-2038-house.svg",
+        "slots": [
+          {
+            "nodeId": "50:2050",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/50-2038-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "50:2054",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/50-2038-files.svg",
+        "slots": [
+          {
+            "nodeId": "50:2058",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/50-2038-school.svg",
+        "slots": [
+          {
+            "nodeId": "50:2062",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "88:650",
+    "context": "docs/fe011/figma/context-88-650.txt",
+    "metadata": "docs/fe011/figma/metadata-88-650.txt",
+    "screenshot": "docs/fe011/figma/screenshots/88-650.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/88-650-house.svg",
+        "slots": [
+          {
+            "nodeId": "88:657",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/88-650-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "88:661",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/88-650-files.svg",
+        "slots": [
+          {
+            "nodeId": "88:665",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/88-650-school.svg",
+        "slots": [
+          {
+            "nodeId": "88:669",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/88-650-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "88:696",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/88-650-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "88:699",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgPlus",
+        "path": "public/icons/fe011/88-650-plus.svg",
+        "slots": [
+          {
+            "nodeId": "I88:855;1:2722",
+            "name": "plus",
+            "wrapperClass": "relative shrink-0 size-[17px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/88-650-info.svg",
+        "slots": [
+          {
+            "nodeId": "88:861",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "88:890",
+    "context": "docs/fe011/figma/context-88-890.txt",
+    "metadata": "docs/fe011/figma/metadata-88-890.txt",
+    "screenshot": "docs/fe011/figma/screenshots/88-890.png",
+    "assets": [
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/88-890-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "88:919",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/88-890-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "88:922",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgPlus",
+        "path": "public/icons/fe011/88-890-plus.svg",
+        "slots": [
+          {
+            "nodeId": "I88:1076;1:2722",
+            "name": "plus",
+            "wrapperClass": "relative shrink-0 size-[17px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/88-890-info.svg",
+        "slots": [
+          {
+            "nodeId": "88:1082",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "88:1111",
+    "context": "docs/fe011/figma/context-88-1111.txt",
+    "metadata": "docs/fe011/figma/metadata-88-1111.txt",
+    "screenshot": "docs/fe011/figma/screenshots/88-1111.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/88-1111-house.svg",
+        "slots": [
+          {
+            "nodeId": "88:1123",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/88-1111-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "88:1127",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/88-1111-files.svg",
+        "slots": [
+          {
+            "nodeId": "88:1131",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/88-1111-school.svg",
+        "slots": [
+          {
+            "nodeId": "88:1135",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/88-1111-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "88:1147",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/88-1111-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "88:1150",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgPlus",
+        "path": "public/icons/fe011/88-1111-plus.svg",
+        "slots": [
+          {
+            "nodeId": "I88:1196;1:2722",
+            "name": "plus",
+            "wrapperClass": "relative shrink-0 size-[17px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/88-1111-info.svg",
+        "slots": [
+          {
+            "nodeId": "88:1214",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "88:1243",
+    "context": "docs/fe011/figma/context-88-1243.txt",
+    "metadata": "docs/fe011/figma/metadata-88-1243.txt",
+    "screenshot": "docs/fe011/figma/screenshots/88-1243.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/88-1243-house.svg",
+        "slots": [
+          {
+            "nodeId": "88:1255",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/88-1243-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "88:1259",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/88-1243-files.svg",
+        "slots": [
+          {
+            "nodeId": "88:1263",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/88-1243-school.svg",
+        "slots": [
+          {
+            "nodeId": "88:1267",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/88-1243-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "88:1279",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/88-1243-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "88:1282",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgPlus",
+        "path": "public/icons/fe011/88-1243-plus.svg",
+        "slots": [
+          {
+            "nodeId": "I88:1328;1:2722",
+            "name": "plus",
+            "wrapperClass": "relative shrink-0 size-[17px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/88-1243-info.svg",
+        "slots": [
+          {
+            "nodeId": "88:1346",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "99:1013",
+    "context": "docs/fe011/figma/context-99-1013.txt",
+    "metadata": "docs/fe011/figma/metadata-99-1013.txt",
+    "screenshot": "docs/fe011/figma/screenshots/99-1013.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/99-1013-house.svg",
+        "slots": [
+          {
+            "nodeId": "99:1020",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/99-1013-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "99:1024",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/99-1013-files.svg",
+        "slots": [
+          {
+            "nodeId": "99:1028",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/99-1013-school.svg",
+        "slots": [
+          {
+            "nodeId": "99:1032",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/99-1013-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "99:1059",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/99-1013-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "99:1062",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/99-1013-info.svg",
+        "slots": [
+          {
+            "nodeId": "99:1224",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "99:1261",
+    "context": "docs/fe011/figma/context-99-1261.txt",
+    "metadata": "docs/fe011/figma/metadata-99-1261.txt",
+    "screenshot": "docs/fe011/figma/screenshots/99-1261.png",
+    "assets": [
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/99-1261-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "99:1290",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/99-1261-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "99:1293",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/99-1261-info.svg",
+        "slots": [
+          {
+            "nodeId": "99:1453",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "99:1490",
+    "context": "docs/fe011/figma/context-99-1490.txt",
+    "metadata": "docs/fe011/figma/metadata-99-1490.txt",
+    "screenshot": "docs/fe011/figma/screenshots/99-1490.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/99-1490-house.svg",
+        "slots": [
+          {
+            "nodeId": "99:1502",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/99-1490-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "99:1506",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/99-1490-files.svg",
+        "slots": [
+          {
+            "nodeId": "99:1510",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/99-1490-school.svg",
+        "slots": [
+          {
+            "nodeId": "99:1514",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/99-1490-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "99:1526",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/99-1490-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "99:1529",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/99-1490-info.svg",
+        "slots": [
+          {
+            "nodeId": "99:1593",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "99:1630",
+    "context": "docs/fe011/figma/context-99-1630.txt",
+    "metadata": "docs/fe011/figma/metadata-99-1630.txt",
+    "screenshot": "docs/fe011/figma/screenshots/99-1630.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/99-1630-house.svg",
+        "slots": [
+          {
+            "nodeId": "99:1642",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/99-1630-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "99:1646",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/99-1630-files.svg",
+        "slots": [
+          {
+            "nodeId": "99:1650",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/99-1630-school.svg",
+        "slots": [
+          {
+            "nodeId": "99:1654",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronLeft",
+        "path": "public/icons/fe011/99-1630-chevron-left.svg",
+        "slots": [
+          {
+            "nodeId": "99:1666",
+            "name": "chevron-left",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgChevronRight",
+        "path": "public/icons/fe011/99-1630-chevron-right.svg",
+        "slots": [
+          {
+            "nodeId": "99:1669",
+            "name": "chevron-right",
+            "wrapperClass": "relative shrink-0 size-[18px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgInfo",
+        "path": "public/icons/fe011/99-1630-info.svg",
+        "slots": [
+          {
+            "nodeId": "99:1733",
+            "name": "info",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "112:1444",
+    "context": "docs/fe011/figma/context-112-1444.txt",
+    "metadata": "docs/fe011/figma/metadata-112-1444.txt",
+    "screenshot": "docs/fe011/figma/screenshots/112-1444.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/112-1444-house.svg",
+        "slots": [
+          {
+            "nodeId": "112:1451",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/112-1444-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "112:1455",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/112-1444-files.svg",
+        "slots": [
+          {
+            "nodeId": "112:1459",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/112-1444-school.svg",
+        "slots": [
+          {
+            "nodeId": "112:1463",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[20px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "112:1539",
+    "context": "docs/fe011/figma/context-112-1539.txt",
+    "metadata": "docs/fe011/figma/metadata-112-1539.txt",
+    "screenshot": "docs/fe011/figma/screenshots/112-1539.png",
+    "assets": [],
+    "rawImages": 0
+  },
+  {
+    "id": "112:1617",
+    "context": "docs/fe011/figma/context-112-1617.txt",
+    "metadata": "docs/fe011/figma/metadata-112-1617.txt",
+    "screenshot": "docs/fe011/figma/screenshots/112-1617.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/112-1617-house.svg",
+        "slots": [
+          {
+            "nodeId": "112:1629",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/112-1617-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "112:1633",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/112-1617-files.svg",
+        "slots": [
+          {
+            "nodeId": "112:1637",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/112-1617-school.svg",
+        "slots": [
+          {
+            "nodeId": "112:1641",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "112:1702",
+    "context": "docs/fe011/figma/context-112-1702.txt",
+    "metadata": "docs/fe011/figma/metadata-112-1702.txt",
+    "screenshot": "docs/fe011/figma/screenshots/112-1702.png",
+    "assets": [
+      {
+        "variable": "imgHouse",
+        "path": "public/icons/fe011/112-1702-house.svg",
+        "slots": [
+          {
+            "nodeId": "112:1714",
+            "name": "house",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgCalendarDays",
+        "path": "public/icons/fe011/112-1702-calendar-days.svg",
+        "slots": [
+          {
+            "nodeId": "112:1718",
+            "name": "calendar-days",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgFiles",
+        "path": "public/icons/fe011/112-1702-files.svg",
+        "slots": [
+          {
+            "nodeId": "112:1722",
+            "name": "files",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      },
+      {
+        "variable": "imgSchool",
+        "path": "public/icons/fe011/112-1702-school.svg",
+        "slots": [
+          {
+            "nodeId": "112:1726",
+            "name": "school",
+            "wrapperClass": "relative shrink-0 size-[19px]"
+          }
+        ]
+      }
+    ],
+    "rawImages": 0
+  },
+  {
+    "id": "105:1387",
+    "context": "docs/fe011/figma/context-105-1387.txt",
+    "metadata": "docs/fe011/figma/metadata-105-1387.txt",
+    "screenshot": "docs/fe011/figma/screenshots/105-1387.png",
+    "assets": [],
+    "rawImages": 0
+  },
+  {
+    "id": "105:1784",
+    "context": "docs/fe011/figma/context-105-1784.txt",
+    "metadata": "docs/fe011/figma/metadata-105-1784.txt",
+    "screenshot": "docs/fe011/figma/screenshots/105-1784.png",
+    "assets": [],
+    "rawImages": 0
+  },
+  {
+    "id": "105:2169",
+    "context": "docs/fe011/figma/context-105-2169.txt",
+    "metadata": "docs/fe011/figma/metadata-105-2169.txt",
+    "screenshot": "docs/fe011/figma/screenshots/105-2169.png",
+    "assets": [],
+    "rawImages": 0
+  },
+  {
+    "id": "105:2562",
+    "context": "docs/fe011/figma/context-105-2562.txt",
+    "metadata": "docs/fe011/figma/metadata-105-2562.txt",
+    "screenshot": "docs/fe011/figma/screenshots/105-2562.png",
+    "assets": [],
+    "rawImages": 0
+  }
+]

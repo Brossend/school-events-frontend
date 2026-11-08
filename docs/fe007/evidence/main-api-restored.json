@@ -1,0 +1,9 @@
+{
+  "frontendHasMainOrigin": true,
+  "productionSmokeServerStopped": true,
+  "testQueueRestored": "sync",
+  "frontendStatus": 200,
+  "apiOrigin": "http://localhost:8000",
+  "fixtureServerStopped": true,
+  "authMeStatus": 401
+}

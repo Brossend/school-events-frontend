@@ -1,0 +1,133 @@
+<frame id="42:352" name="Профиль школы / 768" x="1830" y="390" width="768" height="1428">
+  <frame id="42:353" name="Рабочая область" x="0" y="0" width="768" height="1428">
+    <frame id="42:354" name="Верхняя панель" x="0" y="0" width="768" height="76">
+      <text id="42:355" name="Контекст" x="32" y="29.5" width="137" height="17" />
+      <frame id="42:356" name="Пользователь" x="588" y="20" width="148" height="36">
+        <text id="42:357" name="Имя" x="0" y="10" width="100" height="16" />
+        <frame id="42:358" name="Аватар" x="112" y="0" width="36" height="36">
+          <text id="42:359" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+        </frame>
+      </frame>
+      <rounded-rectangle id="42:360" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="768" height="4" />
+      <frame id="42:361" name="Сбер × УрФУ / партнёрский знак" x="205" y="25" width="122" height="26">
+        <text id="42:362" name="Партнёрство" x="0" y="0" width="122" height="26" />
+      </frame>
+    </frame>
+    <frame id="42:363" name="Компактная навигация" x="0" y="76" width="768" height="58">
+      <frame id="42:364" name="Пункт навигации" x="32" y="12" width="167" height="34">
+        <text id="42:365" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="42:366" name="Пункт навигации" x="211" y="12" width="167" height="34">
+        <text id="42:367" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="42:368" name="Пункт навигации" x="390" y="12" width="167" height="34">
+        <text id="42:369" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+      <frame id="42:370" name="Пункт навигации" x="569" y="12" width="167" height="34">
+        <text id="42:371" name="Описание" x="2" y="8" width="163" height="18" />
+      </frame>
+    </frame>
+    <frame id="42:372" name="Содержимое" x="0" y="134" width="768" height="1237">
+      <frame id="42:472" name="Заголовок профиля" x="32" y="32" width="704" height="59">
+        <text id="42:473" name="Профиль школы" x="0" y="0" width="704" height="35" />
+        <text id="42:474" name="Настройки, которые подставляют" x="0" y="43" width="704" height="16" />
+      </frame>
+      <frame id="42:475" name="Предупреждение / демонстрационная школа" x="32" y="115" width="704" height="64">
+        <text id="42:476" name="Демонстрационный профиль" x="14" y="14" width="676" height="15" />
+        <text id="42:477" name="Название школы и сведения о пе" x="14" y="35" width="676" height="15" />
+      </frame>
+      <frame id="42:478" name="Основные сведения" x="32" y="203" width="704" height="385">
+        <text id="42:479" name="Основные сведения" x="20" y="20" width="664" height="21" />
+        <frame id="42:480" name="Поле / Название школы" x="20" y="55" width="664" height="67">
+          <text id="42:481" name="Название школы" x="0" y="0" width="664" height="15" />
+          <frame id="42:482" name="Значение / Название школы" x="0" y="21" width="664" height="46">
+            <text id="42:483" name="Уральская перспектива · демо" x="15" y="15" width="636" height="16" />
+          </frame>
+        </frame>
+        <frame id="42:484" name="Поле / Регион" x="20" y="136" width="664" height="67">
+          <text id="42:485" name="Регион" x="0" y="0" width="664" height="15" />
+          <frame id="42:486" name="Значение / Регион" x="0" y="21" width="664" height="46">
+            <text id="42:487" name="Свердловская область" x="15" y="15" width="636" height="16" />
+          </frame>
+        </frame>
+        <frame id="42:488" name="Поле / Населённый пункт" x="20" y="217" width="664" height="67">
+          <text id="42:489" name="Населённый пункт" x="0" y="0" width="664" height="15" />
+          <frame id="42:490" name="Значение / Населённый пункт" x="0" y="21" width="664" height="46">
+            <text id="42:491" name="Екатеринбург" x="15" y="15" width="636" height="16" />
+          </frame>
+        </frame>
+        <frame id="42:492" name="Поле / Учебный год" x="20" y="298" width="664" height="67">
+          <text id="42:493" name="Учебный год" x="0" y="0" width="664" height="15" />
+          <frame id="42:494" name="Значение / Учебный год" x="0" y="21" width="664" height="46">
+            <text id="42:495" name="2026 / 2027" x="15" y="15" width="636" height="16" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="42:496" name="Настройки класса" x="32" y="612" width="704" height="184">
+        <text id="42:497" name="Класс по умолчанию" x="20" y="20" width="664" height="21" />
+        <frame id="42:498" name="Параметры / 3 колонки" x="20" y="55" width="664" height="80">
+          <frame id="42:499" name="Поле / Класс" x="0" y="6.5" width="213.3333282470703" height="67">
+            <text id="42:500" name="Класс" x="0" y="0" width="213.3333282470703" height="15" />
+            <frame id="42:501" name="Значение / Класс" x="0" y="21" width="213.3333282470703" height="46">
+              <text id="42:502" name="6Б" x="15" y="15" width="185.3333282470703" height="16" />
+            </frame>
+          </frame>
+          <frame id="42:503" name="Поле / Учащихся" x="225.3333282470703" y="6.5" width="213.3333282470703" height="67">
+            <text id="42:504" name="Учащихся" x="0" y="0" width="213.3333282470703" height="15" />
+            <frame id="42:505" name="Значение / Учащихся" x="0" y="21" width="213.3333282470703" height="46">
+              <text id="42:506" name="25" x="15" y="15" width="185.3333282470703" height="16" />
+            </frame>
+          </frame>
+          <frame id="42:507" name="Поле / Минут" x="450.6666564941406" y="6.5" width="213.3333282470703" height="67">
+            <text id="42:508" name="Минут" x="0" y="0" width="213.3333282470703" height="15" />
+            <frame id="42:509" name="Значение / Минут" x="0" y="21" width="213.3333282470703" height="46">
+              <text id="42:510" name="45" x="15" y="15" width="185.3333282470703" height="16" />
+            </frame>
+          </frame>
+        </frame>
+        <text id="42:511" name="Эти значения можно изменить дл" x="20" y="149" width="664" height="15" />
+      </frame>
+      <frame id="42:512" name="Доступные ресурсы" x="32" y="820" width="704" height="305">
+        <text id="42:513" name="Доступные ресурсы" x="20" y="20" width="664" height="21" />
+        <text id="42:514" name="Отметьте оборудование, которое" x="20" y="50" width="664" height="15" />
+        <frame id="42:515" name="Ресурс / Проектор и экран" x="20" y="74" width="664" height="35">
+          <frame id="42:516" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="42:517" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="42:518" name="Проектор и экран" x="29" y="9.5" width="632" height="16" />
+        </frame>
+        <frame id="42:519" name="Ресурс / Компьютер педагога" x="20" y="118" width="664" height="35">
+          <frame id="42:520" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="42:521" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="42:522" name="Компьютер педагога" x="29" y="9.5" width="632" height="16" />
+        </frame>
+        <frame id="42:523" name="Ресурс / Колонки" x="20" y="162" width="664" height="35">
+          <frame id="42:524" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="42:525" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="42:526" name="Колонки" x="29" y="9.5" width="632" height="16" />
+        </frame>
+        <frame id="42:527" name="Ресурс / Бумага и фломастеры" x="20" y="206" width="664" height="35">
+          <frame id="42:528" name="Выбран" x="0" y="8" width="19" height="19">
+            <text id="42:529" name="✓" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="42:530" name="Бумага и фломастеры" x="29" y="9.5" width="632" height="16" />
+        </frame>
+        <frame id="42:531" name="Ресурс / Стабильный интернет" x="20" y="250" width="664" height="35">
+          <frame id="42:532" name="Не выбран" x="0" y="8" width="19" height="19">
+            <text id="42:533" name="Text" x="2.5" y="2" width="14" height="15" />
+          </frame>
+          <text id="42:534" name="Стабильный интернет" x="29" y="9.5" width="632" height="16" />
+        </frame>
+      </frame>
+      <frame id="42:535" name="Кнопка / сохранить профиль" x="32" y="1149" width="704" height="48">
+        <text id="42:536" name="✓ Сохранить изменения" x="246" y="15.5" width="212" height="17" />
+      </frame>
+    </frame>
+    <frame id="42:470" name="Подвал" x="0" y="1371" width="768" height="57">
+      <text id="42:471" name="Описание" x="32" y="20" width="704" height="17" />
+    </frame>
+  </frame>
+</frame>
+IMPORTANT: After you call this tool, you MUST call get_design_context if trying to implement the design, since this tool only returns metadata. If you do not call get_design_context, the agent will not be able to implement the design.

@@ -1,0 +1,8 @@
+{
+  "frontendStatus": 200,
+  "testQueueRestored": "sync",
+  "fixtureServerStopped": true,
+  "authMeStatus": 401,
+  "apiOrigin": "http://localhost:8000",
+  "frontendHasMainOrigin": true
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "path": "app/Http/Controllers/Api/V1/CalendarEventController.php",
+    "sha256": "76c30a6b09214f9daebcedd0fc4eb2ed13f77cbbecba8c8462feb83831e31167",
+    "baseline": "68ddc1a5320055a6675f4970417a0d86c5dce4054fd527f371ae71d96f21f6b0"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/CatalogReviewController.php",
+    "sha256": "3302313366041f9adced4e31fdf5757974e888e2fe45c1f769c09f2598ebd200",
+    "baseline": "96b1bda1d1af73393d6a70c5a67e11868f42876306f7eb82397aa9daf7cea686"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/CulturalClaimController.php",
+    "sha256": "499a419a864e967e6a98d2dcadcc1b63b386e728cc49c9956eeb653cfee8a349",
+    "baseline": "e00f44c502f8b35e04c11511be52b8c57e4e9f7848633dc9b612b0e6a210b9fa"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/EventSourceController.php",
+    "sha256": "9bf4a9c71067d2d68b15b5fc431bc9947727b70965d7a872f1166030b6ac3e80",
+    "baseline": "96f8b7d0f20a14b4a17e626de10ff2fc5238241ada04f0caa75a902b6429e89a"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/PilotParticipantController.php",
+    "sha256": "09ca82e6b60d70f2758ac8065f4da069025bb99a3f95c57a72359e8b17416d7a",
+    "baseline": "2786663085502c8841e32e29e1e25460310ffa53785aed08e148d13f9b2cdf1d"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/PilotResponseController.php",
+    "sha256": "40081ca6f6fb538ba2ab7762894240598df0829f488d87dc7b03d50061eeed89",
+    "baseline": "b4879b12f844df0aaca8861159bc568011b7ab554217507b551266e480c76590"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/ScenarioComparisonController.php",
+    "sha256": "bd10a71287af962674e70fa4155735c20edc02bcdd76d07235b2d4ac85b0aecf",
+    "baseline": "ae3918537ee2450cf8b4cebc50effce8a08bf1e31a91f54a6cc7f60c408675da"
+  },
+  {
+    "path": "app/Http/Controllers/Api/V1/ScenarioExportController.php",
+    "sha256": "8a6e606f391ed395a7bc88326f0b766a8484a098271075debac2d04aafe4a7b2",
+    "baseline": "31587c4ee8e38b4d671d51b85a2c85fa0842d043a030d62ce78baccb6ccae7b4"
+  },
+  {
+    "path": "app/Services/Llm/MockLlmProvider.php",
+    "sha256": "5cd1164680fed6a9c2ac73c30430a572dbb74a626728c9d515b162455a7d3ec8",
+    "baseline": "d8fe03b0101d2e5230c3e23d03e7bfeed327053999dcbaa0b8c01348781d4b93"
+  },
+  {
+    "path": "app/Services/PilotService.php",
+    "sha256": "f8783fde0a433c0cf9b24719898cc3d725170f4ab9c30579d2df424999609aee",
+    "baseline": "487db61c96f38ce7315f52c8628d7c67c8f61be6731812f96c5e83f879c91733"
+  },
+  {
+    "path": "app/Services/ScenarioComparisonService.php",
+    "sha256": "12de4da71645b5d258c974f6392fb2d91bb9e8931863bcf5e8f7f9d9140dc8e2",
+    "baseline": "ec0a7615b8fdd749082d42b1975de7b24d36a75a7eb0aef0c10352015836ef14"
+  },
+  {
+    "path": "database/seeders/DatabaseSeeder.php",
+    "sha256": "00a0550f5f882a6774f8734fc8e520898e65899fb89d1263493361f20177b72b",
+    "baseline": "1ce7afc3d3133559433d12b97057734193310b6dc8ee45c9de8b0eb8b1ee5494"
+  },
+  {
+    "path": "docs/openapi.yaml",
+    "sha256": "c1ea25be28cb5568efb106fecb6fa85eccdde8ef384889522e6a0e19e58a4ac8",
+    "baseline": "1ff9d133aca36554b7aab52d8160636e9bb221f76f7fa1c5421319f243b10d76"
+  },
+  {
+    "path": "routes/api.php",
+    "sha256": "40241bef5514afe305dce00b554a17399d9d50a6795658fa8e350b4d5e6a012c",
+    "baseline": "376c3ae4564792a5b1647a23fee134ea4c2750279236ef64cc8af49310fd6357"
+  },
+  {
+    "path": "scripts/fe012-migrations.php",
+    "sha256": "ff9c618df3cf503398338c88eaf7aae6f8289daf69737c3673677398a4f13407",
+    "baseline": null
+  },
+  {
+    "path": "scripts/fe012-worker.php",
+    "sha256": "d888ca65c6d58803c85a24af22dadad6af700e65821b308f049d063a126ef976",
+    "baseline": null
+  },
+  {
+    "path": "scripts/test_http_audit_be004.py",
+    "sha256": "8632c5b087c37601410974b583e03dceb2b13dabff7a9a0cb81cc293713db2b0",
+    "baseline": "40f252dcb0a5eb41bc5363b673ec40907a5d041df43f9593f06ad6627d383e5a"
+  },
+  {
+    "path": "scripts/test_http_audit_be004_1.py",
+    "sha256": "37e1850866afedbda80fb76ca7081e96720b761b3407987a178625ab88f7e178",
+    "baseline": "8007b62d58c12f44acb06f2062917331a493bf779126e86b9f3b3135277b072a"
+  },
+  {
+    "path": "scripts/test_http_audit_be004_2.py",
+    "sha256": "45ac66a213413877a578b5c2abb730f8afdcbf31e58d2595c7f43f73bbcb08d3",
+    "baseline": "1adc72a6422801def905d5158de0b39811cc12f7338f8f4cfc7b628b00ecc039"
+  },
+  {
+    "path": "scripts/test_http_audit_be004_3.py",
+    "sha256": "b464f4d6c182fed6f292b361ac1e794179105feb3d38599f398edcb71a0d2064",
+    "baseline": "7a781a790a6e37fe97e84f7049a695d935c97aad6e7d12f01a12223b6532fb50"
+  },
+  {
+    "path": "scripts/test_http_audit_be007.py",
+    "sha256": "311a139b183a47e09e6d0ff66829a4aecc6410ab6b1eb0d65fb3201ef39e8a87",
+    "baseline": "82732955faae78b5c90cff5d11f50a6058afdac1e58191c63c28be65f74972cc"
+  },
+  {
+    "path": "scripts/test_http_audit_be008.py",
+    "sha256": "c771c2d1bcb43cf64c49fa1b34fa6ab993680a7dd6c755ec0532f91fa32fd49c",
+    "baseline": "ba37dc90f94c2d2f789e900af14712ac5fc91c83c859026c3160b2ffdcab8e8f"
+  },
+  {
+    "path": "scripts/verify_archive_cleanliness.py",
+    "sha256": "e8077b53188fa2811acdc3285050d6829f87f2ceae96b106bddf17133d41c7c1",
+    "baseline": "4e915ff007f9445f1f575bf6c40a8fd80bf449e1c0d852cf13026127c9f9b801"
+  },
+  {
+    "path": "tests/Feature/AuthTest.php",
+    "sha256": "f25aff6ed29547aa8049ee2b7683cafa8ac87ed9d8f124dc40b5814d0a1ff875",
+    "baseline": "8a82ed1411786b484fa432127649a622b4b2cc5800093788b46c2b89e1283300"
+  },
+  {
+    "path": "tests/Feature/FinalIntegrationRegressionTest.php",
+    "sha256": "1f9659e43ec6c4216791bb8edc15b1986b91540bc080bbc127faea98da7386a3",
+    "baseline": null
+  },
+  {
+    "path": "tests/Feature/ImmutableEvidenceAuditAndStaleExportTest.php",
+    "sha256": "b30de051d0b91528d0c8dfc4172c705ea86338cc843f6e6e91e9485df8959f5d",
+    "baseline": "250a37541d8d3fef8f954026489be83151bb89c8ca42a8986efd762366b3944b"
+  },
+  {
+    "path": "tests/Feature/OpenApiRouteContractTest.php",
+    "sha256": "ad81925aed763cd31fc28a3ae75bc307f0d14a860eb707ff3a5cc375b5a8db74",
+    "baseline": "3762e539d1d9058745272092ef8551143af690a961993a616f0255729f3a82ea"
+  },
+  {
+    "path": "tests/Feature/ScenarioComparisonTest.php",
+    "sha256": "97aec2532c00387b6b483fea2555d78663c41fdd6ed2c5e95d2ce9283e290124",
+    "baseline": "6783858925ee4c72b36be68901193846e70fe41dc3ecde166bc0b7fe23c500cf"
+  }
+]

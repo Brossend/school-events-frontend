@@ -1,0 +1,8 @@
+{
+  "apiOrigin": "http://localhost:8000",
+  "mode": "read-only verification after test contour",
+  "route": "http://localhost:3000/traditions",
+  "observedTradition": "Посвящение в лицеисты",
+  "versionCount": 2,
+  "testFixtureSchoolsAbsent": true
+}

@@ -1,0 +1,31 @@
+{
+  "launch": "node .output/server/index.mjs",
+  "httpStatus": 200,
+  "runtimeDependencies": [
+    "@babel/parser",
+    "@vue/compiler-core",
+    "@vue/compiler-dom",
+    "@vue/compiler-ssr",
+    "@vue/reactivity",
+    "@vue/runtime-core",
+    "@vue/runtime-dom",
+    "@vue/server-renderer",
+    "@vue/shared",
+    "devalue",
+    "entities",
+    "estree-walker",
+    "hookable",
+    "nostics",
+    "source-map-js",
+    "ufo",
+    "unhead",
+    "vue",
+    "vue-bundle-renderer"
+  ],
+  "installedChainPackages": [],
+  "chainImportMatches": [],
+  "textualReferences": [
+    "chunks/routes/renderer.mjs"
+  ],
+  "referenceExplanation": "renderer.mjs contains a comment describing a nitropack v2 host; this is not an import."
+}

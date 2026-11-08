@@ -1,0 +1,94 @@
+<frame id="112:1444" name="ИИ / Протокол проверок и источников / 1440" x="185" y="6908" width="1440" height="1133">
+      <frame id="112:1445" name="Боковая навигация" x="0" y="0" width="220" height="1133">
+        <frame id="112:1446" name="Название приложения" x="16" y="28" width="188" height="83">
+          <text id="112:1447" name="Описание" x="12" y="0" width="164" height="50" />
+          <instance id="112:1448" name="Плашка статуса" x="12" y="58" width="134" height="25" />
+        </frame>
+        <frame id="112:1449" name="Разделы" x="16" y="143" width="188" height="210">
+          <frame id="112:1450" name="Пункт навигации" x="0" y="0" width="188" height="48">
+            <frame id="112:1451" name="house" x="12" y="14" width="20" height="20" />
+            <text id="112:1453" name="Описание" x="42" y="14" width="134" height="20" />
+          </frame>
+          <frame id="112:1454" name="Пункт навигации" x="0" y="54" width="188" height="48">
+            <frame id="112:1455" name="calendar-days" x="12" y="14" width="20" height="20" />
+            <text id="112:1457" name="Описание" x="42" y="14" width="134" height="20" />
+          </frame>
+          <frame id="112:1458" name="Пункт навигации" x="0" y="108" width="188" height="48">
+            <frame id="112:1459" name="files" x="12" y="14" width="20" height="20" />
+            <text id="112:1461" name="Описание" x="42" y="14" width="134" height="20" />
+          </frame>
+          <frame id="112:1462" name="Пункт навигации" x="0" y="162" width="188" height="48">
+            <frame id="112:1463" name="school" x="12" y="14" width="20" height="20" />
+            <text id="112:1465" name="Описание" x="42" y="14" width="134" height="20" />
+          </frame>
+        </frame>
+        <frame id="112:1466" name="О пилоте" x="16" y="385" width="188" height="99">
+          <text id="112:1467" name="Описание" x="14" y="14" width="160" height="18" />
+          <text id="112:1468" name="Описание" x="14" y="41" width="160" height="18" />
+          <text id="112:1469" name="Описание" x="14" y="68" width="160" height="17" />
+        </frame>
+        <frame id="112:1470" name="Помощь" x="16" y="516" width="188" height="68">
+          <text id="112:1471" name="Описание" x="12" y="0" width="164" height="20" />
+          <text id="112:1472" name="Описание" x="12" y="32" width="164" height="36" />
+        </frame>
+      </frame>
+      <frame id="112:1473" name="Рабочая область" x="220" y="0" width="1220" height="1133">
+        <frame id="112:1474" name="Верхняя панель" x="0" y="0" width="1220" height="76">
+          <text id="112:1475" name="Контекст" x="32" y="29.5" width="225" height="17" />
+          <frame id="112:1476" name="Пользователь" x="1040" y="20" width="148" height="36">
+            <text id="112:1477" name="Имя" x="0" y="10" width="100" height="16" />
+            <frame id="112:1478" name="Аватар" x="112" y="0" width="36" height="36">
+              <text id="112:1479" name="Инициалы" x="9.5" y="10.5" width="17" height="15" />
+            </frame>
+          </frame>
+          <rounded-rectangle id="112:1480" name="Сбер × УрФУ / цветовая линия" x="0" y="72" width="1220" height="4" />
+        </frame>
+        <frame id="112:1481" name="Содержимое" x="0" y="76" width="1220" height="1000">
+          <frame id="112:1506" name="Название протокола" x="185" y="32" width="850" height="79">
+            <text id="112:1507" name="ДОКАЗАТЕЛЬСТВА · ПРОТОКОЛ СЦЕНАРИЯ" x="0" y="0" width="850" height="13" />
+            <text id="112:1508" name="Проверки и источники" x="0" y="20" width="850" height="36" />
+            <text id="112:1509" name="Пример структуры протокола. Реальный з" x="0" y="63" width="850" height="16" />
+          </frame>
+          <frame id="112:1510" name="Статус протокола" x="185" y="135" width="850" height="83">
+            <text id="112:1511" name="Демонстрационный протокол · не подтвер" x="20" y="20" width="810" height="21" />
+            <text id="112:1512" name="ID проверки, версия модели, время выпо" x="20" y="48" width="810" height="15" />
+          </frame>
+          <frame id="112:1513" name="Результаты машинной проверки" x="185" y="242" width="850" height="331">
+            <text id="112:1514" name="Обязательная автоматическая модерация" x="23" y="23" width="806" height="24" />
+            <frame id="112:1515" name="Категория / P0 · Этнические и расовые стереотипы" x="23" y="57" width="806" height="77">
+              <text id="112:1516" name="P0 · Этнические и расовые стереотипы" x="11" y="11" width="784" height="17" />
+              <text id="112:1517" name="Блокировать при наличии обобщений/диск" x="11" y="33" width="784" height="15" />
+              <text id="112:1518" name="Фактическое заключение: нет данных" x="11" y="53" width="784" height="13" />
+            </frame>
+            <frame id="112:1519" name="Категория / P0 · Культурные факты и традиции" x="23" y="144" width="806" height="77">
+              <text id="112:1520" name="P0 · Культурные факты и традиции" x="11" y="11" width="784" height="17" />
+              <text id="112:1521" name="Каждое проверяемое утверждение требует" x="11" y="33" width="784" height="15" />
+              <text id="112:1522" name="Фактическое заключение: нет данных" x="11" y="53" width="784" height="13" />
+            </frame>
+            <frame id="112:1523" name="Категория / P1 · Возраст, роль и тайминг" x="23" y="231" width="806" height="77">
+              <text id="112:1524" name="P1 · Возраст, роль и тайминг" x="11" y="11" width="784" height="17" />
+              <text id="112:1525" name="Проверить соответствие возрасту, досту" x="11" y="33" width="784" height="15" />
+              <text id="112:1526" name="Фактическое заключение: нет данных" x="11" y="53" width="784" height="13" />
+            </frame>
+          </frame>
+          <frame id="112:1527" name="Реестр первичных источников" x="185" y="597" width="850" height="194">
+            <text id="112:1528" name="Источники культурного контекста" x="23" y="23" width="806" height="24" />
+            <text id="112:1529" name="Международный день родного языка · дат" x="23" y="56" width="806" height="17" />
+            <text id="112:1530" name="Первичный источник: UNESCO, unesco.org" x="23" y="82" width="806" height="15" />
+            <text id="112:1531" name="Проверяющий редактор: не назначен" x="23" y="106" width="806" height="16" />
+            <text id="112:1532" name="Дата редакторского подтверждения: не у" x="23" y="131" width="806" height="16" />
+            <text id="112:1533" name="Конкретные местные культурные практики" x="23" y="156" width="806" height="15" />
+          </frame>
+          <frame id="112:1534" name="Ручная оценка педагога" x="185" y="815" width="850" height="74">
+            <text id="112:1535" name="Педагогическое подтверждение отдельно " x="18" y="18" width="814" height="16" />
+            <text id="112:1536" name="Статус: не пройдено · ФИО/роль педагог" x="18" y="41" width="814" height="15" />
+          </frame>
+          <frame id="112:1537" name="Действие / Вернуться к сценарию" x="185" y="913" width="850" height="47">
+            <text id="112:1538" name="Открыть сценарий" x="12" y="15.5" width="826" height="16" />
+          </frame>
+        </frame>
+        <frame id="112:1504" name="Подвал" x="0" y="1076" width="1220" height="57">
+          <text id="112:1505" name="Описание" x="32" y="20" width="1156" height="17" />
+        </frame>
+      </frame>
+    </frame>

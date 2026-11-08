@@ -1,0 +1,282 @@
+[
+  {
+    "page": "event",
+    "width": 1440,
+    "clientWidth": 1425,
+    "icons": [
+      {
+        "height": 20,
+        "src": "/icons/house.svg",
+        "width": 20
+      },
+      {
+        "height": 20,
+        "src": "/icons/calendar.svg",
+        "width": 20
+      },
+      {
+        "height": 20,
+        "src": "/icons/files.svg",
+        "width": 20
+      },
+      {
+        "height": 20,
+        "src": "/icons/school.svg",
+        "width": 20
+      },
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "event",
+    "width": 768,
+    "clientWidth": 753,
+    "icons": [
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "event",
+    "width": 390,
+    "clientWidth": 375,
+    "icons": [
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "event",
+    "width": 360,
+    "clientWidth": 345,
+    "icons": [
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/house.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/calendar.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/files.svg",
+        "width": 0
+      },
+      {
+        "height": 0,
+        "src": "/icons/school.svg",
+        "width": 0
+      }
+    ],
+    "loading": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "source",
+    "width": 1440,
+    "clientWidth": 1425,
+    "loading": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "source",
+    "width": 768,
+    "clientWidth": 753,
+    "loading": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "source",
+    "width": 390,
+    "clientWidth": 375,
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "source",
+    "width": 360,
+    "clientWidth": 345,
+    "loading": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "claim",
+    "width": 1440,
+    "clientWidth": 1425,
+    "loading": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "claim",
+    "width": 768,
+    "clientWidth": 753,
+    "loading": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "claim",
+    "width": 390,
+    "clientWidth": 375,
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "claim",
+    "width": 360,
+    "clientWidth": 345,
+    "loading": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "reviews",
+    "width": 1440,
+    "clientWidth": 1425,
+    "loading": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "reviews",
+    "width": 768,
+    "clientWidth": 753,
+    "loading": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "reviews",
+    "width": 390,
+    "clientWidth": 375,
+    "loading": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "reviews",
+    "width": 360,
+    "clientWidth": 345,
+    "loading": false,
+    "scrollWidth": 345
+  }
+]

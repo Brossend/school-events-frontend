@@ -1,0 +1,9 @@
+{
+  "database": "school_events_test",
+  "role": "school_test_user",
+  "queueConnection": "sync",
+  "allRevisionPayloadsModerationSignoffsExportsUnchangedSinceResume": true,
+  "allDeletionStatesUnchangedSinceResume": true,
+  "browserScenarioRestored": true,
+  "note": "Browser fixture was archived at resume; real UI archive/restore cycles left it active. Only archive status changed."
+}

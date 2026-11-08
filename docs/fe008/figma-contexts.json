@@ -1,0 +1,136 @@
+{
+  "fileKey": "yM3uywBNWGprDE61hxKK3V",
+  "readOnly": true,
+  "contexts": [
+    {
+      "node": "104:1186",
+      "context": "design-104-1186.txt",
+      "bytes": 9331
+    },
+    {
+      "node": "104:1220",
+      "context": "design-104-1220.txt",
+      "bytes": 9495
+    },
+    {
+      "node": "104:1254",
+      "context": "design-104-1254.txt",
+      "bytes": 9529
+    },
+    {
+      "node": "104:1288",
+      "context": "design-104-1288.txt",
+      "bytes": 11765
+    },
+    {
+      "node": "104:1331",
+      "context": "design-104-1331.txt",
+      "bytes": 4069
+    },
+    {
+      "node": "104:1343",
+      "context": "design-104-1343.txt",
+      "bytes": 4075
+    },
+    {
+      "node": "104:1355",
+      "context": "design-104-1355.txt",
+      "bytes": 4065
+    },
+    {
+      "node": "104:1367",
+      "context": "design-104-1367.txt",
+      "bytes": 4343
+    },
+    {
+      "node": "104:1379",
+      "context": "design-104-1379.txt",
+      "bytes": 4071
+    },
+    {
+      "node": "110:2068",
+      "context": "design-110-2068.txt",
+      "bytes": 82224
+    },
+    {
+      "node": "82:1093",
+      "context": "design-82-1093.txt",
+      "bytes": 64528
+    },
+    {
+      "node": "82:456",
+      "context": "design-82-456.txt",
+      "bytes": 81719
+    },
+    {
+      "node": "82:716",
+      "context": "design-82-716.txt",
+      "bytes": 63811
+    },
+    {
+      "node": "82:901",
+      "context": "design-82-901.txt",
+      "bytes": 64424
+    },
+    {
+      "node": "91:1023",
+      "context": "design-91-1023.txt",
+      "bytes": 79124
+    },
+    {
+      "node": "91:1296",
+      "context": "design-91-1296.txt",
+      "bytes": 78513
+    },
+    {
+      "node": "91:1567",
+      "context": "design-91-1567.txt",
+      "bytes": 60642
+    },
+    {
+      "node": "91:1760",
+      "context": "design-91-1760.txt",
+      "bytes": 61146
+    },
+    {
+      "node": "91:1955",
+      "context": "design-91-1955.txt",
+      "bytes": 60535
+    },
+    {
+      "node": "91:2148",
+      "context": "design-91-2148.txt",
+      "bytes": 61160
+    },
+    {
+      "node": "91:2348",
+      "context": "design-91-2348.txt",
+      "bytes": 61662
+    },
+    {
+      "node": "91:2550",
+      "context": "design-91-2550.txt",
+      "bytes": 61053
+    },
+    {
+      "node": "91:2750",
+      "context": "design-91-2750.txt",
+      "bytes": 61162
+    },
+    {
+      "node": "91:2950",
+      "context": "design-91-2950.txt",
+      "bytes": 61661
+    },
+    {
+      "node": "91:3152",
+      "context": "design-91-3152.txt",
+      "bytes": 61055
+    },
+    {
+      "node": "91:752",
+      "context": "design-91-752.txt",
+      "bytes": 78374
+    }
+  ]
+}

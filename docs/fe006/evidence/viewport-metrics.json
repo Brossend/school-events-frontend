@@ -1,0 +1,160 @@
+[
+  {
+    "state": "live-queued",
+    "viewport": 1440,
+    "scroll": 1440
+  },
+  {
+    "state": "live-queued",
+    "scroll": 753,
+    "viewport": 768
+  },
+  {
+    "state": "live-queued",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "state": "live-queued",
+    "scroll": 375,
+    "viewport": 390
+  },
+  {
+    "state": "live-failed",
+    "scroll": 1440,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "live-failed",
+    "scroll": 753,
+    "viewport": 768,
+    "fullPage": false
+  },
+  {
+    "state": "live-failed",
+    "scroll": 375,
+    "viewport": 390,
+    "fullPage": false
+  },
+  {
+    "state": "live-failed",
+    "scroll": 345,
+    "viewport": 360,
+    "fullPage": false
+  },
+  {
+    "state": "live-completed",
+    "scroll": 1440,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "live-completed",
+    "scroll": 753,
+    "viewport": 768,
+    "fullPage": false
+  },
+  {
+    "state": "live-completed",
+    "scroll": 375,
+    "viewport": 390,
+    "fullPage": false
+  },
+  {
+    "state": "live-completed",
+    "scroll": 345,
+    "viewport": 360,
+    "fullPage": false
+  },
+  {
+    "state": "live-scenario",
+    "scroll": 1425,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "live-scenario",
+    "scroll": 753,
+    "viewport": 768,
+    "fullPage": false
+  },
+  {
+    "state": "live-scenario",
+    "scroll": 375,
+    "viewport": 390,
+    "fullPage": false
+  },
+  {
+    "state": "live-scenario",
+    "scroll": 345,
+    "viewport": 360,
+    "fullPage": false
+  },
+  {
+    "state": "live-scenario-final",
+    "scroll": 1425,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-running",
+    "scroll": 1440,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-running",
+    "scroll": 768,
+    "viewport": 768,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-running",
+    "scroll": 390,
+    "viewport": 390,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-running",
+    "scroll": 360,
+    "viewport": 360,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-timed-out",
+    "scroll": 1440,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-timed-out",
+    "scroll": 768,
+    "viewport": 768,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-timed-out",
+    "scroll": 390,
+    "viewport": 390,
+    "fullPage": false
+  },
+  {
+    "state": "fixture-timed-out",
+    "scroll": 360,
+    "viewport": 360,
+    "fullPage": false
+  },
+  {
+    "state": "live-school-denied",
+    "scroll": 1440,
+    "viewport": 1440,
+    "fullPage": false
+  },
+  {
+    "state": "live-logout-protected",
+    "scroll": 1440,
+    "viewport": 1440,
+    "fullPage": false
+  }
+]

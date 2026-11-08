@@ -1,0 +1,208 @@
+const imgHouse = "/icons/fe010/105-2578-house.svg";
+const imgCalendarDays = "/icons/fe010/105-2578-calendar-days.svg";
+const imgFiles = "/icons/fe010/105-2578-files.svg";
+const imgSchool = "/icons/fe010/105-2578-school.svg";
+
+export default function Component20360() {
+  return (
+    <div className="bg-[#eef2f8] content-stretch flex items-start relative size-full" data-node-id="105:2578" data-name="Пилот / Результаты 20 педагогов / 360">
+      <div className="content-stretch flex flex-[1_0_0] flex-col items-start min-w-px relative" data-node-id="105:2579" data-name="Рабочая область">
+        <div className="bg-white border-[#d8e4ec] border-b border-solid content-stretch flex h-[68px] items-center justify-between overflow-clip px-[16px] relative shrink-0 w-full" data-node-id="105:2580" data-name="Верхняя панель">
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[normal] not-italic relative shrink-0 text-[#182b36] text-[16px] whitespace-nowrap" data-node-id="105:2581">
+            Школьные события
+          </p>
+          <div className="content-stretch flex items-center overflow-clip relative shrink-0" data-node-id="105:2582" data-name="Пользователь">
+            <div className="bg-[#dbeaff] content-stretch flex items-center justify-center overflow-clip relative rounded-[100px] shrink-0 size-[36px]" data-node-id="105:2583" data-name="Аватар">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[normal] not-italic relative shrink-0 text-[#1859be] text-[12px] whitespace-nowrap" data-node-id="105:2584">
+                АС
+              </p>
+            </div>
+          </div>
+          <div className="absolute bg-gradient-to-r from-[#079d66] h-[4px] left-0 to-[#2155bc] top-[64px] via-1/2 via-[#087e94] w-[360px]" data-node-id="105:2585" data-name="Сбер × УрФУ / цветовая линия" />
+          <div className="absolute bg-gradient-to-r from-[#079d66] h-[26px] left-[183px] overflow-clip rounded-[13px] to-[#2155bc] top-[21px] w-[105px]" data-node-id="105:2586" data-name="Сбер × УрФУ / партнёрский знак">
+            <div className="-translate-x-1/2 -translate-y-1/2 [word-break:break-word] absolute flex flex-col font-['Inter:Semi_Bold'] font-semibold h-[26px] justify-center leading-[0] left-[52.5px] not-italic text-[10px] text-center text-white top-[13px] w-[105px]" data-node-id="105:2587">
+              <p className="leading-[normal]">Сбер × УрФУ</p>
+            </div>
+          </div>
+        </div>
+        <div className="bg-white content-stretch cursor-pointer flex gap-[4px] items-start overflow-clip p-[12px] relative shrink-0 w-full" data-node-id="105:2588" data-name="Компактная навигация">
+          <a className="content-stretch flex flex-[1_0_0] flex-col gap-[5px] items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="105:2589" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[19px]" data-node-id="105:2590" data-name="house">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgHouse} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#62778a] text-[11px] text-center w-[min-content]" data-node-id="105:2592">
+              Главная
+            </p>
+          </a>
+          <a className="content-stretch flex flex-[1_0_0] flex-col gap-[5px] items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="105:2593" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[19px]" data-node-id="105:2594" data-name="calendar-days">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgCalendarDays} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#62778a] text-[11px] text-center w-[min-content]" data-node-id="105:2596">
+              Календарь
+            </p>
+          </a>
+          <a className="bg-[#d9f6e6] content-stretch flex flex-[1_0_0] flex-col gap-[5px] items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="105:2597" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[19px]" data-node-id="105:2598" data-name="files">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFiles} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#08784f] text-[11px] text-center w-[min-content]" data-node-id="105:2600">
+              Мои проекты
+            </p>
+          </a>
+          <a className="content-stretch flex flex-[1_0_0] flex-col gap-[5px] items-center min-w-px overflow-clip px-[2px] py-[8px] relative rounded-[8px]" data-node-id="105:2601" data-name="Пункт навигации">
+            <div className="relative shrink-0 size-[19px]" data-node-id="105:2602" data-name="school">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSchool} />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[1.5] min-w-full not-italic relative shrink-0 text-[#62778a] text-[11px] text-center w-[min-content]" data-node-id="105:2604">
+              Школа
+            </p>
+          </a>
+        </div>
+        <div className="content-stretch flex flex-col gap-[24px] items-start pb-[40px] pt-[24px] px-[16px] relative shrink-0 w-full" data-node-id="105:2605" data-name="Содержимое">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[8px] items-start leading-[normal] not-italic overflow-clip relative shrink-0 w-[328px]" data-node-id="105:2722" data-name="Заголовок пилота">
+            <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[12px] w-[328px]" data-node-id="105:2723">
+              ПИЛОТ · 20 ПЕДАГОГОВ
+            </p>
+            <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[#1a3443] text-[23px] w-[328px]" data-node-id="105:2724">
+              Результаты пилотного теста
+            </p>
+            <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#5b7385] text-[12px] w-[328px]" data-node-id="105:2725">
+              Ни одно измерение пока не проведено в этом дизайн-макете. Пороги показаны отдельно от фактических результатов.
+            </p>
+          </div>
+          <div className="[word-break:break-word] bg-[#fff3e4] content-stretch flex flex-col gap-[8px] items-start leading-[normal] not-italic overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2726" data-name="Статус выборки">
+            <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[#93591e] text-[18px] w-[296px]" data-node-id="105:2727">
+              0 из 20 · данные ещё не введены
+            </p>
+            <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#765e3d] text-[12px] w-[296px]" data-node-id="105:2728">
+              Статусы «достигнуто / не достигнуто» появятся только после фактических ответов.
+            </p>
+          </div>
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[12px] items-start leading-[normal] not-italic overflow-clip relative shrink-0 w-[328px]" data-node-id="105:2729" data-name="Таблица критериев приёмки">
+            <p className="font-['Inter:Bold'] font-bold relative shrink-0 text-[#1b3545] text-[19px] w-[328px]" data-node-id="105:2730">
+              Критерии и доказательства
+            </p>
+            <div className="bg-white border border-[#dbe5ec] border-solid content-stretch flex flex-col gap-[7px] items-start overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2731" data-name="Метрика / Сокращение времени, медиана">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1c4053] text-[14px] w-[296px]" data-node-id="105:2732">
+                Сокращение времени, медиана
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[296px]" data-node-id="105:2733">
+                Целевое значение: ≥ 50%
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#6a7d8c] text-[12px] w-[296px]" data-node-id="105:2734">
+                Фактический результат: нет данных
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#506f80] text-[11px] w-[296px]" data-node-id="105:2735">
+                По каждой паре: (базовое − с ИИ) / базовое, затем медиана
+              </p>
+            </div>
+            <div className="bg-white border border-[#dbe5ec] border-solid content-stretch flex flex-col gap-[7px] items-start overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2736" data-name="Метрика / Выбор персонализированного">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1c4053] text-[14px] w-[296px]" data-node-id="105:2737">
+                Выбор персонализированного
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[296px]" data-node-id="105:2738">
+                Целевое значение: ≥ 70%
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#6a7d8c] text-[12px] w-[296px]" data-node-id="105:2739">
+                Фактический результат: нет данных
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#506f80] text-[11px] w-[296px]" data-node-id="105:2740">
+                Доля педагогов, выбравших персонализированный вариант
+              </p>
+            </div>
+            <div className="bg-white border border-[#dbe5ec] border-solid content-stretch flex flex-col gap-[7px] items-start overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2741" data-name="Метрика / Доработка не более 20%">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1c4053] text-[14px] w-[296px]" data-node-id="105:2742">
+                Доработка не более 20%
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[296px]" data-node-id="105:2743">
+                Целевое значение: ≥ 70% педагогов
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#6a7d8c] text-[12px] w-[296px]" data-node-id="105:2744">
+                Фактический результат: нет данных
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#506f80] text-[11px] w-[296px]" data-node-id="105:2745">
+                Фиксировать количество изменённых разделов / всех разделов сценария; методику утвердить до теста
+              </p>
+            </div>
+            <div className="bg-white border border-[#dbe5ec] border-solid content-stretch flex flex-col gap-[7px] items-start overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2746" data-name="Метрика / Использование культурного контекста">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1c4053] text-[14px] w-[296px]" data-node-id="105:2747">
+                Использование культурного контекста
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[296px]" data-node-id="105:2748">
+                Целевое значение: ≥ 60%
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#6a7d8c] text-[12px] w-[296px]" data-node-id="105:2749">
+                Фактический результат: нет данных
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#506f80] text-[11px] w-[296px]" data-node-id="105:2750">
+                Доля педагогов, использовавших проверенный культурный блок
+              </p>
+            </div>
+            <div className="bg-white border border-[#dbe5ec] border-solid content-stretch flex flex-col gap-[7px] items-start overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2751" data-name="Метрика / Полезность сервиса">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1c4053] text-[14px] w-[296px]" data-node-id="105:2752">
+                Полезность сервиса
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[296px]" data-node-id="105:2753">
+                Целевое значение: ≥ 4 из 5
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#6a7d8c] text-[12px] w-[296px]" data-node-id="105:2754">
+                Фактический результат: нет данных
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#506f80] text-[11px] w-[296px]" data-node-id="105:2755">
+                Оценка по шкале 1–5 после выполнения задания
+              </p>
+            </div>
+            <div className="bg-white border border-[#dbe5ec] border-solid content-stretch flex flex-col gap-[7px] items-start overflow-clip p-[16px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2756" data-name="Метрика / Критические культурные ошибки">
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1c4053] text-[14px] w-[296px]" data-node-id="105:2757">
+                Критические культурные ошибки
+              </p>
+              <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#08784f] text-[13px] w-[296px]" data-node-id="105:2758">
+                Целевое значение: 0
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#6a7d8c] text-[12px] w-[296px]" data-node-id="105:2759">
+                Фактический результат: нет данных
+              </p>
+              <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#506f80] text-[11px] w-[296px]" data-node-id="105:2760">
+                Экспертно подтверждённые факты/стереотипы со статусом «критическая»
+              </p>
+            </div>
+          </div>
+          <div className="[word-break:break-word] bg-[#e8f1fc] content-stretch flex flex-col gap-[7px] items-start leading-[normal] not-italic overflow-clip p-[14px] relative rounded-[14px] shrink-0 w-[328px]" data-node-id="105:2761" data-name="Метод подсчёта">
+            <p className="font-['Inter:Semi_Bold'] font-semibold relative shrink-0 text-[#1759b6] text-[13px] w-[300px]" data-node-id="105:2762">
+              Как считаем
+            </p>
+            <p className="font-['Inter:Regular'] font-normal relative shrink-0 text-[#375f7a] text-[12px] w-[300px]" data-node-id="105:2763">
+              Медиана — по 20 индивидуальным процентам сокращения времени. Успешность долей — по всем валидным ответам. Критические ошибки требуют ручного экспертного протокола.
+            </p>
+          </div>
+          <a className="bg-white border border-[#c7d9e4] border-solid content-stretch cursor-pointer flex h-[48px] items-center justify-center overflow-clip relative rounded-[10px] shrink-0 w-[328px]" data-node-id="105:2764" data-name="Действие / Перейти к протоколам педагогов">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[normal] not-italic relative shrink-0 text-[#22536d] text-[13px] text-center w-[304px]" data-node-id="105:2765">
+              Перейти к протоколам педагогов
+            </p>
+          </a>
+        </div>
+        <div className="content-stretch flex items-start overflow-clip px-[16px] py-[20px] relative shrink-0 w-full" data-node-id="105:2720" data-name="Подвал">
+          <div className="[word-break:break-word] flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[0] min-w-px not-italic relative text-[#526779] text-[11px]" data-node-id="105:2721">
+            <p className="leading-[1.5] mb-0">Школьные события · Пилот для педагогов Свердловской области</p>
+            <p className="leading-[1.5]">ИИ предлагает — педагог решает</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: ШС / Цвет / #182B36: #182B36, ШС / Текст / 16 / Bold / Авто: Font(family: "Inter", style: Bold, size: 16, weight: 700, lineHeight: 100, letterSpacing: 0), ШС / Текст / 12 / Regular / Авто: Font(family: "Inter", style: Regular, size: 12, weight: 400, lineHeight: 100, letterSpacing: 0), ШС / Цвет / #FFFFFF: #FFFFFF, ШС / Текст / 11 / Regular / 150PERCENT: Font(family: "Inter", style: Regular, size: 11, weight: 400, lineHeight: 1.5, letterSpacing: 0).
+
+The generated code contains image and SVG URL constants, e.g. const image = '[TEMP_ASSET_URL_REMOVED]'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
