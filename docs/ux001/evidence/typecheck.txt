@@ -1,0 +1,1 @@
+[nuxt] i Compiled #build/nuxt.config.mjs in 512.47ms

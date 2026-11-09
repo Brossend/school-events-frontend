@@ -77,6 +77,19 @@ try {
     await capture('scenario', `/scenarios/${process.env.UX001_SCENARIO}`)
     await capture('export', `/scenarios/${process.env.UX001_SCENARIO}?export=1`)
     await capture('editor', `/scenarios/${process.env.UX001_SCENARIO}/edit`)
+    await page.getByRole('button', { name: 'Редактировать сценарий', exact: true }).click()
+    await capture('editor-fields')
+    await page.getByRole('button', { name: 'Свернуть поля', exact: true }).click()
+    await page.getByText('История версий', { exact: true }).click()
+    await capture('revision-history')
+    await page.getByRole('button', { name: 'Подтверждение педагогом', exact: true }).click()
+    await page.getByRole('dialog').waitFor()
+    await capture('signoff-dialog')
+    await page.getByRole('button', { name: 'Закрыть диалог', exact: true }).click()
+    await capture('traditions', '/traditions')
+    await page.getByRole('button', { name: 'Создать традицию', exact: true }).click()
+    await page.getByRole('dialog').waitFor()
+    await capture('tradition-dialog')
   }
   const icons = []
   for (const file of ['favicon.ico', 'favicon.svg', 'favicon-16x16.png', 'favicon-32x32.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'site.webmanifest']) { const r = await context.request.get(`${origin}/${file}`); icons.push({ file, status: r.status() }) }

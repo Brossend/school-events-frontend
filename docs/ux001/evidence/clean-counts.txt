@@ -1,0 +1,10 @@
+     entity      | count
+-----------------+-------
+ users           |     2
+ schools         |     1
+ calendar_events |    36
+ scenarios       |     0
+ comparisons     |     0
+ export_jobs     |     0
+ artifacts       |     0
+(7 rows)

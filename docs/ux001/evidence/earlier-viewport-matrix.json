@@ -1,0 +1,418 @@
+[
+  {
+    "page": "calendar",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "scrollWidth": 1425
+  },
+  {
+    "page": "calendar",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "scrollWidth": 753
+  },
+  {
+    "page": "calendar",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "calendar",
+    "width": 360,
+    "height": 800,
+    "overflow": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "invitations-empty",
+    "width": 1440,
+    "height": 900,
+    "overflow": false,
+    "scrollWidth": 1440
+  },
+  {
+    "page": "invitations-empty",
+    "width": 768,
+    "height": 1024,
+    "overflow": false,
+    "scrollWidth": 768
+  },
+  {
+    "page": "invitations-empty",
+    "width": 390,
+    "height": 844,
+    "overflow": false,
+    "scrollWidth": 375
+  },
+  {
+    "page": "invitations-empty",
+    "width": 360,
+    "height": 800,
+    "overflow": false,
+    "scrollWidth": 345
+  },
+  {
+    "page": "login",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "login",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "login",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "login",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "register",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "register",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "register",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "register",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "events-empty",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "events-empty",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "events-empty",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "events-empty",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "research",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "research",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "research",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "research",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "comparisons-empty",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "comparisons-empty",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "comparisons-empty",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "comparisons-empty",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "traditions-empty",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "traditions-empty",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "traditions-empty",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "traditions-empty",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "tradition-modal",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "tradition-modal",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "tradition-modal",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "tradition-modal",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "school",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "school",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "school",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "school",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "constructor-1-error",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "constructor-1-error",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "constructor-1-error",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "constructor-1-error",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "constructor-2",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "constructor-2",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "constructor-2",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "constructor-2",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "constructor-3",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "constructor-3",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "constructor-3",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "constructor-3",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "constructor-4",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "constructor-4",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "constructor-4",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "constructor-4",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "constructor-5",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "constructor-5",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "constructor-5",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "constructor-5",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 1440,
+    "height": 900,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 768,
+    "height": 1024,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 390,
+    "height": 844,
+    "overflow": false
+  },
+  {
+    "page": "home",
+    "width": 360,
+    "height": 800,
+    "overflow": false
+  }
+]

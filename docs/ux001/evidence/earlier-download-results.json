@@ -1,0 +1,20 @@
+[
+  {
+    "format": "pdf",
+    "status": 200,
+    "bytes": 1296369,
+    "sha256": "6d1beed10160c959884139500fde08084af8659fc7f1564d1dec0d921ae28d9a"
+  },
+  {
+    "format": "docx",
+    "status": 200,
+    "bytes": 11876,
+    "sha256": "23757f1fb283b0993a051ea7c453f761721889474f1ffedf8054e6d685863408"
+  },
+  {
+    "format": "pptx",
+    "status": 200,
+    "bytes": 22327,
+    "sha256": "899e97cee3b0ba3abeab721fa1ffe6d5a8aa09770e66be862e9ee3272fdb703f"
+  }
+]
