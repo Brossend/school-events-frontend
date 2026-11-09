@@ -14,7 +14,7 @@ describe('LLM001.1 quality is distinct from technical moderation',()=>{
   expect(parsed?.status).toBe('requires_review')
   const wrapper=mount(ScenarioQualityNotice,{props:{review:parsed},global})
   expect(wrapper.text()).toContain('Требуется содержательная проверка педагогом')
-  expect(wrapper.text()).toContain(report.findings[0]!.path)
+  expect(wrapper.text()).not.toContain(report.findings[0]!.path); expect(wrapper.text()).toContain('Слайд № 1')
   expect(wrapper.text()).toContain('не удостоверяют весь текст')
  })
  it('cannot turn absent or unexpected server quality metadata into a pass',()=>{

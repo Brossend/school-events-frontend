@@ -2,7 +2,7 @@ import type { operations } from './openapi'
 import type { Evidence, Review, SourceDetail } from './provenance'
 export type { SourceDetail as CatalogSourceDetail, ClaimDetail as CatalogClaimDetail, Review as CatalogReview } from './provenance'
 
-export type SourceType = 'normative_act' | 'scientific_publication' | 'ethnographic_archive' | 'encyclopedia'
+export type SourceType = 'official_publication' | 'normative_act' | 'scientific_publication' | 'ethnographic_archive' | 'encyclopedia'
 export type SourceReviewDecision = 'approved' | 'rejected' | 'requires_amendment'
 export type CatalogStatus = 'pending' | SourceReviewDecision
 export interface CatalogQuery { status?: CatalogStatus | 'all'; region_code?: string; event_type?: 'federal' | 'regional' | 'cultural_traditional' | 'school_custom'; page?: number; per_page?: number }

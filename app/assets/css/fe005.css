@@ -3,3 +3,7 @@
 @media(max-width:600px){.constructor-page{gap:16px}.constructor-page h1{font-size:24px}.constructor-steps{gap:6px;padding:12px}.constructor-steps button{font-size:10px;gap:8px;overflow-wrap:anywhere}.constructor-steps button span{width:28px;height:28px}.constructor-form,.constructor-summary{padding:18px}.constructor-form h2{font-size:21px}.constructor-choice:not(.vertical){display:grid;grid-template-columns:1fr}.constructor-actions{flex-wrap:wrap}.constructor-actions .ui-button{flex:1}.constructor-review dl{grid-template-columns:1fr;gap:8px}.constructor-review dt{font-weight:600}.constructor-review dd{margin-bottom:10px}.constructor-search{flex-wrap:wrap}.constructor-search>.ui-field{flex-basis:100%}}
 
 @media(max-width:600px){.constructor-steps button{font-size:9px;justify-items:center;text-align:center;overflow-wrap:normal}.constructor-steps{gap:5px}}
+
+.constructor-choice label, .constructor-summary, .constructor-errors { overflow-wrap: anywhere; }
+.constructor-steps button:focus-visible, .constructor-choice label:has(input:focus-visible), .constructor-grades label:has(input:focus-visible) { outline: 3px solid #08784f; outline-offset: 3px; }
+@media (max-width: 600px) { .constructor-steps { display: flex; flex-wrap: wrap; gap: 12px; } .constructor-steps button { flex: 1 1 80px; min-height: 44px; font-size: 12px; } }

@@ -20,7 +20,7 @@ export function signoffBlock(doc: EditorDocument | null, checks: Verification | 
   if (!checks || checks.status === 'pending_verification' || checks.status === 'running') return 'Дождитесь завершения проверки.'
   if (checks.status === 'failed_engine') return 'Механизм проверки недоступен. Повторите проверку.'
   if (checks.p0 > 0 || checks.status === 'blocked') return 'Устраните блокирующие замечания P0.'
-  if (!readyRun || readyRun !== checks.id) return 'Повторно проверьте текущую ревизию перед подтверждением: GET не сообщает актуальность fingerprint.'
+  if (!readyRun || readyRun !== checks.id) return 'Сначала нажмите «Проверить сценарий». После проверки можно подтвердить текущую версию.'
   if (!c.safety_checked || !c.timing_fit || !c.cultural_context_approved) return 'Лично подтвердите все три пункта.'
   if ((checks.p1 > 0 || checks.status === 'passed_with_warnings') && !c.warnings_acknowledged) return 'Подтвердите ознакомление с предупреждениями P1.'
   return ''

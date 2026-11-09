@@ -89,7 +89,7 @@ export function displayDate(value: string | null | undefined) {
   return Number.isNaN(date.valueOf()) ? 'Дата не распознана' : new Intl.DateTimeFormat('ru-RU', { dateStyle: 'medium', timeZone: 'Asia/Yekaterinburg' }).format(date)
 }
 export function sourceType(value: string) {
-  const labels: Record<string, string> = { normative_act: 'Нормативный акт', scientific_publication: 'Научная публикация', ethnographic_archive: 'Этнографический архив', encyclopedia: 'Энциклопедия' }
+  const labels: Record<string, string> = { official_publication: 'Официальная публикация', normative_act: 'Нормативный акт', scientific_publication: 'Научная публикация', ethnographic_archive: 'Этнографический архив', encyclopedia: 'Энциклопедия' }
   return labels[value] ?? value
 }
 export function auditAction(value: string) {

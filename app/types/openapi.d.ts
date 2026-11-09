@@ -813,10 +813,115 @@ export interface paths {
         patch?: never;
         trace?: never;
     };
+    "/auth/register": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /**
+         * Register a new teacher with a single-use school invitation
+         * @description CSRF required for stateful requests. Invitation sets school/teacher role; existing users cannot gain memberships here. Codes expire in 7 days. No automatic email. Rate limited per IP.
+         */
+        post: operations["registerTeacher"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/schools/{schoolId}/invitations": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        /** List school invitations without original codes or code hashes */
+        get: operations["listSchoolInvitations"];
+        put?: never;
+        /** Create teacher-only invitation; school admin of this school or system admin */
+        post: operations["createSchoolInvitation"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
+    "/schools/{schoolId}/invitations/{invitationId}/revoke": {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        get?: never;
+        put?: never;
+        /** Revoke unused invitation without altering memberships */
+        post: operations["revokeSchoolInvitation"];
+        delete?: never;
+        options?: never;
+        head?: never;
+        patch?: never;
+        trace?: never;
+    };
 }
 export type webhooks = Record<string, never>;
 export interface components {
     schemas: {
+        SchoolInvitation: {
+            /** Format: uuid */
+            id: string;
+            /** Format: uuid */
+            school_id: string;
+            /** @enum {string} */
+            role: "teacher";
+            /** Format: email */
+            email: string | null;
+            /** Format: date-time */
+            expires_at: string;
+            /** Format: date-time */
+            used_at: string | null;
+            /** Format: date-time */
+            revoked_at: string | null;
+            /** Format: date-time */
+            created_at: string;
+        };
+        RegisterInput: {
+            invitation_code: string;
+            name: string;
+            /** Format: email */
+            email: string;
+            /** Format: password */
+            password: string;
+            /** Format: password */
+            password_confirmation: string;
+        };
+        InvitationListResponse: {
+            data: {
+                items: components["schemas"]["SchoolInvitation"][];
+                current_page: number;
+                last_page: number;
+            };
+        };
+        InvitationCreatedResponse: {
+            data: {
+                invitation: components["schemas"]["SchoolInvitation"];
+                /** @description Shown only once; never logged or retained in browser storage. */
+                code: string;
+            };
+        };
+        InvitationResponse: {
+            data: components["schemas"]["SchoolInvitation"];
+        };
+        RegistrationResponse: {
+            data: {
+                registered: boolean;
+            };
+        };
         ErrorResponse: {
             error: {
                 code: string;
@@ -1588,7 +1693,13 @@ export interface components {
                 region_code: string;
                 city: string;
             };
-            upcoming_events: Record<string, never>[];
+            upcoming_events: {
+                /**
+                 * Format: date
+                 * @description Next recorded occurrence or valid annual date; never repeats a past one-off event.
+                 */
+                next_date?: string;
+            }[];
             recent_scenarios: Record<string, never>[];
             counts: {
                 total_scenarios: number;
@@ -1841,7 +1952,7 @@ export interface components {
                 /** Format: uuid */
                 calendar_event_id: string;
                 /** @enum {string} */
-                source_type: "normative_act" | "scientific_publication" | "ethnographic_archive" | "encyclopedia";
+                source_type: "official_publication" | "normative_act" | "scientific_publication" | "ethnographic_archive" | "encyclopedia";
                 title: string;
                 author: string | null;
                 url: string | null;
@@ -2121,6 +2232,11 @@ export interface operations {
                      * @example SecurePassword2026!
                      */
                     password: string;
+                    /**
+                     * @description Remember login for 30 days using encrypted HttpOnly Laravel recaller. Logout rotates the user remember token across devices; other active sessions retain their normal lifetime.
+                     * @default false
+                     */
+                    remember?: boolean;
                 };
             };
         };
@@ -2934,7 +3050,7 @@ export interface operations {
                     title?: string;
                     author?: string | null;
                     /** @enum {string} */
-                    source_type?: "normative_act" | "scientific_publication" | "ethnographic_archive" | "encyclopedia";
+                    source_type?: "official_publication" | "normative_act" | "scientific_publication" | "ethnographic_archive" | "encyclopedia";
                     url?: string | null;
                     doi_or_isbn?: string | null;
                 };
@@ -3741,6 +3857,194 @@ export interface operations {
             };
             401: components["responses"]["Unauthorized"];
             403: components["responses"]["Forbidden"];
+        };
+    };
+    registerTeacher: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path?: never;
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": components["schemas"]["RegisterInput"];
+            };
+        };
+        responses: {
+            /** @description Success */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["RegistrationResponse"];
+                };
+            };
+            401: components["responses"]["Unauthorized"];
+            403: components["responses"]["Forbidden"];
+            404: components["responses"]["NotFound"];
+            /** @description Conflict or rate limit */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            422: components["responses"]["ValidationError"];
+            /** @description Conflict or rate limit */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+        };
+    };
+    listSchoolInvitations: {
+        parameters: {
+            query?: {
+                page?: number;
+            };
+            header?: never;
+            path: {
+                schoolId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Success */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["InvitationListResponse"];
+                };
+            };
+            401: components["responses"]["Unauthorized"];
+            403: components["responses"]["Forbidden"];
+            404: components["responses"]["NotFound"];
+            /** @description Conflict or rate limit */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            422: components["responses"]["ValidationError"];
+            /** @description Conflict or rate limit */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+        };
+    };
+    createSchoolInvitation: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                schoolId: string;
+            };
+            cookie?: never;
+        };
+        requestBody: {
+            content: {
+                "application/json": {
+                    /** Format: email */
+                    email?: string | null;
+                };
+            };
+        };
+        responses: {
+            /** @description Success */
+            201: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["InvitationCreatedResponse"];
+                };
+            };
+            401: components["responses"]["Unauthorized"];
+            403: components["responses"]["Forbidden"];
+            404: components["responses"]["NotFound"];
+            /** @description Conflict or rate limit */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            422: components["responses"]["ValidationError"];
+            /** @description Conflict or rate limit */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+        };
+    };
+    revokeSchoolInvitation: {
+        parameters: {
+            query?: never;
+            header?: never;
+            path: {
+                schoolId: string;
+                invitationId: string;
+            };
+            cookie?: never;
+        };
+        requestBody?: never;
+        responses: {
+            /** @description Success */
+            200: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": components["schemas"]["InvitationResponse"];
+                };
+            };
+            401: components["responses"]["Unauthorized"];
+            403: components["responses"]["Forbidden"];
+            404: components["responses"]["NotFound"];
+            /** @description Conflict or rate limit */
+            409: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
+            422: components["responses"]["ValidationError"];
+            /** @description Conflict or rate limit */
+            429: {
+                headers: {
+                    [name: string]: unknown;
+                };
+                content: {
+                    "application/json": Record<string, never>;
+                };
+            };
         };
     };
 }

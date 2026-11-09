@@ -17,7 +17,7 @@ export function createScenarioSave(context: () => string, storage: Pick<Storage,
     receipt.value = { state: 'sending' }; pending.value = true; error.value = null
     try {
       const id = await work(active.signal)
-      if (!id) throw new Error('Ответ не содержит ID')
+      if (!id) throw new Error('Не удалось получить подтверждение сохранения условий')
       // A confirmed server ID remains usable even if storage becomes unavailable.
       // The earlier sending marker still blocks a silent retry after reload.
       try { storage.setItem(key(ctx), JSON.stringify({ state: 'saved', id })) } catch { /* Keep the known ID in memory. */ }
@@ -25,7 +25,7 @@ export function createScenarioSave(context: () => string, storage: Pick<Storage,
     } catch (cause) {
       const definite = cause instanceof ApiError && cause.status >= 400 && cause.status < 500 && cause.status !== 408
       try { if (definite) storage.removeItem(key(ctx)); else storage.setItem(key(ctx), JSON.stringify({ state: 'uncertain' })) } catch { /* Original sending marker remains conservative. */ }
-      if (token === generation && ctx === context()) { receipt.value = definite ? null : { state: 'uncertain' }; error.value = cause instanceof ApiError ? cause : new ApiError(0, 'UNKNOWN_SAVE_RESULT', 'Результат сохранения неизвестен. Автоматический повтор отключён.') }
+      if (token === generation && ctx === context()) { receipt.value = definite ? null : { state: 'uncertain' }; error.value = cause instanceof ApiError ? cause : new ApiError(0, 'UNKNOWN_SAVE_RESULT', 'Не удалось подтвердить сохранение условий. Повторное сохранение заблокировано, чтобы не создать копию.') }
     } finally { if (token === generation) pending.value = false }
   }
   function acknowledgeNew() { if (pending.value) return; try { storage.removeItem(key(context())); receipt.value = null; error.value = null } catch { /* Fail closed. */ } }

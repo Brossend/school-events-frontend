@@ -30,10 +30,10 @@ onBeforeUnmount(controller.reset)
 <template>
   <div class="school-page">
     <header class="school-profile-header page-heading">
-      <div class="school-profile-heading"><h1>Профиль школы</h1><p class="muted">Общие условия помогают адаптировать проекты к вашей школе.</p></div>
+      <div class="school-profile-heading"><h1>Профиль школы</h1><NuxtLink v-if="editable" :to="{ path: '/invitations', query: { school: targetId } }" class="ui-button ui-button--primary">Пригласить педагога</NuxtLink><p class="muted">Общие условия помогают адаптировать проекты к вашей школе.</p></div>
       <UiButton v-if="editable" :disabled="locked" :loading="pending" @click="controller.prepare"><img src="/icons/fe011/1-497-save.svg" width="17" height="17" alt="">Сохранить изменения</UiButton>
     </header>
-    <div class="school-profile-info"><img src="/icons/fe011/1-497-info.svg" width="20" height="20" alt=""><div><strong>{{ runtime.public.apiOrigin === 'http://localhost:8001' ? 'Изолированный синтетический тестовый контур' : 'Реквизиты и настройки школы' }}</strong><p>Данные выбранной организации получены с сервера. Они не подтверждают культурные факты и не заменяют проверку педагога.</p></div></div>
+    <div class="school-profile-info"><img src="/icons/fe011/1-497-info.svg" width="20" height="20" alt=""><div><strong>{{ runtime.public.apiOrigin === 'http://localhost:8001' ? 'Изолированный синтетический тестовый контур' : 'Реквизиты и настройки школы' }}</strong><p>Укажите условия вашей школы, чтобы учитывать их при подготовке мероприятий.</p></div></div>
     <form v-if="auth.systemRole === 'system_admin'" class="school-profile-target ui-card" @submit.prevent="openTarget">
       <UiField v-model="targetInput" label="ID существующей школы" placeholder="UUID школы" :disabled="pending || loading" hint="Системный доступ: сначала откройте и проверьте профиль конкретной организации." />
       <UiButton type="submit" variant="secondary" :disabled="pending || loading || !schoolIdValid(targetInput.trim())">Открыть профиль по ID</UiButton>
@@ -53,11 +53,11 @@ onBeforeUnmount(controller.reset)
           <UiField v-model="draft.name" label="Полное наименование школы" :disabled="locked" :error="issues.name" maxlength="255" required />
           <UiField v-model="draft.short_name" label="Краткое наименование" :disabled="locked" :error="issues.short_name" maxlength="100" />
           <div class="school-profile-fields">
-            <UiField :model-value="profile.region_code" label="Код региона" disabled hint="Регион предоставлен сервером и недоступен для редактирования." />
+            <UiField :model-value="profile.region_code" label="Код региона" disabled hint="Для изменения региона обратитесь к администратору системы." />
             <UiField v-model="draft.city" label="Населённый пункт" :disabled="locked" :error="issues.city" maxlength="100" required />
           </div>
           <UiField v-model="draft.inn" label="ИНН" :disabled="locked" :error="issues.inn" inputmode="numeric" maxlength="12" hint="10 или 12 цифр; необязательное поле." />
-          <p class="muted">ID школы: {{ profile.id }}</p>
+          <p v-if="auth.systemRole === 'system_admin'" class="muted">Служебный код школы: {{ profile.id }}</p>
         </UiCard>
         <UiCard class="school-profile-card">
           <h2>Контакты и настройки организации</h2>
@@ -74,7 +74,7 @@ onBeforeUnmount(controller.reset)
       </aside>
     </div>
     <UiModal v-model="confirmOpen" title="Подтвердить изменение реквизитов школы?">
-      <div v-if="confirmation && profile" class="school-profile-confirm"><p>{{ profile.name }} · {{ profile.id }}</p><dl><div v-for="key in schoolCriticalChanges(confirmation.body)" :key="key"><dt>{{ criticalLabels[key] }}</dt><dd>{{ confirmation.body[key as keyof typeof confirmation.body] ?? 'Не указано' }}</dd></div></dl><p>Проверьте выбранную организацию и новые значения перед сохранением.</p><div class="actions"><UiButton variant="secondary" @click="confirmOpen = false">Отмена</UiButton><UiButton :loading="pending" @click="controller.confirm">Подтвердить изменения</UiButton></div></div>
+      <div v-if="confirmation && profile" class="school-profile-confirm"><p>{{ profile.name }}</p><dl><div v-for="key in schoolCriticalChanges(confirmation.body)" :key="key"><dt>{{ criticalLabels[key] }}</dt><dd>{{ confirmation.body[key as keyof typeof confirmation.body] ?? 'Не указано' }}</dd></div></dl><p>Проверьте выбранную организацию и новые значения перед сохранением.</p><div class="actions"><UiButton variant="secondary" @click="confirmOpen = false">Отмена</UiButton><UiButton :loading="pending" @click="controller.confirm">Подтвердить изменения</UiButton></div></div>
     </UiModal>
   </div>
 </template>

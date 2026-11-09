@@ -5,7 +5,7 @@ import { ids } from './fixtures/fe006'
 import type { ExportServices, ExportFormat } from '../app/types/exports'
 import { exportFormats } from '../app/types/exports'
 import { createExportController, exportStorageKey } from '../app/utils/export-controller'
-import { exportGate, formatInfo, parseExportAccepted, parseExportHistory, parseExportJob } from '../app/utils/export-data'
+import { exportLabels, exportGate, formatInfo, parseExportAccepted, parseExportHistory, parseExportJob } from '../app/utils/export-data'
 import { createExportBlobSaver, readExportBinary, safeExportFilename } from '../app/utils/export-download'
 import { createApiClient } from '../app/utils/api-client'
 import { ApiError } from '../app/utils/api-error'
@@ -65,6 +65,6 @@ describe('FE008 binary downloads',()=>{
 describe('FE008 format and history UI',()=>{
  it('renders exactly four supported radio cards',()=>{const w=mount(ExportFormatPicker,{props:{modelValue:'pdf'},global});expect(w.findAll('input[type=radio]')).toHaveLength(4);expect(w.text()).toContain('PPTX');expect(w.text()).toContain('Print Pack');expect(w.text()).not.toContain('slides_pdf');w.unmount()})
  it('renders metadata and disabled download when server denies it',()=>{const row=exportEntry();row.is_downloadable=false;const w=mount(ExportHistory,{props:{entries:[row],version:1},global});expect(w.text()).toContain('12.2 КБ');expect(w.text()).toContain('Сервер запретил');expect(w.findAll('button').find(b=>b.text()==='Скачать')!.attributes('disabled')).toBeDefined();w.unmount()})
- it.each(['queued','processing','ready','failed'] as const)('renders distinct %s without fake completion or percentage',status=>{const w=mount(ExportJobState,{props:{job:exportJob(status),entry:exportEntry()},global});expect(w.text()).toContain(status);expect(w.findAll('[role=progressbar]')).toHaveLength(status==='processing'?1:0);expect(w.text()).not.toContain('100%');w.unmount()})
+ it.each(['queued','processing','ready','failed'] as const)('renders distinct %s without fake completion or percentage',status=>{const w=mount(ExportJobState,{props:{job:exportJob(status),entry:exportEntry()},global});expect(w.text()).toContain(exportLabels[status]);expect(w.text()).not.toContain(status);expect(w.findAll('[role=progressbar]')).toHaveLength(status==='processing'?1:0);expect(w.text()).not.toContain('100%');w.unmount()})
  it('does not equate a historical signoff with current gate clearance',()=>{const s=exportSnapshot();s.document.revision.is_current=false;expect(exportGate(s,exportContext())).toContain('устаревшая');s.document.revision.is_current=true;s.verification.status='failed_engine';expect(exportGate(s,exportContext())).not.toBe('')})
 })

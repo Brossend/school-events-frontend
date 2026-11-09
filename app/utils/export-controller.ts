@@ -33,7 +33,7 @@ export function createExportController(service: ExportServices, context: () => E
     await operation('create', async (s, valid) => {
       const next = await service.snapshot(s); if (!valid()) return; snapshot.value = next; history.value = next.history; const reason = exportGate(next, ctx); if (reason) throw new ApiError(403, 'EXPORT_PREFLIGHT_BLOCKED', reason)
       const current: ExportReceipt = { key: previous && !newAttempt ? previous.key : (options.makeKey ?? (() => crypto.randomUUID()))(), createdAt: previous && !newAttempt ? previous.createdAt : Date.now(), phase: 'sending' }
-      try { put(ctx, selected, current) } catch { storageBlocked.value = true; throw new Error('Не удалось сохранить ключ. POST не отправлен.') }
+      try { put(ctx, selected, current) } catch { storageBlocked.value = true; throw new Error('Не удалось сохранить данные восстановления. Скачивание не запущено; проверьте доступность хранилища браузера.') }
       receipt.value = current
       let acceptedId: string | undefined
       try { const id = await service.create(selected, current.key, s), accepted: ExportReceipt = { ...current, phase: 'accepted', jobId: id }; acceptedId = id; acceptedMemory.set(exportStorageKey(ctx, selected), accepted); try { put(ctx, selected, accepted) } catch { /* Sending marker preserves the original key. */ } if (!valid()) return; receipt.value = accepted; const result = await service.job(id, s), entries = await service.history(s); if (!valid()) return; if (!entries.some(e => e.id === id)) throw new Error('Задание не найдено в выбранной ревизии.'); job.value = result; history.value = entries; started = Date.now(); failures = 0; pause.value = '' }
