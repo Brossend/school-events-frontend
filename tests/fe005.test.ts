@@ -55,7 +55,7 @@ describe('FE005 actual wizard', () => {
     await w.get('form').trigger('submit'); expect(w.text()).toContain('Введите название от 3 до 255 символов.')
     await w.get('input[type=text]').setValue('День добрых дел'); await w.get('form').trigger('submit'); expect(w.text()).toContain('02 / Укажите участников')
     await w.get('input[inputmode=numeric]').setValue('25'); await w.get('input[type=checkbox]').setValue(true); await w.get('form').trigger('submit'); expect(w.text()).toContain('03 / Выберите формат')
-    await w.findAll('button').find(b => b.text() === '← Назад')!.trigger('click'); expect((w.get('input[inputmode=numeric]').element as HTMLInputElement).value).toBe('25')
+    await w.findAll('button').find(b => b.text() === 'Назад')!.trigger('click'); expect((w.get('input[inputmode=numeric]').element as HTMLInputElement).value).toBe('25')
     auth.tenant = { school_id: 'b', school_name: 'B' }; await flushPromises(); expect(w.text()).toContain('01 / Выберите событие'); expect((w.get('input[type=text]').element as HTMLInputElement).value).toBe('')
     await w.get('input[type=text]').setValue('Секрет школы B'); auth.user.id = 'other'; await flushPromises(); expect((w.get('input[type=text]').element as HTMLInputElement).value).toBe(''); w.unmount()
   })

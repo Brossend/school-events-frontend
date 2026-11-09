@@ -1,0 +1,521 @@
+{
+  "origin": "http://localhost:3000",
+  "checkedAt": "2026-11-09T11:33:43.873Z",
+  "matrix": [
+    {
+      "page": "login",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Вход · Школьные события",
+      "path": "/login",
+      "heading": "С возвращением",
+      "dialogs": 0
+    },
+    {
+      "page": "login",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Вход · Школьные события",
+      "path": "/login",
+      "heading": "С возвращением",
+      "dialogs": 0
+    },
+    {
+      "page": "login",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Вход · Школьные события",
+      "path": "/login",
+      "heading": "С возвращением",
+      "dialogs": 0
+    },
+    {
+      "page": "login",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Вход · Школьные события",
+      "path": "/login",
+      "heading": "С возвращением",
+      "dialogs": 0
+    },
+    {
+      "page": "register",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Регистрация по приглашению · Школьные события",
+      "path": "/register",
+      "heading": "Присоединиться к школе",
+      "dialogs": 0
+    },
+    {
+      "page": "register",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Регистрация по приглашению · Школьные события",
+      "path": "/register",
+      "heading": "Присоединиться к школе",
+      "dialogs": 0
+    },
+    {
+      "page": "register",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Регистрация по приглашению · Школьные события",
+      "path": "/register",
+      "heading": "Присоединиться к школе",
+      "dialogs": 0
+    },
+    {
+      "page": "register",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Регистрация по приглашению · Школьные события",
+      "path": "/register",
+      "heading": "Присоединиться к школе",
+      "dialogs": 0
+    },
+    {
+      "page": "scenario",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "scenario",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "scenario",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "scenario",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "export",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "export",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "export",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "export",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Просмотр сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "editor",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor-fields",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor-fields",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor-fields",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "editor-fields",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "revision-history",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "revision-history",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "revision-history",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "revision-history",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 0
+    },
+    {
+      "page": "signoff-dialog",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "signoff-dialog",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "signoff-dialog",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "signoff-dialog",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Редактор сценария · Школьные события",
+      "path": "/scenarios/01a1c001-fa0e-7171-8753-bc05eccf79fa/edit",
+      "heading": "Сценарий: День славянской письменности и культуры",
+      "dialogs": 1
+    },
+    {
+      "page": "traditions",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 0
+    },
+    {
+      "page": "traditions",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 0
+    },
+    {
+      "page": "traditions",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 0
+    },
+    {
+      "page": "traditions",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 0
+    },
+    {
+      "page": "tradition-dialog",
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 1
+    },
+    {
+      "page": "tradition-dialog",
+      "width": 768,
+      "height": 1024,
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 1
+    },
+    {
+      "page": "tradition-dialog",
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 1
+    },
+    {
+      "page": "tradition-dialog",
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "overflow": false,
+      "title": "Традиции школы · Школьные события",
+      "path": "/traditions",
+      "heading": "Традиции школы",
+      "dialogs": 1
+    }
+  ],
+  "errors": [],
+  "icons": [
+    {
+      "file": "favicon.ico",
+      "status": 200
+    },
+    {
+      "file": "favicon.svg",
+      "status": 200
+    },
+    {
+      "file": "favicon-16x16.png",
+      "status": 200
+    },
+    {
+      "file": "favicon-32x32.png",
+      "status": 200
+    },
+    {
+      "file": "apple-touch-icon.png",
+      "status": 200
+    },
+    {
+      "file": "icon-192.png",
+      "status": 200
+    },
+    {
+      "file": "icon-512.png",
+      "status": 200
+    },
+    {
+      "file": "site.webmanifest",
+      "status": 200
+    }
+  ]
+}

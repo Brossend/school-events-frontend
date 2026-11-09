@@ -1,0 +1,53 @@
+[
+  {
+    "read": 200,
+    "version": 2,
+    "quality": "blocked"
+  },
+  {
+    "edit": 201
+  },
+  {
+    "stale_edit": 409
+  },
+  {
+    "verification": 202
+  },
+  {
+    "signoff": 200,
+    "code": null
+  },
+  {
+    "export_format": "pdf",
+    "accepted": 202,
+    "data": {
+      "id": "01a1bfe0-8429-7299-afa8-a1d520a850cf",
+      "status": "ready",
+      "download_url": "/api/v1/export-jobs/01a1bfe0-8429-7299-afa8-a1d520a850cf/download",
+      "file_name": "scenario-01a1bfd9-8e56-7207-8f29-61e6ce442d2b-v3.pdf",
+      "file_size_bytes": 1296369
+    }
+  },
+  {
+    "export_format": "docx",
+    "accepted": 202,
+    "data": {
+      "id": "01a1bfe0-a6ed-7300-9d93-5f1a6e5b281d",
+      "status": "ready",
+      "download_url": "/api/v1/export-jobs/01a1bfe0-a6ed-7300-9d93-5f1a6e5b281d/download",
+      "file_name": "scenario-01a1bfd9-8e56-7207-8f29-61e6ce442d2b-v3.docx",
+      "file_size_bytes": 11876
+    }
+  },
+  {
+    "export_format": "pptx",
+    "accepted": 202,
+    "data": {
+      "id": "01a1bfe0-c3f0-7160-81fb-9af420233430",
+      "status": "ready",
+      "download_url": "/api/v1/export-jobs/01a1bfe0-c3f0-7160-81fb-9af420233430/download",
+      "file_name": "scenario-presentation-01a1bfd9-8e56-7207-8f29-61e6ce442d2b-v3.pptx",
+      "file_size_bytes": 22327
+    }
+  }
+]

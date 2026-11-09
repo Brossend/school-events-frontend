@@ -20,7 +20,7 @@ Copy-Item .env.example .env
 npm run dev
 ```
 
-Откройте `http://localhost:3000`. `NUXT_PUBLIC_API_ORIGIN` задаёт адрес API. Для локального входа используйте один hostname localhost, настройте CORS/Sanctum на backend и существующий синтетический аккаунт. Production credentials в локальные примеры не переносить. [Подробный запуск и изоляция тестов](docs/FE-012-launch.md).
+Откройте `http://localhost:3000`. `NUXT_PUBLIC_API_ORIGIN` задаёт адрес API. Используйте один hostname localhost и согласованные CORS/Sanctum настройки. Для чистой практики UX-001 запустите `python scripts/ux001-local.py --start` в backend, импортируйте календарь и создайте первого администратора через `practice:bootstrap`. Затем запустите frontend с `NUXT_PUBLIC_API_ORIGIN=http://localhost:8020` на порту 3030. Педагоги регистрируются по одноразовым приглашениям администратора. [Отчёт и точные команды UX-001](docs/UX-001-final-report.md), [изоляция тестов](docs/FE-012-launch.md).
 
 ```powershell
 npm run typecheck
@@ -36,4 +36,4 @@ API types обновляются `npm run api:generate` из `../school/docs/ope
 
 [GitLab frontend](https://gitlab.com/Brossend2335/school-events-frontend) и [backend](https://gitlab.com/Brossend2335/school-events-backend) — основные; [GitHub frontend](https://github.com/Brossend/school-events-frontend) и [backend](https://github.com/Brossend/school-events-backend) — закрытые зеркала main. [Frontend pipeline 3041847464](https://gitlab.com/Brossend2335/school-events-frontend/-/pipelines/3041847464) прошёл все 7 jobs. Deployment выполняется backend pipeline с закреплённым frontend SHA; GitHub Actions не используется.
 
-Восстановление пароля, длительный вход и вход встроенной кнопкой деморежима не реализованы сервером; используйте обычную форму с приватно выданным аккаунтом педагога. Исторические FE/LLM отчёты в docs отражают состояние соответствующих этапов; текущая техническая приёмка — DEPLOY-001.1.
+В feature-ветке UX-001 доступны регистрация по приглашению и «Запомнить меня на 30 дней»; кнопка неработающего демовхода удалена. Отправка приглашений по почте и восстановление пароля не реализованы: код передаётся вручную. Эти изменения локальные и ещё не опубликованы. Исторические FE/LLM/DEPLOY отчёты отражают состояние соответствующих этапов.

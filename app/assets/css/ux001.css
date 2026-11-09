@@ -1,0 +1,26 @@
+/* Shared teacher workspace refinements; preserve the existing Sber x UrFU tokens. */
+.app-brand, .app-brand:hover, .app-brand:focus { text-decoration: none; }
+.app-brand:hover { color: var(--green-700, #087b53); }
+.app-brand:focus-visible { outline: 3px solid #0d8c64; outline-offset: 5px; border-radius: 6px; }
+.app-content, .app-workspace, .scenario-sections, .scenario-layout > *, .ui-card, .constructor-layout > * { min-width: 0; }
+.app-content h1, .app-content h2, .app-content p, .app-nav__link span { overflow-wrap: anywhere; }
+.app-nav__link { min-width: 0; white-space: normal; }
+.auth-registration { margin-top: 20px; text-align: center; }
+.register-card { max-width: 540px; }
+.register-card form { display: grid; gap: 14px; margin-top: 24px; }
+.research-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.invitation-create { display: flex; align-items: end; gap: 16px; margin-block: 24px; }
+.invitation-create .ui-field { flex: 1; }
+.invitation-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.invitation-list li { overflow-wrap: anywhere; display: grid; gap: 10px; }
+.invitation-code code { display: block; overflow-wrap: anywhere; padding: 16px; background: #eef7f1; margin-block: 16px; user-select: all; }
+.ui-field:has(input[required]) > label::after { content: ' *'; color: #087b53; }
+.constructor-field-error { color: #b42318; margin: 8px 0; }
+.ui-modal, dialog { max-width: calc(100vw - 24px); }
+.app-content pre, .app-content code { overflow-wrap: anywhere; white-space: pre-wrap; }
+.ui-table-wrap, .table-scroll { overflow-x: auto; max-width: 100%; }
+@media (max-width: 767px) { .research-grid, .invitation-list { grid-template-columns: minmax(0, 1fr); } .invitation-create { align-items: stretch; flex-direction: column; } .app-content .actions { flex-wrap: wrap; } .constructor-actions { gap: 12px; flex-wrap: wrap; } .constructor-actions .ui-button { flex: 1 1 130px; } .scenario-badges { flex-wrap: wrap; } }
+
+.scenario-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.scenario-summary dt { color: #647169; font-size: .85rem; }
+.scenario-summary dd { margin: 4px 0; overflow-wrap: anywhere; }

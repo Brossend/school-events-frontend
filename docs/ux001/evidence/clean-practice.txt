@@ -1,0 +1,9 @@
+READ ONLY: school_events_ux001; no deletion command is provided. Create a separate empty practice database for a clean start.
+schools: 0 explicitly marked records
+calendar_events: 0 explicitly marked records
+scenarios: 0 explicitly marked records
+scenarios total: 0
+scenario_comparisons total: 0
+export_jobs total: 0
+exported_artifacts total: 0
+synthetic comparisons: 0

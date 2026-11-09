@@ -19,7 +19,7 @@ export function parseDashboard(payload: unknown): Dashboard {
   const upcoming_events: UpcomingEvent[] = data.upcoming_events.map(value => {
     const e = record(value), month = number(e.fixed_month), day = number(e.fixed_day)
     if (month < 1 || month > 12 || day < 1 || day > new Date(Date.UTC(2000, month, 0)).getUTCDate()) throw new Error('Некорректная дата события.')
-    return { id: text(e.id), title: text(e.title), description: text(e.description), event_type: text(e.event_type), region_code: nullable(e.region_code), fixed_month: month, fixed_day: day }
+    return { id: text(e.id), title: text(e.title), description: text(e.description), event_type: text(e.event_type), region_code: nullable(e.region_code), fixed_month: month, fixed_day: day, ...(typeof e.next_date === 'string' ? { next_date: e.next_date } : {}) }
   })
   const recent_scenarios: RecentScenario[] = data.recent_scenarios.map(value => {
     const s = record(value)

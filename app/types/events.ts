@@ -8,7 +8,7 @@ export type Counts = components['schemas']['DashboardSummaryDetail']['counts']
 
 // Dashboard arrays are only `type: object` in OpenAPI. Refined from the existing
 // DashboardController output and runtime-validated in parseDashboard.
-export interface UpcomingEvent extends EventSummary { fixed_month: number; fixed_day: number }
+export interface UpcomingEvent extends EventSummary { next_date?: string; fixed_month: number; fixed_day: number }
 export interface RecentScenario {
   id: string; title: string; status: 'draft' | 'completed' | 'archived'
   moderation_status: string; is_archived: boolean

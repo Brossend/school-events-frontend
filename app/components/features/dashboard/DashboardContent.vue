@@ -11,10 +11,10 @@ const statuses = { draft: 'Черновик', completed: 'Проверен пе�
     <div class="page-heading"><div><h1>Здравствуйте, {{ name.split(' ')[0] }}!</h1><p class="muted">Спланируем событие, которое объединит класс.</p></div><UiBadge class="academic-badge">{{ academicYear() }}</UiBadge></div>
     <section class="dashboard-hero" aria-label="Подготовка мероприятия">
       <div class="dashboard-hero__copy"><span class="hero-badge">Сбер × УрФУ · ИИ-помощник</span><h2>Идея события.<br>Сценарий под ваш класс.</h2><p>Выберите событие, класс и ресурсы. ИИ соберёт сценарий, а вы проверите детали.</p><NuxtLink to="/constructor" class="ui-button hero-action"><img src="/icons/plus.svg" width="17" height="17" alt="">Создать мероприятие</NuxtLink></div>
-      <NuxtLink v-if="lead" :to="eventPath(lead.id)" class="hero-occasion"><span>БЛИЖАЙШИЙ ПОВОД</span><strong>{{ String(lead.fixed_day).padStart(2, '0') }}</strong><p>{{ formatDate(annualDate(lead.fixed_month, lead.fixed_day), { month: 'long', day: undefined, year: undefined }) }}</p><h3>{{ lead.title }}</h3><small>{{ eventTypeLabel(lead.event_type) }}</small></NuxtLink>
+      <NuxtLink v-if="lead" :to="eventPath(lead.id)" class="hero-occasion"><span>БЛИЖАЙШИЙ ПОВОД</span><strong>{{ String(lead.fixed_day).padStart(2, '0') }}</strong><p>{{ formatDate((lead.next_date ?? annualDate(lead.fixed_month, lead.fixed_day)), { month: 'long', day: undefined, year: undefined }) }}</p><h3>{{ lead.title }}</h3><small>{{ eventTypeLabel(lead.event_type) }}</small></NuxtLink>
     </section>
     <div class="section-heading"><h2>Ближайшие события</h2><NuxtLink to="/calendar">Календарь →</NuxtLink></div>
-    <div v-if="dashboard.upcoming_events.length" class="upcoming-grid"><EventCard v-for="event in dashboard.upcoming_events" :key="event.id" :event="event" :date="annualDate(event.fixed_month, event.fixed_day)" /></div>
+    <div v-if="dashboard.upcoming_events.length" class="upcoming-grid"><EventCard v-for="event in dashboard.upcoming_events" :key="event.id" :event="event" :date="(event.next_date ?? annualDate(event.fixed_month, event.fixed_day))" /></div>
     <UiCard v-else><UiState kind="empty" title="Ближайших событий пока нет" description="События появятся после публикации в календаре." /></UiCard>
     <div class="dashboard-bottom">
       <UiCard class="recent-projects"><div class="section-heading"><h2>Продолжить работу</h2><NuxtLink to="/events">Все мероприятия →</NuxtLink></div><p class="dashboard-school muted">{{ dashboard.school.name }}</p>

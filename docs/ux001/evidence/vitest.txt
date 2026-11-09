@@ -1,0 +1,12 @@
+
+ RUN  v5.0.5 C:/Users/bross/WebstormProjects/schoolFrontend
+
+
+ Test Files  24 passed (24)
+      Tests  635 passed (635)
+   Start at  16:12:54
+   Duration  31.64s (environment 72%, transform 16%, tests 8%, import 5%)
+
+Environment  happy-dom was created 24 times · 209.85s total, 72% of tracked time
+             create it once per worker with pool: 'vmThreads' (keeps per-file isolation) or isolate: false (shares it across files)
+             learn more: https://vitest.dev/guide/improving-performance#test-environments

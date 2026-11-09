@@ -2,7 +2,7 @@ import type { CatalogQueueItem, CatalogQueuePage, CatalogStatus, ClaimEvidenceIn
 import { parseReviews } from './provenance'
 export { parseSource as parseCatalogSource, parseReviews as parseCatalogReviews, parseClaim as parseCatalogClaim } from './provenance'
 
-export const sourceTypes = ['normative_act', 'scientific_publication', 'ethnographic_archive', 'encyclopedia'] as const
+export const sourceTypes = ['official_publication', 'normative_act', 'scientific_publication', 'ethnographic_archive', 'encyclopedia'] as const
 export const reviewDecisions = ['approved', 'rejected', 'requires_amendment'] as const
 export const catalogStatuses = ['pending', ...reviewDecisions] as const
 export const sourcePatchFields = ['title', 'author', 'source_type', 'url', 'doi_or_isbn'] as const

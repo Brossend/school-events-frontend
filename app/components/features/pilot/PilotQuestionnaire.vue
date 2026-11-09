@@ -45,7 +45,7 @@ const yesNo = [{ value: 'yes', label: 'Да' }, { value: 'no', label: 'Нет' }
       <UiSelect v-model="cultural" label="Использовали культурный контекст?" :options="yesNo" placeholder="Выберите ответ" :disabled="pending || uncertain" required />
       <UiSelect v-if="cultural === 'yes'" v-model="usefulness" label="Полезность культурного контекста" :options="[1,2,3,4,5].map(n => ({value:String(n),label:`${n} из 5`}))" placeholder="Оцените полезность" :disabled="pending || uncertain" required />
       <UiTextarea v-model="feedback" label="Отзыв (необязательно)" :maxlength="5000" :disabled="pending || uncertain" hint="Не указывайте ФИО и персональные сведения учащихся." />
-      <UiAlert v-if="error" tone="error">{{ error.message }}<p v-if="uncertain">Публичного API проверки отправки нет. Перед новой попыткой обратитесь к организатору; не отправляйте анкету повторно.</p></UiAlert>
+      <UiAlert v-if="error" tone="error">{{ error.message }}<p v-if="uncertain">Подтверждение отправки не получено. Перед новой попыткой обратитесь к организатору; не отправляйте анкету повторно.</p></UiAlert>
       <UiButton type="submit" :disabled="!valid || uncertain" :loading="pending">Отправить анкету</UiButton>
       <p class="muted">Время сокращения вычисляет сервер. Ответ описывает ваш опыт и не доказывает причинную эффективность ИИ.</p>
     </form>
